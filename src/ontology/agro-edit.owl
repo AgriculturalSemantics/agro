@@ -1,0 +1,20 @@
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/agro-edit.owl>
+Import(<http://purl.obolibrary.org/obo/agro/imports/envo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/bfo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/pco_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/chebi_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/obi_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/iao_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/pato_import.owl>)
+Annotation(rdfs:comment "agro")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000000>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000000> "agro"@en)
+)
