@@ -19,12 +19,14 @@ prepare_release: all
 
 $(ONT).owl: $(SRC) $(MODULE_FILES)
 	$(ROBOT) merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true annotate -V $(SDG)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
-$(ONT).obo: $(ONT).owl
-	$(ROBOT) convert -i $< -o $(ONT).obo
+#$(ONT).obo: $(ONT).owl
+#	$(ROBOT) convert -i $< -o $(ONT).obo
 
 
 IMPORTS = envo bfo pco chebi obi iao pato
-IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
+IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) 
+
+#$(patsubst %, imports/%_import.obo,$(IMPORTS))
 
 # Make this target to regenerate ALL
 all_imports: $(IMPORTS_OWL)
@@ -34,8 +36,8 @@ imports/%_import.owl: mirror/%.owl imports/%_terms.txt
 	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(SDG_IMPORTS_BASE_URI)/$@ -o $@
 .PRECIOUS: imports/%_import.owl
 
-imports/%_import.obo: imports/%_import.owl
-	$(OWLTOOLS) $(USECAT) $< -o -f obo $@
+#imports/%_import.obo: imports/%_import.owl
+#	$(OWLTOOLS) $(USECAT) $< -o -f obo $@
 
 # clone remote ontology locally, perfoming some excision of relations and annotations
 mirror/%.owl: $(SRC)
