@@ -23,7 +23,7 @@ $(ONT).owl: $(SRC) $(MODULE_FILES)
 #	$(ROBOT) convert -i $< -o $(ONT).obo
 
 
-IMPORTS = envo bfo pco chebi obi iao pato
+IMPORTS = envo bfo chebi obi iao pato
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) 
 
 #$(patsubst %, imports/%_import.obo,$(IMPORTS))
@@ -45,4 +45,4 @@ mirror/%.owl: $(SRC)
 .PRECIOUS: mirror/%.owl
 
 release: $(ONT).owl $(ONT).obo
-	cp $^ ../ && cp imports/* ../imports
+	cp $^ $(RELEASEDIR) && cp imports/* $(RELEASEDIR)/imports
