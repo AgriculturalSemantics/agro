@@ -683,14 +683,14 @@ interpreted by or directly executed by a processing unit.</obo:IAO_0000115>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001931"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000004"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000004"/>
-                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001931"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a scalar measurement datum is a measurement datum that is composed of two parts, numerals and a unit label.</obo:IAO_0000115>
@@ -1258,6 +1258,18 @@ clustering algorithm.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000338"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000572"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -1274,19 +1286,7 @@ clustering algorithm.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000572"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000471"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000338"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a planned process that consists of parts: planning, study design execution, documentation and which produce conclusion(s).</obo:IAO_0000115>
@@ -1301,14 +1301,14 @@ clustering algorithm.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a role that inheres in a material entity that is realized in an assay in which data is generated about the bearer of the evaluant role</obo:IAO_0000115>
@@ -1327,12 +1327,6 @@ clustering algorithm.</obo:IAO_0000115>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000067"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
@@ -1357,6 +1351,12 @@ clustering algorithm.</obo:IAO_0000115>
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000067"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1395,18 +1395,18 @@ clustering algorithm.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
@@ -1414,7 +1414,7 @@ clustering algorithm.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A planned process which results in physical changes in a specified input material</obo:IAO_0000115>
@@ -1563,14 +1563,14 @@ clustering algorithm.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A planned process in which data gathered in an investigation is evaluated in the context of existing knowledge with the objective to generate more general conclusions or to conclude that the data does not allow one to draw general conclusion</obo:IAO_0000115>
@@ -1663,14 +1663,14 @@ clustering algorithm.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Manufacturing is a process with the intent to produce a processed material which will have a function for future use. A person or organization (having manufacturer role) is a participant in this process</obo:IAO_0000115>
@@ -1777,14 +1777,14 @@ clustering algorithm.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A planned process with the objective of collecting a specimen.</obo:IAO_0000115>
@@ -2041,6 +2041,20 @@ clustering algorithm.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">study intervention</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom>
@@ -2060,20 +2074,6 @@ clustering algorithm.</obo:IAO_0000115>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the part of the execution of an intervention design study which is varied between two or more subjects in the study</obo:IAO_0000115>
     </owl:Class>
@@ -2278,14 +2278,14 @@ clustering algorithm.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000221"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001158"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000221"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time measurement datum that is the result of measurement of age of an organism</obo:IAO_0000115>
@@ -2342,6 +2342,12 @@ clustering algorithm.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000268"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -2353,12 +2359,6 @@ clustering algorithm.</obo:IAO_0000115>
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000268"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A study design in which the pathological condition of a part, organ, or system of an organism is studied. The etiology may be from infection, genetic defect, or environmental stress.</obo:IAO_0000115>
@@ -2374,6 +2374,12 @@ clustering algorithm.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000268"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -2385,12 +2391,6 @@ clustering algorithm.</obo:IAO_0000115>
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000268"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A study design that assays differences between multiple strains, cultivars, serovars, isolates, lines from organisms of a single species.</obo:IAO_0000115>
@@ -2546,8 +2546,26 @@ clustering algorithm.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2569,24 +2587,6 @@ clustering algorithm.</obo:IAO_0000115>
                         </owl:someValuesFrom>
                     </owl:Restriction>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A planned process that produces output data from input data.</obo:IAO_0000115>
@@ -2706,19 +2706,6 @@ clustering algorithm.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000038"/>
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000101"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
             </owl:Restriction>
@@ -2740,6 +2727,19 @@ clustering algorithm.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000038"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000101"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An planned process that creates images, diagrams or animations from the input data.</obo:IAO_0000115>
@@ -2903,6 +2903,12 @@ class labels for these objects. The resulting predictor can be used to attach cl
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200111"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000648"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -2915,12 +2921,6 @@ class labels for these objects. The resulting predictor can be used to attach cl
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000648"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data visualization which has input of a clustered data set and produces an output of a report graph which is capable of rendering data of this type.</obo:IAO_0000115>
@@ -4696,14 +4696,10 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000120"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000121"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000122"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000123"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000124"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000125"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000423"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000428"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000226"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000227"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000228"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000229"/>
         </owl:distinctMembers>
     </rdf:Description>
     <rdf:Description>
@@ -4717,10 +4713,14 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000226"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000227"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000228"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000229"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000120"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000121"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000122"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000123"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000124"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000125"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000423"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000428"/>
         </owl:distinctMembers>
     </rdf:Description>
 </rdf:RDF>
