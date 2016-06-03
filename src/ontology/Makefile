@@ -1,5 +1,6 @@
 OBO=http://purl.obolibrary.org/obo
 ONT=agro
+BASE=$(OBO)/$(ONT)
 SRC=$(ONT)-edit.owl
 RELEASEDIR=../..
 ROBOT= robot
@@ -18,7 +19,7 @@ prepare_release: all
 
 
 $(ONT).owl: $(SRC) $(MODULE_FILES)
-	$(ROBOT) merge -i $<  $(patsubst %,-i %,$(MODULE_FILES)) reason -r ELK -s true annotate -V $(SDG)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+	$(ROBOT) reason -i $< -r ELK -s true annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
 #$(ONT).obo: $(ONT).owl
 #	$(ROBOT) convert -i $< -o $(ONT).obo
 
@@ -33,7 +34,7 @@ all_imports: $(IMPORTS_OWL)
 
 # Use ROBOT, driven entirely by terms lists NOT from source ontology
 imports/%_import.owl: mirror/%.owl imports/%_terms.txt
-	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(SDG_IMPORTS_BASE_URI)/$@ -o $@
+	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O  $(BASE)/$@ -o $@
 .PRECIOUS: imports/%_import.owl
 
 #imports/%_import.obo: imports/%_import.owl
@@ -44,5 +45,6 @@ mirror/%.owl: $(SRC)
 	$(OWLTOOLS) $(OBO)/$*.owl --remove-annotation-assertions -l -s -d --remove-dangling-annotations  -o $@
 .PRECIOUS: mirror/%.owl
 
-release: $(ONT).owl $(ONT).obo
+release: $(ONT).owl 
+# $(ONT).obo # add this to the release targets if OBO is desired
 	cp $^ $(RELEASEDIR) && cp imports/* $(RELEASEDIR)/imports
