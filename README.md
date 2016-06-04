@@ -1,4 +1,7 @@
-# agro
+[![Build Status](https://travis-ci.org/AgriculturalSemantics/agro.svg?branch=master)](https://travis-ci.org/AgriculturalSemantics/agro)
+
+# AgrO
+
 
 # Mailing list
 
