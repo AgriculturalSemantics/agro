@@ -24,7 +24,8 @@ script: cd src/ontology && make test
 branches:
   only:
     - master
-
+    - test-travis
+    
 notifications:
   email:
     - pbuttigi@mpi-bremen.de
