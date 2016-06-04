@@ -7,10 +7,12 @@ ROBOT= robot
 OWLTOOLS= owltools
 
 
-all: all_imports $(ONT).owl $(ONT).obo
+all: all_imports $(ONT).owl 
+# $(ONT).obo # removed obo target for now
 test: all
 prepare_release: all
-	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\
+	cp $(ONT).owl $(RELEASEDIR) &&\
+#	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\ # obo target included here
 	mkdir -p $(RELEASEDIR)/imports &&\
 	cp imports/*{owl,obo} $(RELEASEDIR)/imports &&\
 	git add $(RELEASEDIR)/imports/*{obo,owl} &&\
