@@ -34,8 +34,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000017>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(:harvesting_process))
+Declaration(Class(:mulch_till))
 Declaration(Class(:no-till))
 Declaration(Class(:pruning_process))
+Declaration(Class(:puddling_process))
+Declaration(Class(:ridge-till))
+Declaration(Class(:strip-till))
 
 
 
@@ -151,15 +155,41 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:comment :harvesting_process "The usefulness of the part or parts of the plant depends on the criteria set by the agent of the harvesting process."@en)
 SubClassOf(:harvesting_process <http://purl.obolibrary.org/obo/OBI_0000011>)
 
+# Class: :mulch_till (:mulch_till)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs143_025852.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> :mulch_till "A conservation tillage process in which non-inversion tillage tools that partially incorporate surface organic material are used on the entire surface of the field."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :mulch_till "mulch tillage"@en)
+SubClassOf(:mulch_till <http://purl.obolibrary.org/obo/AGRO_00000017>)
+
 # Class: :no-till (:no-till)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.vellag.com/articles/no-till-agriculture/") <http://purl.obolibrary.org/obo/IAO_0000115> :no-till "A planned process in which the soil is left undisturbed apart from where the seeds or planting material are placed."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :no-till "zero tillage"@en)
+AnnotationAssertion(rdfs:comment :no-till "No-till is often considered as being a conservation tillage process."@en)
 SubClassOf(:no-till <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(:no-till ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
 
 # Class: :pruning_process (:pruning_process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://aims.fao.org/aos/agrovoc/c_6274") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Pruning#Types_of_pruning") <http://purl.obolibrary.org/obo/IAO_0000115> :pruning_process "A planned process in which selected parts of the plant are removed. The practice entails targeted removal of diseased, damaged, dead, non-productive, structurally unsound, or otherwise unwanted tissue from plants. This is done in order to shape the plant or tree, improve plant or tree health, reduce the risk from falling branches, prepare nursery specimens for transplanting, and increase the yield or quality of harvested products."@en)
 SubClassOf(:pruning_process <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: :puddling_process (:puddling_process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Tillage") <http://purl.obolibrary.org/obo/IAO_0000115> :puddling_process "A tillage process in which saturated or near-saturated soil are worked into soft structureless mud, mainly for paddy rice production."@en)
+SubClassOf(:puddling_process <http://purl.obolibrary.org/obo/AGRO_00000002>)
+
+# Class: :ridge-till (:ridge-till)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.mda.state.mn.us/protecting/conservation/practices/constillage.aspx") <http://purl.obolibrary.org/obo/IAO_0000115> :ridge-till "A conservation tillage process in which, in a land with permanent ridges, previous crop's residue is cleared off ridge-tops into adjacent furrows to make way for the new crop being planted on ridges."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :ridge-till "ridge tillage"@en)
+SubClassOf(:ridge-till <http://purl.obolibrary.org/obo/AGRO_00000017>)
+
+# Class: :strip-till (:strip-till)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Tillage") <http://purl.obolibrary.org/obo/IAO_0000115> :strip-till "A conservation tillage process in which narrow strips are tilled where seeds will be planted, leaving the soil in between the rows untilled."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :strip-till "zone tillage"@en)
+SubClassOf(:strip-till <http://purl.obolibrary.org/obo/AGRO_00000017>)
 
 
 )
