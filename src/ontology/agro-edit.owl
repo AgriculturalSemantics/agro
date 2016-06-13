@@ -33,7 +33,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000017>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
-Declaration(Class(:harvest_process))
+Declaration(Class(:harvesting_process))
+Declaration(Class(:no-till))
+Declaration(Class(:pruning_process))
 
 
 
@@ -71,10 +73,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000006> ObjectSomeValuesFrom(<
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000007> (desuckering process)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000007> "A planned process in which one or more suckers are removed."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000007> "A pruning process in which one or more suckers are removed."@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000007> "Which suckers are removed depends on the criteria set by the agent of the desuckering process."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000007> "desuckering process"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000007> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000007> :pruning_process)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/PO_0004545>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000008> (irrigation water source role)
@@ -142,12 +144,22 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000022> ObjectSomeValuesFrom(<
 
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000070> <http://purl.obolibrary.org/obo/OBI_0200000>)
 
-# Class: :harvest_process (:harvest_process)
+# Class: :harvesting_process (:harvesting_process)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/t0522e/T0522E05.htm") <http://purl.obolibrary.org/obo/IAO_0000115> :harvest_process "A planned process in which the useful part or parts of the plant are gathered."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :harvest_process "harvesting"@en)
-AnnotationAssertion(rdfs:comment :harvest_process "The usefulness of the part or parts of the plant depends on the criteria set by the agent of the harvesting process."@en)
-SubClassOf(:harvest_process <http://purl.obolibrary.org/obo/OBI_0000011>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/t0522e/T0522E05.htm") <http://purl.obolibrary.org/obo/IAO_0000115> :harvesting_process "A planned process in which the useful part or parts of the plant are gathered."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :harvesting_process "harvesting"@en)
+AnnotationAssertion(rdfs:comment :harvesting_process "The usefulness of the part or parts of the plant depends on the criteria set by the agent of the harvesting process."@en)
+SubClassOf(:harvesting_process <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: :no-till (:no-till)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :no-till "zero tillage"@en)
+SubClassOf(:no-till <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: :pruning_process (:pruning_process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://aims.fao.org/aos/agrovoc/c_6274") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Pruning#Types_of_pruning") <http://purl.obolibrary.org/obo/IAO_0000115> :pruning_process "A planned process in which selected parts of the plant are removed. The practice entails targeted removal of diseased, damaged, dead, non-productive, structurally unsound, or otherwise unwanted tissue from plants. This is done in order to shape the plant or tree, improve plant or tree health, reduce the risk from falling branches, prepare nursery specimens for transplanting, and increase the yield or quality of harvested products."@en)
+SubClassOf(:pruning_process <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 
 )
