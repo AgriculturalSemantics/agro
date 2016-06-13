@@ -1,3 +1,4 @@
+Prefix(:=<http://purl.obolibrary.org/obo/agro-edit.owl#>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -10,15 +11,15 @@ Import(<http://purl.obolibrary.org/obo/agro/imports/chebi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/po_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ro/releases/2016-05-13/ro.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/iao_import.owl>)
-Import(<http://purl.obolibrary.org/obo/agro/imports/uo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/pato_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/bfo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/agro/imports/envo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/obi_import.owl>)
-Annotation(<http://purl.org/dc/elements/1.1/contributor> "Marié-Angélique Laporte")
-Annotation(rdfs:comment "agro is an ontlogy for representing agronomic practices, techniques, variables and related entities")
-Annotation(<http://purl.org/dc/elements/1.1/contributor> "Pier Luigi Buttigieg")
+Import(<http://purl.obolibrary.org/obo/agro/imports/uo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/envo_import.owl>)
 Annotation(<http://purl.org/dc/elements/1.1/contributor> "Céline Aubert")
+Annotation(<http://purl.org/dc/elements/1.1/contributor> "Marié-Angélique Laporte")
+Annotation(<http://purl.org/dc/elements/1.1/contributor> "Pier Luigi Buttigieg")
+Annotation(rdfs:comment "agro is an ontlogy for representing agronomic practices, techniques, variables and related entities")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000004>))
@@ -32,60 +33,121 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000017>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000002> "tillage process"@en)
+Declaration(Class(:harvest_process))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000002> (tillage process)
+
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Tillage") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://stats.oecd.org/glossary/detail.asp?ID=447") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000002> "A planned process in which soil is mechanicaly mixed, stirred or overturned."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000002> "tillage process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000002> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000004> "land leveling process"@en)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000004> (land leveling process)
+
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/t0231e/t0231e08.htm
 ") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000004> "A planed process in which the agricultural field surface is shaped for ensuring that the depths and discharge variations over the agricultural field are relatively uniform."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000004> "land leveling process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000004> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000005> (crop residue management process)
+
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "agglossary.org/wiki/index.php?title=Residue_management") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000005> "A planned process in which the thickness of crop residue on the surface of an agricultural field is managed."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000005> "crop residue management process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000005> <http://purl.obolibrary.org/obo/OBI_0000011>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000006> "irrigation process"@en)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000006> (irrigation process)
+
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Irrigation
 ") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "www.dictionary.com/browse/irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000006> "A planned process in which water is artificially supplied to plant or soil to sustain plants. "@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000006> "irrigation process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000006> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00002006>))
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000007> "Which suckers are removed depends on the criteria set by the agent of the desuckering process."@en)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000007> (desuckering process)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000007> "A planned process in which one or more suckers are removed."@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000007> "Which suckers are removed depends on the criteria set by the agent of the desuckering process."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000007> "desuckering process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000007> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/PO_0004545>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000008> (irrigation water source role)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000008> "A role that inheres in a water body that is realised in an irrigation process where water is transported from that water body to the target of the irrigation process."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000008> "irrigation water source role"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000008> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000009> (irrigation source)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000009> "A water body from which water is taken during an irrigation process and transported to the target of the irrigation process."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000009> "irrigation source"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000009> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>) <http://purl.obolibrary.org/obo/ENVO_00000063>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000009> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ENVO_00000063> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000009> <http://purl.obolibrary.org/obo/ENVO_00000063>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000010> "irrigation quantity"@en)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000010> (irrigation quantity)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000010> "Quantity of water given per irrigation operation."@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000010> "This definition is unclear. It is not clear what is being measured and what this data is about. see: https://github.com/AgriculturalSemantics/agro/issues/5"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000010> "irrigation depth"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000010> "This definition is unclear. It is not clear what is being measured and what this data is about. see: https://github.com/AgriculturalSemantics/agro/issues/5"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000010> "irrigation quantity"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000010> <http://purl.obolibrary.org/obo/IAO_0000027>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000001>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_00002006>))
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000015> "intensive tillage"@en)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000015> (conventional tillage process)
+
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.ctic.purdue.edu/resourcedisplay/322/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000015> "A tillage process in which, approximately, less than 15 percent of the soil surface is covered by crop residue after planting."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000015> "intensive tillage"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/AGRO_00000015> "tillage_technique"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000015> "conventional tillage process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000015> <http://purl.obolibrary.org/obo/AGRO_00000002>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000016> "reduced tillage process"@en)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000016> (reduced tillage process)
+
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.ctic.purdue.edu/resourcedisplay/322/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000016> "A tillage process in which between, approximately, 15 to 30 percent of the soil surface is covered by plant residue after planting."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/AGRO_00000016> "tillage_technique"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000016> "reduced tillage process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000016> <http://purl.obolibrary.org/obo/AGRO_00000002>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/AGRO_00000017> "tillage_technique"@en)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000017> (conservation tillage process)
+
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.ctic.purdue.edu/resourcedisplay/322/") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Tillage") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000017> "A tillage process in which a proportion of plant residue, left over after a harvesting process, is left relatively undisturbed on the tilled land; this is done in order to accomplish several conservation objectives including the maintenance of soil moisture content, the reduction of soil erosion and soil compaction, and/or the reduction of labour intensity and fuel consumption."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/AGRO_00000017> "tillage_technique"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000017> "Usually 30 percent of soil surface covered by plant residue is neccessary to achieved conservation tillage."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000017> "conservation tillage process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000017> <http://purl.obolibrary.org/obo/AGRO_00000002>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_01000000> "agronomic fertilization process"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_01000000> "fertilization")
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_01000000> "A planned process in which fertilizer is applied to an environmental material to promote the growth of a plant.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_01000000> "fertilization")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_01000000> "agronomic fertilization process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_01000000> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000020> (lake)
+
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>))
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000022> (river)
+
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000070> (assay)
+
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000070> <http://purl.obolibrary.org/obo/OBI_0200000>)
+
+# Class: :harvest_process (:harvest_process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/t0522e/T0522E05.htm") <http://purl.obolibrary.org/obo/IAO_0000115> :harvest_process "A planned process in which the useful part or parts of the plant are gathered."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :harvest_process "harvesting"@en)
+AnnotationAssertion(rdfs:comment :harvest_process "The usefulness of the part or parts of the plant depends on the criteria set by the agent of the harvesting process."@en)
+SubClassOf(:harvest_process <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+
 )
