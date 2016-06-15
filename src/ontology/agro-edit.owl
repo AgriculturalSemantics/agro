@@ -33,20 +33,26 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000017>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
+Declaration(Class(:aerial_application))
 Declaration(Class(:application_method))
 Declaration(Class(:band_application))
 Declaration(Class(:broadcast_application))
 Declaration(Class(:chemical_basal_application))
 Declaration(Class(:chemigation))
+Declaration(Class(:contact_placement))
+Declaration(Class(:deep_placement))
 Declaration(Class(:fertigation))
 Declaration(Class(:fertilizer_basal_application))
+Declaration(Class(:foliar_application))
 Declaration(Class(:harvesting_process))
 Declaration(Class(:mulch_till))
 Declaration(Class(:no-till))
+Declaration(Class(:plough_sole_placement))
 Declaration(Class(:pruning_process))
 Declaration(Class(:puddling_process))
 Declaration(Class(:ridge-till))
 Declaration(Class(:seed_dressing))
+Declaration(Class(:sidedressing))
 Declaration(Class(:soil_injection))
 Declaration(Class(:strip-till))
 Declaration(Class(:topdressing))
@@ -159,6 +165,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000022> ObjectSomeValuesFrom(<
 
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000070> <http://purl.obolibrary.org/obo/OBI_0200000>)
 
+# Class: :aerial_application (:aerial_application)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agritech.tnau.ac.in/agriculture/agri_nutrientmgt_methodsoffertilizerappln.html") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Aerial_application") <http://purl.obolibrary.org/obo/IAO_0000115> :aerial_application "An application method in which a liquid material entity is applied by aircraft to an area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> :aerial_application "aerial topdressing"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> :aerial_application "crop dusting"@en)
+SubClassOf(:aerial_application :application_method)
+
 # Class: :application_method (:application_method)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :application_method "A plan specification which describes how a material entity is applied to another material entity."@en)
@@ -166,13 +179,15 @@ SubClassOf(:application_method <http://purl.obolibrary.org/obo/IAO_0000104>)
 
 # Class: :band_application (:band_application)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.nasda.org/File.aspx?id=30530") <http://purl.obolibrary.org/obo/IAO_0000115> :band_application "An application method in which a material entity is applied in parallel strips or bands across soil surface."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.cals.uidaho.edu/edcomm/pdf/cis/cis0757.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.nasda.org/File.aspx?id=30530") <http://purl.obolibrary.org/obo/IAO_0000115> :band_application "An application method in which a material entity is applied in bands below, above, on one side, or on both sides of seeds or seedlings at planting."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :band_application "banding"@en)
 SubClassOf(:band_application :application_method)
 SubClassOf(:band_application ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
 
 # Class: :broadcast_application (:broadcast_application)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.nasda.org/File.aspx?id=30530") <http://purl.obolibrary.org/obo/IAO_0000115> :broadcast_application "An application method in which a material entity is applied uniformly to an entire area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :broadcast_application "broadcasting"@en)
 SubClassOf(:broadcast_application :application_method)
 
 # Class: :chemical_basal_application (:chemical_basal_application)
@@ -185,6 +200,26 @@ SubClassOf(:chemical_basal_application :application_method)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ag.ndsu.edu/irrigation/chemigation") <http://purl.obolibrary.org/obo/IAO_0000115> :chemigation "An application method in which a water-soluble chemical is injected into water flowing through an irrigation system."@en)
 SubClassOf(:chemigation :application_method)
 
+# Class: :contact_placement (:contact_placement)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agriinfo.in/?page=topic&superid=1&topicid=364") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agritech.tnau.ac.in/agriculture/agri_nutrientmgt_methodsoffertilizerappln.html") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.agprofessional.com/resource-centers/crop-fertility/micronutrients/news/Pop-up-fertilizers-What-you-need-to-know-254954281.html") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.cals.uidaho.edu/edcomm/pdf/cis/cis0757.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> :contact_placement "An application method in which a material entity is applied at the time of sowing, and placed in contact with seeds."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :contact_placement "combined drilling"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :contact_placement "drill placement"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :contact_placement "on the seed application"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :contact_placement "placed with seed application"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :contact_placement "pop-up application"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :contact_placement "seed placement"@en)
+SubClassOf(:contact_placement :application_method)
+
+# Class: :deep_placement (:deep_placement)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :deep_placement "An application method in which the material entity is placed in the reduced soil layer."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :deep_placement "subsurface placement"@en)
+AnnotationAssertion(rdfs:comment :deep_placement "The material entity is often compacted into pellet or briquette before being placed into the soil."@en)
+AnnotationAssertion(rdfs:comment :deep_placement "The reduction soil layer is usually localized around 5 to 10 cm under the soil surface."@en)
+AnnotationAssertion(rdfs:comment :deep_placement "This application method is often used in paddy field."@en)
+SubClassOf(:deep_placement :application_method)
+
 # Class: :fertigation (:fertigation)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Fertigation") <http://purl.obolibrary.org/obo/IAO_0000115> :fertigation "An application method in which a water-soluble fertilizer is injected into water flowing through an irrigation system."@en)
@@ -194,6 +229,12 @@ SubClassOf(:fertigation :application_method)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/ag/Agp/agpc/doc/tibetmanual/04_Mineral_nutrition.htm") <http://purl.obolibrary.org/obo/IAO_0000115> :fertilizer_basal_application "A broadcast application in which fertilizer is applied to an area before planting or before seedling emergence."@en)
 SubClassOf(:fertilizer_basal_application :broadcast_application)
+
+# Class: :foliar_application (:foliar_application)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> :foliar_application "An application method in which a liquid material entity is sprayed to the leafy portions of a plant."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :foliar_application "foliar spray"@en)
+SubClassOf(:foliar_application :application_method)
 
 # Class: :harvesting_process (:harvesting_process)
 
@@ -215,6 +256,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:comment :no-till "No-till is often considered as being a conservation tillage process."@en)
 SubClassOf(:no-till <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(:no-till ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
+
+# Class: :plough_sole_placement (:plough_sole_placement)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://books.google.fr/books?id=pZ0rVya6CW4C&pg=PA156&lpg=PA156&dq=Broadcast+incorporated+plough+sole+placement&source=bl&ots=89TNkPz-j-&sig=a59lhwk5TaKrRROry3ImNW6zhDE&hl=en&sa=X&ved=0ahUKEwjggPWP1anNAhXGWBoKHReIAGkQ6AEITDAJ#v=onepage&q&f=false") <http://purl.obolibrary.org/obo/IAO_0000115> :plough_sole_placement "An application method in which the material entity is placed in a continuous band on the bottom of the furrow during the process of ploughing. Each band is covered as the next furrow is turned. The aim is to place the material entity in moist soil where it can become more available to growing plants."@en)
+SubClassOf(:plough_sole_placement :application_method)
 
 # Class: :pruning_process (:pruning_process)
 
@@ -238,6 +284,12 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> :seed_dressing "seed treatment"@en)
 SubClassOf(:seed_dressing :application_method)
 
+# Class: :sidedressing (:sidedressing)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.cals.uidaho.edu/edcomm/pdf/cis/cis0757.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> :sidedressing "A band application in which the material entity is applied after seeding or planting."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :sidedressing "sidedress application"@en)
+SubClassOf(:sidedressing :band_application)
+
 # Class: :soil_injection (:soil_injection)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> :soil_injection "An application method in which a material entity is injected under pressure beneath the soil surface."@en)
@@ -253,6 +305,7 @@ SubClassOf(:strip-till <http://purl.obolibrary.org/obo/AGRO_00000017>)
 # Class: :topdressing (:topdressing)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/ag/Agp/agpc/doc/tibetmanual/04_Mineral_nutrition.htm") <http://purl.obolibrary.org/obo/IAO_0000115> :topdressing "A broadcast application in which a material entity is applied to an area after seedling emergence and establishment of plants."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :topdressing "topdress application"@en)
 SubClassOf(:topdressing :broadcast_application)
 
 # Class: :tree_injection (:tree_injection)
