@@ -37,6 +37,7 @@ Declaration(Class(:aerial_application))
 Declaration(Class(:application_method))
 Declaration(Class(:band_application))
 Declaration(Class(:bassin_irrigation))
+Declaration(Class(:biological_pest_control_process))
 Declaration(Class(:border_irrigation))
 Declaration(Class(:broadcast_application))
 Declaration(Class(:center-pivot_irrigation))
@@ -55,6 +56,7 @@ Declaration(Class(:irrigation_method))
 Declaration(Class(:localized_irrigation))
 Declaration(Class(:mulch_till))
 Declaration(Class(:no-till))
+Declaration(Class(:pest_control_process))
 Declaration(Class(:pitcher_irrigation))
 Declaration(Class(:plough_sole_placement))
 Declaration(Class(:pruning_process))
@@ -206,6 +208,12 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:comment :bassin_irrigation "Basin irrigation is suitable for crops that are unaffected by standing in water for long periods (e.g. 12-24 hours) like rice or some trees."@en)
 SubClassOf(:bassin_irrigation :surface_irrigation)
 
+# Class: :biological_pest_control_process (:biological_pest_control_process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Biological_pest_control") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cals.ncsu.edu/course/ent425/text19/biocontrol.html") <http://purl.obolibrary.org/obo/IAO_0000115> :biological_pest_control_process "A pest control process in which organisms are employed to manage unwanted organisms."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :biological_pest_control_process "biological control"@en)
+SubClassOf(:biological_pest_control_process :pest_control_process)
+
 # Class: :border_irrigation (:border_irrigation)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/s8684E/s8684e02.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Surface_irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> :border_irrigation "A surface irrigation method in which water is distributed to an area divided into borders. Borders are long, sloping strips of land separated by bunds. Water is applied to the top end of borders."@en)
@@ -324,6 +332,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:comment :no-till "No-till is often considered as being a conservation tillage process."@en)
 SubClassOf(:no-till <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(:no-till ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
+
+# Class: :pest_control_process (:pest_control_process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Pest_control") <http://purl.obolibrary.org/obo/IAO_0000115> :pest_control_process "A planned process in which unwanted organisms are controlled."@en)
+SubClassOf(:pest_control_process <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Class: :pitcher_irrigation (:pitcher_irrigation)
 
