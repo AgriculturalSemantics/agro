@@ -42,6 +42,7 @@ Declaration(Class(:border_irrigation))
 Declaration(Class(:broadcast_application))
 Declaration(Class(:center-pivot_irrigation))
 Declaration(Class(:chemical_basal_application))
+Declaration(Class(:chemical_pest_control_process))
 Declaration(Class(:chemigation))
 Declaration(Class(:contact_placement))
 Declaration(Class(:continuous_flood))
@@ -54,6 +55,7 @@ Declaration(Class(:furrow_irrigation))
 Declaration(Class(:harvesting_process))
 Declaration(Class(:irrigation_method))
 Declaration(Class(:localized_irrigation))
+Declaration(Class(:mechanical_pest_control_process))
 Declaration(Class(:mulch_till))
 Declaration(Class(:no-till))
 Declaration(Class(:pest_control_process))
@@ -242,6 +244,11 @@ SubClassOf(:center-pivot_irrigation :sprinkler_irrigation)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> :chemical_basal_application "An application method in which a chemical entity is applied to the lower portions of plant stems or tree trunks just above the soil line."@en)
 SubClassOf(:chemical_basal_application :application_method)
 
+# Class: :chemical_pest_control_process (:chemical_pest_control_process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :chemical_pest_control_process "A pest control process in which chemical is used to manage unwanted organisms."@en)
+SubClassOf(:chemical_pest_control_process :pest_control_process)
+
 # Class: :chemigation (:chemigation)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ag.ndsu.edu/irrigation/chemigation") <http://purl.obolibrary.org/obo/IAO_0000115> :chemigation "An application method in which a water-soluble chemical is injected into water flowing through an irrigation system."@en)
@@ -318,6 +325,11 @@ SubClassOf(:irrigation_method ObjectSomeValuesFrom(<http://purl.obolibrary.org/o
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> :localized_irrigation "An irrigation method in which water is distributed under low pressure through a piped network, and is applied as a small discharge to each plant or adjacent to it."@en)
 SubClassOf(:localized_irrigation :irrigation_method)
+
+# Class: :mechanical_pest_control_process (:mechanical_pest_control_process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://articles.extension.org/pages/43637/what-is-mechanical-pest-control") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Mechanical_pest_control") <http://purl.obolibrary.org/obo/IAO_0000115> :mechanical_pest_control_process "A pest control process in which physical means such as barriers, traps and handpicking, or physical conditions like high temperature, are used to control unwanted organisms."@en)
+SubClassOf(:mechanical_pest_control_process :pest_control_process)
 
 # Class: :mulch_till (:mulch_till)
 
