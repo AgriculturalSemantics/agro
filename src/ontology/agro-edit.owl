@@ -32,17 +32,30 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000010>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000034>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(:aerial_application))
 Declaration(Class(:application_method))
 Declaration(Class(:band_application))
 Declaration(Class(:bassin_irrigation))
-Declaration(Class(:biological_pest_control_process))
 Declaration(Class(:border_irrigation))
 Declaration(Class(:broadcast_application))
 Declaration(Class(:center-pivot_irrigation))
 Declaration(Class(:chemical_basal_application))
-Declaration(Class(:chemical_pest_control_process))
 Declaration(Class(:chemigation))
 Declaration(Class(:contact_placement))
 Declaration(Class(:continuous_flood))
@@ -52,24 +65,15 @@ Declaration(Class(:fertigation))
 Declaration(Class(:fertilizer_basal_application))
 Declaration(Class(:foliar_application))
 Declaration(Class(:furrow_irrigation))
-Declaration(Class(:harvesting_process))
 Declaration(Class(:irrigation_method))
 Declaration(Class(:localized_irrigation))
-Declaration(Class(:mechanical_pest_control_process))
-Declaration(Class(:mulch_till))
-Declaration(Class(:no-till))
-Declaration(Class(:pest_control_process))
 Declaration(Class(:pitcher_irrigation))
 Declaration(Class(:plough_sole_placement))
-Declaration(Class(:pruning_process))
-Declaration(Class(:puddling_process))
-Declaration(Class(:ridge-till))
 Declaration(Class(:rope-wick_application))
 Declaration(Class(:seed_dressing))
 Declaration(Class(:sidedressing))
 Declaration(Class(:soil_injection))
 Declaration(Class(:sprinkler_irrigation))
-Declaration(Class(:strip-till))
 Declaration(Class(:sub-irrigation))
 Declaration(Class(:subsurface_drip_irrigation))
 Declaration(Class(:subsurface_textile_irrigation))
@@ -91,12 +95,13 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000002> "t
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000002> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000004> (land leveling process)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000004> (land levelling process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/t0231e/t0231e08.htm
 ") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000004> "A planed process in which the agricultural field surface is shaped for ensuring that the depths and discharge variations over the agricultural field are relatively uniform."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000004> "land leveling process"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000004> "land levelling process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000004> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000005> (crop residue management process)
 
@@ -117,7 +122,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000006> ObjectSomeValuesFrom(<
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000007> "A pruning process in which one or more suckers are removed."@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000007> "Which suckers are removed depends on the criteria set by the agent of the desuckering process."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000007> "desuckering process"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000007> :pruning_process)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000007> <http://purl.obolibrary.org/obo/AGRO_00000027>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/PO_0004545>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000008> (irrigation water source role)
@@ -166,6 +171,107 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000017> 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000017> "conservation tillage process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000017> <http://purl.obolibrary.org/obo/AGRO_00000002>)
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000020> (laser land levelling process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.knowledgebank.irri.org/ericeproduction/I.3_Land_levelling.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000020> "A land levelling process in which a laser guided equipement is used to shape land surface."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000020> "laser land levelling process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000020> <http://purl.obolibrary.org/obo/AGRO_00000004>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000021> (mechanical pest control process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://articles.extension.org/pages/43637/what-is-mechanical-pest-control") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Mechanical_pest_control") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000021> "A pest control process in which physical means such as barriers, traps and handpicking, or physical conditions like high temperature, are used to control unwanted organisms."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000021> "mechanical pest control process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000021> <http://purl.obolibrary.org/obo/AGRO_00000023>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000022> (biological pest control process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Biological_pest_control") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cals.ncsu.edu/course/ent425/text19/biocontrol.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000022> "A pest control process in which organisms are employed to manage unwanted organisms."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000022> "biological control"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000022> "biological pest control process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000022> <http://purl.obolibrary.org/obo/AGRO_00000023>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/OBI_0100026>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000023> (pest control process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Pest_control") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000023> "A planned process in which unwanted organisms are controlled."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000023> "pest control process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000023> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000024> (chemical pest control process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000024> "A pest control process in which chemical is used to manage unwanted organisms."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000024> "chemical pest control process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000024> <http://purl.obolibrary.org/obo/AGRO_00000023>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000025> (harvesting process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/t0522e/T0522E05.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000025> "A planned process in which the useful part or parts of the plant are gathered."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000025> "harvesting"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000025> "The usefulness of the part or parts of the plant depends on the criteria set by the agent of the harvesting process."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000025> "harvesting process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000025> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000026> (no-till)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.vellag.com/articles/no-till-agriculture/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000026> "A planned process in which the soil is left undisturbed apart from where the seeds or planting material are placed."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000026> "zero tillage"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000026> "No-till is often considered as being a conservation tillage process."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000026> "no-till"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000026> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000027> (pruning process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://aims.fao.org/aos/agrovoc/c_6274") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Pruning#Types_of_pruning") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000027> "A planned process in which selected parts of the plant are removed. The practice entails targeted removal of diseased, damaged, dead, non-productive, structurally unsound, or otherwise unwanted tissue from plants. This is done in order to shape the plant or tree, improve plant or tree health, reduce the risk from falling branches, prepare nursery specimens for transplanting, and increase the yield or quality of harvested products."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000027> "pruning process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000027> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000028> (puddling process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Tillage") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000028> "A tillage process in which saturated or near-saturated soil are worked into soft structureless mud, mainly for paddy rice production."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000028> "puddling process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000028> <http://purl.obolibrary.org/obo/AGRO_00000002>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000029> (mulch-till)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs143_025852.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000029> "A conservation tillage process in which non-inversion tillage tools that partially incorporate surface organic material are used on the entire surface of the field."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000029> "mulch tillage"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000029> "mulch-till"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000029> <http://purl.obolibrary.org/obo/AGRO_00000017>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000030> (ridge-till)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.mda.state.mn.us/protecting/conservation/practices/constillage.aspx") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000030> "A conservation tillage process in which, in a land with permanent ridges, previous crop's residue is cleared off ridge-tops into adjacent furrows to make way for the new crop being planted on ridges."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000030> "ridge tillage"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000030> "ridge-till"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000030> <http://purl.obolibrary.org/obo/AGRO_00000017>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000031> (strip-till)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Tillage") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000031> "A conservation tillage process in which narrow strips are tilled where seeds will be planted, leaving the soil in between the rows untilled."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000031> "zone tillage"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000031> "strip-till"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000031> <http://purl.obolibrary.org/obo/AGRO_00000017>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000032> (plant reproductive material)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://ec.europa.eu/dgs/health_food-safety/pressroom/docs/proposal_aphp_en.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000032> "A plant anatomical entity that is defined to mean plants or parts of plant capable of and intended for producing or reproducing entire plants."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000032> "plant reproductive material"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000032> <http://purl.obolibrary.org/obo/PO_0025131>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000033> (organic fertilizer)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.thefreedictionary.com/organic+fertilizer") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Organic_fertilizer") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000033> "A fertilizer that is derived from animal or vegetable matter."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.ext.colostate.edu/mg/gardennotes/234.html") rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000033> "Organic fertilizer is sometime defined as being derived from natural sources including non-living organism sources like rock."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000033> "organic fertilizer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000033> <http://purl.obolibrary.org/obo/CHEBI_33287>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000034> (inorganic fertilizer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000034> "A fertilizer that is formed through chemical processes."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000034> "inorganic fertilizer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000034> <http://purl.obolibrary.org/obo/CHEBI_33287>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_01000000> "A planned process in which fertilizer is applied to an environmental material to promote the growth of a plant.")
@@ -210,12 +316,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:comment :bassin_irrigation "Basin irrigation is suitable for crops that are unaffected by standing in water for long periods (e.g. 12-24 hours) like rice or some trees."@en)
 SubClassOf(:bassin_irrigation :surface_irrigation)
 
-# Class: :biological_pest_control_process (:biological_pest_control_process)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Biological_pest_control") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cals.ncsu.edu/course/ent425/text19/biocontrol.html") <http://purl.obolibrary.org/obo/IAO_0000115> :biological_pest_control_process "A pest control process in which organisms are employed to manage unwanted organisms."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :biological_pest_control_process "biological control"@en)
-SubClassOf(:biological_pest_control_process :pest_control_process)
-
 # Class: :border_irrigation (:border_irrigation)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/s8684E/s8684e02.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Surface_irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> :border_irrigation "A surface irrigation method in which water is distributed to an area divided into borders. Borders are long, sloping strips of land separated by bunds. Water is applied to the top end of borders."@en)
@@ -243,11 +343,6 @@ SubClassOf(:center-pivot_irrigation :sprinkler_irrigation)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> :chemical_basal_application "An application method in which a chemical entity is applied to the lower portions of plant stems or tree trunks just above the soil line."@en)
 SubClassOf(:chemical_basal_application :application_method)
-
-# Class: :chemical_pest_control_process (:chemical_pest_control_process)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :chemical_pest_control_process "A pest control process in which chemical is used to manage unwanted organisms."@en)
-SubClassOf(:chemical_pest_control_process :pest_control_process)
 
 # Class: :chemigation (:chemigation)
 
@@ -308,13 +403,6 @@ SubClassOf(:foliar_application :application_method)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/T0231E/t0231e04.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/s8684E/s8684e02.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Surface_irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> :furrow_irrigation "A surface irrigation method in which water is carried into small channels called furrows down the land slope between the plant rows. Water is applied to the top end of each furrow and infiltrates into the soil as it moves along the slope channel."@en)
 SubClassOf(:furrow_irrigation :surface_irrigation)
 
-# Class: :harvesting_process (:harvesting_process)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/t0522e/T0522E05.htm") <http://purl.obolibrary.org/obo/IAO_0000115> :harvesting_process "A planned process in which the useful part or parts of the plant are gathered."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :harvesting_process "harvesting"@en)
-AnnotationAssertion(rdfs:comment :harvesting_process "The usefulness of the part or parts of the plant depends on the criteria set by the agent of the harvesting process."@en)
-SubClassOf(:harvesting_process <http://purl.obolibrary.org/obo/OBI_0000011>)
-
 # Class: :irrigation_method (:irrigation_method)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :irrigation_method "A plan specification which describes how water is applied to plants or soil."@en)
@@ -326,30 +414,6 @@ SubClassOf(:irrigation_method ObjectSomeValuesFrom(<http://purl.obolibrary.org/o
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> :localized_irrigation "An irrigation method in which water is distributed under low pressure through a piped network, and is applied as a small discharge to each plant or adjacent to it."@en)
 SubClassOf(:localized_irrigation :irrigation_method)
 
-# Class: :mechanical_pest_control_process (:mechanical_pest_control_process)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://articles.extension.org/pages/43637/what-is-mechanical-pest-control") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Mechanical_pest_control") <http://purl.obolibrary.org/obo/IAO_0000115> :mechanical_pest_control_process "A pest control process in which physical means such as barriers, traps and handpicking, or physical conditions like high temperature, are used to control unwanted organisms."@en)
-SubClassOf(:mechanical_pest_control_process :pest_control_process)
-
-# Class: :mulch_till (:mulch_till)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs143_025852.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> :mulch_till "A conservation tillage process in which non-inversion tillage tools that partially incorporate surface organic material are used on the entire surface of the field."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :mulch_till "mulch tillage"@en)
-SubClassOf(:mulch_till <http://purl.obolibrary.org/obo/AGRO_00000017>)
-
-# Class: :no-till (:no-till)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.vellag.com/articles/no-till-agriculture/") <http://purl.obolibrary.org/obo/IAO_0000115> :no-till "A planned process in which the soil is left undisturbed apart from where the seeds or planting material are placed."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :no-till "zero tillage"@en)
-AnnotationAssertion(rdfs:comment :no-till "No-till is often considered as being a conservation tillage process."@en)
-SubClassOf(:no-till <http://purl.obolibrary.org/obo/OBI_0000011>)
-SubClassOf(:no-till ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
-
-# Class: :pest_control_process (:pest_control_process)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Pest_control") <http://purl.obolibrary.org/obo/IAO_0000115> :pest_control_process "A planned process in which unwanted organisms are controlled."@en)
-SubClassOf(:pest_control_process <http://purl.obolibrary.org/obo/OBI_0000011>)
-
 # Class: :pitcher_irrigation (:pitcher_irrigation)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://forest.mtu.edu/pcforestry/resources/studentprojects/pitcher/") <http://purl.obolibrary.org/obo/IAO_0000115> :pitcher_irrigation "A localized irrigation method in which water is distributed by diffusion and capillary action through the wall of buried unglazed clay pot."@en)
@@ -359,22 +423,6 @@ SubClassOf(:pitcher_irrigation :localized_irrigation)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://books.google.fr/books?id=pZ0rVya6CW4C&pg=PA156&lpg=PA156&dq=Broadcast+incorporated+plough+sole+placement&source=bl&ots=89TNkPz-j-&sig=a59lhwk5TaKrRROry3ImNW6zhDE&hl=en&sa=X&ved=0ahUKEwjggPWP1anNAhXGWBoKHReIAGkQ6AEITDAJ#v=onepage&q&f=false") <http://purl.obolibrary.org/obo/IAO_0000115> :plough_sole_placement "An application method in which the material entity is placed in a continuous band on the bottom of the furrow during the process of ploughing. Each band is covered as the next furrow is turned. The aim is to place the material entity in moist soil where it can become more available to growing plants."@en)
 SubClassOf(:plough_sole_placement :application_method)
-
-# Class: :pruning_process (:pruning_process)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://aims.fao.org/aos/agrovoc/c_6274") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Pruning#Types_of_pruning") <http://purl.obolibrary.org/obo/IAO_0000115> :pruning_process "A planned process in which selected parts of the plant are removed. The practice entails targeted removal of diseased, damaged, dead, non-productive, structurally unsound, or otherwise unwanted tissue from plants. This is done in order to shape the plant or tree, improve plant or tree health, reduce the risk from falling branches, prepare nursery specimens for transplanting, and increase the yield or quality of harvested products."@en)
-SubClassOf(:pruning_process <http://purl.obolibrary.org/obo/OBI_0000011>)
-
-# Class: :puddling_process (:puddling_process)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Tillage") <http://purl.obolibrary.org/obo/IAO_0000115> :puddling_process "A tillage process in which saturated or near-saturated soil are worked into soft structureless mud, mainly for paddy rice production."@en)
-SubClassOf(:puddling_process <http://purl.obolibrary.org/obo/AGRO_00000002>)
-
-# Class: :ridge-till (:ridge-till)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.mda.state.mn.us/protecting/conservation/practices/constillage.aspx") <http://purl.obolibrary.org/obo/IAO_0000115> :ridge-till "A conservation tillage process in which, in a land with permanent ridges, previous crop's residue is cleared off ridge-tops into adjacent furrows to make way for the new crop being planted on ridges."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :ridge-till "ridge tillage"@en)
-SubClassOf(:ridge-till <http://purl.obolibrary.org/obo/AGRO_00000017>)
 
 # Class: :rope-wick_application (:rope-wick_application)
 
@@ -405,12 +453,6 @@ SubClassOf(:soil_injection ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "www.fao.org/docrep/s8684e/s8684e06.htm") <http://purl.obolibrary.org/obo/IAO_0000115> :sprinkler_irrigation "An irrigation method in which water is distributed through a system of pipes, and is sprayed into the air through sprinklers so that it breaks up into small water drops which fall to the ground."@en)
 SubClassOf(:sprinkler_irrigation :irrigation_method)
-
-# Class: :strip-till (:strip-till)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Tillage") <http://purl.obolibrary.org/obo/IAO_0000115> :strip-till "A conservation tillage process in which narrow strips are tilled where seeds will be planted, leaving the soil in between the rows untilled."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :strip-till "zone tillage"@en)
-SubClassOf(:strip-till <http://purl.obolibrary.org/obo/AGRO_00000017>)
 
 # Class: :sub-irrigation (:sub-irrigation)
 
