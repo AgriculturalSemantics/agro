@@ -261,14 +261,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000032> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000033> (organic fertilizer)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.thefreedictionary.com/organic+fertilizer") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Organic_fertilizer") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000033> "A fertilizer that is derived from animal or vegetable matter."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.newenglandisa.org/FunkHandoutsOrganicInorganicFertilizers.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.thefreedictionary.com/organic+fertilizer") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Organic_fertilizer") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000033> "A fertilizer that is derived from animal or vegetable matter, and contains a carbon-hydrogen linkage."@en)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.ext.colostate.edu/mg/gardennotes/234.html") rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000033> "Organic fertilizer is sometime defined as being derived from natural sources including non-living organism sources like rock."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000033> "organic fertilizer"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000033> <http://purl.obolibrary.org/obo/CHEBI_33287>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000034> (inorganic fertilizer)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000034> "A fertilizer that is formed through chemical processes."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.newenglandisa.org/FunkHandoutsOrganicInorganicFertilizers.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000034> "A fertilizer that does not contain a carbon-hydrogen linkage."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000034> "inorganic fertilizer"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000034> <http://purl.obolibrary.org/obo/CHEBI_33287>)
 
@@ -279,6 +279,10 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_01000000> "agronomic fertilization process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_01000000> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_63038> (ammonium nitrate)
+
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_63038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000034>))
+
 # Class: <http://purl.obolibrary.org/obo/ENVO_00000020> (lake)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>))
@@ -286,6 +290,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000020> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/ENVO_00000022> (river)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>))
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00002872> (bagasse)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002872> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000070> (assay)
 
