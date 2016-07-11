@@ -47,40 +47,41 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000032>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000042>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000045>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000046>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000048>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000054>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000055>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000056>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000057>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000058>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000060>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000062>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000063>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000064>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000065>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000066>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000067>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000068>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
-Declaration(Class(:aerial_application))
-Declaration(Class(:application_method))
-Declaration(Class(:band_application))
-Declaration(Class(:bassin_irrigation))
-Declaration(Class(:border_irrigation))
-Declaration(Class(:broadcast_application))
-Declaration(Class(:center-pivot_irrigation))
-Declaration(Class(:chemical_basal_application))
-Declaration(Class(:chemigation))
-Declaration(Class(:contact_placement))
-Declaration(Class(:continuous_flood))
-Declaration(Class(:deep_placement))
-Declaration(Class(:drip_irrigation))
-Declaration(Class(:fertigation))
-Declaration(Class(:fertilizer_basal_application))
-Declaration(Class(:foliar_application))
-Declaration(Class(:furrow_irrigation))
-Declaration(Class(:irrigation_method))
-Declaration(Class(:localized_irrigation))
-Declaration(Class(:pitcher_irrigation))
-Declaration(Class(:plough_sole_placement))
-Declaration(Class(:rope-wick_application))
-Declaration(Class(:seed_dressing))
-Declaration(Class(:sidedressing))
-Declaration(Class(:soil_injection))
-Declaration(Class(:sprinkler_irrigation))
-Declaration(Class(:sub-irrigation))
-Declaration(Class(:subsurface_drip_irrigation))
-Declaration(Class(:subsurface_textile_irrigation))
-Declaration(Class(:surface_irrigation))
-Declaration(Class(:topdressing))
-Declaration(Class(:tree_injection))
-Declaration(Class(:uncontrolled_flooding))
 
 
 
@@ -272,6 +273,253 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000034> "inorganic fertilizer"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000034> <http://purl.obolibrary.org/obo/CHEBI_33287>)
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000035> (pest)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000035> "A role that inheres in an organism that is realized in an agricultural process where the organism is unwanted."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000035> "pest"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000035> <http://purl.obolibrary.org/obo/BFO_0000023>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/OBI_0100026>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000036> (application method)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000036> "A plan specification which describes how a material entity is applied to another material entity."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000036> "application method"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000036> <http://purl.obolibrary.org/obo/IAO_0000104>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000037> (aerial application)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agritech.tnau.ac.in/agriculture/agri_nutrientmgt_methodsoffertilizerappln.html") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Aerial_application") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000037> "An application method in which a liquid material entity is applied by aircraft to an area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000037> "aerial topdressing"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000037> "crop dusting"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000037> "aerial application"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000037> <http://purl.obolibrary.org/obo/AGRO_00000036>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000038> (band application)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.cals.uidaho.edu/edcomm/pdf/cis/cis0757.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.nasda.org/File.aspx?id=30530") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000038> "An application method in which a material entity is applied in bands below, above, on one side, or on both sides of seeds or seedlings at planting."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000038> "banding"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000038> "band application"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000038> <http://purl.obolibrary.org/obo/AGRO_00000036>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000039> (side dressing)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.cals.uidaho.edu/edcomm/pdf/cis/cis0757.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000039> "A band application in which the material entity is applied after seeding or planting."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000039> "sidedress application"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000039> "side dressing"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000039> <http://purl.obolibrary.org/obo/AGRO_00000038>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000040> (broadcast application)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.nasda.org/File.aspx?id=30530") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000040> "An application method in which a material entity is applied uniformly to an entire area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000040> "broadcasting"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000040> "broadcast application"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000040> <http://purl.obolibrary.org/obo/AGRO_00000036>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000041> (fertilizer basal application)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/ag/Agp/agpc/doc/tibetmanual/04_Mineral_nutrition.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000041> "A broadcast application in which fertilizer is applied to an area before planting or before seedling emergence."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000041> "fertilizer basal application"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000041> <http://purl.obolibrary.org/obo/AGRO_00000040>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000042> (top dressing)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/ag/Agp/agpc/doc/tibetmanual/04_Mineral_nutrition.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000042> "A broadcast application in which a material entity is applied to an area after seedling emergence and establishment of plants."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000042> "topdress application"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000042> "top dressing"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000042> <http://purl.obolibrary.org/obo/AGRO_00000040>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000043> (chemical basal application)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000043> "An application method in which a chemical entity is applied to the lower portions of plant stems or tree trunks just above the soil line."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000043> "chemical basal application"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000043> <http://purl.obolibrary.org/obo/AGRO_00000036>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000044> (chemigation)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ag.ndsu.edu/irrigation/chemigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000044> "An application method in which a water-soluble chemical is injected into water flowing through an irrigation system."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000044> "chemigation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000044> <http://purl.obolibrary.org/obo/AGRO_00000036>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000045> (contact placement)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agriinfo.in/?page=topic&superid=1&topicid=364") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agritech.tnau.ac.in/agriculture/agri_nutrientmgt_methodsoffertilizerappln.html") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.agprofessional.com/resource-centers/crop-fertility/micronutrients/news/Pop-up-fertilizers-What-you-need-to-know-254954281.html") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.cals.uidaho.edu/edcomm/pdf/cis/cis0757.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000045> "An application method in which a material entity is applied at the time of sowing, and placed in contact with seeds."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000045> "combined drilling"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000045> "drill placement"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000045> "on the seed application"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000045> "placed with seed application"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000045> "pop-up application"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000045> "seed placement"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000045> "contact placement"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000045> <http://purl.obolibrary.org/obo/AGRO_00000036>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000046> (deep placement)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000046> "An application method in which the material entity is placed in the reduced soil layer."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000046> "subsurface placement"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000046> "The material entity is often compacted into pellet or briquette before being placed into the soil."@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000046> "The reduction soil layer is usually localized around 5 to 10 cm under the soil surface."@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000046> "This application method is often used in paddy field."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000046> "deep placement"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000046> <http://purl.obolibrary.org/obo/AGRO_00000036>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000047> (fertigation)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Fertigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000047> "An application method in which a water-soluble fertilizer is injected into water flowing through an irrigation system."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000047> "fertigation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000047> <http://purl.obolibrary.org/obo/AGRO_00000036>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000048> (foliar application)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000048> "An application method in which a liquid material entity is sprayed to the leafy portions of a plant."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000048> "foliar spray"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000048> "foliar application"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000048> <http://purl.obolibrary.org/obo/AGRO_00000036>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000049> (plough sole placement)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://books.google.fr/books?id=pZ0rVya6CW4C&pg=PA156&lpg=PA156&dq=Broadcast+incorporated+plough+sole+placement&source=bl&ots=89TNkPz-j-&sig=a59lhwk5TaKrRROry3ImNW6zhDE&hl=en&sa=X&ved=0ahUKEwjggPWP1anNAhXGWBoKHReIAGkQ6AEITDAJ#v=onepage&q&f=false") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000049> "An application method in which the material entity is placed in a continuous band on the bottom of the furrow during the process of ploughing. Each band is covered as the next furrow is turned. The aim is to place the material entity in moist soil where it can become more available to growing plants."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000049> "plough sole placement"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000049> <http://purl.obolibrary.org/obo/AGRO_00000036>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000050> (rope-wick application)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.google.com/patents/US4219964") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000050> "An application method in which a liquid material entity is conveyed from a reservoir to a rope or wick that is wiped into unwanted plants."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000050> "rope-wick treatment"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000050> "wiper treatment"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000050> "rope-wick application"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000050> <http://purl.obolibrary.org/obo/AGRO_00000036>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000051> (seed dressing)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Seed_treatment") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000051> "An application method in which a material entity is appplied directly on seeds before seeding."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000051> "seed treatment"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000051> "seed dressing"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000051> <http://purl.obolibrary.org/obo/AGRO_00000036>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000052> (soil injection)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000052> "An application method in which a material entity is injected under pressure beneath the soil surface."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000052> "soil injection"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000052> <http://purl.obolibrary.org/obo/AGRO_00000036>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000053> (tree injection)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000053> "An application method in which a material entity is injected under the bark of trees."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000053> "tree injection"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000053> <http://purl.obolibrary.org/obo/AGRO_00000036>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000054> (irrigation method)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000054> "A plan specification which describes how water is applied to plants or soil."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000054> "irrigation method"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000054> <http://purl.obolibrary.org/obo/IAO_0000104>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00002006>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000055> (localized irrigation)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000055> "An irrigation method in which water is distributed under low pressure through a piped network, and is applied as a small discharge to each plant or adjacent to it."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000055> "localized irrigation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000055> <http://purl.obolibrary.org/obo/AGRO_00000054>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000056> (drip irrigation)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/s8684E/s8684e02.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000056> "A localized irrigation method in which water is conveyed under pressure through a pipe system where it drips slowly onto the soil close to the plants."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000056> "micro irrigation"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000056> "trickle irrigation"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000056> "drip irrigation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000056> <http://purl.obolibrary.org/obo/AGRO_00000055>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000057> (pitcher irrigation)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://forest.mtu.edu/pcforestry/resources/studentprojects/pitcher/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000057> "A localized irrigation method in which water is distributed by diffusion and capillary action through the wall of buried unglazed clay pot."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000057> "pitcher irrigation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000057> <http://purl.obolibrary.org/obo/AGRO_00000055>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000058> (subsurface drip irrigation)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://ag.arizona.edu/crop/irrigation/azdrip/SDI.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.sswm.info/category/implementation-tools/water-use/hardware/optimisation-water-use-agriculture/subsurface-irrig") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000058> "An irrigation method in which water is conveyed under pressure through a buried pipe system where it drips slowly below the soil surface close to plants' roots."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000058> "SDI"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000058> "subsurface drip irrigation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000058> <http://purl.obolibrary.org/obo/AGRO_00000055>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000058> <http://purl.obolibrary.org/obo/AGRO_00000062>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000059> (subsurface textile irrigation)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://america.pink/subsurface-textile-irrigation_4206598.html") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Subsurface_textile_irrigation") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000059> "An irrigation method in which water is distributed through a buried piped network with a layer of geotextile on top. Geotextiles absorb the water from the drippers of the piped network and transport that water under the soil surface via mass flow and capillary action."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000059> "SSTI"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000059> "subsurface textile irrigation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000059> <http://purl.obolibrary.org/obo/AGRO_00000055>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000059> <http://purl.obolibrary.org/obo/AGRO_00000062>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000060> (sprinkler irrigation)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "www.fao.org/docrep/s8684e/s8684e06.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000060> "An irrigation method in which water is distributed through a system of pipes, and is sprayed into the air through sprinklers so that it breaks up into small water drops which fall to the ground."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000060> "sprinkler irrigation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000060> <http://purl.obolibrary.org/obo/AGRO_00000054>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000061> (center-pivot irrigation)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.dictionary.com/browse/center-pivot-irrigation") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Center_pivot_irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000061> "A sprinkler irrigation in which water is dispersed through a long, segmented arm that revolves around a pivot point and covers a circular area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000061> "central pivot irrigation"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000061> "circle irrigation"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000061> "waterwheel irrigation"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000061> "center-pivot irrigation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000061> <http://purl.obolibrary.org/obo/AGRO_00000060>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000062> (sub-irrigation)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Subirrigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000062> "An irrigation method in which water is delivered to the plant root zone from below the soil surface."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000062> "seepage irrigation"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000062> "subground irrigation"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000062> "subsurface irrigation"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000062> "sub-irrigation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000062> <http://purl.obolibrary.org/obo/AGRO_00000054>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000063> (surface irrigation)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Surface_irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000063> "An irrigation method in which water is applied and distributed over the soil surface by gravity."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000063> "surface irrigation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000063> <http://purl.obolibrary.org/obo/AGRO_00000054>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000064> (bassin irrigation)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/s8684E/s8684e02.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000064> "A surface irrigation method in which water is applied into basins. Basins are flat areas of land surronded by low bunds."@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000064> "Basin irrigation is suitable for crops that are unaffected by standing in water for long periods (e.g. 12-24 hours) like rice or some trees."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000064> "bassin irrigation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000064> <http://purl.obolibrary.org/obo/AGRO_00000063>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000065> (continuous flood)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.knowledgebank.irri.org/step-by-step-production/growth/water-management") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000065> "A bassin irrigation method in which basins are flooded during the entire growing season of plants."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000065> "paddy irrigation"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000065> "continuous flood"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000065> <http://purl.obolibrary.org/obo/AGRO_00000064>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000066> (border irrigation)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/s8684E/s8684e02.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Surface_irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000066> "A surface irrigation method in which water is distributed to an area divided into borders. Borders are long, sloping strips of land separated by bunds. Water is applied to the top end of borders."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000066> "bay irrigation"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000066> "border check irrigation"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000066> "border strip irrigation"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000066> "Borders are typically longer and narrower compared to basin irrigation."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000066> "border irrigation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000066> <http://purl.obolibrary.org/obo/AGRO_00000063>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000067> (furrow irrigation)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/T0231E/t0231e04.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/s8684E/s8684e02.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Surface_irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000067> "A surface irrigation method in which water is carried into small channels called furrows down the land slope between the plant rows. Water is applied to the top end of each furrow and infiltrates into the soil as it moves along the slope channel."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000067> "furrow irrigation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000067> <http://purl.obolibrary.org/obo/AGRO_00000063>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000068> (uncontrolled flooding)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/T0231E/t0231e04.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://books.google.fr/books?id=DSvFRbtmb9EC&pg=PA66&lpg=PA66&dq=uncontrolled+flooding+irrigation&source=bl&ots=GZ1pAtoBYD&sig=SU-vFWGW5bKfmMr5q5ppV-6G-Wk&hl=en&sa=X&sqi=2&ved=0ahUKEwjKibDIz6zNAhWGSBQKHa38ANgQ6AEIVTAM#v=onepage&q=uncontrolled%20flooding%20irrigation&f=false") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://irrigationmethods.wordpress.com/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000068> "A surface irrigation method in which water is spread over a flat area without control over water flow or prior preparation."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000068> "wild flooding"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000068> "uncontrolled flooding"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000068> <http://purl.obolibrary.org/obo/AGRO_00000063>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_01000000> "A planned process in which fertilizer is applied to an environmental material to promote the growth of a plant.")
@@ -298,213 +546,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002872> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/OBI_0000070> (assay)
 
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000070> <http://purl.obolibrary.org/obo/OBI_0200000>)
-
-# Class: :aerial_application (:aerial_application)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agritech.tnau.ac.in/agriculture/agri_nutrientmgt_methodsoffertilizerappln.html") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Aerial_application") <http://purl.obolibrary.org/obo/IAO_0000115> :aerial_application "An application method in which a liquid material entity is applied by aircraft to an area."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> :aerial_application "aerial topdressing"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> :aerial_application "crop dusting"@en)
-SubClassOf(:aerial_application :application_method)
-
-# Class: :application_method (:application_method)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :application_method "A plan specification which describes how a material entity is applied to another material entity."@en)
-SubClassOf(:application_method <http://purl.obolibrary.org/obo/IAO_0000104>)
-
-# Class: :band_application (:band_application)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.cals.uidaho.edu/edcomm/pdf/cis/cis0757.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.nasda.org/File.aspx?id=30530") <http://purl.obolibrary.org/obo/IAO_0000115> :band_application "An application method in which a material entity is applied in bands below, above, on one side, or on both sides of seeds or seedlings at planting."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :band_application "banding"@en)
-SubClassOf(:band_application :application_method)
-SubClassOf(:band_application ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
-
-# Class: :bassin_irrigation (:bassin_irrigation)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/s8684E/s8684e02.htm") <http://purl.obolibrary.org/obo/IAO_0000115> :bassin_irrigation "A surface irrigation method in which water is applied into basins. Basins are flat areas of land surronded by low bunds."@en)
-AnnotationAssertion(rdfs:comment :bassin_irrigation "Basin irrigation is suitable for crops that are unaffected by standing in water for long periods (e.g. 12-24 hours) like rice or some trees."@en)
-SubClassOf(:bassin_irrigation :surface_irrigation)
-
-# Class: :border_irrigation (:border_irrigation)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/s8684E/s8684e02.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Surface_irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> :border_irrigation "A surface irrigation method in which water is distributed to an area divided into borders. Borders are long, sloping strips of land separated by bunds. Water is applied to the top end of borders."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :border_irrigation "bay irrigation"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :border_irrigation "border check irrigation"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :border_irrigation "border strip irrigation"@en)
-AnnotationAssertion(rdfs:comment :border_irrigation "Borders are typically longer and narrower compared to basin irrigation."@en)
-SubClassOf(:border_irrigation :surface_irrigation)
-
-# Class: :broadcast_application (:broadcast_application)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.nasda.org/File.aspx?id=30530") <http://purl.obolibrary.org/obo/IAO_0000115> :broadcast_application "An application method in which a material entity is applied uniformly to an entire area."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :broadcast_application "broadcasting"@en)
-SubClassOf(:broadcast_application :application_method)
-
-# Class: :center-pivot_irrigation (:center-pivot_irrigation)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.dictionary.com/browse/center-pivot-irrigation") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Center_pivot_irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> :center-pivot_irrigation "A sprinkler irrigation in which water is dispersed through a long, segmented arm that revolves around a pivot point and covers a circular area."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :center-pivot_irrigation "central pivot irrigation"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :center-pivot_irrigation "circle irrigation"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :center-pivot_irrigation "waterwheel irrigation"@en)
-SubClassOf(:center-pivot_irrigation :sprinkler_irrigation)
-
-# Class: :chemical_basal_application (:chemical_basal_application)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> :chemical_basal_application "An application method in which a chemical entity is applied to the lower portions of plant stems or tree trunks just above the soil line."@en)
-SubClassOf(:chemical_basal_application :application_method)
-
-# Class: :chemigation (:chemigation)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ag.ndsu.edu/irrigation/chemigation") <http://purl.obolibrary.org/obo/IAO_0000115> :chemigation "An application method in which a water-soluble chemical is injected into water flowing through an irrigation system."@en)
-SubClassOf(:chemigation :application_method)
-
-# Class: :contact_placement (:contact_placement)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agriinfo.in/?page=topic&superid=1&topicid=364") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agritech.tnau.ac.in/agriculture/agri_nutrientmgt_methodsoffertilizerappln.html") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.agprofessional.com/resource-centers/crop-fertility/micronutrients/news/Pop-up-fertilizers-What-you-need-to-know-254954281.html") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.cals.uidaho.edu/edcomm/pdf/cis/cis0757.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> :contact_placement "An application method in which a material entity is applied at the time of sowing, and placed in contact with seeds."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :contact_placement "combined drilling"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :contact_placement "drill placement"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :contact_placement "on the seed application"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :contact_placement "placed with seed application"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :contact_placement "pop-up application"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :contact_placement "seed placement"@en)
-SubClassOf(:contact_placement :application_method)
-
-# Class: :continuous_flood (:continuous_flood)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.knowledgebank.irri.org/step-by-step-production/growth/water-management") <http://purl.obolibrary.org/obo/IAO_0000115> :continuous_flood "A bassin irrigation method in which basins are flooded during the entire growing season of plants."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :continuous_flood "paddy irrigation"@en)
-SubClassOf(:continuous_flood :bassin_irrigation)
-
-# Class: :deep_placement (:deep_placement)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :deep_placement "An application method in which the material entity is placed in the reduced soil layer."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :deep_placement "subsurface placement"@en)
-AnnotationAssertion(rdfs:comment :deep_placement "The material entity is often compacted into pellet or briquette before being placed into the soil."@en)
-AnnotationAssertion(rdfs:comment :deep_placement "The reduction soil layer is usually localized around 5 to 10 cm under the soil surface."@en)
-AnnotationAssertion(rdfs:comment :deep_placement "This application method is often used in paddy field."@en)
-SubClassOf(:deep_placement :application_method)
-
-# Class: :drip_irrigation (:drip_irrigation)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/s8684E/s8684e02.htm") <http://purl.obolibrary.org/obo/IAO_0000115> :drip_irrigation "A localized irrigation method in which water is conveyed under pressure through a pipe system where it drips slowly onto the soil close to the plants."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :drip_irrigation "micro irrigation"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :drip_irrigation "trickle irrigation"@en)
-SubClassOf(:drip_irrigation :localized_irrigation)
-
-# Class: :fertigation (:fertigation)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Fertigation") <http://purl.obolibrary.org/obo/IAO_0000115> :fertigation "An application method in which a water-soluble fertilizer is injected into water flowing through an irrigation system."@en)
-SubClassOf(:fertigation :application_method)
-
-# Class: :fertilizer_basal_application (:fertilizer_basal_application)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/ag/Agp/agpc/doc/tibetmanual/04_Mineral_nutrition.htm") <http://purl.obolibrary.org/obo/IAO_0000115> :fertilizer_basal_application "A broadcast application in which fertilizer is applied to an area before planting or before seedling emergence."@en)
-SubClassOf(:fertilizer_basal_application :broadcast_application)
-
-# Class: :foliar_application (:foliar_application)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> :foliar_application "An application method in which a liquid material entity is sprayed to the leafy portions of a plant."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :foliar_application "foliar spray"@en)
-SubClassOf(:foliar_application :application_method)
-
-# Class: :furrow_irrigation (:furrow_irrigation)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/T0231E/t0231e04.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/s8684E/s8684e02.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Surface_irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> :furrow_irrigation "A surface irrigation method in which water is carried into small channels called furrows down the land slope between the plant rows. Water is applied to the top end of each furrow and infiltrates into the soil as it moves along the slope channel."@en)
-SubClassOf(:furrow_irrigation :surface_irrigation)
-
-# Class: :irrigation_method (:irrigation_method)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :irrigation_method "A plan specification which describes how water is applied to plants or soil."@en)
-SubClassOf(:irrigation_method <http://purl.obolibrary.org/obo/IAO_0000104>)
-SubClassOf(:irrigation_method ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00002006>))
-
-# Class: :localized_irrigation (:localized_irrigation)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> :localized_irrigation "An irrigation method in which water is distributed under low pressure through a piped network, and is applied as a small discharge to each plant or adjacent to it."@en)
-SubClassOf(:localized_irrigation :irrigation_method)
-
-# Class: :pitcher_irrigation (:pitcher_irrigation)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://forest.mtu.edu/pcforestry/resources/studentprojects/pitcher/") <http://purl.obolibrary.org/obo/IAO_0000115> :pitcher_irrigation "A localized irrigation method in which water is distributed by diffusion and capillary action through the wall of buried unglazed clay pot."@en)
-SubClassOf(:pitcher_irrigation :localized_irrigation)
-
-# Class: :plough_sole_placement (:plough_sole_placement)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://books.google.fr/books?id=pZ0rVya6CW4C&pg=PA156&lpg=PA156&dq=Broadcast+incorporated+plough+sole+placement&source=bl&ots=89TNkPz-j-&sig=a59lhwk5TaKrRROry3ImNW6zhDE&hl=en&sa=X&ved=0ahUKEwjggPWP1anNAhXGWBoKHReIAGkQ6AEITDAJ#v=onepage&q&f=false") <http://purl.obolibrary.org/obo/IAO_0000115> :plough_sole_placement "An application method in which the material entity is placed in a continuous band on the bottom of the furrow during the process of ploughing. Each band is covered as the next furrow is turned. The aim is to place the material entity in moist soil where it can become more available to growing plants."@en)
-SubClassOf(:plough_sole_placement :application_method)
-
-# Class: :rope-wick_application (:rope-wick_application)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.google.com/patents/US4219964") <http://purl.obolibrary.org/obo/IAO_0000115> :rope-wick_application "An application method in which a liquid material entity is conveyed from a reservoir to a rope or wick that is wiped into unwanted plants."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :rope-wick_application "rope-wick treatment"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :rope-wick_application "wiper treatment"@en)
-SubClassOf(:rope-wick_application :application_method)
-
-# Class: :seed_dressing (:seed_dressing)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Seed_treatment") <http://purl.obolibrary.org/obo/IAO_0000115> :seed_dressing "An application method in which a material entity is appplied directly on seeds before seeding."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> :seed_dressing "seed treatment"@en)
-SubClassOf(:seed_dressing :application_method)
-
-# Class: :sidedressing (:sidedressing)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.cals.uidaho.edu/edcomm/pdf/cis/cis0757.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> :sidedressing "A band application in which the material entity is applied after seeding or planting."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :sidedressing "sidedress application"@en)
-SubClassOf(:sidedressing :band_application)
-
-# Class: :soil_injection (:soil_injection)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> :soil_injection "An application method in which a material entity is injected under pressure beneath the soil surface."@en)
-SubClassOf(:soil_injection :application_method)
-SubClassOf(:soil_injection ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
-
-# Class: :sprinkler_irrigation (:sprinkler_irrigation)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "www.fao.org/docrep/s8684e/s8684e06.htm") <http://purl.obolibrary.org/obo/IAO_0000115> :sprinkler_irrigation "An irrigation method in which water is distributed through a system of pipes, and is sprayed into the air through sprinklers so that it breaks up into small water drops which fall to the ground."@en)
-SubClassOf(:sprinkler_irrigation :irrigation_method)
-
-# Class: :sub-irrigation (:sub-irrigation)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Subirrigation") <http://purl.obolibrary.org/obo/IAO_0000115> :sub-irrigation "An irrigation method in which water is delivered to the plant root zone from below the soil surface."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :sub-irrigation "seepage irrigation"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :sub-irrigation "subground irrigation"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :sub-irrigation "subsurface irrigation"@en)
-SubClassOf(:sub-irrigation :irrigation_method)
-
-# Class: :subsurface_drip_irrigation (:subsurface_drip_irrigation)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://ag.arizona.edu/crop/irrigation/azdrip/SDI.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.sswm.info/category/implementation-tools/water-use/hardware/optimisation-water-use-agriculture/subsurface-irrig") <http://purl.obolibrary.org/obo/IAO_0000115> :subsurface_drip_irrigation "An irrigation method in which water is conveyed under pressure through a buried pipe system where it drips slowly below the soil surface close to plants' roots."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :subsurface_drip_irrigation "SDI"@en)
-SubClassOf(:subsurface_drip_irrigation :localized_irrigation)
-SubClassOf(:subsurface_drip_irrigation :sub-irrigation)
-
-# Class: :subsurface_textile_irrigation (:subsurface_textile_irrigation)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://america.pink/subsurface-textile-irrigation_4206598.html") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Subsurface_textile_irrigation") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :subsurface_textile_irrigation "An irrigation method in which water is distributed through a buried piped network with a layer of geotextile on top. Geotextiles absorb the water from the drippers of the piped network and transport that water under the soil surface via mass flow and capillary action."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :subsurface_textile_irrigation "SSTI"@en)
-SubClassOf(:subsurface_textile_irrigation :localized_irrigation)
-SubClassOf(:subsurface_textile_irrigation :sub-irrigation)
-
-# Class: :surface_irrigation (:surface_irrigation)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Surface_irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> :surface_irrigation "An irrigation method in which water is applied and distributed over the soil surface by gravity."@en)
-SubClassOf(:surface_irrigation :irrigation_method)
-
-# Class: :topdressing (:topdressing)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/ag/Agp/agpc/doc/tibetmanual/04_Mineral_nutrition.htm") <http://purl.obolibrary.org/obo/IAO_0000115> :topdressing "A broadcast application in which a material entity is applied to an area after seedling emergence and establishment of plants."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :topdressing "topdress application"@en)
-SubClassOf(:topdressing :broadcast_application)
-
-# Class: :tree_injection (:tree_injection)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> :tree_injection "An application method in which a material entity is injected under the bark of trees."@en)
-SubClassOf(:tree_injection :application_method)
-
-# Class: :uncontrolled_flooding (:uncontrolled_flooding)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/T0231E/t0231e04.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://books.google.fr/books?id=DSvFRbtmb9EC&pg=PA66&lpg=PA66&dq=uncontrolled+flooding+irrigation&source=bl&ots=GZ1pAtoBYD&sig=SU-vFWGW5bKfmMr5q5ppV-6G-Wk&hl=en&sa=X&sqi=2&ved=0ahUKEwjKibDIz6zNAhWGSBQKHa38ANgQ6AEIVTAM#v=onepage&q=uncontrolled%20flooding%20irrigation&f=false") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://irrigationmethods.wordpress.com/") <http://purl.obolibrary.org/obo/IAO_0000115> :uncontrolled_flooding "A surface irrigation method in which water is spread over a flat area without control over water flow or prior preparation."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :uncontrolled_flooding "wild flooding"@en)
-SubClassOf(:uncontrolled_flooding :surface_irrigation)
 
 
 )
