@@ -81,6 +81,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000065>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000066>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000067>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000069>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000070>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 
 
@@ -131,6 +133,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000007> ObjectSomeValuesFrom(<
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000008> "A role that inheres in a water body that is realised in an irrigation process where water is transported from that water body to the target of the irrigation process."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000008> "irrigation water source role"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000008> <http://purl.obolibrary.org/obo/BFO_0000023>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00000063>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000008> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000006>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000009> (irrigation source)
 
@@ -273,10 +277,10 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000034> "inorganic fertilizer"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000034> <http://purl.obolibrary.org/obo/CHEBI_33287>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000035> (pest)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000035> (pest role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000035> "A role that inheres in an organism that is realized in an agricultural process where the organism is unwanted."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000035> "pest"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000035> "pest role"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000035> <http://purl.obolibrary.org/obo/BFO_0000023>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/OBI_0100026>))
 
@@ -520,6 +524,21 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000068> "uncontrolled flooding"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000068> <http://purl.obolibrary.org/obo/AGRO_00000063>)
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000069> (biological pest control agent role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000069> "A role that inheres in an organism that is realised in a pest control process where that organism is used to suppress unwanted organisms."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000069> "biological pest control agent role"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000069> <http://purl.obolibrary.org/obo/BFO_0000023>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000069> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/OBI_0100026>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000069> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000023>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000070> (liming role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000070> "A role that inheres in an environmental material that is realised in a land preparation process where that environmental material is applied to soil in order to neutralize soil acidity."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000070> "liming role"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000070> <http://purl.obolibrary.org/obo/BFO_0000023>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00010483>))
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_01000000> "A planned process in which fertilizer is applied to an environmental material to promote the growth of a plant.")
@@ -538,6 +557,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_18219> ObjectSomeValuesFrom(<ht
 # Class: <http://purl.obolibrary.org/obo/CHEBI_31341> (calcium dihydroxide)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31341> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000034>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31341> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000070>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_32036> (potassium sulfate)
 
@@ -581,6 +601,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_91238> ObjectSomeValuesFrom(<ht
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00000020> (lake)
 
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000020> <http://purl.obolibrary.org/obo/AGRO_00000009>)
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>))
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00000022> (river)
