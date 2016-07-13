@@ -83,6 +83,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000067>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000068>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000069>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000075>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000076>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000077>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000078>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000079>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 
 
@@ -539,6 +544,44 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000070> "l
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000070> <http://purl.obolibrary.org/obo/BFO_0000023>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00010483>))
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000075> (green manure)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.manytracks.com/Garden/GreenManure.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Green_manure") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000075> "Plants that are grown to be tilled, or cut down to lay on top of the ground for the purpose of adding organic matter and nutrients to the soil."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000075> "green manure"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000075> <http://purl.obolibrary.org/obo/ENVO_0010003>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000075> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000076> (farmyard manure)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Manure") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000076> "Animal manure that contains plant material, which has been used as bedding for animals and has absorbed the feces and urine."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000076> "FYM"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000076> "barnyard manure"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000076> "farmyard manure"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000076> <http://purl.obolibrary.org/obo/AGRO_00000079>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000076> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000077> (farm slurry)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://articles.extension.org/pages/8920/slurry-manure-collection-and-handling-systems") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000077> "An animal manure made of animal feces and urine with no or very little material used for animal bedding."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000077> "slurry manure"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000077> "farm slurry"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000077> <http://purl.obolibrary.org/obo/AGRO_00000079>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000077> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000078> (liquid manure)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000078> "An animal manure made of animal urine and sometimes waste water."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000078> "liquid manure"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000078> <http://purl.obolibrary.org/obo/AGRO_00000079>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000078> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000079> (animal manure)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Manure") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000079> "Organic matter mostly derived from animal feces which can be used as organic fertilizer in agriculture."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000079> "animal manure"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000079> <http://purl.obolibrary.org/obo/ENVO_0010003>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000079> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_01000000> "A planned process in which fertilizer is applied to an environmental material to promote the growth of a plant.")
@@ -615,6 +658,18 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000027> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/ENVO_00002041> (ground water)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>))
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00002044> (sludge)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000070>))
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00002053> (limestone)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000070>))
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00002054> (chalk)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000070>))
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00002170> (compost)
 
