@@ -579,16 +579,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CARO_0001008 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0001008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115 xml:lang="en">Anatomical structure that is part of a multicellular organism and is at the gross anatomical level, e.g. above the level of a cell.  Included are portions of organism substances such as blood, multi-cell-part structures such as axon tracts, acellular anatomical structures such as hair, and organism subdivisions such as head. Excluded is the whole organism and more granular parts of the organism, such as atoms, molecules, macromolecular complexes and cells.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">gross anatomical part</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
@@ -1836,6 +1826,7 @@ clustering algorithm.</obo:IAO_0000115>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a planned process that carries out a study design</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a planned process that realizes the concretization of a study design</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">study design execution</rdfs:label>
     </owl:Class>
@@ -3182,8 +3173,8 @@ class labels for these objects. The resulting predictor can be used to attach cl
                                         <owl:someValuesFrom>
                                             <owl:Class>
                                                 <owl:unionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CARO_0001008"/>
                                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
+                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000465"/>
                                                 </owl:unionOf>
                                             </owl:Class>
                                         </owl:someValuesFrom>
@@ -3350,6 +3341,16 @@ class labels for these objects. The resulting predictor can be used to attach cl
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002201"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Handedness where the organism exhibits no overall dominance in the use of right or left hand or foot in the performance of tasks that require one hand or foot or a dominant hand or foot.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ambidextrous handedness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000465">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical entity that has mass.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material anatomical entity</rdfs:label>
     </owl:Class>
     
 
@@ -4932,7 +4933,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
         <doap:bug-database rdf:resource="http://purl.obolibrary.org/obo/obi/tracker"/>
         <doap:homepage rdf:resource="http://purl.obolibrary.org/obo/obi"/>
         <doap:mailing-list rdf:resource="mailto:obi-users@googlegroups.com"/>
-        <doap:release rdf:resource="http://purl.obolibrary.org/obo/obi/2015-12-07/obi.owl"/>
+        <doap:release rdf:resource="http://purl.obolibrary.org/obo/obi/2016-06-30/obi.owl"/>
         <doap:repository rdf:resource="http://purl.obolibrary.org/obo/obi/repository"/>
         <doap:wiki rdf:resource="http://purl.obolibrary.org/obo/obi/wiki"/>
     </owl:NamedIndividual>
@@ -4957,12 +4958,12 @@ class labels for these objects. The resulting predictor can be used to attach cl
     
 
 
-    <!-- http://purl.obolibrary.org/obo/obi/2015-12-07/obi.owl -->
+    <!-- http://purl.obolibrary.org/obo/obi/2016-06-30/obi.owl -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/obi/2015-12-07/obi.owl">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/obi/2016-06-30/obi.owl">
         <doap:file-release rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <doap:file-release rdf:resource="http://purl.obolibrary.org/obo/obi/2015-12-07/obi.owl"/>
-        <doap:revision>SVN Revision: exported</doap:revision>
+        <doap:file-release rdf:resource="http://purl.obolibrary.org/obo/obi/2016-06-30/obi.owl"/>
+        <doap:revision>SVN Revision: Unversioned directory</doap:revision>
     </owl:NamedIndividual>
     
 
