@@ -92,6 +92,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000080>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000081>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000083>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000084>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000085>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000086>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000087>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 
 
@@ -603,8 +607,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000081> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000082> (fish emulsion)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://organicgardening.about.com/od/organicgardeningglossary/g/fishemulsion.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Fish_emulsion") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000082> "An animal manure that is produced from the fluid remains of fish processed for fish oil and fish meal industrially."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000082> "fish hydrolysate"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://organicgardening.about.com/od/organicgardeningglossary/g/fishemulsion.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Fish_emulsion") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Fish_hydrolysate") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000082> "An animal manure that is produced from ground-up whole fish or by-products mixed with water, and heated to remove oils and proteins."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000082> "fish emulsion"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000082> <http://purl.obolibrary.org/obo/AGRO_00000079>)
 
@@ -613,6 +616,34 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000082> <http://purl.obolibrar
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/wairdocs/tan/x5926e/x5926e01.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000083> "An animal manure obtained by drying and grinding or otherwise treating fish or fish waste to which no other matter has been added."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000083> "fish meal"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000083> <http://purl.obolibrary.org/obo/AGRO_00000079>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000084> (fish hydrolysate)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Fish_hydrolysate") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000084> "An animal manure made from whole fish or by-products put into water and cold-ground up."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000084> "fish hydrolysate"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000084> <http://purl.obolibrary.org/obo/AGRO_00000079>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000085> (oil cake)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Press_cake") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000085> "The biomass remaining after pressing oil seeds to extract oil."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000085> "oil cake"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000085> <http://purl.obolibrary.org/obo/ENVO_0010003>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000085> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000086> (blood meal)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Blood_meal") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000086> "Dry, inert powder made from blood. Blood usually comes from cattle or hogs as a slaughterhouse by-product."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000086> "blood meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000086> <http://purl.obolibrary.org/obo/ENVO_0010003>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000086> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000087> (bagasse)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Bagasse"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000087> "The biomass remaining after sugarcane stalks are crushed to extract their juice."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000087> "bagasse"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000087> <http://purl.obolibrary.org/obo/ENVO_00002872>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000087> <http://purl.obolibrary.org/obo/ENVO_0010003>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000087> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
@@ -693,6 +724,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002041> ObjectSomeValuesFrom(<
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00002044> (sludge)
 
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000070>))
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00002053> (limestone)
@@ -706,10 +738,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002054> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/ENVO_00002170> (compost)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
-
-# Class: <http://purl.obolibrary.org/obo/ENVO_00002872> (bagasse)
-
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002872> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000070> (assay)
 
