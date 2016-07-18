@@ -88,6 +88,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000076>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000077>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000078>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000079>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000080>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000081>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000082>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000083>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 
 
@@ -581,6 +585,34 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000079> "animal manure"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000079> <http://purl.obolibrary.org/obo/ENVO_0010003>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000079> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000080> (poultry litter)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Poultry_litter#Litter_amendments") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000080> "An animal manure that contains poultry excreta, spilled feed, feathers, and material used as bedding in poultry operations."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000080> "broiler litter"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000080> "chicken litter"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000080> "poultry litter"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000080> <http://purl.obolibrary.org/obo/AGRO_00000079>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000080> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000081> (fish manure)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.collinsdictionary.com/dictionary/english/fish-manure") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.fishnure.com/about-us/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000081> "An animal manure that contains solid waste from fishes often originateing from aquaculture operations."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000081> "fish manure"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000081> <http://purl.obolibrary.org/obo/AGRO_00000079>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000082> (fish emulsion)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://organicgardening.about.com/od/organicgardeningglossary/g/fishemulsion.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Fish_emulsion") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000082> "An animal manure that is produced from the fluid remains of fish processed for fish oil and fish meal industrially."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000082> "fish hydrolysate"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000082> "fish emulsion"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000082> <http://purl.obolibrary.org/obo/AGRO_00000079>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000083> (fish meal)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/wairdocs/tan/x5926e/x5926e01.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000083> "An animal manure obtained by drying and grinding or otherwise treating fish or fish waste to which no other matter has been added."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000083> "fish meal"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000083> <http://purl.obolibrary.org/obo/AGRO_00000079>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
