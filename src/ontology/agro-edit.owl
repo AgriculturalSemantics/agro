@@ -132,6 +132,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000120>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000121>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000122>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000123>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000124>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000125>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000126>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000127>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 
 
@@ -146,6 +150,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000002> "tillage process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000002> <http://purl.obolibrary.org/obo/AGRO_00000108>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000002> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000124>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000004> (land levelling process)
@@ -913,6 +918,33 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000122> <http://purl.obolibrar
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000123> "elephant"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000123> <http://purl.obolibrary.org/obo/AGRO_00000116>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000124> (tractor)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Tractor") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000124> "A mobile machine specifically designed to deliver a high tractive effort at slow speeds, and mainly used for the purposes of hauling a trailer or machinery used in agriculture or construction."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000124> "tractor"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000124> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000125> (single-axle tractor)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Two-wheel_tractor") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000125> "A tractor with one axle, self-powered and self-propelled. The operator usually walks behind it or rides the implement being towed."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/AGRO_00000125> "two-wheel tractor"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000125> "walking tractor"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000125> "single-axle tractor"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000125> <http://purl.obolibrary.org/obo/AGRO_00000124>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000126> (two-axle tractor)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Tractor#Tractor_configurations") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000126> "A tractor with two axles. Agricultural implements may be towed behind or mounted on the tractor, and the tractor may also provide a source of power if the implement is mechanized."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000126> "four-wheel tractor"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000126> "two-axle tractor"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000126> <http://purl.obolibrary.org/obo/AGRO_00000124>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000127> (clod crusher)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000127> "clod crusher"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000127> <http://purl.obolibrary.org/obo/BFO_0000030>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
