@@ -136,6 +136,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000124>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000125>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000126>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000127>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000128>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000129>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 
 
@@ -943,8 +945,26 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000126> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000127> (clod crusher)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.wordnik.com/words/clod-crusher") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000127> "A roller armed with blunt spikes for dragging over newly plowed land to break the clods and render it fit for seeding."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000127> "clod crusher"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000127> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000127> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000128> (disk harrow)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Disc_harrow") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000128> "An implement that consists of many carbon steel or boron discs, which have many varying concavities and disc blade sizes and spacing and which are arranged into two or four sections. It is used to till the soil where crops are to be planted. It is also used to chop up unwanted weeds or crop remainders."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000128> "bladed harrow"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000128> "disc plough"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000128> "disk harrow"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000128> <http://purl.obolibrary.org/obo/BFO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000129> (mouldboard plough)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://lambangjaya.com/product/detail/mouldboard-plough.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000129> "An implement that cut, lift and reverse soil with a cutting depth of approximately 15 cm."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000129> "frame-plough"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000129> "moldboard plow"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000129> "mouldboard plough"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000129> <http://purl.obolibrary.org/obo/BFO_0000030>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
