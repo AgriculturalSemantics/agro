@@ -354,7 +354,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000038> "banding"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000038> "band application"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000038> <http://purl.obolibrary.org/obo/AGRO_00000036>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000039> (side dressing)
 
@@ -456,7 +455,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000051> <http://purl.obolibrar
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000052> "An application method in which a material entity is injected under pressure beneath the soil surface."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000052> "soil injection"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000052> <http://purl.obolibrary.org/obo/AGRO_00000036>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000053> (tree injection)
 
@@ -470,7 +468,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000054> "irrigation method"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000054> <http://purl.obolibrary.org/obo/IAO_0000104>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000006>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00002006>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000055> (localized irrigation process)
 
