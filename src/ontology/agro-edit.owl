@@ -154,7 +154,19 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000142>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000143>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000144>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000145>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000146>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000147>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000149>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purl.obolibrary.org/obo/AGRO_00000148> (has method)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000148> "has method"@en)
 
 
 
@@ -1121,6 +1133,25 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000145> "a
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000145> <http://purl.obolibrary.org/obo/BFO_0000030>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000145> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000024>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000145> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000146> (furrow opener)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000146> "An implement which is used to create well-defined grooves in the soil where some material like seeds or fertilizer can be placed at a proper depth."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000146> "furrow opener"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000146> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000146> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000142>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000146> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000147> (air temperature measurement)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000147> "air temperature measurement"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000147> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000148> <http://purl.obolibrary.org/obo/AGRO_00000149>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000027>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_09200001>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000147> <http://purl.obolibrary.org/obo/IAO_0000109>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000149> (air temperature measurement protocol)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000149> "air temperature measurement protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000149> <http://purl.obolibrary.org/obo/OBI_0000272>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
