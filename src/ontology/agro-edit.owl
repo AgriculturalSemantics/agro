@@ -158,6 +158,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000146>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000147>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000149>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
+Declaration(Class(:AGRO_00000150))
+Declaration(Class(:AGRO_00000151))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 
 ############################
@@ -1280,6 +1282,20 @@ SubClassOf(<http://purl.obolibrary.org/obo/PO_0000003> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/PO_0009010> (seed)
 
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009010> <http://purl.obolibrary.org/obo/AGRO_00000032>)
+
+# Class: :AGRO_00000150 (seeding area density)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :AGRO_00000150 "A area density quality which inheres in seeds by virtue of some influence exerted by the mass of the seeds sown on a given surface area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :AGRO_00000150 "seeding rate"@en)
+AnnotationAssertion(rdfs:label :AGRO_00000150 "seeding area density"@en)
+SubClassOf(:AGRO_00000150 <http://purl.obolibrary.org/obo/PATO_0001351>)
+
+# Class: :AGRO_00000151 (seeding area density measurement datum)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :AGRO_00000151 "A measurement datum that is the measure of the density of seed sown on a given area."@en)
+AnnotationAssertion(rdfs:label :AGRO_00000151 "seeding area density measurement datum"@fr)
+SubClassOf(:AGRO_00000151 <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(:AGRO_00000151 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> :AGRO_00000150))
 
 
 )
