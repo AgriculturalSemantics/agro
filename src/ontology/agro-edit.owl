@@ -155,7 +155,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000143>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000144>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000145>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000146>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000147>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000149>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(:AGRO_00000150))
@@ -196,6 +195,10 @@ Declaration(Class(:AGRO_00000184))
 Declaration(Class(:AGRO_00000185))
 Declaration(Class(:AGRO_00000186))
 Declaration(Class(:AGRO_00000187))
+Declaration(Class(:AGRO_00000188))
+Declaration(Class(:AGRO_00000189))
+Declaration(Class(:AGRO_00000190))
+Declaration(Class(:AGRO_00000191))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 
 ############################
@@ -1180,12 +1183,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000146> <http://purl.obolibrar
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000146> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000142>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000146> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000147> (air temperature measurement)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000147> "air temperature measurement"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000147> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000148> <http://purl.obolibrary.org/obo/AGRO_00000149>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000027>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_09200001>)))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000147> <http://purl.obolibrary.org/obo/IAO_0000109>)
-
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000149> (air temperature measurement protocol)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000149> "air temperature measurement protocol"@en)
@@ -1570,6 +1567,34 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :AGRO_00000187 
 AnnotationAssertion(rdfs:label :AGRO_00000187 "manganese area density measurement datum"@en)
 SubClassOf(:AGRO_00000187 <http://purl.obolibrary.org/obo/IAO_0000109>)
 SubClassOf(:AGRO_00000187 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> :AGRO_00000180))
+
+# Class: :AGRO_00000188 (chlorine area density)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :AGRO_00000188 "An area density quality which inheres in chlorine by virtue of some influence exerted by the mass of chlorine applied in a given surface area."@en)
+AnnotationAssertion(rdfs:label :AGRO_00000188 "chlorine area density"@en)
+SubClassOf(:AGRO_00000188 <http://purl.obolibrary.org/obo/PATO_0001351>)
+
+# Class: :AGRO_00000189 (chlorine area density measurement datum)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :AGRO_00000189 "A measurement datum that is the measure of the density of chlorine applied to a given area."@en)
+AnnotationAssertion(rdfs:label :AGRO_00000189 "chlorine area density measurement datum"@en)
+SubClassOf(:AGRO_00000189 <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(:AGRO_00000189 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> :AGRO_00000188))
+
+# Class: :AGRO_00000190 (tillage tool blade length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :AGRO_00000190 "A lenght quality which is equal to the lenght of the tillage tool that penetrate into the soil."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> :AGRO_00000190 "tillage depth"@en)
+AnnotationAssertion(rdfs:label :AGRO_00000190 "tillage tool blade length"@en)
+SubClassOf(:AGRO_00000190 <http://purl.obolibrary.org/obo/PATO_0000122>)
+
+# Class: :AGRO_00000191 (tillage tool blade length measurement datum)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :AGRO_00000191 "A measurement datum that is the measure of the lenght of the tillage tool blade that penetrate into the soil."@en)
+AnnotationAssertion(rdfs:label :AGRO_00000191 "tillage tool blade length measurement datum"@en)
+SubClassOf(:AGRO_00000191 <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(:AGRO_00000191 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000001>))
+SubClassOf(:AGRO_00000191 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> :AGRO_00000190))
 
 
 )
