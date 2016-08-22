@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/agro/imports/pato_import.owl#"
      xml:base="http://purl.obolibrary.org/obo/agro/imports/pato_import.owl"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/agro/imports/pato_import.owl"/>
     
 
@@ -166,6 +166,22 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality that is the extent of space between two entities.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality which inheres in a bearer by virtue of the number of the bearer&apos;s repetitive actions in a particular time.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frequency</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000044"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality which inheres in a bearer by virtue of the number of the bearer&apos;s repetitive actions in a particular time.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:http://en.wikipedia.org/wiki/frequency</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -393,6 +409,22 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality inhering in a bearer by virtue of the bearer&apos;s sensitivity towards a fixed location or value where a change is observed; upper limit.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000161">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002062"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality of a single process inhering in a bearer by virtue of the bearer&apos;s occurrence per unit time.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rate</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality of a single process inhering in a bearer by virtue of the bearer&apos;s occurrence per unit time.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:melissa</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -659,6 +691,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0001021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality inhering in a bearer by virtue of the bearer&apos;s capacity to do work.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">energy</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001021"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality inhering in a bearer by virtue of the bearer&apos;s capacity to do work.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:http://en.wikipedia.org/wiki/Energy</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001025 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001025">
@@ -671,6 +719,23 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality that inheres in a bearer by virtue of the bearer&apos;s amount of force per unit area it exerts.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality which is equal to the energy transferred by a force to a moving object.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">work</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001026"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality which is equal to the energy transferred by a force to a moving object.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:http://en.wikipedia.org/wiki/Work</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -704,6 +769,26 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality inhering in a bearer by virtue of the bearer&apos;s rate of change of momentum.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thesaurus.maths:thesaurus.maths</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001236">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality which inheres in an process.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of a process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of occurrent</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relational quality of occurrent</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process quality</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001236"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality which inheres in an process.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -829,6 +914,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0001309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002062"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A process quality inhering in a bearer by virtue of the bearer&apos;s magnitude of the temporal extent between the starting and ending point.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">period</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">duration</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001309"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A process quality inhering in a bearer by virtue of the bearer&apos;s magnitude of the temporal extent between the starting and ending point.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:mellybelly</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001323 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001323">
@@ -861,6 +964,70 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0001352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001019"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A density quality which is equal to the mass exerting an influence on a one-dimensional object.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linear density</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001352"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A density quality which is equal to the mass exerting an influence on a one-dimensional object.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:http://en.wikipedia.org/wiki/Linear_density</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001353">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001019"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A density quality which inheres in a bearer by virtue of some influence exerted by the bearer&apos;s mass on a given volume.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volumetric density</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001353"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A density quality which inheres in a bearer by virtue of some influence exerted by the bearer&apos;s mass on a given volume.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:http://en.wikipedia.org/wiki/Mass_density</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001428">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001842"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A concentration quality inhering in a medium by virtue of the bearer&apos;s tendency to hydronate a specific reference base.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medium acidity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001428"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A concentration quality inhering in a medium by virtue of the bearer&apos;s tendency to hydronate a specific reference base.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemicool:chemicool</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001464">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality that is equal to the potential energy per unit charge associated with a static (time-invariant) electric field, also called the electrostatic potential.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electric potential</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001464"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality that is equal to the potential energy per unit charge associated with a static (time-invariant) electric field, also called the electrostatic potential.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:http://en.wikipedia.org/wiki/Electric_potential</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001547 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001547">
@@ -875,6 +1042,22 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality inhering in a bearer by virtue of the bearer&apos;s exhibiting the physical characteristics of an entity consisting of particles that have neither a defined volume nor defined shape.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemistry:http://chemistry.about.com/od/chemistryglossary/a/gasdefinition.htm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001574">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001906"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality inhering in a bearer by virtue of the bearer&apos;s motion characteristic.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flow rate</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001574"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality inhering in a bearer by virtue of the bearer&apos;s motion characteristic.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WordNet:WordNet</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1092,6 +1275,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0001842 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001842">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A concentration quality inhering in a bearer by virtue of the bearer&apos;s containing acid (hydrogen ions).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pH</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acidity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001842"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A concentration quality inhering in a bearer by virtue of the bearer&apos;s containing acid (hydrogen ions).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biology-online:biology-online</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001906 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001906">
@@ -1121,6 +1321,15 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality that inheres in an entire organism or part of an organism.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:CJM</oboInOwl:hasDbXref>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001236"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical quality of a process</rdfs:label>
+    </owl:Class>
     
 
 
