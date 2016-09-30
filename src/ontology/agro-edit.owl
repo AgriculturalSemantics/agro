@@ -156,6 +156,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000144>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000145>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000146>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000149>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000150>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000152>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000153>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(:AGRO_00000150))
 Declaration(Class(:AGRO_00000151))
@@ -780,10 +783,10 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000089> "c
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000089> <http://purl.obolibrary.org/obo/AGRO_00000088>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000089> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000090> (Alfalfa meal)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000090> (alfalfa meal)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.feedipedia.org/node/275") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000090> "An agricultural environmental material that contains ground dry alfalfa."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000090> "Alfalfa meal"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000090> "alfalfa meal"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000090> <http://purl.obolibrary.org/obo/ENVO_00010483>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000090> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000090> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
@@ -1187,19 +1190,30 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000146> <http://purl.obolibrar
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000146> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000142>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000146> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
 
-<<<<<<< HEAD
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000147> (air temperature measurement)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000147> "air temperature measurement"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000147> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000148> <http://purl.obolibrary.org/obo/AGRO_00000149>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000027>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_09200001>)))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000147> <http://purl.obolibrary.org/obo/IAO_0000109>)
-
-=======
->>>>>>> origin/master
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000149> (air temperature measurement protocol)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000149> "air temperature measurement protocol"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000149> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000150> (crop residue)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://stats.oecd.org/glossary/detail.asp?ID=480") <http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/AGRO_00000150> "Plant material remaining on the field ground after harvesting, including leaves, stalks, roots."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000150> "crop residue"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000150> <http://purl.obolibrary.org/obo/PO_0025131>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000152> (row)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000152> "A number of environmental features arranged in a line."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000152> "row"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000152> <http://purl.obolibrary.org/obo/ENVO_01000408>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000152> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_00000114>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000153> (interrow)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000153> "Space between two rows."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000153> "interrow"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000153> <http://purl.obolibrary.org/obo/ENVO_01000408>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000153> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_00000114>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
@@ -1285,6 +1299,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000022> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/ENVO_00000027> (spring)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>))
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000114> (agricultural field)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000114> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/AGRO_00000152>))
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000114> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/AGRO_00000153>))
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00002041> (ground water)
 
