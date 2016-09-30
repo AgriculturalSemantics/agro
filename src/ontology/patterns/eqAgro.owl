@@ -1,0 +1,163 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: UO: <http://purl.obolibrary.org/obo/UO_>
+Prefix: AGRO: <http://purl.obolibrary.org/obo/AGRO__>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/eqagro>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: agro/eq/entity
+AnnotationProperty: agro/eq/attribute
+AnnotationProperty: oio:hasDefinition
+ObjectProperty: BFO_0000050 ## part of
+ObjectProperty: RO_0000052 ## inheres in
+ObjectProperty: RO_0002314 ## inheres in part of
+## Auto-generated classes
+
+Class: CHEBI_33287 ## fertilizer
+Class: PATO_0001351 ## area density
+## {"entity": "CHEBI_33287", "attribute": "PATO_0001351"}
+Class: AGRO_00000156
+ Annotations: rdfs:label "fertilizer area density"
+ Annotations: IAO:0000115 "The area density of a fertilizer."
+ Annotations: oio:hasDefinition "Quantity of fertilizer applied to soils or plant tissues in one treatment. "
+ EquivalentTo: PATO_0001351 and RO_0000052 some CHEBI_33287 ## area density and 'inheres in' some fertilizer
+
+Class: CHEBI_25555 ## nitrogen
+Class: PATO_0001351 ## area density
+## {"entity": "CHEBI_25555", "attribute": "PATO_0001351"}
+Class: AGRO_00000158
+ Annotations: rdfs:label "nitrogen area density"
+ Annotations: IAO:0000115 "The area density of a nitrogen."
+ Annotations: oio:hasDefinition "Total amount of nitrogen applied to the soil over the season"
+ EquivalentTo: PATO_0001351 and RO_0000052 some CHEBI_25555 ## area density and 'inheres in' some nitrogen
+
+Class: CHEBI_28659 ## phosphorus
+Class: PATO_0001351 ## area density
+## {"entity": "CHEBI_28659", "attribute": "PATO_0001351"}
+Class: AGRO_00000160
+ Annotations: rdfs:label "phosphorus area density"
+ Annotations: IAO:0000115 "The area density of a phosphorus."
+ Annotations: oio:hasDefinition "Total amount of phosphorus applied over season."
+ EquivalentTo: PATO_0001351 and RO_0000052 some CHEBI_28659 ## area density and 'inheres in' some phosphorus
+
+Class: CHEBI_26216 ## potassium
+Class: PATO_0001351 ## area density
+## {"entity": "CHEBI_26216", "attribute": "PATO_0001351"}
+Class: AGRO_00000162
+ Annotations: rdfs:label "potassium area density"
+ Annotations: IAO:0000115 "The area density of a potassium."
+ Annotations: oio:hasDefinition "Total amount of potassium applied over season."
+ EquivalentTo: PATO_0001351 and RO_0000052 some CHEBI_26216 ## area density and 'inheres in' some potassium
+
+Class: CHEBI_26833 ## sulfur
+Class: PATO_0001351 ## area density
+## {"entity": "CHEBI_26833", "attribute": "PATO_0001351"}
+Class: AGRO_00000164
+ Annotations: rdfs:label "sulfur area density"
+ Annotations: IAO:0000115 "The area density of a sulfur."
+ Annotations: oio:hasDefinition "Total amount of sulphur applied over season."
+ EquivalentTo: PATO_0001351 and RO_0000052 some CHEBI_26833 ## area density and 'inheres in' some sulfur
+
+Class: CHEBI_17632 ## nitrate
+Class: PATO_0001351 ## area density
+## {"entity": "CHEBI_17632", "attribute": "PATO_0001351"}
+Class: AGRO_00000168
+ Annotations: rdfs:label "nitrate area density"
+ Annotations: IAO:0000115 "The area density of a nitrate."
+ Annotations: oio:hasDefinition "Quantity of nitrate applied"
+ EquivalentTo: PATO_0001351 and RO_0000052 some CHEBI_17632 ## area density and 'inheres in' some nitrate
+
+Class: CHEBI:28938 ## ammonium
+Class: PATO_0001351 ## area density
+## {"entity": "CHEBI:28938", "attribute": "PATO_0001351"}
+Class: AGRO_00000169
+ Annotations: rdfs:label "ammonium area density"
+ Annotations: IAO:0000115 "The area density of a ammonium."
+ Annotations: oio:hasDefinition "Quantity of ammonium applied"
+ EquivalentTo: PATO_0001351 and RO_0000052 some CHEBI:28938 ## area density and 'inheres in' some ammonium
+
+Class: CHEBI_22984 ## calcium
+Class: PATO_0001351 ## area density
+## {"entity": "CHEBI_22984", "attribute": "PATO_0001351"}
+Class: AGRO_00000170
+ Annotations: rdfs:label "calcium area density"
+ Annotations: IAO:0000115 "The area density of a calcium."
+ Annotations: oio:hasDefinition "Quantity of calcium applied"
+ EquivalentTo: PATO_0001351 and RO_0000052 some CHEBI_22984 ## area density and 'inheres in' some calcium
+
+Class: CHEBI:25107 ## toto
+Class: PATO_0001351 ## area density
+## {"entity": "CHEBI:25107", "attribute": "PATO_0001351"}
+Class: AGRO_00000174
+ Annotations: rdfs:label "magnesium area density"
+ Annotations: IAO:0000115 "The area density of a toto."
+ Annotations: oio:hasDefinition "Quantity of magnesium applied "
+ EquivalentTo: PATO_0001351 and RO_0000052 some CHEBI:25107 ## area density and 'inheres in' some toto
+
+Class: CHEBI:18248 ## magnesium
+Class: PATO_0001351 ## area density
+## {"entity": "CHEBI:18248", "attribute": "PATO_0001351"}
+Class: AGRO_00000175
+ Annotations: rdfs:label "iron area density"
+ Annotations: IAO:0000115 "The area density of a magnesium."
+ Annotations: oio:hasDefinition "Quantity of iron applied"
+ EquivalentTo: PATO_0001351 and RO_0000052 some CHEBI:18248 ## area density and 'inheres in' some magnesium
+
+Class: CHEBI:27363 ## zinc
+Class: PATO_0001351 ## area density
+## {"entity": "CHEBI:27363", "attribute": "PATO_0001351"}
+Class: AGRO_00000176
+ Annotations: rdfs:label "zinc area density"
+ Annotations: IAO:0000115 "The area density of a zinc."
+ Annotations: oio:hasDefinition "Quantity of zinc applied"
+ EquivalentTo: PATO_0001351 and RO_0000052 some CHEBI:27363 ## area density and 'inheres in' some zinc
+
+Class: CHEBI:28694 ## copper
+Class: PATO_0001351 ## area density
+## {"entity": "CHEBI:28694", "attribute": "PATO_0001351"}
+Class: AGRO_00000177
+ Annotations: rdfs:label "copper area density"
+ Annotations: IAO:0000115 "The area density of a copper."
+ Annotations: oio:hasDefinition "Quantity of copper applied"
+ EquivalentTo: PATO_0001351 and RO_0000052 some CHEBI:28694 ## area density and 'inheres in' some copper
+
+Class: CHEBI:27560 ## boron
+Class: PATO_0001351 ## area density
+## {"entity": "CHEBI:27560", "attribute": "PATO_0001351"}
+Class: AGRO_00000178
+ Annotations: rdfs:label "boron area density"
+ Annotations: IAO:0000115 "The area density of a boron."
+ Annotations: oio:hasDefinition "Quantity of boron applied"
+ EquivalentTo: PATO_0001351 and RO_0000052 some CHEBI:27560 ## area density and 'inheres in' some boron
+
+Class: CHEBI:28685 ## molybdenum
+Class: PATO_0001351 ## area density
+## {"entity": "CHEBI:28685", "attribute": "PATO_0001351"}
+Class: AGRO_00000179
+ Annotations: rdfs:label "molybdenum area density"
+ Annotations: IAO:0000115 "The area density of a molybdenum."
+ Annotations: oio:hasDefinition "Quantity of molybdenum applied"
+ EquivalentTo: PATO_0001351 and RO_0000052 some CHEBI:28685 ## area density and 'inheres in' some molybdenum
+
+Class: CHEBI:18291 ## manganese
+Class: PATO_0001351 ## area density
+## {"entity": "CHEBI:18291", "attribute": "PATO_0001351"}
+Class: AGRO_00000180
+ Annotations: rdfs:label "manganese area density"
+ Annotations: IAO:0000115 "The area density of a manganese."
+ Annotations: oio:hasDefinition "Quantity of manganese applied"
+ EquivalentTo: PATO_0001351 and RO_0000052 some CHEBI:18291 ## area density and 'inheres in' some manganese
+
+Class: CHEBI:29311 ## chlorine
+Class: PATO_0001351 ## area density
+## {"entity": "CHEBI:29311", "attribute": "PATO_0001351"}
+Class: AGRO_00000188
+ Annotations: rdfs:label "chlorine area density"
+ Annotations: IAO:0000115 "The area density of a chlorine."
+ Annotations: oio:hasDefinition "Quantity of chlorine applied"
+ EquivalentTo: PATO_0001351 and RO_0000052 some CHEBI:29311 ## area density and 'inheres in' some chlorine
