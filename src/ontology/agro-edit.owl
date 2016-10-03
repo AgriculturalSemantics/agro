@@ -203,11 +203,23 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000193>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000194>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000195>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000196>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000197>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000198>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000199>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000200>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000201>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000202>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000203>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000204>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000205>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000206>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000207>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000208>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000209>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000210>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000211>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000212>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000213>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 
@@ -607,6 +619,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000061> "waterwheel irrigation"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000061> "center-pivot irrigation process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000061> <http://purl.obolibrary.org/obo/AGRO_00000060>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000061> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000198>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000062> (sub-irrigation process)
 
@@ -1518,6 +1531,29 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000196> ObjectSomeValuesFrom(<
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000196> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000064>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000196> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000066>))
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000197> (liming material)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/nutrient-management/nutrient-lime-guidelines/liming-materials-for-minnesota-soils/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000197> "An environmental material containing calcium and/or magnesium compounds  and applied to soil in order to neutralize soil acidity."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000197> "liming material"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000197> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000198> (center pivot irrigation machine)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Center_pivot_irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000198> "Form of overhead sprinkler irrigation consisting of several segments of pipe joined together and supported by trusses, mounted on wheeled towers with sprinklers positioned along its length. The machine moves in a circular pattern and is fed with water from the pivot point at the center of the circle."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000198> "central pivot irrigation machine"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000198> "circle irrigation machine"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000198> "waterwheel irrigation machine"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000198> "center pivot irrigation machine"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000198> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000198> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000061>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000199> (percolation process in soil)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://kula.geol.wwu.edu/rjmitch/L8_soils_percolation.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Percolation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000199> "Hydrological process in which water move through soil and permeable rocks."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000199> "percolation process in soil"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000199> <http://purl.obolibrary.org/obo/ENVO_02500031>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000199> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000200> (fertilizer area density)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000200> "An area density quality which inheres in fertilizer by virtue of some influence exerted by the mass of fertilizer applied in a given surface area."@en)
@@ -1545,12 +1581,66 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000203> "p
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000203> <http://purl.obolibrary.org/obo/IAO_0000109>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000203> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000205>))
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000204> (heat treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000204> "A pest control process in wich extremely hot temperature are used to kill pest."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000204> "heat treatment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000204> <http://purl.obolibrary.org/obo/AGRO_00000108>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000205> (plant reproductive material area density)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000205> "An area density quality which inheres in plant reproductive material by virtue of some influence exerted by the mass of plant reproductive material planted in a given surface area."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000205> "plant reproductive material area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000205> <http://purl.obolibrary.org/obo/PATO_0001351>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000205> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000032>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000206> (cold treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000206> "A pest control process in which extremely cold temperature are used to kill pest."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000206> "cold treatment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000206> <http://purl.obolibrary.org/obo/AGRO_00000108>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000207> (flood treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000207> "A mechanical pest control process in which the area being treated against pest is saturated with water at a depth of 15 to 30 cm for a period of 3 to 8 weeks."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000207> "flood treatment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000207> <http://purl.obolibrary.org/obo/AGRO_00000108>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000208> (soil solarization treatment)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Soil_solarization") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000208> "A mechanical pest control process in which the soil is covered with a layer of clear or black plastic. The plastic that is covering the ground traps heat energy from the sun and raises the temperature of the soil killing pest."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000208> "soil solarization treatment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000208> <http://purl.obolibrary.org/obo/AGRO_00000108>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000209> (fire treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000209> "A mechanical pest control process in which pest or area with pest are directly burned and flamed."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000209> "fire treatment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000209> <http://purl.obolibrary.org/obo/AGRO_00000108>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000210> (steam treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000210> "A mechanical pest control process in which steam is used to kill pest."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000210> "steam treatment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000210> <http://purl.obolibrary.org/obo/AGRO_00000108>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000211> (diatomaceous earth spreading)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Diatomaceous_earth") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000211> "A mechanical pest process in which diatomaceous earth is used to kill pest. Diatomaceous earth is composed of finely ground skeletons of fossil diatoms. Sharp edges of the ground diatoms scratch the waxy or oily outer layer of soft-bodied insects, which die eventually from dehydration."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000211> "diatomaceous earth spreading"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000211> <http://purl.obolibrary.org/obo/AGRO_00000108>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000212> (crop residue burning process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000212> "A crop residue management process in which crop residues are burned in the field."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000212> "crop residue burning process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000212> <http://purl.obolibrary.org/obo/AGRO_00000005>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000213> (crop residue spreading process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000213> "A crop residue management process in which crop residues are spread across the field."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000213> "crop residue spreading process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000213> <http://purl.obolibrary.org/obo/AGRO_00000005>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
@@ -1573,11 +1663,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_18219> ObjectSomeValuesFrom(<ht
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_31341> (calcium dihydroxide)
 
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31341> <http://purl.obolibrary.org/obo/AGRO_00000197>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31341> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000034>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31341> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000070>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_31344> (calcium oxide)
 
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31344> <http://purl.obolibrary.org/obo/AGRO_00000197>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31344> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000070>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_32036> (potassium sulfate)
@@ -1649,12 +1741,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002041> ObjectSomeValuesFrom(<
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00002044> (sludge)
 
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002044> <http://purl.obolibrary.org/obo/AGRO_00000197>)
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000070>))
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00002053> (limestone)
 
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002053> <http://purl.obolibrary.org/obo/AGRO_00000197>)
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000070>))
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00002054> (chalk)
