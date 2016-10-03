@@ -157,7 +157,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000145>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000146>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000147>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000149>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000150>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000151>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000152>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000153>))
@@ -169,6 +168,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000158>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000159>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000160>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000161>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000162>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000163>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000164>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000165>))
@@ -202,6 +202,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000192>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000193>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000194>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000195>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000196>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000200>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000201>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000202>))
@@ -628,6 +629,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000064> "Basin irrigation is suitable for crops that are unaffected by standing in water for long periods (e.g. 12-24 hours) like rice or some trees."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000064> "bassin irrigation process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000064> <http://purl.obolibrary.org/obo/AGRO_00000063>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000196>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000065> (continuous flood process)
 
@@ -645,6 +647,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000066> "Borders are typically longer and narrower compared to basin irrigation."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000066> "border irrigation process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000066> <http://purl.obolibrary.org/obo/AGRO_00000063>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000066> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000196>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000067> (furrow irrigation process)
 
@@ -1277,6 +1280,12 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000161> "p
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000161> <http://purl.obolibrary.org/obo/IAO_0000109>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000161> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000160>))
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000162> (irrigation tube)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000162> "Object with a tube shape used to carry irrigation water through the field"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000162> "irrigation tube"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000162> <http://purl.obolibrary.org/obo/BFO_0000030>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000163> (potassium area density measurement datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000163> "A measurement datum that is the measure of the density of potassium applied to a given area."@en)
@@ -1497,6 +1506,18 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000195> "mulch color measurement datum"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000195> <http://purl.obolibrary.org/obo/IAO_0000109>)
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000196> (bund)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/s8684E/s8684e03.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000196> "Small earth embankment which contain irrigation water within basins."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000196> "dyke"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000196> "levee"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000196> "ridge"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000196> "bund"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000196> <http://purl.obolibrary.org/obo/ENVO_01000408>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000196> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_00000114>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000196> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000064>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000196> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000066>))
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000200> (fertilizer area density)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000200> "An area density quality which inheres in fertilizer by virtue of some influence exerted by the mass of fertilizer applied in a given surface area."@en)
@@ -1620,6 +1641,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000027> ObjectSomeValuesFrom(<
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000114> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/AGRO_00000155>))
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000114> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/AGRO_00000156>))
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000114> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/AGRO_00000196>))
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00002041> (ground water)
 
