@@ -220,6 +220,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000210>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000211>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000212>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000213>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000214>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000215>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000216>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 
@@ -1641,6 +1644,24 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000212> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000213> "A crop residue management process in which crop residues are spread across the field."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000213> "crop residue spreading process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000213> <http://purl.obolibrary.org/obo/AGRO_00000005>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000214> (traditional land levelling process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000214> "A land levelling process which uses animal drawn or tractor-drawn levelers."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000214> "traditional land levelling process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000214> <http://purl.obolibrary.org/obo/AGRO_00000004>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000215> (trapping process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%201.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000215> "A mechanical pest exclusion process in which pest are physically caught."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000215> "trapping process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000215> <http://purl.obolibrary.org/obo/AGRO_00000109>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000216> (using barrier process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%201.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000216> "A mechanical pest exclusion process in which barriers are used to prevent pest from getting into the area to be protected."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000216> "using barrier process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000216> <http://purl.obolibrary.org/obo/AGRO_00000109>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
