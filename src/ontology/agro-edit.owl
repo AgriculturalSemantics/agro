@@ -223,6 +223,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000213>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000214>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000215>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000216>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000217>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000218>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000219>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000220>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 
@@ -1653,15 +1657,41 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000214> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000215> (trapping process)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%201.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000215> "A mechanical pest exclusion process in which pest are physically caught."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%201.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000215> "A mechanical pest removal process in which pests are physically caught."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000215> "trapping process"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000215> <http://purl.obolibrary.org/obo/AGRO_00000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000215> <http://purl.obolibrary.org/obo/AGRO_00000110>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000216> (using barrier process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%201.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000216> "A mechanical pest exclusion process in which barriers are used to prevent pest from getting into the area to be protected."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000216> "using barrier process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000216> <http://purl.obolibrary.org/obo/AGRO_00000109>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000217> (hand picking process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000217> "A mechanical pest removal process in which unwanted organisms are removed by hands."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000217> "hand pulling"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000217> "hand picking process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000217> <http://purl.obolibrary.org/obo/AGRO_00000110>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000218> (water pressure spraying process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000218> "A mechanical pest removal process in which a forceful stream of water is used to dislodge pests."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000218> "water pressure spraying process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000218> <http://purl.obolibrary.org/obo/AGRO_00000110>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000219> (insect vacuuming process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000219> "A mechanical pest removal process in which a field vacuum is used to suck insects from plants."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000219> "insect vacuuming process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000219> <http://purl.obolibrary.org/obo/AGRO_00000110>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000220> (mowing process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000220> "A process in which the above ground of the plants are cut or shred. It can be used to reduce weed seed populations or restrict the growth of weeds."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000220> "mowing process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000220> <http://purl.obolibrary.org/obo/AGRO_00000025>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000220> <http://purl.obolibrary.org/obo/AGRO_00000110>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
