@@ -15,8 +15,8 @@ Import(<http://purl.obolibrary.org/obo/agro/imports/pato_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/bfo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/obi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/uo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/agro/imports/envo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/eo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/envo_import.owl>)
 Annotation(<http://purl.org/dc/elements/1.1/contributor> "Céline Aubert")
 Annotation(<http://purl.org/dc/elements/1.1/contributor> "Marié-Angélique Laporte")
 Annotation(<http://purl.org/dc/elements/1.1/contributor> "Pier Luigi Buttigieg")
@@ -248,6 +248,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000148> "h
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000002> (tillage process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Tillage") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://stats.oecd.org/glossary/detail.asp?ID=447") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000002> "A planned process in which soil is mechanicaly mixed, stirred or overturned."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000002> "tillage"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000002> "tillage process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000002> <http://purl.obolibrary.org/obo/AGRO_00000005>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000002> <http://purl.obolibrary.org/obo/AGRO_00000108>)
@@ -259,6 +260,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000002> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/t0231e/t0231e08.htm
 ") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000004> "A planed process in which the agricultural field surface is shaped for ensuring that the depths and discharge variations over the agricultural field are relatively uniform."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000004> "land levelling"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000004> "land levelling process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000004> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
@@ -266,6 +268,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000004> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000005> (crop residue management process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "agglossary.org/wiki/index.php?title=Residue_management") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000005> "A planned process in which the thickness of crop residue on the surface of an agricultural field is managed."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000005> "crop residue management"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000005> "crop residue management process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000005> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
@@ -273,6 +276,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000005> <http://purl.obolibrar
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Irrigation
 ") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "www.dictionary.com/browse/irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000006> "A planned process in which water is artificially supplied to plant or soil to sustain plants. "@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000006> "irrigation"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000006> "irrigation process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000006> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/AGRO_00000054>)))
@@ -281,6 +285,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000006> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000007> (desuckering process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000007> "A pruning process in which one or more suckers are removed."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000007> "desuckering"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000007> "Which suckers are removed depends on the criteria set by the agent of the desuckering process."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000007> "desuckering process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000007> <http://purl.obolibrary.org/obo/AGRO_00000027>)
@@ -314,6 +319,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000010> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000015> (conventional tillage process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.ctic.purdue.edu/resourcedisplay/322/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000015> "A tillage process in which, approximately, less than 15 percent of the soil surface is covered by crop residue after planting."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000015> "conventional tillage"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000015> "intensive tillage"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/AGRO_00000015> "tillage_technique"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000015> "conventional tillage process"@en)
@@ -322,6 +328,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000015> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000016> (reduced tillage process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.ctic.purdue.edu/resourcedisplay/322/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000016> "A tillage process in which between, approximately, 15 to 30 percent of the soil surface is covered by plant residue after planting."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000016> "reduced tillage"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/AGRO_00000016> "tillage_technique"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000016> "reduced tillage process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000016> <http://purl.obolibrary.org/obo/AGRO_00000002>)
@@ -329,6 +336,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000016> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000017> (conservation tillage process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.ctic.purdue.edu/resourcedisplay/322/") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Tillage") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000017> "A tillage process in which a proportion of plant residue, left over after a harvesting process, is left relatively undisturbed on the tilled land; this is done in order to accomplish several conservation objectives including the maintenance of soil moisture content, the reduction of soil erosion and soil compaction, and/or the reduction of labour intensity and fuel consumption."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000017> "conservation tillage"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/AGRO_00000017> "tillage_technique"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000017> "Usually 30 percent of soil surface covered by plant residue is neccessary to achieved conservation tillage."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000017> "conservation tillage process"@en)
@@ -337,12 +345,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000017> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000020> (laser land levelling process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.knowledgebank.irri.org/ericeproduction/I.3_Land_levelling.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000020> "A land levelling process in which a laser guided equipement is used to shape land surface."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000020> "laser land levelling"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000020> "laser land levelling process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000020> <http://purl.obolibrary.org/obo/AGRO_00000004>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000021> (mechanical pest control process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://articles.extension.org/pages/43637/what-is-mechanical-pest-control") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Mechanical_pest_control") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000021> "A pest control process in which physical means such as barriers, traps and handpicking, or physical conditions like high temperature, are used to control unwanted organisms."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000021> "mechanical pest control"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000021> "mechanical pest control process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000021> <http://purl.obolibrary.org/obo/AGRO_00000023>)
 
@@ -350,6 +360,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000021> <http://purl.obolibrar
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Biological_pest_control") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cals.ncsu.edu/course/ent425/text19/biocontrol.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000022> "A pest control process in which organisms are employed to manage unwanted organisms."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000022> "biological control"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000022> "biological pest control"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000022> "biological pest control process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000022> <http://purl.obolibrary.org/obo/AGRO_00000023>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/OBI_0100026>))
@@ -357,18 +368,21 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000022> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000023> (pest control process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Pest_control") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000023> "A planned process in which unwanted organisms are controlled."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000023> "pest control"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000023> "pest control process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000023> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000024> (chemical pest control process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000024> "A pest control process in which chemical is used to manage unwanted organisms."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000024> "chemical pest control"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000024> "chemical pest control process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000024> <http://purl.obolibrary.org/obo/AGRO_00000023>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000025> (harvesting process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/t0522e/T0522E05.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000025> "A planned process in which the useful part or parts of the plant are gathered."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000025> "harvest"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000025> "harvesting"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000025> "The usefulness of the part or parts of the plant depends on the criteria set by the agent of the harvesting process."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000025> "harvesting process"@en)
@@ -393,6 +407,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000027> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000028> (puddling process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Tillage") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000028> "A tillage process in which saturated or near-saturated soil are worked into soft structureless mud, mainly for paddy rice production."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000028> "puddling"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000028> "puddling process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000028> <http://purl.obolibrary.org/obo/AGRO_00000002>)
 
@@ -580,12 +595,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000054> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000055> (localized irrigation process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000055> "An irrigation process in which water is distributed under low pressure through a piped network, and is applied as a small discharge to each plant or adjacent to it."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000055> "localized irrigation"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000055> "localized irrigation process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000055> <http://purl.obolibrary.org/obo/AGRO_00000006>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000056> (drip irrigation process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/s8684E/s8684e02.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000056> "A localized irrigation process in which water is conveyed under pressure through a pipe system where it drips slowly onto the soil close to the plants."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000056> "drip irrigation"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000056> "micro irrigation"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000056> "trickle irrigation"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000056> "drip irrigation process"@en)
@@ -594,6 +611,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000056> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000057> (pitcher irrigation process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://forest.mtu.edu/pcforestry/resources/studentprojects/pitcher/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000057> "A localized irrigation process in which water is distributed by diffusion and capillary action through the wall of buried unglazed clay pot."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000057> "pitcher irrigation"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000057> "pitcher irrigation process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000057> <http://purl.obolibrary.org/obo/AGRO_00000055>)
 
@@ -601,6 +619,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000057> <http://purl.obolibrar
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://ag.arizona.edu/crop/irrigation/azdrip/SDI.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.sswm.info/category/implementation-tools/water-use/hardware/optimisation-water-use-agriculture/subsurface-irrig") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000058> "A localized irrigation process in which water is conveyed under pressure through a buried pipe system where it drips slowly below the soil surface close to plants' roots."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000058> "SDI"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000058> "subsurface drip irrigation"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000058> "subsurface drip irrigation process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000058> <http://purl.obolibrary.org/obo/AGRO_00000055>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000058> <http://purl.obolibrary.org/obo/AGRO_00000062>)
@@ -609,6 +628,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000058> <http://purl.obolibrar
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://america.pink/subsurface-textile-irrigation_4206598.html") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Subsurface_textile_irrigation") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000059> "An irrigation process in which water is distributed through a buried piped network with a layer of geotextile on top. Geotextiles absorb the water from the drippers of the piped network and transport that water under the soil surface via mass flow and capillary action."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000059> "SSTI"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000059> "subsurface textile irrigation"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000059> "subsurface textile irrigation process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000059> <http://purl.obolibrary.org/obo/AGRO_00000055>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000059> <http://purl.obolibrary.org/obo/AGRO_00000062>)
@@ -616,12 +636,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000059> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000060> (sprinkler irrigation process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "www.fao.org/docrep/s8684e/s8684e06.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000060> "An irrigation process in which water is distributed through a system of pipes, and is sprayed into the air through sprinklers so that it breaks up into small water drops which fall to the ground."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000060> "irrigation with sprinkler"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000060> "sprinkler irrigation process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000060> <http://purl.obolibrary.org/obo/AGRO_00000006>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000061> (center-pivot irrigation process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.dictionary.com/browse/center-pivot-irrigation") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Center_pivot_irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000061> "A sprinkler irrigation process in which water is dispersed through a long, segmented arm that revolves around a pivot point and covers a circular area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000061> "center-pivot irrigation"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000061> "central pivot irrigation"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000061> "circle irrigation"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000061> "waterwheel irrigation"@en)
@@ -633,6 +655,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000061> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Subirrigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000062> "An irrigation process in which water is delivered to the plant root zone from below the soil surface."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000062> "seepage irrigation"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000062> "sub-irrigation"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000062> "subground irrigation process"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000062> "subsurface irrigation"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000062> "sub-irrigation process"@en)
@@ -641,12 +664,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000062> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000063> (surface irrigation process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Surface_irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000063> "An irrigation process in which water is applied and distributed over the soil surface by gravity."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000063> "surface irrigation"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000063> "surface irrigation process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000063> <http://purl.obolibrary.org/obo/AGRO_00000006>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000064> (bassin irrigation process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/s8684E/s8684e02.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000064> "A surface irrigation process in which water is applied into basins. Basins are flat areas of land surronded by low bunds."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000064> "bassin irrigation"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000064> "Basin irrigation is suitable for crops that are unaffected by standing in water for long periods (e.g. 12-24 hours) like rice or some trees."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000064> "bassin irrigation process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000064> <http://purl.obolibrary.org/obo/AGRO_00000063>)
@@ -655,6 +680,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000064> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000065> (continuous flood process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.knowledgebank.irri.org/step-by-step-production/growth/water-management") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000065> "A bassin irrigation process in which basins are flooded during the entire growing season of plants."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000065> "coutinuous flooding"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000065> "paddy irrigation"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000065> "continuous flood process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000065> <http://purl.obolibrary.org/obo/AGRO_00000064>)
@@ -664,6 +690,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000065> <http://purl.obolibrar
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/s8684E/s8684e02.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Surface_irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000066> "A surface irrigation process in which water is distributed to an area divided into borders. Borders are long, sloping strips of land separated by bunds. Water is applied to the top end of borders."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000066> "bay irrigation"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000066> "border check irrigation"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000066> "border irrigation"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000066> "border strip irrigation"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000066> "Borders are typically longer and narrower compared to basin irrigation."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000066> "border irrigation process"@en)
@@ -673,12 +700,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000066> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000067> (furrow irrigation process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/T0231E/t0231e04.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/s8684E/s8684e02.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Surface_irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000067> "A surface irrigation process in which water is carried into small channels called furrows down the land slope between the plant rows. Water is applied to the top end of each furrow and infiltrates into the soil as it moves along the slope channel."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000067> "furrow irrigation"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000067> "furrow irrigation process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000067> <http://purl.obolibrary.org/obo/AGRO_00000063>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000068> (uncontrolled flooding process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/T0231E/t0231e04.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://books.google.fr/books?id=DSvFRbtmb9EC&pg=PA66&lpg=PA66&dq=uncontrolled+flooding+irrigation&source=bl&ots=GZ1pAtoBYD&sig=SU-vFWGW5bKfmMr5q5ppV-6G-Wk&hl=en&sa=X&sqi=2&ved=0ahUKEwjKibDIz6zNAhWGSBQKHa38ANgQ6AEIVTAM#v=onepage&q=uncontrolled%20flooding%20irrigation&f=false") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://irrigationmethods.wordpress.com/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000068> "A surface irrigation process in which water is spread over a flat area without control over water flow or prior preparation."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000068> "uncontrolled flooding"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000068> "wild flooding"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000068> "uncontrolled flooding process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000068> <http://purl.obolibrary.org/obo/AGRO_00000063>)
@@ -916,12 +945,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000105> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000106> (organisms augmentation process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Biological_pest_control#Importation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000106> "A biological pest control process in which organisms that help to manage pests are released to boost the naturally occurring population."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000106> "augmentation"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000106> "organisms augmentation process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000106> <http://purl.obolibrary.org/obo/AGRO_00000022>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000107> (organisms conservation process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Biological_pest_control#Importation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000107> "A biological pest control process in which suitable habitat or food are provided to the naturally occurring population of organisms that help to manage pests."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000107> "conservation"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000107> "organisms conservation process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000107> <http://purl.obolibrary.org/obo/AGRO_00000022>)
 
@@ -950,6 +981,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000110> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000111> "A planned process in which a layer of material is apply to the soil surface to conserve moisture, improve soil fertility, reduce pests population and enhance the visual appeal of the area."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/AGRO_00000111> "https://en.wikipedia.org/wiki/Mulch"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000111> "mulching"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000111> "mulching process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000111> <http://purl.obolibrary.org/obo/AGRO_00000109>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000111> <http://purl.obolibrary.org/obo/OBI_0000011>)
@@ -958,6 +990,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000111> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000112> (liming process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Liming") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000112> "A planned process in which a liming material is applied to soil to reduce acidity."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000112> "liming"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000112> "liming process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000112> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
@@ -1177,6 +1210,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000141> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000142> (seeding process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Sowing") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000142> "A planned process in which seeds are applied into the soil at a depth around two to three times the size of the seed."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000142> "seeding"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000142> "sowing"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000142> "sowing process"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000142> "seeding process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000142> <http://purl.obolibrary.org/obo/OBI_0000011>)
@@ -1653,12 +1688,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000213> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000214> (traditional land levelling process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000214> "A land levelling process which uses animal drawn or tractor-drawn levelers."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000214> "traditional land levelling"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000214> "traditional land levelling process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000214> <http://purl.obolibrary.org/obo/AGRO_00000004>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000215> (trapping process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%201.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000215> "A mechanical pest removal process in which pests are physically caught."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000215> "trapping"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000215> "trapping process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000215> <http://purl.obolibrary.org/obo/AGRO_00000110>)
 
@@ -1671,6 +1708,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000216> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000217> (hand picking process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000217> "A mechanical pest removal process in which unwanted organisms are removed by hands."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000217> "hand picking"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000217> "hand pulling"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000217> "hand picking process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000217> <http://purl.obolibrary.org/obo/AGRO_00000110>)
@@ -1684,12 +1722,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000218> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000219> (insect vacuuming process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000219> "A mechanical pest removal process in which a field vacuum is used to suck insects from plants."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000219> "insect vaccuming"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000219> "insect vacuuming process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000219> <http://purl.obolibrary.org/obo/AGRO_00000110>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000220> (mowing process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000220> "A process in which the above ground of the plants are cut or shred. It can be used to reduce weed seed populations or restrict the growth of weeds."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000220> "mowing"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000220> "mowing process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000220> <http://purl.obolibrary.org/obo/AGRO_00000025>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000220> <http://purl.obolibrary.org/obo/AGRO_00000110>)
@@ -1697,6 +1737,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000220> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_01000000> "A planned process in which fertilizer is applied to an environmental material to promote the growth of a plant.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_01000000> "fertilization"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_01000000> "fertilization")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_01000000> "agronomic fertilization process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_01000000> <http://purl.obolibrary.org/obo/OBI_0000011>)
