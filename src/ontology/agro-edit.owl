@@ -251,6 +251,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000243>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000244>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000245>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000246>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000247>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000248>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000249>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000250>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000251>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000252>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 
@@ -1586,9 +1592,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000192> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000193> "A measurement datum that is the measure of the distance between the top of the mulch layer and the top of the soil layer."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000193> "mulch thickness measurement datum"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000193> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000148> <http://purl.obolibrary.org/obo/AGRO_00000247>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000192>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000193> <http://purl.obolibrary.org/obo/IAO_0000109>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000193> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000001>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000193> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000192>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000194> (mulch color)
 
@@ -1937,6 +1942,42 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000245> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000246> "Measure the depth of the puddling with a penometer."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000246> "puddling depth measurement protocol"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000246> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000247> (mulch thickness measurement protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000247> "With a ruler measure the distance between the soil surface and the top of the mulch layer."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000247> "mulch thickness measurement protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000247> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000248> (interrow width measurement protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000248> "With a ruler measure the distance between the center of two rows. The center of the rows is where the plant reproductive material has been planted."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000248> "interrow width measurement protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000248> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000249> (sprout lenght measurement protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000249> "Measure the length of sprout with a steel tape."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000249> "sprout lenght measurement protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000249> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000250> (water source distance measurement protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000250> "Measure the shortest distance between the water source and the entrance of the field with a measuring wheel."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000250> "water source distance measurement protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000250> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000251> (moisture concentration measurement protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000251> "1.Weight a sample of the material. 2.Dry this sample. 3.Weight the dry sample. Moisture concentration = ((Ww-Wd)/Ww) x 100 in which : WW = wet weight of the sample, and Wd = weight of the sample after drying."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000251> "moisture concentration measurement protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000251> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000252> (bund height measurement protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000252> "Measure the distance between the soil surface and the top of a bund. Repeat this operation on multiple bunds, and average the results."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000252> "bund height measurement protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000252> <http://purl.obolibrary.org/obo/OBI_0000272>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
