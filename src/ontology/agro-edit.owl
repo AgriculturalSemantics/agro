@@ -259,6 +259,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000251>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000252>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
 
 ############################
 #   Object Properties
@@ -267,6 +268,10 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 # Object Property: <http://purl.obolibrary.org/obo/AGRO_00000148> (has method)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000148> "has method"@en)
+
+# Object Property: <http://purl.obolibrary.org/obo/AGRO_00000253> (measurement method of)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000253> "measurement method of"@en)
 
 
 
@@ -1947,6 +1952,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000246> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000247> "With a ruler measure the distance between the soil surface and the top of the mulch layer."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000247> "mulch thickness measurement protocol"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000247> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000192>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000247> <http://purl.obolibrary.org/obo/OBI_0000272>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000248> (interrow width measurement protocol)
