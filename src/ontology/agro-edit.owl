@@ -156,8 +156,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000143>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000144>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000145>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000146>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000147>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000149>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000151>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000152>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000153>))
@@ -257,6 +255,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000249>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000250>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000251>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000252>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000254>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000255>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000256>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000257>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
@@ -1299,17 +1301,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000146> <http://purl.obolibrar
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000146> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000142>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000146> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000147> (air temperature measurement)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000147> "air temperature measurement"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000147> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000148> <http://purl.obolibrary.org/obo/AGRO_00000149>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000027>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_09200001>)))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000147> <http://purl.obolibrary.org/obo/IAO_0000109>)
-
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000149> (air temperature measurement protocol)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000149> "air temperature measurement protocol"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000149> <http://purl.obolibrary.org/obo/OBI_0000272>)
-
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000151> (seeding area density measurement datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000151> "A measurement datum that is the measure of the density of seed sown on a given area."@en)
@@ -1330,7 +1321,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000152> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000153> "A measurement datum that is the measure of the density of liming material applied to a given area."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000153> "liming material area density measurement datum"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000153> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000148> <http://purl.obolibrary.org/obo/AGRO_00000242>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000054>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000197>)))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000153> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000153> <http://purl.obolibrary.org/obo/AGRO_00000254>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000153> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000152>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000154> (crop residue)
@@ -1357,7 +1348,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000156> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000157> "A measurement datum that is the measure of the density of fertilizer applied to a given area."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000157> "fertilizer area density measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000157> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000157> <http://purl.obolibrary.org/obo/AGRO_00000254>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000157> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000200>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000158> (nitrogen area density)
@@ -1370,7 +1361,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000158> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000159> "A measurement datum that is the measure of the density of nitrogen applied to a given area."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000159> "nitrogen area density measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000159> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000159> <http://purl.obolibrary.org/obo/AGRO_00000254>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000159> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000158>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000160> (phosphorus area density)
@@ -1384,7 +1375,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000160> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000161> "A measurement datum that is the measure of the density of phosphorus applied to a given area."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000161> "phosphorus area density measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000161> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000161> <http://purl.obolibrary.org/obo/AGRO_00000254>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000161> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000160>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000162> (irrigation tube)
@@ -1398,7 +1389,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000162> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000163> "A measurement datum that is the measure of the density of potassium applied to a given area."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000163> "potassium area density measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000163> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000163> <http://purl.obolibrary.org/obo/AGRO_00000254>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000163> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000201>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000164> (sulfur area density)
@@ -1411,7 +1402,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000164> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000165> "A measurement datum that is the measure of the density of sulfur applied to a given area."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000165> "sulfur area density measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000165> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000165> <http://purl.obolibrary.org/obo/AGRO_00000254>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000165> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000164>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000166> (chemical pest control material area density)
@@ -1426,7 +1417,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000166> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000167> "A measurement datum that is the measure of the density of chemical pest control material applied to a given area."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000167> "pesticide area dentity measurement datum"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000167> "chemical pest control material area density measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000167> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000167> <http://purl.obolibrary.org/obo/AGRO_00000254>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000167> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000166>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000168> (nitrate area density)
@@ -1451,21 +1442,21 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000170> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000171> "A measurement datum that is the measure of the density of nitrate applied to a given area."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000171> "nitrate area density measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000171> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000171> <http://purl.obolibrary.org/obo/AGRO_00000254>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000171> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000168>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000172> (ammonium area density measurement datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000172> "A measurement datum that is the measure of the density of ammonium applied to a given area."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000172> "ammonium area density measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000172> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000172> <http://purl.obolibrary.org/obo/AGRO_00000254>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000172> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000169>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000173> (calcium area density measurement datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000173> "A measurement datum that is the measure of the density of calcium applied to a given area."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000173> "calcium area density measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000173> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000173> <http://purl.obolibrary.org/obo/AGRO_00000254>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000173> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000170>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000174> (magnesium area density)
@@ -1514,48 +1505,48 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000180> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000181> "A measurement datum that is the measure of the density of magnesium applied to a given area."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000181> "magnesium area density measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000181> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000181> <http://purl.obolibrary.org/obo/AGRO_00000254>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000181> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000174>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000182> (iron area density measurement datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000182> "A measurement datum that is the measure of the density of iron applied to a given area."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000182> "iron area density measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000182> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000182> <http://purl.obolibrary.org/obo/AGRO_00000254>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000182> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000175>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000183> (zinc area density measurement datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000183> "A measurement datum that is the measure of the density of zinc applied to a given area."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000183> "zinc area density measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000183> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000183> <http://purl.obolibrary.org/obo/AGRO_00000254>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000183> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000176>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000184> (copper area density measurement datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000184> "A measurement datum that is the measure of the density of copper applied to a given area."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000184> "copper area density measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000184> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000184> <http://purl.obolibrary.org/obo/AGRO_00000254>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000184> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000177>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000185> (boron area density measurement datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000185> "A measurement datum that is the measure of the density of boron applied to a given area."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000185> "boron area density measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000185> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000185> <http://purl.obolibrary.org/obo/AGRO_00000254>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000186> (molybdenum area density measurement datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000186> "A measurement datum that is the measure of the density of molybdenum applied to a given area."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000186> "molybdenum area density measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000186> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000186> <http://purl.obolibrary.org/obo/AGRO_00000254>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000186> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000179>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000187> (manganese area density measurement datum)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000187> "A measurement datum that is the measure of the density of manganese applied to a given area."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000187> "manganese area density measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000187> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000187> <http://purl.obolibrary.org/obo/AGRO_00000254>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000187> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000180>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000188> (chlorine area density)
@@ -1582,7 +1573,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000190> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000191> "A measurement datum that is the measure of the lenght of the tillage tool blade that penetrate into the soil."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000191> "tillage tool blade length measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000191> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000191> <http://purl.obolibrary.org/obo/AGRO_00000254>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000191> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000001>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000191> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000190>))
 
@@ -1598,7 +1589,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000192> ObjectSomeValuesFrom(<
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000193> "A measurement datum that is the measure of the distance between the top of the mulch layer and the top of the soil layer."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000193> "mulch thickness measurement datum"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000193> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000148> <http://purl.obolibrary.org/obo/AGRO_00000247>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000192>)))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000193> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000193> <http://purl.obolibrary.org/obo/AGRO_00000254>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000194> (mulch color)
 
@@ -1611,7 +1602,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000194> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000195> "A measurement datum that is the measure of the color of the mulch."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000195> "mulch color measurement datum"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000195> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000195> <http://purl.obolibrary.org/obo/AGRO_00000254>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000196> (bund)
 
@@ -1674,7 +1665,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000202> ObjectSomeValuesFrom(<
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000203> "A measurement datum that is the measure of the density of plant reproductive material applied to a given area."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000203> "plant reproductive material area density measurement datum"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000203> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000148> <http://purl.obolibrary.org/obo/AGRO_00000242>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000054>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000205>)))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000203> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000203> <http://purl.obolibrary.org/obo/AGRO_00000254>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000203> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000205>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000204> (heat treatment)
@@ -1688,7 +1679,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000204> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000205> "An area density quality which inheres in plant reproductive material by virtue of some influence exerted by the mass of plant reproductive material planted in a given surface area."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000205> "planting rate"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000205> "plant reproductive material area density"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000205> <http://purl.obolibrary.org/obo/AGRO_00000160>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000205> <http://purl.obolibrary.org/obo/PATO_0001351>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000205> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/AGRO_00000032>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000206> (cold treatment)
@@ -1922,6 +1913,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000241> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000242> "Protocol used to measure the area density of a material."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000242> "material area density mesurement protocol"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000242> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000152>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000158>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000160>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000164>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000166>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000169>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000170>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000174>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000175>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000176>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000177>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000178>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000179>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000180>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000188>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000200>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000201>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000205>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000242> <http://purl.obolibrary.org/obo/OBI_0000272>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000243> (material weight per area measurement protocol)
@@ -1984,6 +1976,29 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000251> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000252> "Measure the distance between the soil surface and the top of a bund. Repeat this operation on multiple bunds, and average the results."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000252> "bund height measurement protocol"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000252> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000254> (measurement datum to be deleted)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000254> "measurement datum to be deleted"@en)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000255> (agricultural process depth measurement protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000255> "Measurement protocol in which the depth into the soil of an agricultural process is measured."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000255> "agricultural operation depth measurement protocol"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000255> "agricultural process depth measurement protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000255> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000256> (agricultural process depth measurement protocol using a penometer)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "www.cigrjournal.org/index.php/Ejounral/article/download/1073/1225") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000256> "Use of a penometer to measure the depth of the agricultural process."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000256> "agricultural process depth measurement protocol using a penometer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000256> <http://purl.obolibrary.org/obo/AGRO_00000255>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000257> (implement lenght measurement protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000257> "Measure the length of the implement that goes into the soil to realize the agricultural process. For exemple, measure the length of the tool blade used for tillage."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000257> "implement lenght measurement protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000257> <http://purl.obolibrary.org/obo/AGRO_00000255>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
