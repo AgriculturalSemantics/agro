@@ -264,6 +264,13 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000259>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000260>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000261>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000262>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000263>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000264>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000265>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000266>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000267>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000268>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000269>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
@@ -2041,6 +2048,48 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000262> "plant population measurement protocol"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000262> "plant density measurement protocol"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000262> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000263> (row lenght mesurement protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000263> "Measure the distance between the beginning and the end of the row."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000263> "row lenght mesurement protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000263> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000264> (plant lignin concentration measurement protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000264> "Protocol in which the lignin concentration of a plant is measured."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000264> "plant lignin concentration measurement protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000264> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000265> (plant lignin concentration measurement protocol using acetylbromide)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pubmed/12564795") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000265> "Measure the plant lignin concentration following the acetylbromide method."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000265> "plant lignin concentration measurement protocol using acetylbromide"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000265> <http://purl.obolibrary.org/obo/AGRO_00000264>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000266> (plant lignin concentration measurement protocol using acid detergent fiber)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pubmed/12564795") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000266> "Measure the plant lignin concentration following the acid detergent fiber method"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000266> "plant lignin concentration measurement protocol using acid detergent fiber"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000266> <http://purl.obolibrary.org/obo/AGRO_00000264>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000267> (plant lignin concentration measurement protocol using thioglycolic acid)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://naldc.nal.usda.gov/download/3268/PDF") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pubmed/12564795") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000267> "Measure the plant lignin concentration with the thioglycolic acid method."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000267> "plant lignin concentration measurement protocol using thioglycolic acid"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000267> <http://purl.obolibrary.org/obo/AGRO_00000264>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000268> (plant lignin concentration measurement Klason protocol)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://naldc.nal.usda.gov/download/3268/PDF") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000268> "Measure the plant lignin concentration with the Klason method."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000268> "plant lignin concentration measurement Klason protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000268> <http://purl.obolibrary.org/obo/AGRO_00000264>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000269> (plant lignin concentration measurement protocol using permanganate)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://naldc.nal.usda.gov/download/3268/PDF") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000269> "Measure the plant lignin concentration with the permanganate method."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000269> "plant lignin concentration measurement protocol using permanganate"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000269> <http://purl.obolibrary.org/obo/AGRO_00000264>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
