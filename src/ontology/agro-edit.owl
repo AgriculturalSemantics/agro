@@ -271,6 +271,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000266>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000267>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000268>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000269>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000270>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
@@ -2055,41 +2056,49 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000263> "row lenght mesurement protocol"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000263> <http://purl.obolibrary.org/obo/OBI_0000272>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000264> (plant lignin concentration measurement protocol)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000264> (lignin concentration measurement protocol)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000264> "Protocol in which the lignin concentration of a plant is measured."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000264> "plant lignin concentration measurement protocol"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000264> "Protocol in which the lignin concentration of an environmental material is measured."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000264> "lignin concentration measurement protocol"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000264> <http://purl.obolibrary.org/obo/OBI_0000272>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000265> (plant lignin concentration measurement protocol using acetylbromide)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000265> (lignin concentration measurement protocol using acetylbromide)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pubmed/12564795") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000265> "Measure the plant lignin concentration following the acetylbromide method."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000265> "plant lignin concentration measurement protocol using acetylbromide"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pubmed/12564795") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000265> "Measure the lignin concentration following the acetylbromide method."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000265> "lignin concentration measurement protocol using acetylbromide"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000265> <http://purl.obolibrary.org/obo/AGRO_00000264>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000266> (plant lignin concentration measurement protocol using acid detergent fiber)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000266> (lignin concentration measurement protocol using acid detergent fiber)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pubmed/12564795") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000266> "Measure the plant lignin concentration following the acid detergent fiber method"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000266> "plant lignin concentration measurement protocol using acid detergent fiber"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pubmed/12564795") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000266> "Measure the lignin concentration following the acid detergent fiber method"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000266> "ADF method"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000266> "lignin concentration measurement protocol using acid detergent fiber"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000266> <http://purl.obolibrary.org/obo/AGRO_00000264>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000267> (plant lignin concentration measurement protocol using thioglycolic acid)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000267> (lignin concentration measurement protocol using thioglycolic acid)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://naldc.nal.usda.gov/download/3268/PDF") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pubmed/12564795") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000267> "Measure the plant lignin concentration with the thioglycolic acid method."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000267> "plant lignin concentration measurement protocol using thioglycolic acid"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://naldc.nal.usda.gov/download/3268/PDF") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pubmed/12564795") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000267> "Measure the lignin concentration with the thioglycolic acid method."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000267> "lignin concentration measurement protocol using thioglycolic acid"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000267> <http://purl.obolibrary.org/obo/AGRO_00000264>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000268> (plant lignin concentration measurement Klason protocol)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000268> (lignin concentration measurement Klason protocol)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://naldc.nal.usda.gov/download/3268/PDF") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000268> "Measure the plant lignin concentration with the Klason method."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000268> "plant lignin concentration measurement Klason protocol"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://naldc.nal.usda.gov/download/3268/PDF") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000268> "Measure the lignin concentration with the Klason method."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000268> "lignin concentration measurement Klason protocol"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000268> <http://purl.obolibrary.org/obo/AGRO_00000264>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000269> (plant lignin concentration measurement protocol using permanganate)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000269> (lignin concentration measurement protocol using permanganate)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://naldc.nal.usda.gov/download/3268/PDF") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000269> "Measure the plant lignin concentration with the permanganate method."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000269> "plant lignin concentration measurement protocol using permanganate"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://naldc.nal.usda.gov/download/3268/PDF") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000269> "Measure the lignin concentration with the permanganate method."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000269> "lignin concentration measurement protocol using permanganate"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000269> <http://purl.obolibrary.org/obo/AGRO_00000264>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000270> (lignin concentration measurement protocol using acid detergent lignin)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://pubs.acs.org/doi/abs/10.1021/jf981250q?journalCode=jafcau") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000270> "Measure the lignin concentration with the acid detergent lignin method."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000270> "ADL method"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000270> "lignin concentration measurement protocol using acid detergent lignin"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000270> <http://purl.obolibrary.org/obo/AGRO_00000264>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
