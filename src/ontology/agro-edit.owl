@@ -272,6 +272,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000267>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000268>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000269>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000270>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000271>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000272>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000273>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000274>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000275>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000276>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
@@ -2099,6 +2105,49 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000270> "ADL method"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000270> "lignin concentration measurement protocol using acid detergent lignin"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000270> <http://purl.obolibrary.org/obo/AGRO_00000264>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000271> (walkley-black method)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.agvise.com/educational-articles/soil-organic-matter-a-choice-of-methods/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000271> "A determination of organic carbon protocol that uses chromic acid to measure the oxidizable organic carbon in an environmental material."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000271> "wet oxidation method"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000271> "walkley-black acid digestion method"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000271> "walkley-black method"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000271> <http://purl.obolibrary.org/obo/AGRO_00000275>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000272> (kjeldahl method)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Kjeldahl_method") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000272> "Method for the quantitative determination of organic nitrogen in chemical substance."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000272> "TKN method"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000272> "total kjeldahl nitrogen"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000272> "kjeldahl digestion"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000272> "kjeldahl method"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000272> <http://purl.obolibrary.org/obo/AGRO_00000274>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000273> (dry combustion method)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agronomy.emu.ee/vol062/p6211.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000273> "Protocol used to determine organic carbon content in environmental material according to the amount of CO2 released during combustion of the material."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000273> "dry combustion method"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000273> <http://purl.obolibrary.org/obo/AGRO_00000274>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000273> <http://purl.obolibrary.org/obo/AGRO_00000275>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000274> (determination of organic nitrogen in environmental material protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000274> "Protocol used to determine the content of organic nitrogen in environmental material."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000274> "determination of organic nitrogen in environmental material protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000274> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000275> (determination of organic carbon protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000275> "Protocol used to determine the content of organic carbon in environmental material."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000275> "determination of organic carbon protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000275> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000276> (weight loss on ignition method)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000276> "LOI method"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://nofc.cfs.nrcan.gc.ca/bookstore_pdfs/21222.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.agvise.com/educational-articles/soil-organic-matter-a-choice-of-methods/") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www2.hawaii.edu/~rsyost/Konare_etal_LOI2010.pdf") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000276> "Protocol used to measure soil organic matter and soil organic carbon. The method is based upon measuring the weight loss from a dry soil sample when exposed to high temperatures (between 350°C and 600°C). The weight loss that occurs at this temperature is then correlated to oxidizable organic carbon."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000276> "weight loss on ignition method"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000276> <http://purl.obolibrary.org/obo/AGRO_00000275>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
