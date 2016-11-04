@@ -278,6 +278,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000273>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000274>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000275>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000276>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000277>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000278>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000279>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
@@ -1614,6 +1617,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000193> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000194> "A color quality inhering in mulch."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000194> "mulch color"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000194> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000148> <http://purl.obolibrary.org/obo/AGRO_00000278>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000194> <http://purl.obolibrary.org/obo/PATO_0000014>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000194> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000092>))
 
@@ -2148,6 +2152,27 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://nofc.cfs.nrcan.gc.ca/bookstore_pdfs/21222.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.agvise.com/educational-articles/soil-organic-matter-a-choice-of-methods/") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www2.hawaii.edu/~rsyost/Konare_etal_LOI2010.pdf") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000276> "Protocol used to measure soil organic matter and soil organic carbon. The method is based upon measuring the weight loss from a dry soil sample when exposed to high temperatures (between 350°C and 600°C). The weight loss that occurs at this temperature is then correlated to oxidizable organic carbon."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000276> "weight loss on ignition method"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000276> <http://purl.obolibrary.org/obo/AGRO_00000275>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000277> (tractor speed recording protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000277> "Record the speed of the tractor in the field."@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000277> "Need to add a standard protocol to measure tractor speed, if it exists."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000277> "tractor speed recording protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000277> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000278> (mulch color recording protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000278> "Record the color of the mulch applied."@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000278> "Need to add a standard protocol to measure the color of the mulch, if it exists."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000278> "mulch color recording protocol"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000278> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000194>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000278> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000279> (transplant age counting protocol)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://extension.usu.edu/files/publications/publication/Horticulture_Vegetables_2015-02.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.academicjournals.org/article/article1380787810_Opoku-Ameyaw%20et%20al.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000279> "Protocol in which the age of the transplant is determined by counting the number of days between the seeding date and the transplanting date."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000279> "transplant age counting protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000279> <http://purl.obolibrary.org/obo/OBI_0000272>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
