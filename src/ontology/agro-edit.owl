@@ -281,6 +281,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000276>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000277>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000278>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000279>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000280>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000281>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
@@ -2173,6 +2175,18 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000278> <http://purl.obolibrar
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://extension.usu.edu/files/publications/publication/Horticulture_Vegetables_2015-02.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.academicjournals.org/article/article1380787810_Opoku-Ameyaw%20et%20al.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000279> "Protocol in which the age of the transplant is determined by counting the number of days between the seeding date and the transplanting date."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000279> "transplant age counting protocol"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000279> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000280> (irrigation equipement depth measurement protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000280> "Measure the distance between the soil surface and the top of the irrigation equipment buried in soil."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000280> "irrigation equipement depth measurement protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000280> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000281> (well depth measurement protocol)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://inspectapedia.com/water/Well_Depth.php") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000281> "Tie a small but heavy weight to the end of a piece of string. Lower the weight into the well until it reaches the bottom. Take up the slack and mark the string at ground level. Pull the weight out of the well and measure from the bottom of the weight to the ground level mark. This is the depth of the well."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000281> "well depth measurement protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000281> <http://purl.obolibrary.org/obo/OBI_0000272>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
