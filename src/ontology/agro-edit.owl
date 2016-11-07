@@ -283,6 +283,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000278>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000279>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000280>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000281>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000282>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
@@ -2021,7 +2022,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000256> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000257> (implement lenght measurement protocol)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000257> "Measure the length of the implement that goes into the soil to realize the agricultural process. For exemple, measure the length of the tool blade used for tillage."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000257> "Measure the length of the implement that goes into the soil to realize the agricultural process to knoe the depth of the agricultural process. For exemple, measure the length of the tool blade used for tillage to evaluate tillage depth."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000257> "implement lenght measurement protocol"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000257> <http://purl.obolibrary.org/obo/AGRO_00000255>)
 
@@ -2176,10 +2177,10 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000279> "transplant age counting protocol"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000279> <http://purl.obolibrary.org/obo/OBI_0000272>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000280> (irrigation equipement depth measurement protocol)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000280> (irrigation equipment depth measurement protocol)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000280> "Measure the distance between the soil surface and the top of the irrigation equipment buried in soil."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000280> "irrigation equipement depth measurement protocol"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000280> "irrigation equipment depth measurement protocol"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000280> <http://purl.obolibrary.org/obo/OBI_0000272>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000281> (well depth measurement protocol)
@@ -2187,6 +2188,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000280> <http://purl.obolibrar
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://inspectapedia.com/water/Well_Depth.php") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000281> "Tie a small but heavy weight to the end of a piece of string. Lower the weight into the well until it reaches the bottom. Take up the slack and mark the string at ground level. Pull the weight out of the well and measure from the bottom of the weight to the ground level mark. This is the depth of the well."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000281> "well depth measurement protocol"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000281> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000282> (pivot lenght measurement protocol)
+
+AnnotationAssertion(Annotation(rdfs:comment "Need a formal definition") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000282> "Measure the lenght of the pivot."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000282> "pivot lenght measurement protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000282> <http://purl.obolibrary.org/obo/OBI_0000272>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
