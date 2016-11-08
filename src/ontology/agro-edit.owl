@@ -284,6 +284,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000279>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000280>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000281>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000282>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000283>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000284>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
@@ -2194,6 +2196,18 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000281> <http://purl.obolibrar
 AnnotationAssertion(Annotation(rdfs:comment "Need a formal definition") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000282> "Measure the lenght of the pivot."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000282> "pivot lenght measurement protocol"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000282> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000283> (pest control agent released density recording protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000283> "Record the number of pest control agent released per surface area."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000283> "pest control agent released density recording protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000283> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000284> (quantity of water used for irrigation recording protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000284> "Record the quantity of water used for irrigation."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000284> "quantity of water used for irrigation recording protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000284> <http://purl.obolibrary.org/obo/OBI_0000272>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
