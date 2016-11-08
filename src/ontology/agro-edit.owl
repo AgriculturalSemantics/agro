@@ -286,6 +286,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000281>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000282>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000283>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000284>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000285>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
@@ -2208,6 +2209,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000283> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000284> "Record the quantity of water used for irrigation."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000284> "quantity of water used for irrigation recording protocol"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000284> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000285> (percolation test protocol)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://greywateraction.org/contenthow-do-percolation-test/") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Percolation_test") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000285> "Protocol in which the rapidity at which water moves through soil is measured."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000285> "percolation test protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000285> <http://purl.obolibrary.org/obo/OBI_0000272>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
