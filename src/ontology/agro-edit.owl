@@ -291,6 +291,15 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000286>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000287>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000288>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000289>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000290>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000291>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000292>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000293>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000294>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000295>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000296>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000297>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000298>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
@@ -2222,7 +2231,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000285> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000286> (area measurement protocol)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000286> "Protocol that describe how to measure a field area"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000286> "Protocol that describes how to measure a field area."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000286> "area measurement protocol"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000286> <http://purl.obolibrary.org/obo/OBI_0000272>)
 
@@ -2235,7 +2244,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000287> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000288> (area measurement using cartography)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/AGRO_00000288> "GIS"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000288> "Measure the field area using map (paper or electronic format)"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000288> "Measure the field area using a map (paper or electronic format)."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000288> "area measurement using cartography"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000288> <http://purl.obolibrary.org/obo/AGRO_00000286>)
 
@@ -2244,6 +2253,60 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000288> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000289> "Record the information giving by a person that knows the field area (farmer, field owner)."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000289> "area recording protocol"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000289> <http://purl.obolibrary.org/obo/AGRO_00000286>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000290> (soil coverage by environmental material measurement protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000290> "Protocol that describes how to measure the percentage of soil coverage by environmental material like mulch or crop residue."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000290> "soil coverage by environmental material measurement protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000290> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000291> (soil coverage visual assessment protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000291> "Assess visually the percentage of soil covered by environmental material."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000291> "soil coverage visual assessment protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000291> <http://purl.obolibrary.org/obo/AGRO_00000290>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000292> (soil coverage manual measurement protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000292> "Measure the percentage of soil covered by environmental material by counting the environmental material using quadrat, rope with knots or other devices."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000292> "soil coverage manual measurement protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000292> <http://purl.obolibrary.org/obo/AGRO_00000290>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000293> (soil coverage measurement using GIS)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000293> "Use GIS to measure the percentage of soil covered by environmental material."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000293> "soil coverage measurement using GIS"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000293> <http://purl.obolibrary.org/obo/AGRO_00000290>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000294> (total quantity of environmental material used compute protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000294> "Add all the quantities of the environmental material of interest applied over a specified period."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000294> "total quantity of environmental material used compute protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000294> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000295> (environmental material incorporation percentage measurement protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000295> "Protocol that describes how to measure the percentage of incorporation in soil of an environmental material."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000295> "environmental material incorporation percentage measurement protocol"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000295> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000296> (incorporation percentage visual assessment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000296> "Assess visually the percentage of environmental material that has been buried into soil during the incorporation process."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000296> "incorporation percentage visual assessment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000296> <http://purl.obolibrary.org/obo/AGRO_00000295>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000297> (incorporation percentage measurement using GIS)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000297> "Use GIS to measure the percentage of environmental material that has been buried into soil during the incorporation process."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000297> "incorporation percentage measurement using GIS"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000297> <http://purl.obolibrary.org/obo/AGRO_00000295>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000298> (incorporation percentage manual measurement)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000298> "Measure the percentage of environmental material that has been buried into soil by counting the environmental material using quadrat, rope with knots or other devices befor and after the incorporation process."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000298> "incorporation percentage manual measurement"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000298> <http://purl.obolibrary.org/obo/AGRO_00000295>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
