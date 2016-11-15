@@ -300,6 +300,21 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000295>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000296>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000297>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000298>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000299>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000300>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000301>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000302>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000303>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000305>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000306>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000307>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000308>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000309>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000310>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000311>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000312>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000313>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000314>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
@@ -1382,6 +1397,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000155> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000156> "Space between two rows."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000156> "interrow"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000156> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002609> <http://purl.obolibrary.org/obo/AGRO_00000155>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000156> <http://purl.obolibrary.org/obo/ENVO_01000408>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000156> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_00000114>))
 
@@ -2307,6 +2323,104 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000297> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000298> "Measure the percentage of environmental material that has been buried into soil by counting the environmental material using quadrat, rope with knots or other devices befor and after the incorporation process."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000298> "incorporation percentage manual measurement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000298> <http://purl.obolibrary.org/obo/AGRO_00000295>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000299> (farm area)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000299> "An area quality inhering in a farm."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000299> "farm area"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000299> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00000078>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000299> <http://purl.obolibrary.org/obo/PATO_0001323>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000300> (field area)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000300> "field area"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000300> <http://purl.obolibrary.org/obo/PATO_0001323>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000301> (plot)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/wairdocs/ilri/x5546e/x5546e0a.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000301> "A plot is the smallest area of an experiment receiving a certain treatment."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000301> "plot"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000301> <http://purl.obolibrary.org/obo/ENVO_01000408>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000302> (plot area)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000302> "plot area"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000302> <http://purl.obolibrary.org/obo/PATO_0001323>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000303> (block)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/wairdocs/ilri/x5546e/x5546e0a.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000303> "A block is a relatively large area or several identical units receiving all or most of the treatments. A collection of plots is called a block."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000303> "block"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000303> <http://purl.obolibrary.org/obo/ENVO_01000408>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000305> (number of block)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000305> "Number of block used for an experiment."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000305> "number of block"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000305> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000303>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000305> <http://purl.obolibrary.org/obo/PATO_0000070>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000306> (number of plot)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000306> "Number of plot used during an experiment."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000306> "number of plot"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000306> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000301>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000306> <http://purl.obolibrary.org/obo/PATO_0000070>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000307> (plot length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000307> "A length entity that inheres in the smallest unit of an experiment."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000307> "plot length"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000307> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000301>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000307> <http://purl.obolibrary.org/obo/PATO_0000122>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000308> (plot width)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000308> "A width entity that inheres in the smallest unit of an experiment."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000308> "plot width"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000308> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000301>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000308> <http://purl.obolibrary.org/obo/PATO_0000921>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000309> (pot)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.oxforddictionaries.com/definition/pot") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000309> "A rounded container used to cultivate plant."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000309> "pot"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000309> <http://purl.obolibrary.org/obo/ENVO_01000408>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000310> (number of pot)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000310> "Number of pot used during an experiment."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000310> "number of pot"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000310> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000309>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000310> <http://purl.obolibrary.org/obo/PATO_0000070>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000311> (pot height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000311> "Distance between the top and the bottom of a pot."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000311> "pot height"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000311> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000309>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000311> <http://purl.obolibrary.org/obo/PATO_0000119>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000312> (number of row)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000312> "Number of row in a specified area."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000312> "number of row"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000312> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000155>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000312> <http://purl.obolibrary.org/obo/PATO_0000070>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000313> (row width)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000313> "A width entity that inheres in some row."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000313> "row width"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000313> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000155>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000313> <http://purl.obolibrary.org/obo/PATO_0000921>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000314> (row length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000314> "A length quality that is the distance between the beginning and the end of a row."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000314> "row length"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000155>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000314> <http://purl.obolibrary.org/obo/PATO_0000122>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
