@@ -328,6 +328,16 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000324>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000325>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000326>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000327>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000328>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000329>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000330>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000331>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000332>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000333>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000334>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000335>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000336>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000337>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
@@ -2482,23 +2492,21 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000318> ObjectSomeValue
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000318> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PO_0000003>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000318> <http://purl.obolibrary.org/obo/PATO_0000040>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000319> (row direction)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000319> (row orientation)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000319> "Direction quality inhering in rows and representing the orientation of the rows in a field with North beiing the starting point."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000319> "row orientation"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000319> "row direction"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000319> "Orientation of the rows in a field."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000319> "row orientation"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000319> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000121>))
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000319> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000155>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000319> <http://purl.obolibrary.org/obo/PATO_0000039>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000319> <http://purl.obolibrary.org/obo/PATO_0000133>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000320> (plot direction)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000320> (plot orientation)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000320> "Direction quality inhering in plots and representing the orientation of the plots in a field."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000320> "plot orientation"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000320> "plot direction"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000320> "Orientation of the plots in a field."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000320> "plot orientation"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000320> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000121>))
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000320> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000301>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000320> <http://purl.obolibrary.org/obo/PATO_0000039>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000320> <http://purl.obolibrary.org/obo/PATO_0000133>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000321> (replication)
 
@@ -2544,6 +2552,72 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000327> "number of crops previously cultivated"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000327> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000325>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000327> <http://purl.obolibrary.org/obo/PATO_0000070>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000328> (slope orientation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000328> "Orientation of the slope"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000328> "slope orientation"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000328> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00002000>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000328> <http://purl.obolibrary.org/obo/PATO_0000133>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000329> (split plot design)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/wairdocs/ilri/x5546e/x5546e0a.htm#7.5.4 split plot arrangement") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000329> "An experimental design that enables an additional factor or treatment to be included at more than one level; each plot is split into two or more parts."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000329> "split plot design"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000329> <http://purl.obolibrary.org/obo/OBI_0500000>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000330> (strip plot design)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://books.google.fr/books?id=PVN7_XRhpdUC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000330> "An experimental design in which the desired precision for measuring the interaction effect between the two factors is higher than that for measuring the main effect of either one of  the two factors. This is accomplished with the use of three plot sizes : 
+1. Vertical strip plot for the first factor – vertical factor 
+2. Horizontal strip plot for the second factor – horizontal factor 
+3. Interaction plot for the interaction between 2 factors"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000330> "split block design"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000330> "strip plot design"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000330> <http://purl.obolibrary.org/obo/OBI_0500000>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000331> (factorial design)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Factorial_experiment") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000331> "An experimental design in which two or more factors, each with discrete possible values or \"levels\", and whose experimental units take on all possible combinations of these levels across all such factors. That is, the design provides information on the average effect of the individual factors as well as the interaction between these two factors."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000331> "factorial design"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000331> <http://purl.obolibrary.org/obo/OBI_0500000>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000332> (completely randomized design)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/003/X6831E/X6831E07.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000332> "An experimental design in which the treatments are assigned completely at random so that each experimental unit has the same chance of receiving any one treatment. Any difference among experimental units receiving the same treatment is considered as experimental error. Hence, it is appropriate only for experiments with homogeneous experimental units, such as laboratory experiments, where environmental effects are relatively easy to control."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000332> "CRD"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000332> "completely randomized design"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000332> <http://purl.obolibrary.org/obo/OBI_0500000>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000333> (lattice design)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://books.google.fr/books?id=PVN7_XRhpdUC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000333> "An experimental design in which the blocks should be composed of plots that are as homogeneous as possible. Further, blocks in the same replication should be as near as possible to maximize the variation among replication. These incomplete blocks are combined into groups that form separate, complete replications."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000333> "lattice design"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000333> <http://purl.obolibrary.org/obo/OBI_0500000>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000334> (replicated control design)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www1.agric.gov.ab.ca/$department/deptdocs.nsf/all/sag3024") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000334> "An experimental design in which each treatment is included only once and is near to a control treatment. A control treatment is usually either a common practice or no practice."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000334> "replicated control design"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000334> <http://purl.obolibrary.org/obo/OBI_0500000>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000335> (demonstration strip design)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www1.agric.gov.ab.ca/$department/deptdocs.nsf/all/sag3024") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000335> "An experimental design in which basic farming practices are compared using demonstration strips on a farm field. Usually the comparison is between two to four treatments, up to a maximum of 10 and each treatment is included only once."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000335> "demonstration strip design"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000335> <http://purl.obolibrary.org/obo/OBI_0500000>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000336> (square lattice design)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.iasri.res.in/iasriwebsite/DESIGNOFEXPAPPLICATION/Electronic-Book/Module%202/4LATTICE%20Designs.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000336> "A lattice design in which the number of treatment must be a perfect square. Blocks per replicate and plots per block are equal, and are the square root of the number of treatments."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000336> "square lattice design"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000336> <http://purl.obolibrary.org/obo/AGRO_00000333>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000337> (alpha lattice design)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://libcatalog.cimmyt.org/download/agris/62983.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.worldessaysj.com/files_site/paperlist/r_16_130802114356.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000337> "A lattice design that is a resolvable incomplete block design where the number of treatments or block size does not meet the strict requirements for one of the lattice designs. Also the number of entries is a multiple of block size."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000337> "alpha lattice design"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000337> <http://purl.obolibrary.org/obo/AGRO_00000333>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
