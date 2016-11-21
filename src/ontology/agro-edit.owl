@@ -338,6 +338,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000334>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000335>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000336>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000337>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000338>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000350>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000351>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000352>))
@@ -2629,6 +2630,12 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000337> "alpha lattice design"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000337> <http://purl.obolibrary.org/obo/AGRO_00000333>)
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000338> (higher-level landform)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "adapted from FAO, 1990") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000338> "The landform refers to the shape of the land surface in the area in which the site is located."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000338> "higher-level landform"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000338> <http://purl.obolibrary.org/obo/ENVO_00002297>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000350> (planting distribution)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000350> "Pattern used to plant crop in field.")
@@ -2753,6 +2760,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000022> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/ENVO_00000027> (spring)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>))
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000083> (hill)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000083> <http://purl.obolibrary.org/obo/AGRO_00000338>)
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00000114> (agricultural field)
 
