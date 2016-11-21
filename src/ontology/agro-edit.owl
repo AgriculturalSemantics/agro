@@ -338,13 +338,13 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000334>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000335>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000336>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000337>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000350>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000351>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000352>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000353>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000354>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000355>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
-Declaration(Class(:AGRO_00000350))
-Declaration(Class(:AGRO_00000351))
-Declaration(Class(:AGRO_00000352))
-Declaration(Class(:AGRO_00000353))
-Declaration(Class(:AGRO_00000354))
-Declaration(Class(:AGRO_00000355))
 Declaration(Class(:AGRO_00000356))
 Declaration(Class(:AGRO_00000357))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
@@ -2629,6 +2629,44 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000337> "alpha lattice design"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000337> <http://purl.obolibrary.org/obo/AGRO_00000333>)
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000350> (planting distribution)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000350> "Pattern used to plant crop in field.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000350> "planting distribution"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000350> <http://purl.obolibrary.org/obo/IAO_0000104>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000351> (hill distribution)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000351> "Planting is done on flat-top circular mounds."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000351> "hill distribution"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000351> <http://purl.obolibrary.org/obo/AGRO_00000350>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000352> (row distribution)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000352> "Planting is done in lines."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000352> "row distribution"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000352> <http://purl.obolibrary.org/obo/AGRO_00000350>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000353> (row on bed distribution)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000353> "Planting distribution where the crop zone and the traffic lanes (wheel tracks or furrows) are distinctly and permanently separated. Soil is moved from the traffic lanes and added to the crop zone, slightly raising the surface level of the crop zone"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000353> "raised bed planting"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000353> "row on bed distribution"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000353> <http://purl.obolibrary.org/obo/AGRO_00000350>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000354> (uniform distribution)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000354> "Planting is done on all the field surface."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000354> "uniform distribution"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000354> <http://purl.obolibrary.org/obo/AGRO_00000350>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000355> (slope shape)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FAO, 1990") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000355> "Shape quality that refers to the general shape of a slope in both vertical and horizontal directions."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000355> "slope form"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000355> "slope shape"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000355> <http://purl.obolibrary.org/obo/PATO_0000052>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_01000000> "A planned process in which fertilizer is applied to an environmental material to promote the growth of a plant.")
@@ -2766,44 +2804,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/PO_0000003> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/PO_0009010> (seed)
 
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009010> <http://purl.obolibrary.org/obo/AGRO_00000032>)
-
-# Class: :AGRO_00000350 (planting distribution)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :AGRO_00000350 "Pattern used to plant crop in field.")
-AnnotationAssertion(rdfs:label :AGRO_00000350 "planting distribution"@fr)
-SubClassOf(:AGRO_00000350 <http://purl.obolibrary.org/obo/IAO_0000104>)
-
-# Class: :AGRO_00000351 (hill distribution)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :AGRO_00000351 "Planting is done on flat-top circular mounds."@en)
-AnnotationAssertion(rdfs:label :AGRO_00000351 "hill distribution"@fr)
-SubClassOf(:AGRO_00000351 :AGRO_00000350)
-
-# Class: :AGRO_00000352 (row distribution)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :AGRO_00000352 "Planting is done in lines."@en)
-AnnotationAssertion(rdfs:label :AGRO_00000352 "row distribution"@fr)
-SubClassOf(:AGRO_00000352 :AGRO_00000350)
-
-# Class: :AGRO_00000353 (row on bed distribution)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :AGRO_00000353 "Planting distribution where the crop zone and the traffic lanes (wheel tracks or furrows) are distinctly and permanently separated. Soil is moved from the traffic lanes and added to the crop zone, slightly raising the surface level of the crop zone"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :AGRO_00000353 "raised bed planting"@en)
-AnnotationAssertion(rdfs:label :AGRO_00000353 "row on bed distribution"@fr)
-SubClassOf(:AGRO_00000353 :AGRO_00000350)
-
-# Class: :AGRO_00000354 (uniform distribution)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :AGRO_00000354 "Planting is done on all the field surface."@en)
-AnnotationAssertion(rdfs:label :AGRO_00000354 "uniform distribution"@fr)
-SubClassOf(:AGRO_00000354 :AGRO_00000350)
-
-# Class: :AGRO_00000355 (slope shape)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FAO, 1990") <http://purl.obolibrary.org/obo/IAO_0000115> :AGRO_00000355 "Shape quality that refers to the general shape of a slope in both vertical and horizontal directions."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> :AGRO_00000355 "slope form"@en)
-AnnotationAssertion(rdfs:label :AGRO_00000355 "slope shape"@fr)
-SubClassOf(:AGRO_00000355 <http://purl.obolibrary.org/obo/PATO_0000052>)
 
 # Class: :AGRO_00000356 (field maximum length)
 
