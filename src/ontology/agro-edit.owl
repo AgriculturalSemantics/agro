@@ -339,6 +339,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000335>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000336>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000337>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000338>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000339>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000340>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000341>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000342>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000350>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000351>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000352>))
@@ -2528,6 +2532,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000321> "r
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/wairdocs/ilri/x5546e/x5546e0a.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000322> "A treatment is the material being forced on the subject (unit) and whose effect is to be monitored during an experiment. The treatment can be either qualitative (e.g., species, fertilizer types) or quantitative (e.g., time periods, quantified levels of a fertilizer type)."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000322> "treatment"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000322> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002609> <http://purl.obolibrary.org/obo/AGRO_00000341>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000323> (number of treatments)
 
@@ -2635,6 +2640,32 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000337> <http://purl.obolibrar
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "adapted from FAO, 1990") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000338> "The landform refers to the shape of the land surface in the area in which the site is located."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000338> "higher-level landform"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000338> <http://purl.obolibrary.org/obo/ENVO_00002297>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000339> (land element and position)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000339> "Description of the geomorphology of the immediate surroundings of the experimental site."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000339> "land element and position"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000339> <http://purl.obolibrary.org/obo/ENVO_00002297>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000340> (environmental feature grade)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Grade_(slope)") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000340> "The grade of a physical feature, landform or constructed line refers to the tangent of the angle of that surface to the horizontal."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000340> "environmental feature gradient"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000340> "environmental feature slope"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000340> "slope inclination"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000340> "environmental feature grade"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000340> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000185>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000340> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000187>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000341> (experimental factor)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.stat.yale.edu/Courses/1997-98/101/expdes.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000341> "A factor of an experiment is a controlled independent variable; a variable whose levels are set by the experimenter. A factor is a general type or category of treatments. Different treatments constitute different levels of a factor."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000341> "experimental factor"@en)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000342> (experimental constraint)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000342> "Constraint known to affect the experiment or the crop performances."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000342> "experimental constraint"@en)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000350> (planting distribution)
 
@@ -2833,4 +2864,5 @@ EquivalentClasses(:AGRO_00000357 ObjectSomeValuesFrom(<http://purl.obolibrary.or
 SubClassOf(:AGRO_00000357 <http://purl.obolibrary.org/obo/PATO_0000921>)
 
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IAO_0000005> "experiment objective"@en)
 )
