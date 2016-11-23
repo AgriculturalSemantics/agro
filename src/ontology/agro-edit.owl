@@ -343,6 +343,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000339>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000340>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000341>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000342>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000343>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000350>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000351>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000352>))
@@ -2666,6 +2667,11 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000341> "e
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000342> "Constraint known to affect the experiment or the crop performances."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000342> "experimental constraint"@en)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000343> (experimental design)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000343> "experimental design"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000343> <http://purl.obolibrary.org/obo/OBI_0500000>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000350> (planting distribution)
 
