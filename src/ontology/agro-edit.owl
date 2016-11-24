@@ -344,12 +344,28 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000340>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000341>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000342>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000343>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000344>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000345>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000346>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000347>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000348>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000349>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000350>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000351>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000352>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000353>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000354>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000355>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000356>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000357>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000358>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000359>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000360>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000361>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000362>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000363>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000364>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000365>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(:AGRO_00000356))
 Declaration(Class(:AGRO_00000357))
@@ -2673,6 +2689,45 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000342> "e
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000343> "experimental design"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000343> <http://purl.obolibrary.org/obo/OBI_0500000>)
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000344> (complication during the experiment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000344> "Unexpected event arrived during the experiment."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000344> "complication during the experiment"@en)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000345> (equipement complication)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000345> "A complication with the equipement used during the experiment."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000345> "equipement complication"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000345> <http://purl.obolibrary.org/obo/AGRO_00000344>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000346> (personel complication)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000346> "A complication with a person or a group of people working on the experiement."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000346> "personel complication"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000346> <http://purl.obolibrary.org/obo/AGRO_00000344>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000347> (other complication)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000347> "A complication during the experiment that is not mentionned in the list."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000347> "other complication"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000347> <http://purl.obolibrary.org/obo/AGRO_00000344>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000348> (percent of experiment area damaged)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000348> "Percentage of the area of the experiment damaged due to a complication during the experiment."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000348> "percent of experiment area damaged"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000348> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000187>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000348> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000300>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000348> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> <http://purl.obolibrary.org/obo/AGRO_00000344>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000348> <http://purl.obolibrary.org/obo/PATO_0001470>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000349> (soil analysis)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Soil_test") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000349> "A planned process in which an analysis of soil is performed to determine soil characteristics."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000349> "soil test"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000349> "soil analysis"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000349> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000350> (planting distribution)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000350> "Pattern used to plant crop in field.")
@@ -2710,6 +2765,70 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000355> "slope form"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000355> "slope shape"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000355> <http://purl.obolibrary.org/obo/PATO_0000052>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000356> (soil profile)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000356> "soil profile"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000356> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000357> (weather station)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.merriam-webster.com/dictionary/weather%20station") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000357> "An observation post where weather conditions and meteorological data are observed and recorded and reported."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000357> "weather station"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000357> <http://purl.obolibrary.org/obo/BFO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000358> (temperature sensor siting height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000358> "Distance between the ground and the temperature sensor."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000358> "temperature sensor siting height"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000358> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000001>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000358> <http://purl.obolibrary.org/obo/PATO_0000119>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000359> (wind speed sensor siting height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000359> "Distance between the ground and the wind speed sensor."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000359> "wind speed sensor siting height"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000359> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000001>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000359> <http://purl.obolibrary.org/obo/PATO_0000119>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000360> (experimental site)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000360> "Location where the experiment is implemented."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000360> "experimental site"@en)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000361> (farmer field)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000361> "Experimental site in which the experiment is implemented on the field of a farmer."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000361> "farmer field"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000361> <http://purl.obolibrary.org/obo/AGRO_00000360>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000362> (research station field)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000362> "Experimental site in which the experiment is done in a the field of a research station."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000362> "experimental station field"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000362> "research station field"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000362> <http://purl.obolibrary.org/obo/AGRO_00000360>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000363> (greenhouse)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Greenhouse") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000363> "An experimental site in which the experiment is performed in a structure with walls and roof made chiefly of transparent material, such as glass, with the possibility to regulate climatic conditions."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000363> "hothouse"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000363> "screenhouse"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000363> "glasshouse"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000363> "greenhouse"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000363> <http://purl.obolibrary.org/obo/AGRO_00000360>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000364> (governmental forest)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000364> "Experimental site where the experiment is done in a forest owned by a government."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000364> "governmental forest"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000364> <http://purl.obolibrary.org/obo/AGRO_00000360>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000365> (private forest)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000365> "Experimental site where the experiment is done in a private forest."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000365> "private forest"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000365> <http://purl.obolibrary.org/obo/AGRO_00000360>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
@@ -2856,7 +2975,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/PO_0009010> <http://purl.obolibrary.o
 # Class: :AGRO_00000356 (field maximum length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> :AGRO_00000356 "Maximum length of an agromical field."@en)
-AnnotationAssertion(rdfs:label :AGRO_00000356 "field maximum length"@fr)
+AnnotationAssertion(rdfs:label :AGRO_00000356 "field maximum length"@en)
 EquivalentClasses(:AGRO_00000356 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000001>))
 EquivalentClasses(:AGRO_00000356 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00000114>))
 SubClassOf(:AGRO_00000356 <http://purl.obolibrary.org/obo/PATO_0000122>)
