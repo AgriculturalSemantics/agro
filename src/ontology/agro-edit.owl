@@ -356,7 +356,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000352>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000353>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000354>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000355>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000356>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000357>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000358>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000359>))
@@ -366,6 +365,22 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000362>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000363>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000364>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000365>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000367>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000368>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000369>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000370>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000371>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000372>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000373>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000374>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000375>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000376>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000377>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000378>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000379>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000380>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000381>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000382>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(:AGRO_00000356))
 Declaration(Class(:AGRO_00000357))
@@ -2766,11 +2781,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000355> "slope shape"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000355> <http://purl.obolibrary.org/obo/PATO_0000052>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000356> (soil profile)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000356> "soil profile"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000356> <http://purl.obolibrary.org/obo/OBI_0000011>)
-
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000357> (weather station)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.merriam-webster.com/dictionary/weather%20station") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000357> "An observation post where weather conditions and meteorological data are observed and recorded and reported."@en)
@@ -2829,6 +2839,110 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000364> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000365> "Experimental site where the experiment is done in a private forest."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000365> "private forest"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000365> <http://purl.obolibrary.org/obo/AGRO_00000360>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000367> (experimental site altitude)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Altitude") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000367> "Elevation above the sea level of the experimental site."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000367> "experimental site elevation"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000367> "experimental site altitude"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000367> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000001>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000367> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000360>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000367> <http://purl.obolibrary.org/obo/PATO_0001687>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000368> (weather station altitude)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Altitude") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000368> "Elevation above sea level of the weather station."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000368> "weather station altitude"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000368> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000001>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000368> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000357>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000368> <http://purl.obolibrary.org/obo/PATO_0001687>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000369> (experiment)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Experiment") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000369> "A planned process in which a procedure is carried out to support, refute, or validate a hypothesis."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000369> "trial"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000369> "experiment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000369> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000370> (agricultural experiment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000370> "An experiment in which a scientific method is implemented for testing certain agricultural phenomena."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000370> "agronomic experiment"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000370> "agricultural experiment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000370> <http://purl.obolibrary.org/obo/AGRO_00000369>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000371> (person)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000371> "person"@en)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000372> (farmer)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Farmer") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000372> "A person engaged in agriculture, raising living organisms for food or raw materials."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000372> "farmer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000372> <http://purl.obolibrary.org/obo/AGRO_00000371>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000373> (researcher)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.vocabulary.com/dictionary/researcher") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000373> "A person who conducts research."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000373> "scientist"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000373> "researcher"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000373> <http://purl.obolibrary.org/obo/AGRO_00000371>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000374> (student)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "www.thefreedictionary.com/student") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000374> "A person that is enrolled or attends classes at a school, college, or university."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000374> "intern"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000374> "student"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000374> <http://purl.obolibrary.org/obo/AGRO_00000371>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000375> (research station employee)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000375> "A person that works in a research station."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000375> "research station employee"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000375> <http://purl.obolibrary.org/obo/AGRO_00000371>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000376> (extension agent)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "www.thefreedictionary.com/extension+agent") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000376> "A person that is employed by the government to assist people in rural areas with methods of farming and home economics."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000376> "extension agent"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000376> <http://purl.obolibrary.org/obo/AGRO_00000371>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000377> (faculty member)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "www.thefreedictionary.com/faculty+member") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000377> "A person that is an educator who works at a college or university."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000377> "faculty member"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000377> <http://purl.obolibrary.org/obo/AGRO_00000371>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000378> (person role within the experiment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000378> "Roled performed by a person during an experiment."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000378> "person role within the experiment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000378> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000379> (data collector)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000379> "A person that has a role of collecting data related to the experiment."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000379> "data collector"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000379> <http://purl.obolibrary.org/obo/AGRO_00000378>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000380> (principal investigator)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Principal_investigator") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000380> "A person that is the holder of an independent grant and the lead researcher for the grant project."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000380> "principal investigator"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000380> <http://purl.obolibrary.org/obo/AGRO_00000378>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000381> (experiment manager)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000381> "A person that has a role of managing the experiment."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000381> "Need a better definiton that highlights the differences with the principal investigator."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000381> "experiment manager"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000381> <http://purl.obolibrary.org/obo/AGRO_00000378>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000382> (field laborer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000382> "A person that has a role of performing the operations required to run the experiment in the field."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000382> "field laborer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000382> <http://purl.obolibrary.org/obo/AGRO_00000378>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
