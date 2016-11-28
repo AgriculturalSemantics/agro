@@ -381,6 +381,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000379>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000380>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000381>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000382>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000384>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000385>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000386>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(:AGRO_00000356))
 Declaration(Class(:AGRO_00000357))
@@ -2943,6 +2946,22 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000381> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000382> "A person that has a role of performing the operations required to run the experiment in the field."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000382> "field laborer"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000382> <http://purl.obolibrary.org/obo/AGRO_00000378>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000384> (Vegetation maintained on the experimental field)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000384> "Vegetation maintained in purpose on and at the border of the experimental field."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000384> "Vegetation maintained on the experimental field"@en)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000385> (flower strip)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://onlinelibrary.wiley.com/doi/10.1111/cobi.12536/full") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000385> "Strip of flowers established at the edge of the field."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000385> "flower strip"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000385> <http://purl.obolibrary.org/obo/AGRO_00000384>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000386> (fallow land)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000386> "fallow land"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000386> <http://purl.obolibrary.org/obo/AGRO_00000384>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
