@@ -383,10 +383,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000381>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000382>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000384>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000385>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000386>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000387>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000388>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000389>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000390>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000391>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(:AGRO_00000356))
 Declaration(Class(:AGRO_00000357))
@@ -2683,6 +2684,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000338> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000339> "Description of the geomorphology of the immediate surroundings of the experimental site."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000339> "land element and position"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000339> <http://purl.obolibrary.org/obo/ENVO_00000480>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000339> <http://purl.obolibrary.org/obo/ENVO_00002297>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000340> (environmental feature grade)
@@ -2960,11 +2962,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000384> "V
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://onlinelibrary.wiley.com/doi/10.1111/cobi.12536/full") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000385> "Strip of flowers established at the edge of the field."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000385> "flower strip"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000385> <http://purl.obolibrary.org/obo/AGRO_00000384>)
-
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000386> (fallow land)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000386> "fallow land"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000386> <http://purl.obolibrary.org/obo/AGRO_00000384>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000385> <http://purl.obolibrary.org/obo/AGRO_00000391>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000387> (vegetation surronding the experimental site)
 
@@ -2982,6 +2980,20 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000388> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000389> "Slope shape irregular."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000389> "irregular shape"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000389> <http://purl.obolibrary.org/obo/AGRO_00000355>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000390> (fallow land)
+
+AnnotationAssertion(Annotation(rdfs:comment "https://stats.oecd.org/glossary/detail.asp?ID=933") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000390> "An agricultural field that is set aside for a period of time before it is cultivated again; or an agricultral field that is under permanent crops, meadows or pastures and that is not being used for such purposes for a period of at least one year."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000390> "fallow land"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000390> <http://purl.obolibrary.org/obo/AGRO_00000387>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000390> <http://purl.obolibrary.org/obo/ENVO_00000114>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000391> (field margin)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.xerces.org/wp-content/uploads/2011/02/landscape-enhancement-of-floral-resources-for-honey-bees-in-agro-ecosystems.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000391> "Strips of land along the borders of crop fields. It also include vegetative strips adjacent
+to roads, paths, railways, hedgerows and forest boundaries."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000391> "field margin"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000391> <http://purl.obolibrary.org/obo/ENVO_00000077>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
@@ -3070,9 +3082,35 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000022> ObjectSomeValuesFrom(<
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>))
 
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000038> (lagoon)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000038> <http://purl.obolibrary.org/obo/AGRO_00000339>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000057> (mangrove swamp)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000057> <http://purl.obolibrary.org/obo/AGRO_00000339>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000081> (mountain)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000081> <http://purl.obolibrary.org/obo/AGRO_00000338>)
+
 # Class: <http://purl.obolibrary.org/obo/ENVO_00000083> (hill)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000083> <http://purl.obolibrary.org/obo/AGRO_00000338>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000086> (plain)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000086> <http://purl.obolibrary.org/obo/AGRO_00000338>)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000086> <http://purl.obolibrary.org/obo/AGRO_00000339>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000091> (beach)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000091> <http://purl.obolibrary.org/obo/AGRO_00000339>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000100> (valley)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000100> <http://purl.obolibrary.org/obo/AGRO_00000338>)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000100> <http://purl.obolibrary.org/obo/AGRO_00000339>)
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00000114> (agricultural field)
 
@@ -3080,6 +3118,46 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/ENVO_00000114> ObjectSomeValue
 EquivalentClasses(<http://purl.obolibrary.org/obo/ENVO_00000114> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/AGRO_00000156>))
 EquivalentClasses(<http://purl.obolibrary.org/obo/ENVO_00000114> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/AGRO_00000196>))
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000114> <http://purl.obolibrary.org/obo/AGRO_00000387>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000150> (coral reef)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000150> <http://purl.obolibrary.org/obo/AGRO_00000339>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000170> (dune)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000170> <http://purl.obolibrary.org/obo/AGRO_00000339>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000182> (plateau)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000182> <http://purl.obolibrary.org/obo/AGRO_00000338>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000283> (ridge)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000283> <http://purl.obolibrary.org/obo/AGRO_00000339>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000309> (depression)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000309> <http://purl.obolibrary.org/obo/AGRO_00000339>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000395> (channel)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000395> <http://purl.obolibrary.org/obo/AGRO_00000339>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000514> (crater)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000514> <http://purl.obolibrary.org/obo/AGRO_00000339>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000527> (interfluve)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000527> <http://purl.obolibrary.org/obo/AGRO_00000339>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000529> (beach ridge)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000529> <http://purl.obolibrary.org/obo/AGRO_00000339>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00002000> (slope)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002000> <http://purl.obolibrary.org/obo/AGRO_00000339>)
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00002041> (ground water)
 
@@ -3114,6 +3192,18 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00005774> ObjectSomeValuesFrom(<
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000560> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000710> (flood)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000710> <http://purl.obolibrary.org/obo/AGRO_00000344>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000787> (wildfire)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000787> <http://purl.obolibrary.org/obo/AGRO_00000344>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000793> (atmospheric wind)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000793> <http://purl.obolibrary.org/obo/AGRO_00000344>)
+
 # Class: <http://purl.obolibrary.org/obo/ENVO_01001305> (vegetated area)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001305> <http://purl.obolibrary.org/obo/AGRO_00000387>)
@@ -3121,6 +3211,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001305> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/ENVO_02000054> (bone meal)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_02000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_1000745> (drought)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_1000745> <http://purl.obolibrary.org/obo/AGRO_00000344>)
 
 # Class: <http://purl.obolibrary.org/obo/PATO_0001355> (convex)
 
