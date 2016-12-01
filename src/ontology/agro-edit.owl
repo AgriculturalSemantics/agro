@@ -381,6 +381,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000379>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000380>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000381>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000382>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000383>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000384>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000385>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000387>))
@@ -388,6 +389,24 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000388>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000389>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000390>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000391>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000392>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000393>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000394>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000395>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000396>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000397>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000398>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000399>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000400>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000401>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000402>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000403>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000404>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000405>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000406>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000407>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000408>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000409>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(:AGRO_00000356))
 Declaration(Class(:AGRO_00000357))
@@ -2952,6 +2971,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000382> "field laborer"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000382> <http://purl.obolibrary.org/obo/AGRO_00000378>)
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000383> (hand plough)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000383> "An object to be used by hand to plough soil."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000383> "hand plough"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000383> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000383> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000384> (Vegetation maintained on the experimental field)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000384> "Vegetation maintained in purpose on and at the border of the experimental field."@en)
@@ -2994,6 +3020,130 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 to roads, paths, railways, hedgerows and forest boundaries."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000391> "field margin"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000391> <http://purl.obolibrary.org/obo/ENVO_00000077>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000392> (paraplough)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs144p2_030994.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000392> "Tool for loosening compacted soil layers 12 to 16 inches (30 to 40 cm) deep and still maintain high surface residue levels."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000392> "paraplow"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000392> "paraplough"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000392> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000392> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000393> (cultivator)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Cultivator") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000393> "Tillage tool that stirs and pulverizes the soil, either before planting (to aerate the soil and prepare a smooth, loose seedbed) or after the crop has begun growing (to kill weeds—controlled disturbance of the topsoil close to the crop plants kills the surrounding weeds by uprooting them, burying their leaves to disrupt their photosynthesis, or a combination of both). Cultivator is designed to disturb the soil in careful patterns, sparing the crop plants but disrupting the weeds. Cultivator teeth work near the surface."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000393> "cultivator"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000393> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000393> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000394> (tandem disc harrow)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Disc_harrow") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000394> "A disk harrow with disc blades arranged into four sections."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000394> "tandem disc harrow"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000394> <http://purl.obolibrary.org/obo/AGRO_00000128>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000395> (offset disc harrow)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Disc_harrow") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000395> "A disk harrow with disc blades arranged into two sections."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000395> "offset disc harrow"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000395> <http://purl.obolibrary.org/obo/AGRO_00000128>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000396> (seed drill)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Seed_drill") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000396> "A sowing device that positions seeds in the soil and then covers them. The seed drill sows the seeds at equal distances and proper depth, ensuring that the seeds get covered with soil."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000396> "seed drill"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000396> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000396> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000142>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000397> (drum seeder)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "drum.http://www.kvkimphalwest.org/images/paddy-drum-seeder.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000397> "A seeding implement that consists of a seed drum, main shaft, ground wheel, floats, and handle. Joining smaller ends of frustum of cones makes the seed drum."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000397> "paddy drum seeder"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000397> "drum seeder"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000397> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000397> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000142>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000398> (hoe)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Hoe_(tool)") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000398> "An agricultural hand tool ade of a blade set to an handle and used to shape the soil, control weeds, clear soil, and harvest root crops."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000398> "hoe"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000398> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000398> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000142>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000399> (manual oilseed drill)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agricoop.nic.in/dacdivision/Machinery1/chap2a.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000399> "A seed drill that consists of a seed box attached to the mainframe of a hand wheel hoe. A fluted roller assembly is provided at the bottom of the seed box. Fluted roller is rotated with the help of
+chain and sprockets from the ground wheel."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000399> "manual oilseed drill"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000399> <http://purl.obolibrary.org/obo/AGRO_00000396>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000400> (tyne opener planter)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agricoop.nic.in/dacdivision/Machinery1/chap2a.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000400> "A curved metal bar used to open the soil before putting the seed into the soil."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000400> "tyne opener planter"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000400> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000400> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000231>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000401> (dibbling stick)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agricoop.nic.in/dacdivision/Machinery1/chap2a.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000401> "Manually operated device for creating a conical cavity in the soil for sowing of seeds. It consists of a wooden round stick with one end having a sheet metal cone. The other end is provided with a handgrip."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000401> "dibbling stick"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000401> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000401> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000231>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000402> (naveen dibbler)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agricoop.nic.in/dacdivision/Machinery1/chap2a.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000402> "Manually operated hand tool which consists of a seed hopper, cell roller for metering of seeds, spring actuated jaws for penetration in the soil, pipe and handle."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000402> "naveen dibbler"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000402> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000402> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000231>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000403> (hand dibbler)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agricoop.nic.in/dacdivision/Machinery1/chap2a.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000403> "An tool made of mild steel flat or leaf spring by forging operation. The working end is flattened and edge made sharp for easy penetration in the soil."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000403> "hand dibbler"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000403> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000231>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000404> (rotary dibbler)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agricoop.nic.in/dacdivision/Machinery1/chap2a.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000404> "Manually operated push device for dibbling of medium and bold size seeds. It consists of a rotating dibbling head with penetrating jaws, covering-cum-transport wheel, seed hopper with cell wooden roller and a handle."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000404> "rotary dibbler"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000404> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000404> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000231>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000405> (earth auger)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agricoop.nic.in/dacdivision/Machinery1/chap2a.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000405> "Manually operated hand tool that consists of cutter head having semicircular blades connected to pipe with the help of clamp and flange. The connecting pipe is further connected to a handle."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000405> "earth auger"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000405> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000231>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000406> (single disc opener planter)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agricoop.nic.in/dacdivision/Machinery1/chap2a.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000406> "A flat and circular piece of metal used to open the soil before putting the seed into the soil."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000406> "single disc opener planter"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000406> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000406> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000231>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000407> (double disck opener planter)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agricoop.nic.in/dacdivision/Machinery1/chap2a.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000407> "Double flat and circular piece of metal used to open the soil before putting the seed into the soil."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000407> "double disck opener planter"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000407> <http://purl.obolibrary.org/obo/BFO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000231>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000408> (manual irrigation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000408> "Irrigation method based on manual intervention."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000408> "manual irrigation"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000408> <http://purl.obolibrary.org/obo/AGRO_00000054>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000409> (automatic irrigation)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.sswm.info/content/automatic-irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000409> "Irrigation method with no or just a minimum of manual intervention beside the surveillance. Almost every system can be automated with help of timers, sensors or computers or mechanical appliances."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000409> "automatic irrigation"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000409> <http://purl.obolibrary.org/obo/AGRO_00000054>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
@@ -3215,6 +3365,38 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_02000054> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/ENVO_1000745> (drought)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_1000745> <http://purl.obolibrary.org/obo/AGRO_00000344>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_10239> (Viruses)
+
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_10239> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000069>))
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_2> (Bacteria)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/NCBITaxon_2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000069>))
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0000317> (black)
+
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000317> <http://purl.obolibrary.org/obo/AGRO_00000194>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0000323> (white)
+
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000323> <http://purl.obolibrary.org/obo/AGRO_00000194>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0000324> (yellow)
+
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000324> <http://purl.obolibrary.org/obo/AGRO_00000194>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0000950> (grey)
+
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000950> <http://purl.obolibrary.org/obo/AGRO_00000194>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0000952> (brown)
+
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000952> <http://purl.obolibrary.org/obo/AGRO_00000194>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0000964> (transparent)
+
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000964> <http://purl.obolibrary.org/obo/AGRO_00000194>)
 
 # Class: <http://purl.obolibrary.org/obo/PATO_0001355> (convex)
 
