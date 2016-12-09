@@ -455,39 +455,26 @@ ObjectPropertyRange(<http://purl.obolibrary.org/obo/AGRO_00000429> <http://purl.
 # Data Property: <http://purl.obolibrary.org/obo/AGRO_00000411> (has model)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000411> "has model"@en)
-DataPropertyDomain(<http://purl.obolibrary.org/obo/AGRO_00000411> <http://purl.obolibrary.org/obo/BFO_0000030>)
-DataPropertyRange(<http://purl.obolibrary.org/obo/AGRO_00000411> xsd:string)
 
 # Data Property: <http://purl.obolibrary.org/obo/AGRO_00000414> (has brand)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000414> "has brand"@en)
-DataPropertyDomain(<http://purl.obolibrary.org/obo/AGRO_00000414> <http://purl.obolibrary.org/obo/BFO_0000030>)
-DataPropertyRange(<http://purl.obolibrary.org/obo/AGRO_00000414> xsd:string)
 
 # Data Property: <http://purl.obolibrary.org/obo/AGRO_00000415> (has notes)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000415> "has notes"@en)
-DataPropertyDomain(<http://purl.obolibrary.org/obo/AGRO_00000415> <http://purl.obolibrary.org/obo/AGRO_00000344>)
-DataPropertyRange(<http://purl.obolibrary.org/obo/AGRO_00000415> xsd:string)
 
 # Data Property: <http://purl.obolibrary.org/obo/AGRO_00000417> (has start date)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000417> "has start date"@en)
-DataPropertyDomain(<http://purl.obolibrary.org/obo/AGRO_00000417> <http://purl.obolibrary.org/obo/AGRO_00000344>)
-DataPropertyDomain(<http://purl.obolibrary.org/obo/AGRO_00000417> <http://purl.obolibrary.org/obo/OBI_0000011>)
-DataPropertyRange(<http://purl.obolibrary.org/obo/AGRO_00000417> xsd:dateTime)
 
 # Data Property: <http://purl.obolibrary.org/obo/AGRO_00000418> (has end date)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000418> "has end date"@en)
-DataPropertyDomain(<http://purl.obolibrary.org/obo/AGRO_00000418> <http://purl.obolibrary.org/obo/AGRO_00000344>)
-DataPropertyDomain(<http://purl.obolibrary.org/obo/AGRO_00000418> <http://purl.obolibrary.org/obo/OBI_0000011>)
-DataPropertyRange(<http://purl.obolibrary.org/obo/AGRO_00000418> xsd:dateTime)
 
 # Data Property: <http://purl.obolibrary.org/obo/AGRO_00000419> (has number)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000419> "has number"@en)
-DataPropertyRange(<http://purl.obolibrary.org/obo/AGRO_00000419> xsd:integer)
 
 # Data Property: <http://purl.obolibrary.org/obo/AGRO_00000421> (has name)
 
@@ -496,14 +483,11 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000421> "h
 # Data Property: <http://purl.obolibrary.org/obo/AGRO_00000422> (has ID)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000422> "has ID"@en)
-DataPropertyRange(<http://purl.obolibrary.org/obo/AGRO_00000422> xsd:string)
 
 # Data Property: <http://purl.obolibrary.org/obo/AGRO_00000425> (has experiment code)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000425> "An experiment code is made of the name of serie plus year plus experiment number."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000425> "has experiment code"@en)
-DataPropertyDomain(<http://purl.obolibrary.org/obo/AGRO_00000425> <http://purl.obolibrary.org/obo/AGRO_00000369>)
-DataPropertyRange(<http://purl.obolibrary.org/obo/AGRO_00000425> xsd:string)
 
 
 ############################
