@@ -407,6 +407,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000406>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000407>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000408>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000409>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000412>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000413>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000416>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000420>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000423>))
@@ -733,7 +735,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000036> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000037> (aerial application)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agritech.tnau.ac.in/agriculture/agri_nutrientmgt_methodsoffertilizerappln.html") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Aerial_application") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000037> "An application method in which a liquid material entity is applied by aircraft to an area."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agritech.tnau.ac.in/agriculture/agri_nutrientmgt_methodsoffertilizerappln.html") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Aerial_application") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://prod.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs144p2_030755.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000037> "An application method in which a liquid material entity is applied by aircraft to an area."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000037> "aerial topdressing"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000037> "crop dusting"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000037> "aerial application"@en)
@@ -1500,6 +1502,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000141> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000142> (seeding process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Sowing") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000142> "A planned process in which seeds are applied on or into the soil."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.cropsreview.com/methods-of-planting.html") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000142> "direct seeding"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000142> "seeding"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000142> "sowing"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000142> "sowing process"@en)
@@ -3181,6 +3184,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000395> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000396> (seed drill)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Seed_drill") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000396> "A sowing device that positions seeds in the soil and then covers them. The seed drill sows the seeds at equal distances and proper depth, ensuring that the seeds get covered with soil."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000396> "drill seeder"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000396> "seed drill"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000396> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000396> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000142>))
@@ -3275,9 +3279,26 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000409> "automatic irrigation"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000409> <http://purl.obolibrary.org/obo/AGRO_00000054>)
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000412> (dibbling)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.thefreedictionary.com/dibbling") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000412> "An application method in which a material entity is placed into the soil in holes made with a pointed implement."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000412> "precision seeding"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000412> "dibbling"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000412> <http://purl.obolibrary.org/obo/AGRO_00000036>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000412> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000112>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000229>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000231>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>)))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000413> (drilling)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.culturalecology.info/ancillary/seed_machines_files/sowingseeds.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000413> "An application method in which seeds are uniformlyplaced into shallow furrows before closing the furrows."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agriinfo.in/default.aspx?page=topic&superid=1&topicid=337") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000413> "line sowing"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000413> "drilling"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000413> <http://purl.obolibrary.org/obo/AGRO_00000036>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000413> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000142>))
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000416> (agricultural implement)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000416> "agricultural implement"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000416> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> <http://purl.obolibrary.org/obo/AGRO_00000237>))
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000416> DataMaxCardinality(1 <http://purl.obolibrary.org/obo/AGRO_00000411> xsd:string))
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000416> DataMaxCardinality(1 <http://purl.obolibrary.org/obo/AGRO_00000414> xsd:string))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000416> <http://purl.obolibrary.org/obo/BFO_0000030>)
