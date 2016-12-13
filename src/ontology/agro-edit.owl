@@ -413,6 +413,17 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000416>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000420>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000423>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000424>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000426>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000427>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000428>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000430>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000431>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000432>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000433>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000434>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000435>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000436>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000437>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(:AGRO_00000356))
 Declaration(Class(:AGRO_00000357))
@@ -3321,6 +3332,82 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000423> <http://purl.obolibrar
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000424> "soil profile altitude"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000424> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000001>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000424> <http://purl.obolibrary.org/obo/PATO_0001687>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000426> (regulation of grazing)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://extension.psu.edu/agronomy-guide/cm/sec8/sec810l") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000426> "A planned process in which grazing animals on pasture are managed by humans."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/AGRO_00000426> "http://aims.fao.org/aos/agrovoc/c_3367"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000426> "regulation of grazing"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000426> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000427> (holistic planned grazing)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://savory.global/assets/docs/evidence-papers/about-holistic-planned-grazing.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www2.ca.uky.edu/grazer/July11_Holistic.php") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Holistic_management_(agriculture)") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000427> "Grazing management system developped by Allan Savory. The system is based on a rotational grazing system but doing so at high densities for short intervals. Livestock is used as a tool to increase soil fertility and plant life. Incorporating plant organic matter and manure into the soil promotes the recycling of nutrients."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000427> "holistic grazing"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000427> "holistic planned grazing"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000427> <http://purl.obolibrary.org/obo/AGRO_00000433>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000428> (mob grazing)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.nrcs.usda.gov/wps/portal/nrcs/detail/ia/newsroom/features/?cid=stelprdb1186272") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000428> "A grazing management method that involves moving livestock at least daily between small paddocks, sized to match the number of grazing animals, and split by fence. The goal is for every plant in the grazing cell to be either eaten or walked on and trampled. Grass in each paddock then rests for 60-120 days or more."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www2.ca.uky.edu/grazer/April_2013_Grazing_Systems.php") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000428> "ultra-high density grazing"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000428> "mob grazing"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000428> <http://purl.obolibrary.org/obo/AGRO_00000433>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000430> (rotational grazing)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://forages.oregonstate.edu/nfgc/eo/onlineforagecurriculum/instructormaterials/availabletopics/grazing/types") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000430> "A grazing management system in which the land is subdivided or sectioned off into smaller areas, sometimes called paddocks. The livestock are moved from one paddock to another in order to best promote plant health and growth."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/AGRO_00000430> "http://aims.fao.org/aos/agrovoc/c_6663"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000430> "rotational grazing"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000430> <http://purl.obolibrary.org/obo/AGRO_00000426>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000431> (continuous grazing)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "www.sheep101.info/201/grazingsystems.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000431> "A grazing management system in which livestock have unrestricted access to the pasture area throughout the grazing season."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/AGRO_00000431> "http://aims.fao.org/aos/agrovoc/c_36542"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000431> "continuous grazing"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000431> <http://purl.obolibrary.org/obo/AGRO_00000426>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000432> (strip grazing)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://forages.oregonstate.edu/nfgc/eo/onlineforagecurriculum/instructormaterials/availabletopics/grazing/types") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://oek1.fao.org/skosmos/agrovoc/en/page/?uri=http%3A%2F%2Faims.fao.org%2Faos%2Fagrovoc%2Fc_7456&clang=en") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000432> "A system of grazing which confined animals to a strip or small part of the field for rapid grazing in a short time period.. The rest of the field is protected by a temporary fence, usually electric."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/AGRO_00000432> "http://aims.fao.org/aos/agrovoc/c_7456"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000432> "strip grazing"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000432> <http://purl.obolibrary.org/obo/AGRO_00000433>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000433> (intensive rotational grazing)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://forages.oregonstate.edu/nfgc/eo/onlineforagecurriculum/instructormaterials/availabletopics/grazing/types") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000433> "A rotational grazing management system that implies many paddocks are utilized and livestock are moved on a frequent basis. It provides more stable production during poor growing conditions, greater yield, higher quality, decreased weed and erosion, and uniform soil fertility levels."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://tropicalgrazinginstitute.org/our-work/") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000433> "MIG"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://tropicalgrazinginstitute.org/our-work/") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000433> "Voisin grazing management"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://tropicalgrazinginstitute.org/our-work/") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000433> "management intensive grazing"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000433> "intensive rotational grazing"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000433> <http://purl.obolibrary.org/obo/AGRO_00000430>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000434> (controlled grazing)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://articles.extension.org/pages/19432/goat-pastures-strip-grazing") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000434> "An intensive rotational grazing system in which livestock is allowed to graze for a limited time, leaving a leafy stubble, and then is moved to another area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/AGRO_00000434> "http://aims.fao.org/aos/agrovoc/c_5497"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000434> "controlled grazing"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000434> <http://purl.obolibrary.org/obo/AGRO_00000433>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000435> (hohenheim grazing system)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://ecoursesonline.iasri.res.in/mod/page/view.php?id=62175") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000435> "Intensive grazing system in which the field is divided into many small plots of equal size. Grasses are raised with application of large quantities of nitrogenous fertilizers. The livestock are divided into three groups : high, medium and low yeilders. They are let into the paddock by rotation so that the opportunity for grazing most nutritious immature grasses goes to the high yielders followed by medium producers and lastly low yielders."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://forages.oregonstate.edu/nfgc/eo/onlineforagecurriculum/instructormaterials/availabletopics/grazing/types") rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000435> "hohenheim grazing system"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000435> <http://purl.obolibrary.org/obo/AGRO_00000433>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000436> (creep grazing)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "beeflambnz.com/Documents/Farm/Creep%20grazing%20lambs.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.thefreedictionary.com/creep-grazing") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000436> "A grazzing management system that allows young farm animals to graze part of the pasture before the adults. It employs a gate through which young animals, but not adults, can pass to get first choice of fresh feed in the next door paddock."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000436> "creep grazing"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000436> <http://purl.obolibrary.org/obo/AGRO_00000430>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000437> (first-last grazing)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://forages.oregonstate.edu/nfgc/eo/onlineforagecurriculum/instructormaterials/availabletopics/grazing/types") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000437> "A gazing management system in which two or more groups of animal, usually with different nutritional needs, graze the same paddock but at different time."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000437> "first-last grazing"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000437> <http://purl.obolibrary.org/obo/AGRO_00000430>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
