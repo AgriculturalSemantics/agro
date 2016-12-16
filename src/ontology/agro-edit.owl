@@ -424,6 +424,21 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000434>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000435>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000436>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000437>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000438>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000439>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000440>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000441>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000442>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000443>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000444>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000445>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000446>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000447>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000448>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000449>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000450>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000451>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000452>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(:AGRO_00000356))
 Declaration(Class(:AGRO_00000357))
@@ -582,13 +597,13 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000009> "i
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000009> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ENVO_00000063> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000009> <http://purl.obolibrary.org/obo/ENVO_00000063>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000010> (irrigation quantity)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000010> (irrigation water quantity)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000010> "Quantity of water given per irrigation operation."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000010> "Quantity of water applied per irrigation operation."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000010> "irrigation depth"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000010> "This definition is unclear. It is not clear what is being measured and what this data is about. see: https://github.com/AgriculturalSemantics/agro/issues/5"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000010> "irrigation quantity"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000010> <http://purl.obolibrary.org/obo/IAO_0000027>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000010> "irrigation water quantity"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000010> <http://purl.obolibrary.org/obo/PATO_0000070>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000016>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/ENVO_00002006>))
 
@@ -2383,6 +2398,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000272> "total kjeldahl nitrogen"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000272> "kjeldahl digestion"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000272> "kjeldahl method"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000272> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000452>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000272> <http://purl.obolibrary.org/obo/AGRO_00000274>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000273> (dry combustion method)
@@ -2461,11 +2477,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000283> "pest control agent released density recording protocol"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000283> <http://purl.obolibrary.org/obo/OBI_0000272>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000284> (quantity of water used for irrigation recording protocol)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000284> (irrigation water quantity recording protocol)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000284> "Record the quantity of water used for irrigation."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000284> "quantity of water used for irrigation recording protocol"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000284> "irrigation water quantity recording protocol"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000284> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000010>))
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000284> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000098>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000284> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000099>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000284> <http://purl.obolibrary.org/obo/OBI_0000272>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000285> (percolation test protocol)
@@ -3423,6 +3441,106 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000436> <http://purl.obolibrar
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://forages.oregonstate.edu/nfgc/eo/onlineforagecurriculum/instructormaterials/availabletopics/grazing/types") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000437> "A gazing management system in which two or more groups of animal, usually with different nutritional needs, graze the same paddock but at different time."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000437> "first-last grazing"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000437> <http://purl.obolibrary.org/obo/AGRO_00000430>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000438> (harvested surface area)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000438> "Area quality inhering in a surface that have been harvested."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000438> "harvested surface area"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000438> <http://purl.obolibrary.org/obo/PATO_0001323>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000439> (soil mulch coverage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000439> "Area of soil covered with mulch."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000439> "mulch coverage"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000439> "soil mulch coverage"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000439> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000092>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000439> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00001998>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000439> <http://purl.obolibrary.org/obo/PATO_0001323>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000440> (soil organic fertilizer coverage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000440> "Area of soil covered by organic fertilizer."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000440> "soil organic fertilizer coverage"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000440> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000440> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00001998>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000440> <http://purl.obolibrary.org/obo/PATO_0001323>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000441> (bund height)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/s8684e/s8684e03.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000441> "Height of the small earth embankments which contain irrigation water within basins."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000441> "bund height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000441> <http://purl.obolibrary.org/obo/PATO_0000119>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000442> (tractor speed)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000442> "Tractor speed in the field."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000442> "tractor speed"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000442> <http://purl.obolibrary.org/obo/PATO_0000008>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000443> (micronutrients area density)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://cetehama.ucanr.edu/Newsletters_510/?newsitem=39348") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000443> "An area density quality which inheres in micronutrients by virtue of some influence exerted by the mass of micronutrients applied in a given surface area. Micronutrients for plants are Boron, Chlorine, Iron, Zinc, Manganese, Molybdenum, Copper, Nikel."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000443> "micronutrients area density"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000443> <http://purl.obolibrary.org/obo/PATO_0001351>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000444> (crop residue area density)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000444> "An area density quality which inheres in above-ground crop residue by virtue of some influence exerted by the mass of above-ground crop residue applied in a given surface area."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000444> "crop residue area density"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000444> <http://purl.obolibrary.org/obo/PATO_0001351>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000445> (center pivot irrigation equipment length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000445> "Length of the pivot used during the irrigation process."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000445> "center pivot irrigation equipment length"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000445> <http://purl.obolibrary.org/obo/PATO_0000122>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000446> (well depth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000446> "Distance between the bottom of the well and the soil surface."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000446> "well depth"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000446> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00000026>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000446> <http://purl.obolibrary.org/obo/PATO_0000122>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000447> (rhizobium area density)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000447> "An area density quality which inheres in rhizobium by virtue of some influence exerted by the mass of rhizobium inoculated into the soil."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000447> "quantity of rhizobium"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000447> "rhizobium area density"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000447> <http://purl.obolibrary.org/obo/PATO_0001351>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000448> (nitrogen recovery efficiency)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ipni.net/ppiweb/bcrops.nsf/$webindex/81A4850CE6E9C87085256F380054252B/$file/04-4p15.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000448> "Amount of nutrient in the crop as a ratio of the amount applied or available."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000448> "NRE"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000448> "nitrogen recovery efficiency"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000448> <http://purl.obolibrary.org/obo/PATO_0001470>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000449> (nitrogen recovery efficiency measurement protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000449> "Calculate the amount of nitrogen in the crop as a ratio of the amount of nitrogen applied or available."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000449> "nitrogen recovery efficiency measurement protocol"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000449> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000448>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000449> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000450> (nitrogen use efficiency)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.oecd.org/tad/sustainable-agriculture/44810448.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000450> "Ratio between the amount of nitrogen fertilizer removed from the field by the crop and the amount of nitrogen fertilizer applied. It provides information about the relative utilization of additional nitrogen applied to a agricultural production system."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000450> "nitrogen use efficiency"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000450> <http://purl.obolibrary.org/obo/PATO_0001470>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000451> (nitrogen use efficiency measurement protocol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000451> "Calculate the ratio between the amount of nitrogen fertilizer removed with the crop and the amount of nitrogen fertilizer applied."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000451> "nitrogen use efficiency measurement protocol"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000451> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000450>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000451> <http://purl.obolibrary.org/obo/OBI_0000272>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000452> (organic fertilizer carbon to nitrogen ratio)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Carbon_to_nitrogen_ratio") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000452> "Carbon-to-nitrogen ratio is a ratio of the mass of carbon to the mass of nitrogen in an organic fertilizer."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000452> "organic fertilizer carbon to nitrogen ratio"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000452> <http://purl.obolibrary.org/obo/PATO_0001470>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
