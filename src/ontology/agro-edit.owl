@@ -439,6 +439,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000449>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000450>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000451>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000452>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000453>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000454>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000455>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000456>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000457>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(:AGRO_00000356))
 Declaration(Class(:AGRO_00000357))
@@ -1553,6 +1558,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000144> "h
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000144> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000144> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000024>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000144> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000144> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002333> <http://purl.obolibrary.org/obo/AGRO_00000238>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000145> (airblast sprayer)
 
@@ -3282,6 +3288,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000403> "hand dibbler"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000403> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000231>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002333> <http://purl.obolibrary.org/obo/AGRO_00000238>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000404> (rotary dibbler)
 
@@ -3541,6 +3548,49 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000451> <http://purl.obolibrar
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Carbon_to_nitrogen_ratio") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000452> "Carbon-to-nitrogen ratio is a ratio of the mass of carbon to the mass of nitrogen in an organic fertilizer."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000452> "organic fertilizer carbon to nitrogen ratio"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000452> <http://purl.obolibrary.org/obo/PATO_0001470>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000453> (sickle)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Sickle") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000453> "Agricultural tool that is hand-held and composed of a curved blade with a sharp inside and a handle. It is used for harvesting, or reaping, grain crops or cutting succulent forage chiefly for feeding livestock, either freshly cut or dried as hay."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000453> "bagging hook"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000453> "brishing hook"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000453> "grasshook"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000453> "reaping hook"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000453> "rip-hook"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000453> "slash-hook"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000453> "swap hook"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000453> "sickle"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000453> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000453> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000025>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000453> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002333> <http://purl.obolibrary.org/obo/AGRO_00000238>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000454> (threshing process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Threshing") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000454> "Planned process is which the edible part of the cereal grain is loosen from the scaly, inedible chaff that surrounds it. It is the step in grain preparation after harvesting and before winnowing, which separates the loosened chaff from the grain. Threshing does not remove the bran from the grain."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000454> "threshing process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000454> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000455> (flail)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Flail") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000455> "Agricultural tool made from two or more large sticks attached by a short chain; one stick is held and swung, causing the other to strike a pile of grain, loosening the husks."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000455> "flail"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000455> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000455> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000454>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000455> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002333> <http://purl.obolibrary.org/obo/AGRO_00000238>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000456> (scythe)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Scythe") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000456> "Agricultural tool that consists of a shaft about 170 centimetres (67 in) long made of wood or metal. The shaft has either one or two short handles at right angles to it, usually one near the upper end and always another roughly in the middle. A curved, steel blade between 60 to 90 centimetres (24 to 35 in) long is mounted at the lower end at 90°, or less, to the shaft. It is hand powered."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000456> "scythe"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000456> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000456> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000025>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000456> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002333> <http://purl.obolibrary.org/obo/AGRO_00000238>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000457> (winnowing process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Winnowing") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000457> "A planned process in which the grain is separated from chaff. It is also used to remove weevils or other pests from stored grain. It is done after threshing, the loosening of grain or seeds from the husks and straw."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000457> "winnowing process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000457> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
