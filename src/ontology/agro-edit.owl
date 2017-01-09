@@ -746,7 +746,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000037> "crop dusting"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000037> "aerial application"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000037> <http://purl.obolibrary.org/obo/AGRO_00000036>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000037> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000112>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000231>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000037> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000112>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000231>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000038> (band application)
 
@@ -754,7 +754,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000038> "banding"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000038> "band application"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000038> <http://purl.obolibrary.org/obo/AGRO_00000036>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000038> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000112>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000231>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000038> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000112>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000231>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000039> (side dressing)
 
@@ -769,7 +769,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000040> "broadcasting"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000040> "broadcast application"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000040> <http://purl.obolibrary.org/obo/AGRO_00000036>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000040> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000112>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000231>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000040> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000112>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000231>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000041> (fertilizer basal application)
 
@@ -789,14 +789,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000042> <http://purl.obolibrar
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000043> "An application method in which a chemical entity is applied to the lower portions of plant stems or tree trunks just above the soil line."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000043> "chemical basal application"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000043> <http://purl.obolibrary.org/obo/AGRO_00000036>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000043> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000043> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>)))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000044> (chemigation)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ag.ndsu.edu/irrigation/chemigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000044> "An application method in which a water-soluble chemical is injected into water flowing through an irrigation system."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000044> "chemigation"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000044> <http://purl.obolibrary.org/obo/AGRO_00000036>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>)))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000045> (contact placement)
 
@@ -809,7 +809,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000045> "seed placement"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000045> "contact placement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000045> <http://purl.obolibrary.org/obo/AGRO_00000036>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000045> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000045> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000046> (deep placement)
 
@@ -820,14 +820,14 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000046> 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000046> "This application method is often used in paddy field."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000046> "deep placement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000046> <http://purl.obolibrary.org/obo/AGRO_00000036>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000046> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000046> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000047> (fertigation)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Fertigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000047> "An application method in which a water-soluble fertilizer is injected into water flowing through an irrigation system."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000047> "fertigation"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000047> <http://purl.obolibrary.org/obo/AGRO_00000036>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000047> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000047> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>)))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000048> (foliar application)
 
@@ -835,14 +835,14 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000048> "foliar spray"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000048> "foliar application"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000048> <http://purl.obolibrary.org/obo/AGRO_00000036>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000048> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000048> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000049> (plough sole placement)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://books.google.fr/books?id=pZ0rVya6CW4C&pg=PA156&lpg=PA156&dq=Broadcast+incorporated+plough+sole+placement&source=bl&ots=89TNkPz-j-&sig=a59lhwk5TaKrRROry3ImNW6zhDE&hl=en&sa=X&ved=0ahUKEwjggPWP1anNAhXGWBoKHReIAGkQ6AEITDAJ#v=onepage&q&f=false") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000049> "An application method in which the material entity is placed in a continuous band on the bottom of the furrow during the process of ploughing. Each band is covered as the next furrow is turned. The aim is to place the material entity in moist soil where it can become more available to growing plants."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000049> "plough sole placement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000049> <http://purl.obolibrary.org/obo/AGRO_00000036>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000049> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000112>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000231>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000049> ObjectUnionOf(ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000231>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000112>))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000050> (rope-wick application)
 
@@ -851,7 +851,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000050> "wiper treatment"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000050> "rope-wick application"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000050> <http://purl.obolibrary.org/obo/AGRO_00000036>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>)))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000051> (seed dressing)
 
@@ -859,28 +859,28 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000051> "seed treatment"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000051> "seed dressing"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000051> <http://purl.obolibrary.org/obo/AGRO_00000036>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000051> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000051> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000052> (soil injection)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000052> "An application method in which a material entity is injected under pressure beneath the soil surface."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000052> "soil injection"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000052> <http://purl.obolibrary.org/obo/AGRO_00000036>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000052> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000112>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000231>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000052> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000112>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000231>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000053> (tree injection)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/pesticide-safety/ppat_manual/Chapter%209.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000053> "An application method in which a material entity is injected under the bark of trees."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000053> "tree injection"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000053> <http://purl.obolibrary.org/obo/AGRO_00000036>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>)))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000054> (irrigation method)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000054> "A plan specification which describes how water is applied to plants or soil."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000054> "irrigation method"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000054> <http://purl.obolibrary.org/obo/IAO_0000104>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000006>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000006>)))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000055> (localized irrigation process)
 
@@ -2713,7 +2713,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000349> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000350> "Pattern used to plant crop in field.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000350> "planting distribution"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000350> <http://purl.obolibrary.org/obo/IAO_0000104>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000350> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000231>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000350> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000231>)))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000351> (hill distribution)
 
@@ -3103,7 +3103,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000412> "precision seeding"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000412> "dibbling"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000412> <http://purl.obolibrary.org/obo/AGRO_00000036>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000412> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000112>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000229>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000231>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000412> ObjectUnionOf(ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_01000000>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000231>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000024>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000112>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000229>))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000413> (drilling)
 
@@ -3111,7 +3111,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agriinfo.in/default.aspx?page=topic&superid=1&topicid=337") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000413> "line sowing"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000413> "drilling"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000413> <http://purl.obolibrary.org/obo/AGRO_00000036>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000413> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000142>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000413> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000142>)))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000416> (agricultural implement)
 
