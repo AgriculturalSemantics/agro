@@ -9,7 +9,7 @@ OWLTOOLS= owltools
 
 all: all_imports $(ONT).owl 
 # $(ONT).obo # removed obo target for now
-test: $(ONT).owl
+test: touch $(ONT).owl
 prepare_release: all
 	cp $(ONT).owl $(RELEASEDIR) &&\
 #	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\ # obo target included here
@@ -19,6 +19,8 @@ prepare_release: all
 	(test -f subsets/*owl && cp subsets/*{owl,obo} $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
 
+touch:
+	touch $(SRC)
 
 $(ONT).owl: $(SRC)
 	$(ROBOT) merge -i $< reason -r ELK -s true annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
