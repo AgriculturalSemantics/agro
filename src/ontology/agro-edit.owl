@@ -420,6 +420,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000454>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000455>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000456>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000457>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000458>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000459>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000460>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000461>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(:AGRO_00000356))
 Declaration(Class(:AGRO_00000357))
@@ -678,6 +682,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000026> ObjectSomeValuesFrom(<
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://aims.fao.org/aos/agrovoc/c_6274") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Pruning#Types_of_pruning") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000027> "A planned process in which selected parts of the plant are removed. The practice entails targeted removal of diseased, damaged, dead, non-productive, structurally unsound, or otherwise unwanted tissue from plants. This is done in order to shape the plant or tree, improve plant or tree health, reduce the risk from falling branches, prepare nursery specimens for transplanting, and increase the yield or quality of harvested products."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000027> "pruning process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000027> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/PO_0000003>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000028> (puddling process)
 
@@ -1534,7 +1539,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000144> "h
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000144> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000144> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000024>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000144> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000144> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002333> <http://purl.obolibrary.org/obo/AGRO_00000238>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000144> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> <http://purl.obolibrary.org/obo/AGRO_00000238>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000145> (airblast sprayer)
 
@@ -2925,6 +2930,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000383> "hand plough"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000383> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000383> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000383> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> <http://purl.obolibrary.org/obo/AGRO_00000238>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000384> (Vegetation maintained on the experimental field)
 
@@ -3056,7 +3062,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000403> "hand dibbler"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000403> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000231>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002333> <http://purl.obolibrary.org/obo/AGRO_00000238>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> <http://purl.obolibrary.org/obo/AGRO_00000238>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000404> (rotary dibbler)
 
@@ -3071,6 +3077,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000405> "earth auger"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000405> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000231>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> <http://purl.obolibrary.org/obo/AGRO_00000238>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000406> (single disc opener planter)
 
@@ -3329,7 +3336,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000453> "sickle"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000453> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000453> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000025>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000453> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002333> <http://purl.obolibrary.org/obo/AGRO_00000238>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000453> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> <http://purl.obolibrary.org/obo/AGRO_00000238>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000454> (threshing process)
 
@@ -3343,7 +3350,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000455> "flail"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000455> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000455> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000454>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000455> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002333> <http://purl.obolibrary.org/obo/AGRO_00000238>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000455> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> <http://purl.obolibrary.org/obo/AGRO_00000238>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000456> (scythe)
 
@@ -3351,13 +3358,44 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000456> "scythe"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000456> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000456> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000025>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000456> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002333> <http://purl.obolibrary.org/obo/AGRO_00000238>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000456> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> <http://purl.obolibrary.org/obo/AGRO_00000238>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000457> (winnowing process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Winnowing") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000457> "A planned process in which the grain is separated from chaff. It is also used to remove weevils or other pests from stored grain. It is done after threshing, the loosening of grain or seeds from the husks and straw."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000457> "winnowing process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000457> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000458> (tree topping process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Topping_(agriculture)") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000458> "A pruning process in which whole tops of trees or large branches and/or trunks from the tops of trees are removed, leaving stubs or lateral branches that are too small to assume the role of a terminal leader."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000458> "hat-racking"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000458> "heading"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000458> "rounding"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000458> "tipping"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000458> "étêtage"@fr)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000458> "tree topping process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000458> <http://purl.obolibrary.org/obo/AGRO_00000027>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000459> (detrashing process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.sugarcanecrops.com/agronomic_practices/detrashing/") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cabdirect.org/cabdirect/abstract/20103065565") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000459> "A pruning process in which dried, yellowish green, bottom leaves in the sugarcane crop are removed at regular intervals."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000459> "detrashing process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000459> <http://purl.obolibrary.org/obo/AGRO_00000027>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000460> (limbing process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://extension.missouri.edu/p/G1958") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000460> "A pruning process in which branches from either standing or downed trees are removed."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000460> "limbing process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000460> <http://purl.obolibrary.org/obo/AGRO_00000027>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000461> (propping process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.dictionary.com/browse/propping") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000461> "A planned process in which a rigid support is used to support, or to prevent from falling a crop or a tree."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000461> "staking process"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000461> "Need a better definition to know if staking and propping are exactly the same process, or have differences."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000461> "propping process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000461> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
