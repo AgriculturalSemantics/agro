@@ -424,6 +424,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000458>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000459>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000460>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000461>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000462>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000463>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000464>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000465>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000466>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000467>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(:AGRO_00000356))
 Declaration(Class(:AGRO_00000357))
@@ -1869,11 +1875,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000219> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000220> (mowing process)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000220> "A process in which the above ground of the plants are cut or shred. It can be used to reduce weed seed populations or restrict the growth of weeds."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000220> "A cutting process in which the above ground of the plants are cut or shred. It can be used to reduce weed seed populations or restrict the growth of weeds."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000220> "mowing"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000220> "mowing process"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000220> <http://purl.obolibrary.org/obo/AGRO_00000025>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000220> <http://purl.obolibrary.org/obo/AGRO_00000110>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000220> <http://purl.obolibrary.org/obo/AGRO_00000467>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000220> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AGRO_00000462>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000223> (tillage implement)
 
@@ -3342,7 +3349,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000453> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Threshing") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000454> "Planned process is which the edible part of the cereal grain is loosen from the scaly, inedible chaff that surrounds it. It is the step in grain preparation after harvesting and before winnowing, which separates the loosened chaff from the grain. Threshing does not remove the bran from the grain."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000454> "threshing process"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000454> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000454> <http://purl.obolibrary.org/obo/AGRO_00000025>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000455> (flail)
 
@@ -3364,7 +3371,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000456> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Winnowing") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000457> "A planned process in which the grain is separated from chaff. It is also used to remove weevils or other pests from stored grain. It is done after threshing, the loosening of grain or seeds from the husks and straw."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000457> "winnowing process"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000457> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000457> <http://purl.obolibrary.org/obo/AGRO_00000025>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000458> (tree topping process)
 
@@ -3396,6 +3403,46 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000461> "Need a better definition to know if staking and propping are exactly the same process, or have differences."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000461> "propping process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000461> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000462> (haymaking process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/005/x7660e/x7660e06.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Hay") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000462> "An harvest process that involves a multiple step process to turns green, perishable, forage into a product that can be safely stored and easily transported without danger of spoilage."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000462> "haymaking process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000462> <http://purl.obolibrary.org/obo/AGRO_00000025>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000462> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0003000> <http://purl.obolibrary.org/obo/ENVO_00002869>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000463> (windrowing)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/005/x7660e/x7660e06.htm") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000463> "An harvest process in which the cut herbage is putting into rows for further handling and collection, and sometimes also for protection at night."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000463> "windrowing"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000463> <http://purl.obolibrary.org/obo/AGRO_00000025>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000463> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AGRO_00000462>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000464> (baling process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.thefreedictionary.com/baling") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000464> "An harvesting process in which dry forage is bound by ropes into a bale."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000464> "baling process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000464> <http://purl.obolibrary.org/obo/AGRO_00000025>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000464> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AGRO_00000462>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000465> (trussing process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/005/x7660e/x7660e06.htm") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000465> "An harvest process in which herbage is put into cocks (small heaps). It is an intermediate stage of herbage drying used in some manual systems."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000465> "trussing process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000465> <http://purl.obolibrary.org/obo/AGRO_00000025>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000465> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AGRO_00000462>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000466> (storage process)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000466> "A planned process in which the harvest is stored."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000466> "storage process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000466> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000467> (cutting process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.knowledgebank.irri.org/postproductioncourse/index.php/what-is-harvesting/cutting-the-rice-crop") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000467> "An harvest process in which the mature part of the crop is cut."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000467> "cutting process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000467> <http://purl.obolibrary.org/obo/AGRO_00000025>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
