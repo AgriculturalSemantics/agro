@@ -445,6 +445,9 @@ Declaration(DataProperty(<http://purl.obolibrary.org/obo/AGRO_00000419>))
 Declaration(DataProperty(<http://purl.obolibrary.org/obo/AGRO_00000421>))
 Declaration(DataProperty(<http://purl.obolibrary.org/obo/AGRO_00000422>))
 Declaration(DataProperty(<http://purl.obolibrary.org/obo/AGRO_00000425>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000232>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/description>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#inSubset>))
 
 ############################
 #   Object Properties
@@ -3409,7 +3412,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000461> <http://purl.obolibrar
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/005/x7660e/x7660e06.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Hay") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000462> "An harvest process that involves a multiple step process to turns green, perishable, forage into a product that can be safely stored and easily transported without danger of spoilage."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000462> "haymaking process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000462> <http://purl.obolibrary.org/obo/AGRO_00000025>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000462> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0003000> <http://purl.obolibrary.org/obo/ENVO_00002869>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000462> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.obolibrary.org/obo/ENVO_00002869>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000463> (windrowing)
 
