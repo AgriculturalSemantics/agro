@@ -28,7 +28,7 @@ $(ONT).owl: $(SRC)
 #	$(ROBOT) convert -i $< -o $(ONT).obo
 
 
-IMPORTS = envo bfo chebi obi iao pato uo po eo
+IMPORTS = envo bfo chebi obi iao pato uo po eo xco
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) 
 
 #$(patsubst %, imports/%_import.obo,$(IMPORTS))
