@@ -21,18 +21,11 @@ annotations:
     text: "%s"
     vars:
       - synonym
-
-annotations: 
-  - property: oio:hasDefinition
-    text: "%s"
-    vars:
-      - definition
-
+      
 def: 
-  text: "The %s of a %s."
+  text: "%s"
   vars:
-    - attribute
-    - entity
+    - definition
     
 equivalentTo: 
   text: "%s and 'inheres in' some %s"
