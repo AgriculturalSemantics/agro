@@ -12,7 +12,6 @@ all: all_imports $(ONT).owl
 test: touch $(ONT).owl
 prepare_release: all
 	cp $(ONT).owl $(RELEASEDIR) &&\
-#	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\ # obo target included here
 	mkdir -p $(RELEASEDIR)/imports &&\
 	cp imports/*{owl,obo} $(RELEASEDIR)/imports &&\
 	git add $(RELEASEDIR)/imports/*{obo,owl} &&\
