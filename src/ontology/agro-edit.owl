@@ -445,9 +445,18 @@ Declaration(DataProperty(<http://purl.obolibrary.org/obo/AGRO_00000415>))
 Declaration(DataProperty(<http://purl.obolibrary.org/obo/AGRO_00000417>))
 Declaration(DataProperty(<http://purl.obolibrary.org/obo/AGRO_00000418>))
 Declaration(DataProperty(<http://purl.obolibrary.org/obo/AGRO_00000425>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AGRO_01000022>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000232>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/description>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#inSubset>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/AGRO_01000022> (preferred fieldbook label)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_01000022> "preferred fieldbook label"@en)
+
 
 ############################
 #   Object Properties
