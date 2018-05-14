@@ -3,7 +3,6 @@
      xml:base="http://purl.obolibrary.org/obo/agro/imports/iao_import.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -49,6 +48,11 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     </owl:ObjectProperty>
@@ -58,6 +62,11 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     </owl:ObjectProperty>
     
@@ -84,6 +93,11 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000221 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000221">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000417"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000417"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
@@ -104,7 +118,13 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000417 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000417"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000417">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000221"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+    </owl:ObjectProperty>
     
 
 
@@ -138,48 +158,6 @@
     
 
 
-    <!-- http://usefulinc.com/ns/doap#bug-database -->
-
-    <owl:ObjectProperty rdf:about="http://usefulinc.com/ns/doap#bug-database"/>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#file-release -->
-
-    <owl:ObjectProperty rdf:about="http://usefulinc.com/ns/doap#file-release"/>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#homepage -->
-
-    <owl:ObjectProperty rdf:about="http://usefulinc.com/ns/doap#homepage"/>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#mailing-list -->
-
-    <owl:ObjectProperty rdf:about="http://usefulinc.com/ns/doap#mailing-list"/>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#release -->
-
-    <owl:ObjectProperty rdf:about="http://usefulinc.com/ns/doap#release"/>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#repository -->
-
-    <owl:ObjectProperty rdf:about="http://usefulinc.com/ns/doap#repository"/>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#wiki -->
-
-    <owl:ObjectProperty rdf:about="http://usefulinc.com/ns/doap#wiki"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -194,16 +172,11 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000004 -->
 
     <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000004">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </owl:DatatypeProperty>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#revision -->
-
-    <owl:DatatypeProperty rdf:about="http://usefulinc.com/ns/doap#revision"/>
     
 
 
@@ -244,23 +217,6 @@
         <obo:IAO_0000115 xml:lang="en">An entity that has temporal parts and that happens, unfolds or develops through time.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">occurrent</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <obo:IAO_0000115 xml:lang="en">A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">independent continuant</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/017-002"/>
-    </owl:Axiom>
     
 
 
@@ -305,17 +261,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <obo:IAO_0000115 xml:lang="en">A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &amp;gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &amp;lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">b is a specifically dependent continuant = Def. b is a continuant &amp; there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])</obo:IAO_0000115>
         <rdfs:label xml:lang="en">specifically dependent continuant</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &amp;gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &amp;lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])</owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/131-004"/>
-    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -881,65 +831,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/iao -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/iao"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/iao.owl -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/iao.owl"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/iao/documentation -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/iao/documentation"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/iao/project -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/iao/project">
-        <doap:bug-database rdf:resource="http://purl.obolibrary.org/obo/iao/tracker"/>
-        <doap:homepage rdf:resource="http://purl.obolibrary.org/obo/iao"/>
-        <doap:mailing-list rdf:resource="mailto:information-ontology@googlegroups.com"/>
-        <doap:release rdf:resource="http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl"/>
-        <doap:repository rdf:resource="http://purl.obolibrary.org/obo/iao/repository"/>
-        <doap:wiki rdf:resource="http://purl.obolibrary.org/obo/iao/documentation"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/iao/repository -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/iao/repository"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/iao/tracker -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/iao/tracker"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl">
-        <doap:file-release rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <doap:file-release rdf:resource="http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl"/>
-        <doap:revision>SVN $Revision: 717 $</doap:revision>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- mailto:information-ontology@googlegroups.com -->
-
-    <owl:NamedIndividual rdf:about="mailto:information-ontology@googlegroups.com"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -948,14 +839,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000020"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
-        </owl:members>
-    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
@@ -982,5 +865,5 @@
 
 
 
-<!-- Generated by the OWL API (version 0.0.1+907ef2e) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.6) https://github.com/owlcs/owlapi -->
 
