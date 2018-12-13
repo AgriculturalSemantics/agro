@@ -431,6 +431,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000465>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000466>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000467>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000468>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000469>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000019>))
@@ -3459,6 +3460,11 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000468> ObjectIntersect
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000468> <http://purl.obolibrary.org/obo/PATO_0000921>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000468> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00000114>))
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000469> (rotation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000469> "rotation"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000469> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_01000000> "A planned process in which fertilizer is applied to an environmental material to promote the growth of a plant.")
@@ -3628,7 +3634,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000283> <http://purl.obolibrar
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000309> <http://purl.obolibrary.org/obo/AGRO_00000339>)
 
-# Class: <http://purl.obolibrary.org/obo/ENVO_00000395> (channel)
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000395> (channel of a watercourse)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000395> <http://purl.obolibrary.org/obo/AGRO_00000339>)
 
