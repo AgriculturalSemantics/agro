@@ -14,7 +14,7 @@ Import(<http://purl.obolibrary.org/obo/agro/imports/pato_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/bfo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/obi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/uo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/agro/imports/eo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/peco_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/xco_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ro.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/envo_import.owl>)
@@ -435,6 +435,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000472>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000473>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000474>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000475>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000469>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000019>))
@@ -3495,6 +3496,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000475> "dessication process"@fr)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000475> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000475> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/CHEBI_59999>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000469> (rotation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000469> "rotation"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000469> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
