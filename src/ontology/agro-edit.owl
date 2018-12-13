@@ -436,6 +436,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000473>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000474>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000475>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000469>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000470>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000019>))
@@ -3499,8 +3500,17 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000475> ObjectSomeValuesFrom(<
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000469> (rotation)
 
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Yates (1954) notes the agricultural definition is looser than an experimental one, i.e. substitution of crops or change to the length of the cycle. This definition must regard changes to the period of a rotation cycle as a different rotation, but should allow a rotation to be defined either using either named crops or a combination of named crops and crop types, for example an Oats, Legumes, Wheat rotation."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000469> "A planned process in which a definite cycle of crops or crop types is grown in succession on the same land."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000469> "sequence"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000469> "crop rotation"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000469> "rotation"@fr)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000469> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000470> (sequence)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000470> "A process in which a definite cycle of management interventions is done on the same land."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000470> "sequence"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000470> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
