@@ -431,6 +431,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000465>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000466>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000467>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000468>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000472>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000473>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000474>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000475>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000019>))
@@ -1852,9 +1856,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000216> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000217> (hand picking process)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000217> "A mechanical pest removal process in which unwanted organisms are removed by hands."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000217> "A pest removal process in which unwanted organisms are removed by hands."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000217> "hand picking"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000217> "hand pulling"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000217> "hand roguing"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000217> "hand picking process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000217> <http://purl.obolibrary.org/obo/AGRO_00000110>)
 
@@ -1873,8 +1878,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000219> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000220> (mowing process)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000220> "A cutting process in which the above ground of the plants are cut or shred. It can be used to reduce weed seed populations or restrict the growth of weeds."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000220> "A cutting process in which the above ground of the plants are cut or shred."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000220> "mowing"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000220> "topping"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000220> "topping process"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000220> "mowing process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000220> <http://purl.obolibrary.org/obo/AGRO_00000110>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000220> <http://purl.obolibrary.org/obo/AGRO_00000467>)
@@ -1960,7 +1967,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000232> ObjectSomeValuesFrom(<
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000233> "An implement that is used during a chemical pest control process."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000233> "pesticide implement"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000233> "chemical pest control implement"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000233> <http://purl.obolibrary.org/obo/AGRO_00000137>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000233> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000233> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000024>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000234> (harvest implement)
@@ -3421,6 +3428,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000462> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000463> (windrowing)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/005/x7660e/x7660e06.htm") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000463> "An harvest process in which the cut herbage is putting into rows for further handling and collection, and sometimes also for protection at night."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000463> "swathing"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000463> "windrowing"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000463> <http://purl.obolibrary.org/obo/AGRO_00000025>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000463> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AGRO_00000462>))
@@ -3458,6 +3466,35 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000468> "f
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000468> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00000114>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000468> <http://purl.obolibrary.org/obo/PATO_0000921>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000468> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00000114>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000472> (tedder)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "https://en.wikipedia.org/wiki/Tedder_(machine)") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000472> "An agricultural implement that uses moving forks to aerate or \"wuffle\" the hay and thus speed up the process of hay-making. It is used after cutting and before windrowing."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000472> "hay tedder"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000472> "tedder"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000472> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000472> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000462>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000473> (combine harvester)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "Richard Ostler") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000473> "An harvest implement that reaps, threshes, and cleans a crop in one operation."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000473> "combine harvester"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000473> <http://purl.obolibrary.org/obo/AGRO_00000234>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000474> (lifting process)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "Richard Ostler") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000474> "An harvesting process in which root crop are removed from the soil"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000474> "lifting process"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000474> <http://purl.obolibrary.org/obo/AGRO_00000025>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000475> (dessication process)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "https://en.wikipedia.org/wiki/Crop_desiccation") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000475> "A planned process in which an herbicide is applied to a crop shortly before harvest. The purpose is to reduce green crop foliage or assit crop drying."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000475> "Pre-harvest crop desiccation"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000475> "siccation"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000475> "dessication process"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000475> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000475> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/CHEBI_59999>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
@@ -3628,7 +3665,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000283> <http://purl.obolibrar
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000309> <http://purl.obolibrary.org/obo/AGRO_00000339>)
 
-# Class: <http://purl.obolibrary.org/obo/ENVO_00000395> (channel)
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000395> (channel of a watercourse)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000395> <http://purl.obolibrary.org/obo/AGRO_00000339>)
 
