@@ -10,7 +10,7 @@ before_script:
   - cd src/ontology
   
 script:
-  - make test
+  - sh run.sh make test
 
 #after_success:
 #  coveralls
