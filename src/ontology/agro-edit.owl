@@ -10,11 +10,11 @@ Ontology(<http://purl.obolibrary.org/obo/agro-edit.owl>
 Import(<http://purl.obolibrary.org/obo/agro/imports/chebi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/po_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/iao_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/peco_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/pato_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/bfo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/obi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/uo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/agro/imports/peco_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/xco_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ro.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/envo_import.owl>)
@@ -431,12 +431,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000465>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000466>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000467>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000468>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000469>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000470>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000472>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000473>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000474>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000475>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000469>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000470>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000019>))
@@ -2708,7 +2708,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000343> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000344> "Unexpected event arrived during the experiment."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000344> "complication during the experiment"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000344> DataAllValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000417> xsd:dateTime))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000344> <http://purl.obolibrary.org/obo/XCO_0000000>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000344> DataMinCardinality(1 <http://purl.obolibrary.org/obo/AGRO_00000415> xsd:string))
 
@@ -3469,6 +3468,20 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000468> ObjectIntersect
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000468> <http://purl.obolibrary.org/obo/PATO_0000921>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000468> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00000114>))
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000469> (rotation)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Yates (1954) notes the agricultural definition is looser than an experimental one, i.e. substitution of crops or change to the length of the cycle. This definition must regard changes to the period of a rotation cycle as a different rotation, but should allow a rotation to be defined either using either named crops or a combination of named crops and crop types, for example an Oats, Legumes, Wheat rotation."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000469> "A planned process in which a definite cycle of crops or crop types is grown in succession on the same land."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000469> "sequence"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000469> "crop rotation"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000469> "rotation"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000469> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000470> (sequence)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000470> "A process in which a definite cycle of management interventions is done on the same land."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000470> "sequence"@fr)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000470> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000472> (tedder)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "https://en.wikipedia.org/wiki/Tedder_(machine)") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000472> "An agricultural implement that uses moving forks to aerate or \"wuffle\" the hay and thus speed up the process of hay-making. It is used after cutting and before windrowing."@en)
@@ -3497,20 +3510,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000475> "dessication process"@fr)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000475> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000475> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/CHEBI_59999>))
-
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000469> (rotation)
-
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Yates (1954) notes the agricultural definition is looser than an experimental one, i.e. substitution of crops or change to the length of the cycle. This definition must regard changes to the period of a rotation cycle as a different rotation, but should allow a rotation to be defined either using either named crops or a combination of named crops and crop types, for example an Oats, Legumes, Wheat rotation."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000469> "A planned process in which a definite cycle of crops or crop types is grown in succession on the same land."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000469> "sequence"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000469> "crop rotation"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000469> "rotation"@fr)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000469> <http://purl.obolibrary.org/obo/OBI_0000011>)
-
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000470> (sequence)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000470> "A process in which a definite cycle of management interventions is done on the same land."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000470> "sequence"@fr)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000470> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
@@ -3734,18 +3733,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00005774> ObjectSomeValuesFrom(<
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000560> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
-# Class: <http://purl.obolibrary.org/obo/ENVO_01000710> (flood)
-
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000710> <http://purl.obolibrary.org/obo/AGRO_00000344>)
-
-# Class: <http://purl.obolibrary.org/obo/ENVO_01000787> (wildfire)
-
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000787> <http://purl.obolibrary.org/obo/AGRO_00000344>)
-
-# Class: <http://purl.obolibrary.org/obo/ENVO_01000793> (atmospheric wind)
-
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000793> <http://purl.obolibrary.org/obo/AGRO_00000344>)
-
 # Class: <http://purl.obolibrary.org/obo/ENVO_01001305> (vegetated area)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001305> <http://purl.obolibrary.org/obo/AGRO_00000387>)
@@ -3753,10 +3740,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001305> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/ENVO_02000054> (bone meal)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_02000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
-
-# Class: <http://purl.obolibrary.org/obo/ENVO_1000745> (drought)
-
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_1000745> <http://purl.obolibrary.org/obo/AGRO_00000344>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_10239> (Viruses)
 
