@@ -447,6 +447,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000482>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000483>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000484>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000485>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000486>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000019>))
@@ -2412,6 +2413,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000300> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/wairdocs/ilri/x5546e/x5546e0a.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000301> "A site within which an agricultural experimental process is conducted"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/AGRO_00000301> "This should be harmonized with statistical plot designs, perhaps with STATO")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000301> "plot"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000301> "agricultural experimental plot"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000301> <http://purl.obolibrary.org/obo/ENVO_01000408>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000301> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000067> <http://purl.obolibrary.org/obo/AGRO_00000370>))
@@ -2429,6 +2431,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000302> ObjectSomeValuesFrom(<
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/wairdocs/ilri/x5546e/x5546e0a.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000303> "A block is a relatively large area or several identical units receiving all or most of the treatments. A collection of plots is called a block."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000303> "block"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000303> <http://purl.obolibrary.org/obo/ENVO_01000408>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000303> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000305> (number of blocks)
 
@@ -3590,6 +3593,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000484> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000485> "A rotation layout that does not use series. Therefore, plots carrying different phases of a rotation are intermixed across the experimental land."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000485> "non-serial layout"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000485> <http://purl.obolibrary.org/obo/AGRO_00000483>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000486> (series)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000486> "A block in which the plots carry the same phase of a rotation. A series is defined to answer management constraints rather than statistical constraints."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000486> "series"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000486> <http://purl.obolibrary.org/obo/AGRO_00000303>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
