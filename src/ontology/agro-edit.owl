@@ -437,6 +437,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000472>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000473>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000474>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000475>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000476>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000019>))
@@ -3486,20 +3487,20 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000470> <http://purl.obolibrar
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "https://en.wikipedia.org/wiki/Tedder_(machine)") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000472> "An agricultural implement that uses moving forks to aerate or \"wuffle\" the hay and thus speed up the process of hay-making. It is used after cutting and before windrowing."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000472> "hay tedder"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000472> "tedder"@fr)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000472> "tedder"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000472> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000472> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000462>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000473> (combine harvester)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "Richard Ostler") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000473> "An harvest implement that reaps, threshes, and cleans a crop in one operation."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000473> "combine harvester"@fr)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000473> "combine harvester"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000473> <http://purl.obolibrary.org/obo/AGRO_00000234>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000474> (lifting process)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "Richard Ostler") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000474> "An harvesting process in which root crop are removed from the soil"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000474> "lifting process"@fr)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000474> "lifting process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000474> <http://purl.obolibrary.org/obo/AGRO_00000025>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000475> (dessication process)
@@ -3510,6 +3511,12 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000475> "dessication process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000475> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000475> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/CHEBI_59999>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000476> (long-term experiment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000476> "An agricultural experiment running over decadal time periods.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000476> "long-term experiment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000476> <http://purl.obolibrary.org/obo/AGRO_00000370>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
