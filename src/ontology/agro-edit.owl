@@ -439,6 +439,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000474>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000475>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000476>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000477>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000478>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000479>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000480>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000481>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000482>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000019>))
@@ -3515,15 +3520,53 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000475> ObjectSomeValuesFrom(<
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000476> (long-term experiment)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000476> "An agricultural experiment running over decadal time periods.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Richard Ostler") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000476> "An agricultural experiment running over decadal time periods.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000476> "long-term experiment"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000476> <http://purl.obolibrary.org/obo/AGRO_00000370>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000477> (short-term experiment)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000477> "An agricultural experiment running over less than decadal time periods."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Richard Ostler") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000477> "An agricultural experiment running over less than decadal time periods."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000477> "short-term experiment"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000477> <http://purl.obolibrary.org/obo/AGRO_00000370>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000478> (sequence experiment)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Richard Ostler"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000478> "An agricultural experiment having one or more definite sequences."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000478> "sequence experiment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000478> <http://purl.obolibrary.org/obo/AGRO_00000370>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000479> (rotation experiment)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Richard Ostler"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000479> "An agricultural experiment having more than one definite rotations or a comparison between rotation and mono-cropping."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000479> "rotation experiment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000479> <http://purl.obolibrary.org/obo/AGRO_00000370>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000480> (mono-cropping experiment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000480> "An agricultural experiment involving the prolonged growing of a single crop."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000480> "continuous crop experiment"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000480> "continuous mono-cropping experiment"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000480> "monoculture experiment"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Richard Ostler") rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000480> "mono-cropping experiment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000480> <http://purl.obolibrary.org/obo/AGRO_00000370>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000481> (monoculture)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Monoculture"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000481> "A planned process in which a single crop is cultivated in an area at a time."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000481> "continuous crop"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000481> "continuous mono-cropping"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000481> "mono-cropping"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000481> "monoculture"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000481> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000482> (single cycle experiment)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Richard Ostler"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000482> "An agricultural experiment in which a sequence of crops is grown without repetition"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000482> "short-term rotation experiment"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000482> "crop-sequence experiment"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000482> "single cycle experiment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000482> <http://purl.obolibrary.org/obo/AGRO_00000370>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
