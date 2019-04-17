@@ -444,6 +444,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000479>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000480>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000481>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000482>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000483>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000484>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000485>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000019>))
@@ -3567,6 +3570,26 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000482> "crop-sequence experiment"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000482> "single cycle experiment"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000482> <http://purl.obolibrary.org/obo/AGRO_00000370>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000483> (rotation layout)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000483> "An agronomic experimental design set for rotation experiments"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000483> "rotation experimental design"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000483> "rotation layout"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000483> <http://purl.obolibrary.org/obo/AGRO_00000343>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000479>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000484> (serial layout)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000484> "A rotation layoutan using series."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000484> "serial layout"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000484> <http://purl.obolibrary.org/obo/AGRO_00000483>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000485> (non-serial layout)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000485> "A rotation layout that does not use series. Therefore, plots carrying different phases of a rotation are intermixed across the experimental land."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000485> "non-serial layout"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000485> <http://purl.obolibrary.org/obo/AGRO_00000483>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
