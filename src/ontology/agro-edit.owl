@@ -7,17 +7,17 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/agro-edit.owl>
-Import(<http://purl.obolibrary.org/obo/ro.owl>)
-Import(<http://purl.obolibrary.org/obo/agro/imports/bfo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/chebi_import.owl>)
-Import(<http://purl.obolibrary.org/obo/agro/imports/envo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/agro/imports/iao_import.owl>)
-Import(<http://purl.obolibrary.org/obo/agro/imports/obi_import.owl>)
-Import(<http://purl.obolibrary.org/obo/agro/imports/pato_import.owl>)
-Import(<http://purl.obolibrary.org/obo/agro/imports/peco_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/po_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/iao_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/peco_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/pato_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/bfo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/obi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/uo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/xco_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ro.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/envo_import.owl>)
 Annotation(<http://purl.org/dc/elements/1.1/contributor> "Céline Aubert")
 Annotation(<http://purl.org/dc/elements/1.1/contributor> "Marié-Angélique Laporte")
 Annotation(<http://purl.org/dc/elements/1.1/contributor> "Pier Luigi Buttigieg")
@@ -455,6 +455,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000019>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000077>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000429>))
@@ -3842,10 +3843,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00005774> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/ENVO_01000560> (charcoal)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000560> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
-
-# Class: <http://purl.obolibrary.org/obo/ENVO_01001305> (vegetated area)
-
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001305> <http://purl.obolibrary.org/obo/AGRO_00000387>)
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_02000054> (bone meal)
 
