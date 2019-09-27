@@ -458,6 +458,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000077>))
 Declaration(Class(<http://purl.unep.org/sdg/AGRO_00020000>))
 Declaration(Class(<http://purl.unep.org/sdg/AGRO_00020001>))
+Declaration(Class(<http://purl.unep.org/sdg/AGRO_00020002>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000429>))
@@ -1056,7 +1057,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000070> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.manytracks.com/Garden/GreenManure.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Green_manure") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000075> "Plants that are grown to be tilled, or cut down to lay on top of the ground for the purpose of adding organic matter and nutrients to the soil."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000075> "green manure"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000075> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000075> <http://purl.obolibrary.org/obo/ENVO_01000155>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000075> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000075> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
@@ -1129,14 +1130,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000084> <http://purl.obolibrar
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Press_cake") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000085> "The biomass remaining after pressing oil seeds to extract oil."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000085> "oil cake"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000085> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000085> <http://purl.obolibrary.org/obo/ENVO_01000155>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000085> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000086> (blood meal)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Blood_meal") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000086> "Dry, inert powder made from blood. Blood usually comes from cattle or hogs as a slaughterhouse by-product."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000086> "blood meal"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000086> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000086> <http://purl.obolibrary.org/obo/ENVO_01000155>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000086> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000086> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
@@ -1153,7 +1154,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000087> ObjectSomeValuesFrom(<
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000088> "An agricultural environmental material that contains ground-biomass remaining after pressing oil seeds."@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000088> "ground oil cake"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000088> "oil meal"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000088> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000088> <http://purl.obolibrary.org/obo/ENVO_01000155>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000088> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000089> (cottonseed meal)
@@ -1167,7 +1168,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000089> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.feedipedia.org/node/275") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000090> "An agricultural environmental material that contains ground dry alfalfa."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000090> "alfalfa meal"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000090> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000090> <http://purl.obolibrary.org/obo/ENVO_01000155>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000090> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000090> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
@@ -3949,8 +3950,15 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/AGRO_00020001> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/AGRO_00020001> "bio-fertilizer")
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/AGRO_00020001> "biofertilizer"@en)
-SubClassOf(<http://purl.unep.org/sdg/AGRO_00020001> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+SubClassOf(<http://purl.unep.org/sdg/AGRO_00020001> <http://purl.obolibrary.org/obo/ENVO_01000155>)
 SubClassOf(<http://purl.unep.org/sdg/AGRO_00020001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+
+# Class: <http://purl.unep.org/sdg/AGRO_00020002> (biochar)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Biochar") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/AGRO_00020002> "charcoal used as a soil amendment.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/AGRO_00020002> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/AGRO_00020002> "biochar"@en)
+SubClassOf(<http://purl.unep.org/sdg/AGRO_00020002> <http://purl.obolibrary.org/obo/ENVO_01000560>)
 
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IAO_0000005> "experiment objective"@en)
