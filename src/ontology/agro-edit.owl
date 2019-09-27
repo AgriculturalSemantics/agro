@@ -457,6 +457,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000077>))
 Declaration(Class(<http://purl.unep.org/sdg/AGRO_00020000>))
+Declaration(Class(<http://purl.unep.org/sdg/AGRO_00020001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000429>))
@@ -3941,6 +3942,15 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/AGRO_00020000> "inter-cropping experiment"@en)
 EquivalentClasses(<http://purl.unep.org/sdg/AGRO_00020000> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000325>))
 SubClassOf(<http://purl.unep.org/sdg/AGRO_00020000> <http://purl.obolibrary.org/obo/AGRO_00000370>)
+
+# Class: <http://purl.unep.org/sdg/AGRO_00020001> (biofertilizer)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Biofertilizer") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/AGRO_00020001> "A environmental material which contains living microorganisms, which, when applied to seeds, plant surfaces, or soil, colonize the rhizosphere or the interior of the plant and promotes growth by increasing the supply or availability of primary nutrients to the host plant.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/AGRO_00020001> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/AGRO_00020001> "bio-fertilizer")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/AGRO_00020001> "biofertilizer"@en)
+SubClassOf(<http://purl.unep.org/sdg/AGRO_00020001> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+SubClassOf(<http://purl.unep.org/sdg/AGRO_00020001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IAO_0000005> "experiment objective"@en)
