@@ -459,6 +459,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000077>))
 Declaration(Class(<http://purl.unep.org/sdg/AGRO_00020000>))
 Declaration(Class(<http://purl.unep.org/sdg/AGRO_00020001>))
 Declaration(Class(<http://purl.unep.org/sdg/AGRO_00020002>))
+Declaration(Class(<http://purl.unep.org/sdg/AGRO_00020003>))
+Declaration(Class(<http://purl.unep.org/sdg/AGRO_00020004>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000429>))
@@ -1098,6 +1100,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000079> ObjectSomeValuesFrom(<
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Poultry_litter#Litter_amendments") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000080> "An animal manure that contains poultry excreta, spilled feed, feathers, and material used as bedding in poultry operations."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000080> "broiler litter"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000080> "chicken litter"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000080> "poultry manure")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000080> "poultry litter"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000080> <http://purl.obolibrary.org/obo/AGRO_00000079>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000080> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
@@ -3959,6 +3962,23 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/AGRO_00020002> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/AGRO_00020002> "biochar"@en)
 SubClassOf(<http://purl.unep.org/sdg/AGRO_00020002> <http://purl.obolibrary.org/obo/ENVO_01000560>)
+
+# Class: <http://purl.unep.org/sdg/AGRO_00020003> (bird guano)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/AGRO_00020003> "an animal manure composoed of the excrement of seabirds and bats.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/AGRO_00020003> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/AGRO_00020003> "guano")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/AGRO_00020003> "bird guano"@en)
+SubClassOf(<http://purl.unep.org/sdg/AGRO_00020003> <http://purl.obolibrary.org/obo/AGRO_00000079>)
+SubClassOf(<http://purl.unep.org/sdg/AGRO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+
+# Class: <http://purl.unep.org/sdg/AGRO_00020004> (deep tillage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.unep.org/sdg/AGRO_00020004> "A tillage process during which the tillage occurs at 25-30 cm depth. It can be used for deep rooted crop like pigeonpea.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.unep.org/sdg/AGRO_00020004> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.unep.org/sdg/AGRO_00020004> "deep till")
+AnnotationAssertion(rdfs:label <http://purl.unep.org/sdg/AGRO_00020004> "deep tillage"@en)
+SubClassOf(<http://purl.unep.org/sdg/AGRO_00020004> <http://purl.obolibrary.org/obo/AGRO_00000015>)
 
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IAO_0000005> "experiment objective"@en)
