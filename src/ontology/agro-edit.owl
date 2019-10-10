@@ -450,18 +450,18 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000485>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000486>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000487>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000488>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000015>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000019>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000020>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000021>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000077>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000077>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000429>))
@@ -3641,6 +3641,55 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000488> "c
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000488> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001309> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000469>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000488> <http://purl.obolibrary.org/obo/PATO_0001309>)
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020000> "An agricultural experiment during which at least two different crops are grown at the same time.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020000> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020000> "inter-cropping experiment"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00020000> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000325>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020000> <http://purl.obolibrary.org/obo/AGRO_00000370>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00020001> (biofertilizer)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Biofertilizer") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020001> "A environmental material which contains living microorganisms, which, when applied to seeds, plant surfaces, or soil, colonize the rhizosphere or the interior of the plant and promotes growth by increasing the supply or availability of primary nutrients to the host plant.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020001> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00020001> "bio-fertilizer")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020001> "biofertilizer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020001> <http://purl.obolibrary.org/obo/ENVO_01000155>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00020002> (biochar)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Biochar") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020002> "charcoal used as a soil amendment.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020002> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020002> "biochar"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020002> <http://purl.obolibrary.org/obo/ENVO_01000560>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00020003> (bird guano)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020003> "an animal manure composoed of the excrement of seabirds and bats.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020003> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00020003> "guano")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020003> "bird guano"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020003> <http://purl.obolibrary.org/obo/AGRO_00000079>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00020004> (deep tillage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020004> "A tillage process during which the tillage occurs at 25-30 cm depth. It can be used for deep rooted crop like pigeonpea.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020004> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00020004> "deep till")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020004> "deep tillage"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020004> <http://purl.obolibrary.org/obo/AGRO_00000015>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00020005> (fish fertilizer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020005> "Fish fertilizer is any fish product that is used specifically to feed plants and soil.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020005> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020005> "fish fertilizer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020005> <http://purl.obolibrary.org/obo/ENVO_01000155>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_33287>))
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_01000000> "A planned process in which fertilizer is applied to an environmental material to promote the growth of a plant.")
@@ -3940,54 +3989,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000001> ObjectSomeValuesFrom(<htt
 # Class: <http://purl.obolibrary.org/obo/UO_0000190> (ratio)
 
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0000190> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/uo#is_unit_of> <http://purl.obolibrary.org/obo/PATO_0001470>))
-
-# Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020000> "An agricultural experiment during which at least two different crops are grown at the same time.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020000> <http://orcid.org/0000-0002-8461-9745>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020000> "inter-cropping experiment"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00020000> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000325>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020000> <http://purl.obolibrary.org/obo/AGRO_00000370>)
-
-# Class: <http://purl.obolibrary.org/obo/AGRO_00020001> (biofertilizer)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Biofertilizer") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020001> "A environmental material which contains living microorganisms, which, when applied to seeds, plant surfaces, or soil, colonize the rhizosphere or the interior of the plant and promotes growth by increasing the supply or availability of primary nutrients to the host plant.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020001> <http://orcid.org/0000-0002-8461-9745>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00020001> "bio-fertilizer")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020001> "biofertilizer"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020001> <http://purl.obolibrary.org/obo/ENVO_01000155>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
-
-# Class: <http://purl.obolibrary.org/obo/AGRO_00020002> (biochar)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Biochar") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020002> "charcoal used as a soil amendment.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020002> <http://orcid.org/0000-0002-8461-9745>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020002> "biochar"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020002> <http://purl.obolibrary.org/obo/ENVO_01000560>)
-
-# Class: <http://purl.obolibrary.org/obo/AGRO_00020003> (bird guano)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020003> "an animal manure composoed of the excrement of seabirds and bats.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020003> <http://orcid.org/0000-0002-8461-9745>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00020003> "guano")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020003> "bird guano"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020003> <http://purl.obolibrary.org/obo/AGRO_00000079>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
-
-# Class: <http://purl.obolibrary.org/obo/AGRO_00020004> (deep tillage)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020004> "A tillage process during which the tillage occurs at 25-30 cm depth. It can be used for deep rooted crop like pigeonpea.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020004> <http://orcid.org/0000-0002-8461-9745>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00020004> "deep till")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020004> "deep tillage"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020004> <http://purl.obolibrary.org/obo/AGRO_00000015>)
-
-# Class: <http://purl.obolibrary.org/obo/AGRO_00020005> (fish fertilizer)
-
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020005> <http://orcid.org/0000-0002-8461-9745>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020005> "fish fertilizer"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020005> <http://purl.obolibrary.org/obo/ENVO_01000155>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_33287>))
 
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IAO_0000005> "experiment objective"@en)
