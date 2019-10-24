@@ -1,7 +1,5 @@
 [![Build Status](https://travis-ci.org/AgriculturalSemantics/agro.svg?branch=master)](https://travis-ci.org/AgriculturalSemantics/agro)
 
-**Please note: AgrO is in its alpha phase and no official releases are available yet! Use with caution.**
-
 # AgrO
 AgrO, the Agronomy Ontology, describes agronomic practices, agronomic techniques, and agronomic variables used in agronomic experiments. AgrO is being built by CGIAR using traits identified by agronomists, the ICASA variables, and other existing ontologies such as ENVO, UO, and PATO. Once stable, it is anticipated to provide value to SDGIO. It will complement existing crop, livestock, and fish ontologies to enable harmonized approaches to data collection, facilitating easier data sharing and reuse. Further, AgrO will power an Agronomy Management System and fieldbook modeled on a CGIAR Breeding Management System to capture agronomic data. 
 
