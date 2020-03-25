@@ -459,6 +459,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002005>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002006>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002007>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002010>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -3743,6 +3745,20 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002008> "mower"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002008> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00020006>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002009> (stubble)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002009> "A crop residue which is the cut stalks of cereal plants left sticking out of the ground after the grain is harvested.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002009> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002009> "stubble"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002009> <http://purl.obolibrary.org/obo/AGRO_00000154>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002010> (husk)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002010> "A crop residie which is the cut outter shell or coating of a seed.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002010> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002010> "husk"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002010> <http://purl.obolibrary.org/obo/AGRO_00000154>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
