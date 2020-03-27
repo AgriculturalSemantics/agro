@@ -481,6 +481,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002038>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -651,7 +655,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000008> ObjectAllValuesFrom(<h
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000009> "A water body from which water is taken during an irrigation process and transported to the target of the irrigation process."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000009> "irrigation source"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000009> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ENVO_00000063> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000009> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000009> <http://purl.obolibrary.org/obo/ENVO_00000063>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000010> (irrigation water quantity)
@@ -3936,6 +3940,35 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002034> ObjectSomeValuesFrom(<
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00002017>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00002004> <http://purl.obolibrary.org/obo/AGRO_00002005>))))))
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002035> (broadcasting seed process)
+
+AnnotationAssertion(Annotation(rdfs:comment "http://ecoursesonline.iasri.res.in/mod/page/view.php?id=101087") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002035> "A seeding process that is the random scattering of seed.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002035> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002035> "broadcasting seed process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002035> <http://purl.obolibrary.org/obo/AGRO_00000142>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002036> (line sowing process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002036> "A seeding process during which seeds are sown in lines")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002036> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002036> "line sowing process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002036> <http://purl.obolibrary.org/obo/AGRO_00000142>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002037> (seed dibbling process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://ecoursesonline.iasri.res.in/mod/page/view.php?id=101087") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002037> "A seeding process that consists in placing seeds in holes.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002037> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002037> "seed dibbling process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002037> <http://purl.obolibrary.org/obo/AGRO_00000142>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002038> (seed drilling process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002038> "A seeding process which is dropping the seeds in furrow lines in a continuous flow and covering them with soil.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002038> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002038> "drill sowing")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002038> "seed drilling process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002038> <http://purl.obolibrary.org/obo/AGRO_00002036>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020000> "An agricultural experiment during which at least two different crops are grown at the same time.")
@@ -4120,7 +4153,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_91238> ObjectSomeValuesFrom(<ht
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00000020> (lake)
 
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000020> <http://purl.obolibrary.org/obo/AGRO_00000009>)
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>))
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00000022> (river)
@@ -4180,6 +4212,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000283> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/ENVO_00000309> (depression)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000309> <http://purl.obolibrary.org/obo/AGRO_00000339>)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000309> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>))
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00000395> (channel of a watercourse)
 
@@ -4305,5 +4338,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000001> ObjectSomeValuesFrom(<htt
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0000190> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/uo#is_unit_of> <http://purl.obolibrary.org/obo/PATO_0001470>))
 
 
+DisjointClasses(<http://purl.obolibrary.org/obo/AGRO_00002035> <http://purl.obolibrary.org/obo/AGRO_00002036> <http://purl.obolibrary.org/obo/AGRO_00002037>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IAO_0000005> "experiment objective"@en)
 )
