@@ -472,6 +472,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002022>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002023>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -3222,7 +3223,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000413> ObjectSomeValuesFrom(<
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000416> "agricultural implement"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000416> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> <http://purl.obolibrary.org/obo/AGRO_00000237>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000416> <http://purl.obolibrary.org/obo/BFO_0000030>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000416> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00020006>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000416> DataMaxCardinality(1 <http://purl.obolibrary.org/obo/AGRO_00000411> xsd:string))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000416> DataMaxCardinality(1 <http://purl.obolibrary.org/obo/AGRO_00000414> xsd:string))
 
@@ -3855,6 +3855,15 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002024> "hill bed")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002024> "hill seedbed"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002024> <http://purl.obolibrary.org/obo/AGRO_00002021>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002026> (binder)
+
+AnnotationAssertion(Annotation(rdfs:comment "https://en.wikipedia.org/wiki/Reaper-binder") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002026> "A harvest implement for grain crops which cuts the stems and binds the stems into bundles or sheaves. The binder is now largely obsolete replaced by the combine harvester.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002026> <http://orcid.org/0000-0002-1434-9495>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002026> "reaper binder")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002026> "binder"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002026> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000025>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
