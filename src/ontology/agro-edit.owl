@@ -477,6 +477,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002027>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002028>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002029>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -3906,6 +3907,14 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002030> "r
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002030> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000004>))
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002031> (bare fallow land)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002031> "An fallow land that is set aside for a period of time and kept free from vegetation by cultivation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002031> <https://orcid.org/0000-0002-1434-9495>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002031> "bare fallow land"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002031> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00000390> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/AGRO_00000390>)))))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002031> <http://purl.obolibrary.org/obo/AGRO_00000390>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020000> "An agricultural experiment during which at least two different crops are grown at the same time.")
@@ -4130,10 +4139,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000091> <http://purl.obolibrar
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000100> <http://purl.obolibrary.org/obo/AGRO_00000338>)
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000100> <http://purl.obolibrary.org/obo/AGRO_00000339>)
-
-# Class: <http://purl.obolibrary.org/obo/ENVO_00000114> (agricultural field)
-
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000114> <http://purl.obolibrary.org/obo/AGRO_00000387>)
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00000150> (coral reef)
 
