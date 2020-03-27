@@ -475,6 +475,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002024>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002027>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002029>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -3757,6 +3758,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002008> "weed cutter")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002008> "mower"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002008> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000220>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00020006>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002009> (stubble)
@@ -3884,6 +3886,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002028> "power harrow"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002028> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002029> (mowing implement)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002029> "An implement that is used in a mowing process.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002029> <https://orcid.org/0000-0002-1434-9495>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002029> "mowing implement"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002029> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00000416> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000220>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002029> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
