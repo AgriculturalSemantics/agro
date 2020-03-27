@@ -479,6 +479,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002029>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002034>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -3922,6 +3923,16 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002033> <https://orcid.org/0000-0002-6601-2165>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002033> "weed role"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002033> <http://purl.obolibrary.org/obo/AGRO_00000035>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002034> (seedbed preparation process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002034> "A planned process in which a seedbed is prepared to grow plants.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002034> <https://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002034> "seedbed preparation process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002034> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00000004> <http://purl.obolibrary.org/obo/AGRO_00000028> <http://purl.obolibrary.org/obo/AGRO_01000015>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00002017>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00002004> <http://purl.obolibrary.org/obo/AGRO_00002005>))))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
