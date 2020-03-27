@@ -476,6 +476,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002027>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002028>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -3894,6 +3895,16 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002029> "mowing implement"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002029> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00000416> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000220>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002029> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002030> (roller)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Roller_(agricultural_tool)") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002030> "The roller is an heavy agricultural tool used for flattening land or breaking up large clumps of soil, especially after ploughing or disc harrowing.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002030> <https://orcid.org/0000-0002-1434-9495>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002030> "Cambridge roller")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002030> "cultipacker")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002030> "roller"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002030> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000004>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
