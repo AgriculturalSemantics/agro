@@ -34,12 +34,6 @@
     
 
 
-    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#type -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1946,22 +1940,6 @@ clustering algorithm.</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0000650 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000650">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0200031"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A differential expression analysis data transformation is a data transformation that has an objective of differential expression analysis.  Frequently this data transformation involves summarizing or otherwise aggregating signals from various samples categorized into groups, and calculating measures of group differences from these aggregated signals.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">differential expression analysis data transformation</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OBI_0000652 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000652">
@@ -2018,7 +1996,7 @@ clustering algorithm.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A planned process with the objective of collecting a specimen.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specimen collection process</rdfs:label>
+        <rdfs:label>specimen collection process</rdfs:label>
     </owl:Class>
     
 
@@ -2040,7 +2018,6 @@ clustering algorithm.</obo:IAO_0000115>
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000650"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
         <obo:IAO_0000115 xml:lang="en">A class prediction data transformation (sometimes called supervised classification) is a data transformation that has objective class prediction.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">class prediction data transformation</rdfs:label>
@@ -2085,7 +2062,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000684">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A objective specification to obtain a material entity for potential use as an input during an investigation.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specimen collection objective</rdfs:label>
+        <rdfs:label>specimen collection objective</rdfs:label>
     </owl:Class>
     
 
@@ -2135,7 +2112,6 @@ clustering algorithm.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000704"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000650"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
         <obo:IAO_0000115 xml:lang="en">A decision tree building data transformation is a data transformation that has objective decision tree induction.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">decision tree building data transformation</rdfs:label>
@@ -2156,7 +2132,6 @@ clustering algorithm.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/OBI_0000726 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000726">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000650"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peak matching is a data transformation performed on a dataset of a graph of ordered data points (e.g. a spectrum) with the objective of pattern matching local maxima above a noise threshold</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peak matching</rdfs:label>
@@ -2719,7 +2694,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002205">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a histologic grade assigned to a tumor slide specimen according to the American Joint Committee on Cancer (AJCC) 7th Edition grading system.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histologic grade according to AJCC 7th edition</rdfs:label>
+        <rdfs:label>histologic grade according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
 
@@ -2729,7 +2704,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002210">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a histologic grade assigned to a tumor slide specimen according to the Fuhrman Nuclear Grading System.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histologic grade according to the Fuhrman Nuclear Grading System</rdfs:label>
+        <rdfs:label>histologic grade according to the Fuhrman Nuclear Grading System</rdfs:label>
     </owl:Class>
     
 
@@ -2739,7 +2714,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002215">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a histologic grade assigned to a ovarian tumor.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histologic grade for ovarian tumor</rdfs:label>
+        <rdfs:label>histologic grade for ovarian tumor</rdfs:label>
     </owl:Class>
     
 
@@ -2749,7 +2724,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002216">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002215"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A histologic grade for ovarian tumor that is from a two-tier histological classification of tumors. </obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histologic grade for ovarian tumor according to a two-tier grading system</rdfs:label>
+        <rdfs:label>histologic grade for ovarian tumor according to a two-tier grading system</rdfs:label>
     </owl:Class>
     
 
@@ -2759,7 +2734,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002219">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002215"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A histologic grade for ovarian tumor that is from a histological classification by the World Health Organization (WHO).</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histologic grade for ovarian tumor according to the World Health Organization</rdfs:label>
+        <rdfs:label>histologic grade for ovarian tumor according to the World Health Organization</rdfs:label>
     </owl:Class>
     
 
@@ -2769,7 +2744,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002224">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of colorectal cancer following the rules of the TNM American Joint Committee on Cancer (AJCC) version 7 classification system as they pertain to staging of the primary tumor. TNM pathologic primary tumor findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic primary tumor stage for colon and rectum according to AJCC 7th edition</rdfs:label>
+        <rdfs:label>pathologic primary tumor stage for colon and rectum according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
 
@@ -2779,7 +2754,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002232">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of lung cancer following the rules of the TNM American Joint Committee on Cancer (AJCC) version 7 classification system as they pertain to staging of the primary tumor. TNM pathologic primary tumor findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic primary tumor stage for lung according to AJCC 7th edition</rdfs:label>
+        <rdfs:label>pathologic primary tumor stage for lung according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
 
@@ -2789,7 +2764,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002243">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of renal cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of the primary tumor. TNM pathologic primary tumor findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic primary tumor stage for kidney according to AJCC 7th edition</rdfs:label>
+        <rdfs:label>pathologic primary tumor stage for kidney according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
 
@@ -2799,7 +2774,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002256">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of ovarian cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of the primary tumor. TNM pathologic primary tumor findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic primary tumor stage for ovary according to AJCC 7th edition</rdfs:label>
+        <rdfs:label>pathologic primary tumor stage for ovary according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
 
@@ -2809,7 +2784,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002270">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of colorectal cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of regional lymph nodes.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic lymph node stage for colon and rectum according to AJCC 7th edition</rdfs:label>
+        <rdfs:label>pathologic lymph node stage for colon and rectum according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
 
@@ -2819,7 +2794,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002279">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of lung cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of regional lymph nodes.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic lymph node stage for lung according to AJCC 7th edition</rdfs:label>
+        <rdfs:label>pathologic lymph node stage for lung according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
 
@@ -2829,7 +2804,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002284">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of renal cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of regional lymph nodes.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic lymph node stage for kidney according to AJCC 7th edition</rdfs:label>
+        <rdfs:label>pathologic lymph node stage for kidney according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
 
@@ -2839,7 +2814,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002287">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of ovarian cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of regional lymph nodes.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic lymph node stage for ovary according to AJCC 7th edition</rdfs:label>
+        <rdfs:label>pathologic lymph node stage for ovary according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
 
@@ -2849,7 +2824,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002290">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of colon cancer following the rules of the TNM AJCC v7 classification system as they pertain to distant metastases. TNM pathologic distant metastasis findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic distant metastases stage for colon according to AJCC 7th edition</rdfs:label>
+        <rdfs:label>pathologic distant metastases stage for colon according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
 
@@ -2859,7 +2834,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002298">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of lung cancer following the rules of the TNM AJCC v7 classification system as they pertain to distant metastases. TNM pathologic distant metastasis findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic distant metastases stage for lung according to AJCC 7th edition</rdfs:label>
+        <rdfs:label>pathologic distant metastases stage for lung according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
 
@@ -2869,7 +2844,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002306">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of renal cancer following the rules of the TNM AJCC v7 classification system as they pertain to distant metastases. TNM pathologic distant metastasis findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic distant metastases stage for kidney according to AJCC 7th edition</rdfs:label>
+        <rdfs:label>pathologic distant metastases stage for kidney according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
 
@@ -2879,7 +2854,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002310">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a  pathologic finding about one or more characteristics of ovarian cancer following the rules of the TNM AJCC v7 classification system as they pertain to distant metastases. TNM pathologic distant metastasis findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathologic distant metastases stage for ovary according to AJCC 7th edition</rdfs:label>
+        <rdfs:label>pathologic distant metastases stage for ovary according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
 
@@ -2889,7 +2864,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002314">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is an assessment of the stage of a cancer according to the American Joint Committee on Cancer (AJCC) v7 staging systems.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical tumor stage group according to AJCC 7th edition</rdfs:label>
+        <rdfs:label>clinical tumor stage group according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
 
@@ -2899,7 +2874,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002326">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is an assessment of the stage of a gynecologic cancer according to the International Federation of Gynecology and Obstetrics (FIGO) staging systems.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International Federation of Gynecology and Obstetrics cervical cancer stage value specification</rdfs:label>
+        <rdfs:label>International Federation of Gynecology and Obstetrics cervical cancer stage value specification</rdfs:label>
     </owl:Class>
     
 
@@ -2909,7 +2884,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002341">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of ovarian cancer following the rules of the FIGO classification system.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International Federation of Gynecology and Obstetrics ovarian cancer stage value specification</rdfs:label>
+        <rdfs:label>International Federation of Gynecology and Obstetrics ovarian cancer stage value specification</rdfs:label>
     </owl:Class>
     
 
@@ -2919,7 +2894,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002356">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is an assessment of a participant&apos;s performance status (general well-being and activities of daily life).</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">performance status value specification</rdfs:label>
+        <rdfs:label>performance status value specification</rdfs:label>
     </owl:Class>
     
 
@@ -2929,7 +2904,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002357">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002356"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A performance status value specification designed by the Eastern Cooperative Oncology Group to assess disease progression and its affect on the daily living abilities of the patient.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eastern Cooperative Oncology Group score value specification</rdfs:label>
+        <rdfs:label>Eastern Cooperative Oncology Group score value specification</rdfs:label>
     </owl:Class>
     
 
@@ -2939,7 +2914,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002363">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002356"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A performance status value specification designed for classifying patients 16 years of age or older by their functional impairment.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karnofsky score vaue specification</rdfs:label>
+        <rdfs:label>Karnofsky score vaue specification</rdfs:label>
     </owl:Class>
     
 
@@ -2991,7 +2966,7 @@ clustering algorithm.</obo:IAO_0000115>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0200031"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0200166"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
@@ -3024,16 +2999,6 @@ clustering algorithm.</obo:IAO_0000115>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A planned process that produces output data from input data.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">data transformation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0200031 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200031">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200166"/>
-        <obo:IAO_0000115 xml:lang="en">A differential expression analysis objective is a data transformation objective whose input consists of expression levels of entities (such as transcripts or proteins), or of sets of such expression levels, under two or more conditions and whose output reflects which of these are likely to have different expression across such conditions.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">differential expression analysis objective</rdfs:label>
     </owl:Class>
     
 
@@ -3218,7 +3183,6 @@ clustering algorithm.</obo:IAO_0000115>
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000650"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
         <obo:IAO_0000115 xml:lang="en">An averaging data transformation is a data transformation that has objective averaging.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">averaging data transformation</rdfs:label>
@@ -3235,7 +3199,6 @@ clustering algorithm.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0200172"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000650"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
         <obo:IAO_0000115 xml:lang="en">A partitioning data transformation is a data transformation that has objective partitioning.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">partitioning data transformation</rdfs:label>
@@ -3270,7 +3233,6 @@ clustering algorithm.</obo:IAO_0000115>
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000650"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
         <obo:IAO_0000115 xml:lang="en">A class discovery data transformation (sometimes called unsupervised classification) is a data transformation that has objective class discovery.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">class discovery data transformation</rdfs:label>
@@ -3326,7 +3288,6 @@ class labels for these objects. The resulting predictor can be used to attach cl
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000650"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
         <obo:IAO_0000115 xml:lang="en">A center calculation data transformation is a data transformation that has objective of center calculation.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">center calculation data transformation</rdfs:label>
