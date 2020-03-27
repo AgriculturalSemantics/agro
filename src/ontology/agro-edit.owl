@@ -12,6 +12,7 @@ Import(<http://purl.obolibrary.org/obo/agro/imports/bfo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/chebi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/envo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/iao_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/ncbitaxon_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/obi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/pato_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/peco_import.owl>)
@@ -1395,45 +1396,47 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000116> "draught animal"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000116> "working animal"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000116> "draft animal"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000116> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_319699> <http://purl.obolibrary.org/obo/NCBITaxon_89462> <http://purl.obolibrary.org/obo/NCBITaxon_9783> <http://purl.obolibrary.org/obo/NCBITaxon_9793> <http://purl.obolibrary.org/obo/NCBITaxon_9796> <http://purl.obolibrary.org/obo/NCBITaxon_9838> <http://purl.obolibrary.org/obo/NCBITaxon_9913>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000116> <http://purl.obolibrary.org/obo/OBI_0100026>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000116> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000116> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0003000> <http://purl.obolibrary.org/obo/AGRO_00000240>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000117> (horse)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000117> "horse"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000117> <http://purl.obolibrary.org/obo/AGRO_00000116>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000117> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000118> (donkey)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000118> "donkey"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000118> <http://purl.obolibrary.org/obo/AGRO_00000116>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000118> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000119> (bull)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000119> "ox"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000119> "steer"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000119> "bull"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000119> <http://purl.obolibrary.org/obo/AGRO_00000116>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000119> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000120> (camel)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000120> "camel"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000120> <http://purl.obolibrary.org/obo/AGRO_00000116>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000120> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000121> (mule)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000121> "mule"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000121> <http://purl.obolibrary.org/obo/AGRO_00000116>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000121> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000122> (buffalo)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000122> "buffalo"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000122> <http://purl.obolibrary.org/obo/AGRO_00000116>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000122> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000123> (elephant)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000123> "elephant"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000123> <http://purl.obolibrary.org/obo/AGRO_00000116>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000123> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000124> (tractor)
 
