@@ -798,6 +798,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.ext.colostate.edu/mg/gardennotes/234.html") rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000033> "Organic fertilizer is sometime defined as being derived from natural sources including non-living organism sources like rock."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000033> "organic fertilizer"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000033> <http://purl.obolibrary.org/obo/CHEBI_33287>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/ENVO_00002872>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000034> (inorganic fertilizer)
 
@@ -1193,9 +1194,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000086> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Bagasse"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000087> "The biomass remaining after sugarcane stalks are crushed to extract their juice."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000087> "bagasse"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000087> <http://purl.obolibrary.org/obo/ENVO_0010003>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000087> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000087> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000087> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000088> (oil meal)
 
