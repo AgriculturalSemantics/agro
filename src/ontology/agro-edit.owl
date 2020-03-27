@@ -466,6 +466,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002012>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002013>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002024>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -3802,6 +3808,53 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002015> "much removal process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002015> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000092>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002017> (seedbed)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002017> "An environmental zone prepared for growing plants.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002017> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002017> "seedbed"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002017> <http://purl.obolibrary.org/obo/ENVO_01000408>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002018> (flat seedbed)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002018> "A seedbed that is flat. Flat beds are used where water availability is adequate and there are no drainage problem.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002018> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002018> "flat bed")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002018> "flat seedbed"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002018> <http://purl.obolibrary.org/obo/AGRO_00002017>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002021> (raised seedbed)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002021> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.nzdl.org/gsdlmod?e=d-00000-00---off-0hdl--00-0----0-10-0---0---0direct-10---4-------0-1l--11-en-50---20-about---00-0-1-00-0--4----0-0-11-10-0utfZz-8-00&cl=CL1.16&d=HASH412cd503b5262205ac14c6.6&gt=1") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002021> "A seedbed that is raised-up. They are especially advantageous for clayey soils under high rainfall or wherever else drainage is likely to be poor.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002021> "raised bed")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002021> "raised seedbed"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002021> <http://purl.obolibrary.org/obo/AGRO_00002017>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002022> (sunken seedbed)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002022> "a seedbed that is below the surrounding soil level. Sunken beds conserve water much more effectively than raised bed")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002022> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002022> "sunken bed")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002022> "sunken seedbed"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002022> <http://purl.obolibrary.org/obo/AGRO_00002017>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002023> (ridge seedbed)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002023> "A raised seedbed which is long and narrow with steep sides.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002023> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002023> "ridge bed")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002023> "ridge seedbed"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002023> <http://purl.obolibrary.org/obo/AGRO_00002021>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002024> (hill seedbed)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002024> "A raised seedbed that is of rounded form and limited extent.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002024> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002024> "hill bed")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002024> "hill seedbed"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002024> <http://purl.obolibrary.org/obo/AGRO_00002021>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
