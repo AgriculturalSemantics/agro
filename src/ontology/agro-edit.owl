@@ -474,6 +474,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002023>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002024>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002028>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -3874,6 +3875,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002027> "baler"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002027> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000464>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002028> (power harrow)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002028> "A tillage implement that has multiple sets of vertical tines. Each set of tines is rotated on a vertical axis and tills the soil horizontally.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002028> <https://orcid.org/0000-0002-1434-9495>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002028> "rotary power harrow")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002028> "power harrow"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002028> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
