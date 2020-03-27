@@ -461,6 +461,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002007>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002008>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002009>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002014>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -3759,6 +3764,44 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002010> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002010> "husk"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002010> <http://purl.obolibrary.org/obo/AGRO_00000154>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002011> (bubbler irrigation process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.sciencedirect.com/science/article/pii/S0167413707800175") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002011> "A localized irrigation process in which water is conveyed to the soil surface as a little stream, typically from a small diameter tube or a commercially available emitter. Because the application rates generally exceed the soil infiltration rates, small basins or furrows are needed to control the water distribution on the land.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002011> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002011> "bubbler irrigation process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002011> <http://purl.obolibrary.org/obo/AGRO_00000055>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002012> (mist irrigation process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://futurepump.com/smallholder-irrigation-options/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002012> "A localized irrigation process in which water is conveyed under high pressure through small nozzles and sprayed in a fine mist of water over the plants.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002012> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002012> "mist irrigation process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002012> <http://purl.obolibrary.org/obo/AGRO_00000055>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002013> (sprinker by lateral move irrigation process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agriculture.vic.gov.au/agriculture/farm-management/soil-and-water/irrigation/centre-pivot-and-lateral-move-systems") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002013> "A sprinkler irrigation process in which water is dispersed over the plant through a self-propelled irrigation systems with both ends of the system move at a constant speed up and down the area to irrigate.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002013> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002013> "linear move")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002013> "sprinker by lateral move irrigation process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002013> <http://purl.obolibrary.org/obo/AGRO_00000060>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002014> (side roll sprinkler irrigation process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://energypedia.info/wiki/Sprinkler_Irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002014> "A sprinkler irrigation process in which water is dispersed over the plant through a system long lateral pipes mounted on 1 to 3 meter wheels in diameter, the pipe serving as an axle. When the desired amount of water has been applied to an area, a gasoline engine at the centre is used to move the side roll to the next area.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002014> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002014> "wheel roll")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002014> "side roll sprinkler irrigation process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002014> <http://purl.obolibrary.org/obo/AGRO_00000060>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002015> (much removal process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002015> "A process in which mulch is removed from the soil.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002015> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002015> "much removal process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002015> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000092>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
