@@ -1399,9 +1399,8 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000116> "draught animal"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000116> "working animal"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000116> "draft animal"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000116> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_319699> <http://purl.obolibrary.org/obo/NCBITaxon_89462> <http://purl.obolibrary.org/obo/NCBITaxon_9783> <http://purl.obolibrary.org/obo/NCBITaxon_9793> <http://purl.obolibrary.org/obo/NCBITaxon_9796> <http://purl.obolibrary.org/obo/NCBITaxon_9838> <http://purl.obolibrary.org/obo/NCBITaxon_9913>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000116> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000116> <http://purl.obolibrary.org/obo/OBI_0100026>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000116> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000116> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0003000> <http://purl.obolibrary.org/obo/AGRO_00000240>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000117> (horse)
@@ -4270,6 +4269,34 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000560> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/ENVO_02000054> (bone meal)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_02000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_319699> (Equus asinus x caballus)
+
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_319699> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>))
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_89462> (Bubalus bubalis)
+
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_89462> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>))
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_9783> (Elephas maximus)
+
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9783> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>))
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_9793> (Equus asinus)
+
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9793> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>))
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_9796> (Equus caballus)
+
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9796> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>))
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_9838> (Camelus dromedarius)
+
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9838> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>))
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_9913> (Bos taurus)
+
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9913> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000011> (planned process)
 
