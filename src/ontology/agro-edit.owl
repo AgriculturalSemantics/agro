@@ -3996,8 +3996,8 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002042> "vermi-compost")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002042> "vermiculture")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002042> "vermicompost"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002042> <http://purl.obolibrary.org/obo/ENVO_00002170>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002043> (worm castings)
 
@@ -4297,8 +4297,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002054> ObjectSomeValuesFrom(<
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00002170> (compost)
 
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/ENVO_00002170> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ENVO_0010003> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ENVO_0010003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>)))
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00002872> (bagasse)
 
