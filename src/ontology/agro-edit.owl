@@ -485,6 +485,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002035>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002036>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002037>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002042>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002043>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -796,18 +800,17 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000032> "plant reproductive material"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000032> <http://purl.obolibrary.org/obo/PO_0025131>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000033> (organic fertilizer)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000033> (organic fertilizer role)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.newenglandisa.org/FunkHandoutsOrganicInorganicFertilizers.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.thefreedictionary.com/organic+fertilizer") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Organic_fertilizer") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000033> "A fertilizer that is derived from animal or vegetable matter, and contains a carbon-hydrogen linkage."@en)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.ext.colostate.edu/mg/gardennotes/234.html") rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000033> "Organic fertilizer is sometime defined as being derived from natural sources including non-living organism sources like rock."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000033> "organic fertilizer"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000033> "organic fertilizer role"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000033> <http://purl.obolibrary.org/obo/CHEBI_33287>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/ENVO_00002872>))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000034> (inorganic fertilizer)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000034> (inorganic fertilizer role)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.newenglandisa.org/FunkHandoutsOrganicInorganicFertilizers.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000034> "A fertilizer that does not contain a carbon-hydrogen linkage."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000034> "inorganic fertilizer"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000034> "inorganic fertilizer role"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000034> <http://purl.obolibrary.org/obo/CHEBI_33287>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000035> (pest role)
@@ -3968,6 +3971,45 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002038> "seed drilling process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002038> <http://purl.obolibrary.org/obo/AGRO_00002036>)
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002039> (organic fertilizer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002039> "A material entity that has a fertilizer role and that is derived from animal or vegetable matter.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002039> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002039> "organic fertilizer"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002039> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002040> (inorganic fertilizer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002040> "A material entity that has a fertilizer role and that is mined from mineral deposits or manufactured from synthetic compounds.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002040> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002040> "commercial fertilizer")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002040> "mineral fertilizer")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002040> "inorganic fertilizer"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000034>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002040> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002042> (vermicompost)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Vermicompost") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002042> "A compost that is the product of the decomposition process using various species of worms, usually red wigglers, white worms, and other earthworms, to create a mixture of decomposing vegetable or food waste, bedding materials, and vermicast.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002042> <https://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002042> "vermi-compost")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002042> "vermiculture")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002042> "vermicompost"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002042> <http://purl.obolibrary.org/obo/ENVO_00002170>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002043> (worm castings)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Vermicompost") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002043> "A vermicompost that uses earthworms.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002043> <https://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002043> "vermicast")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002043> "worm humus")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00002043> "worm feaces")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00002043> "worm manure")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002043> "worm castings"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002043> <http://purl.obolibrary.org/obo/AGRO_00002042>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020000> "An agricultural experiment during which at least two different crops are grown at the same time.")
@@ -4015,7 +4057,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020005> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020005> "fish fertilizer"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020005> <http://purl.obolibrary.org/obo/ENVO_01000155>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_33287>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020006> (weeding process)
 
@@ -4258,6 +4300,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002054> ObjectSomeValuesFrom(<
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
+# Class: <http://purl.obolibrary.org/obo/ENVO_00002872> (bagasse)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002872> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+
 # Class: <http://purl.obolibrary.org/obo/ENVO_00005774> (peat soil)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00005774> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
@@ -4265,6 +4311,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00005774> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/ENVO_01000560> (charcoal)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000560> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01001116> (bovine dairy liquid manure)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001116> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_02000054> (bone meal)
 
