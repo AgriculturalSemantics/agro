@@ -7,17 +7,18 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/agro-edit.owl>
-Import(<http://purl.obolibrary.org/obo/agro/imports/chebi_import.owl>)
-Import(<http://purl.obolibrary.org/obo/agro/imports/po_import.owl>)
-Import(<http://purl.obolibrary.org/obo/agro/imports/iao_import.owl>)
-Import(<http://purl.obolibrary.org/obo/agro/imports/pato_import.owl>)
-Import(<http://purl.obolibrary.org/obo/agro/imports/bfo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/agro/imports/obi_import.owl>)
-Import(<http://purl.obolibrary.org/obo/agro/imports/uo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/agro/imports/eo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/agro/imports/xco_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ro.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/bfo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/chebi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/agro/imports/envo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/iao_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/ncbitaxon_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/obi_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/pato_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/peco_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/po_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/uo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/agro/imports/xco_import.owl>)
 Annotation(<http://purl.org/dc/elements/1.1/contributor> "Céline Aubert")
 Annotation(<http://purl.org/dc/elements/1.1/contributor> "Marié-Angélique Laporte")
 Annotation(<http://purl.org/dc/elements/1.1/contributor> "Pier Luigi Buttigieg")
@@ -431,15 +432,75 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000465>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000466>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000467>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000468>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000469>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000470>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000472>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000473>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000474>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000475>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000476>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000477>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000478>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000479>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000480>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000481>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000482>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000483>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000484>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000485>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000486>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000487>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000488>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002014>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020009>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000019>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000077>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000429>))
@@ -534,9 +595,9 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000002> "t
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000002> <http://purl.obolibrary.org/obo/AGRO_00000005>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000002> <http://purl.obolibrary.org/obo/AGRO_00000108>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000002> <http://purl.obolibrary.org/obo/OBI_0000011>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000124>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000223>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00002004> <http://purl.obolibrary.org/obo/AGRO_00002005>))))))
 DisjointClasses(<http://purl.obolibrary.org/obo/AGRO_00000002> <http://purl.obolibrary.org/obo/AGRO_00000026>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000004> (land levelling process)
@@ -548,6 +609,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000004> "l
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000004> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000224>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00002004> <http://purl.obolibrary.org/obo/AGRO_00002005>))))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000005> (crop residue management process)
 
@@ -556,7 +618,9 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000005> "residue management"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000005> "crop residue management process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000005> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000124>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000225>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00002004> <http://purl.obolibrary.org/obo/AGRO_00002005>))))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000006> (irrigation process)
 
@@ -568,6 +632,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000006> <http://purl.obolibrar
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/AGRO_00000054>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000241>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00002006>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00002004> <http://purl.obolibrary.org/obo/AGRO_00002005>))))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000007> (desuckering process)
 
@@ -590,7 +655,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000008> ObjectAllValuesFrom(<h
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000009> "A water body from which water is taken during an irrigation process and transported to the target of the irrigation process."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000009> "irrigation source"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000009> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ENVO_00000063> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000009> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000009> <http://purl.obolibrary.org/obo/ENVO_00000063>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000010> (irrigation water quantity)
@@ -677,6 +742,7 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000025> 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000025> "harvesting process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000025> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000234>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00002004> <http://purl.obolibrary.org/obo/AGRO_00002005>))))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000026> (no-till)
 
@@ -736,6 +802,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.ext.colostate.edu/mg/gardennotes/234.html") rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000033> "Organic fertilizer is sometime defined as being derived from natural sources including non-living organism sources like rock."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000033> "organic fertilizer"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000033> <http://purl.obolibrary.org/obo/CHEBI_33287>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/ENVO_00002872>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000034> (inorganic fertilizer)
 
@@ -1025,6 +1092,8 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000069> "biological pest control agent role"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000069> <http://purl.obolibrary.org/obo/BFO_0000023>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000069> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/OBI_0100026>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000069> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/NCBITaxon_10239>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000069> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/NCBITaxon_2>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000069> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/AGRO_00000022>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000070> (liming role)
@@ -1038,9 +1107,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000070> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.manytracks.com/Garden/GreenManure.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Green_manure") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000075> "Plants that are grown to be tilled, or cut down to lay on top of the ground for the purpose of adding organic matter and nutrients to the soil."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000075> "green manure"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000075> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000075> <http://purl.obolibrary.org/obo/ENVO_01000155>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000075> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000075> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000075> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002001>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000076> (farmyard manure)
 
@@ -1079,6 +1149,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000079> ObjectSomeValuesFrom(<
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Poultry_litter#Litter_amendments") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000080> "An animal manure that contains poultry excreta, spilled feed, feathers, and material used as bedding in poultry operations."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000080> "broiler litter"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000080> "chicken litter"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000080> "poultry manure")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000080> "poultry litter"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000080> <http://purl.obolibrary.org/obo/AGRO_00000079>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000080> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
@@ -1093,32 +1164,33 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000081> <http://purl.obolibrar
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://organicgardening.about.com/od/organicgardeningglossary/g/fishemulsion.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Fish_emulsion") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Fish_hydrolysate") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000082> "An animal manure that is produced from ground-up whole fish or by-products mixed with water, and heated to remove oils and proteins."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000082> "fish emulsion"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000082> <http://purl.obolibrary.org/obo/AGRO_00000079>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000082> <http://purl.obolibrary.org/obo/AGRO_00020005>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000083> (fish meal)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/wairdocs/tan/x5926e/x5926e01.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000083> "An animal manure obtained by drying and grinding or otherwise treating fish or fish waste to which no other matter has been added."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000083> "fish blood and bone")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000083> "fish meal"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000083> <http://purl.obolibrary.org/obo/AGRO_00000079>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000083> <http://purl.obolibrary.org/obo/AGRO_00020005>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000084> (fish hydrolysate)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Fish_hydrolysate") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000084> "An animal manure made from whole fish or by-products put into water and cold-ground up."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000084> "fish hydrolysate"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000084> <http://purl.obolibrary.org/obo/AGRO_00000079>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000084> <http://purl.obolibrary.org/obo/AGRO_00020005>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000085> (oil cake)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Press_cake") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000085> "The biomass remaining after pressing oil seeds to extract oil."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000085> "oil cake"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000085> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000085> <http://purl.obolibrary.org/obo/ENVO_01000155>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000085> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000086> (blood meal)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Blood_meal") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000086> "Dry, inert powder made from blood. Blood usually comes from cattle or hogs as a slaughterhouse by-product."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000086> "blood meal"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000086> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000086> <http://purl.obolibrary.org/obo/ENVO_01000155>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000086> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000086> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
@@ -1126,16 +1198,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000086> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Bagasse"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000087> "The biomass remaining after sugarcane stalks are crushed to extract their juice."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000087> "bagasse"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000087> <http://purl.obolibrary.org/obo/ENVO_0010003>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000087> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000087> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000087> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000088> (oil meal)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000088> "An agricultural environmental material that contains ground-biomass remaining after pressing oil seeds."@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000088> "ground oil cake"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000088> "oil meal"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000088> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000088> <http://purl.obolibrary.org/obo/ENVO_01000155>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000088> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000089> (cottonseed meal)
@@ -1149,7 +1219,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000089> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.feedipedia.org/node/275") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000090> "An agricultural environmental material that contains ground dry alfalfa."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000090> "alfalfa meal"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000090> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000090> <http://purl.obolibrary.org/obo/ENVO_01000155>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000090> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000090> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
@@ -1294,6 +1364,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000111> <http://purl.obolibrar
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000111> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000111> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000092>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000111> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000236>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000111> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00002004> <http://purl.obolibrary.org/obo/AGRO_00002005>))))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000112> (liming process)
 
@@ -1328,52 +1399,52 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000116> "draught animal"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000116> "working animal"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000116> "draft animal"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000116> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000116> <http://purl.obolibrary.org/obo/OBI_0100026>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000116> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0003000> <http://purl.obolibrary.org/obo/AGRO_00000240>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000117> (horse)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000117> "horse"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000117> <http://purl.obolibrary.org/obo/AGRO_00000116>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000117> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000118> (donkey)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000118> "donkey"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000118> <http://purl.obolibrary.org/obo/AGRO_00000116>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000118> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000119> (bull)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000119> "ox"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000119> "steer"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000119> "bull"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000119> <http://purl.obolibrary.org/obo/AGRO_00000116>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000119> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000120> (camel)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000120> "camel"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000120> <http://purl.obolibrary.org/obo/AGRO_00000116>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000120> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000121> (mule)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000121> "mule"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000121> <http://purl.obolibrary.org/obo/AGRO_00000116>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000121> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000122> (buffalo)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000122> "buffalo"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000122> <http://purl.obolibrary.org/obo/AGRO_00000116>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000122> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000123> (elephant)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000123> "elephant"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000123> <http://purl.obolibrary.org/obo/AGRO_00000116>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000123> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000124> (tractor)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Tractor") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000124> "A mobile machine specifically designed to deliver a high tractive effort at slow speeds, and mainly used for the purposes of hauling a trailer or machinery used in agriculture or construction."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000124> "tractor"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000124> <http://purl.obolibrary.org/obo/AGRO_00000416>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0003000> <http://purl.obolibrary.org/obo/AGRO_00000239>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000125> (single-axle tractor)
 
@@ -1406,6 +1477,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000128> "d
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000128> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000128> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000128> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000004>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000128> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000028>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000129> (mouldboard plough)
 
@@ -1416,6 +1488,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000129> "mouldboard plough"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000129> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000129> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000129> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000028>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000130> (subsoiler)
 
@@ -1425,6 +1498,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000130> "subsoiler"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000130> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000130> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000130> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000028>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000131> (chisel plough)
 
@@ -1433,6 +1507,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000131> "c
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000131> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000131> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000131> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000005>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000131> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000028>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000132> (ridging plough)
 
@@ -1440,6 +1515,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000132> "ridging plough"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000132> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000132> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000132> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000028>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000133> (spade plough)
 
@@ -1448,6 +1524,7 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000133> 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000133> "spade plough"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000133> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000133> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000133> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000028>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000134> (levelling board)
 
@@ -1539,6 +1616,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000143> "backpack sprayer"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000143> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000143> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000024>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000143> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00020006>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000143> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000144> (hand sprayer)
@@ -1547,8 +1625,9 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000144> "hand sprayer"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000144> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000144> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000024>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000144> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00020006>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000144> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000144> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> <http://purl.obolibrary.org/obo/AGRO_00000238>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000144> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002005>))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000145> (airblast sprayer)
 
@@ -1936,6 +2015,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000229> "plant transplanting process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000229> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000229> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000228>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000229> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00002004> <http://purl.obolibrary.org/obo/AGRO_00002005>))))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000230> (planting implement)
 
@@ -1952,6 +2032,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000231> <http://purl.obolibrar
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000231> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/AGRO_00000350>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000231> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000032>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000231> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000230>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000231> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00002004> <http://purl.obolibrary.org/obo/AGRO_00002005>))))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000232> (sowing implement)
 
@@ -2400,6 +2481,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000300> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/wairdocs/ilri/x5546e/x5546e0a.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000301> "A site within which an agricultural experimental process is conducted"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/AGRO_00000301> "This should be harmonized with statistical plot designs, perhaps with STATO")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000301> "plot"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000301> "agricultural experimental plot"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000301> <http://purl.obolibrary.org/obo/ENVO_01000408>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000301> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000067> <http://purl.obolibrary.org/obo/AGRO_00000370>))
@@ -2417,6 +2499,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000302> ObjectSomeValuesFrom(<
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/wairdocs/ilri/x5546e/x5546e0a.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000303> "A block is a relatively large area or several identical units receiving all or most of the treatments. A collection of plots is called a block."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000303> "block"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000303> <http://purl.obolibrary.org/obo/ENVO_01000408>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000303> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000305> (number of blocks)
 
@@ -2706,7 +2789,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000343> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000344> "Unexpected event arrived during the experiment."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000344> "complication during the experiment"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000344> DataAllValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000417> xsd:dateTime))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000344> <http://purl.obolibrary.org/obo/XCO_0000000>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000344> DataMinCardinality(1 <http://purl.obolibrary.org/obo/AGRO_00000415> xsd:string))
 
@@ -2716,10 +2798,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000345> "equipement complication"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000345> <http://purl.obolibrary.org/obo/AGRO_00000344>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000346> (personel complication)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000346> (complication caused by a personel)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000346> "A complication with a person or a group of people working on the experiement."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000346> "personel complication"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000346> "complication caused by a personel"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000346> <http://purl.obolibrary.org/obo/AGRO_00000344>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000348> (percent of experiment area damaged)
@@ -2952,7 +3034,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000383> "hand plough"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000383> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000383> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000383> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> <http://purl.obolibrary.org/obo/AGRO_00000238>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000383> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002005>))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000384> (Vegetation maintained on an experimental field)
 
@@ -3007,6 +3089,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000392> "paraplough"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000392> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000392> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000392> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000028>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000393> (cultivator)
 
@@ -3014,6 +3097,8 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000393> "cultivator"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000393> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000393> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000393> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000028>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000393> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00020006>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000394> (tandem disc harrow)
 
@@ -3046,8 +3131,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000397> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000398> (hoe)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Hoe_(tool)") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000398> "An agricultural hand tool ade of a blade set to an handle and used to shape the soil, control weeds, clear soil, and harvest root crops."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000398> "hand-held hoe")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000398> "hoe"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000398> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000398> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000028>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000398> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000142>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000399> (manual oilseed drill)
@@ -3084,7 +3171,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000403> "hand dibbler"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000403> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000231>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> <http://purl.obolibrary.org/obo/AGRO_00000238>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002005>))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000404> (rotary dibbler)
 
@@ -3099,7 +3186,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000405> "earth auger"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000405> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000231>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> <http://purl.obolibrary.org/obo/AGRO_00000238>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002005>))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000406> (single disc opener planter)
 
@@ -3357,7 +3444,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000453> "sickle"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000453> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000453> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000025>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000453> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> <http://purl.obolibrary.org/obo/AGRO_00000238>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000453> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00020006>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000453> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002005>))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000454> (threshing process)
 
@@ -3371,7 +3459,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000455> "flail"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000455> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000455> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000454>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000455> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> <http://purl.obolibrary.org/obo/AGRO_00000238>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000455> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002005>))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000456> (scythe)
 
@@ -3379,7 +3467,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000456> "scythe"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000456> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000456> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000025>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000456> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> <http://purl.obolibrary.org/obo/AGRO_00000238>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000456> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002005>))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000457> (winnowing process)
 
@@ -3420,7 +3508,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000461> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000462> (haymaking process)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/005/x7660e/x7660e06.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Hay") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000462> "An harvest process that involves a multiple step process to turns green, perishable, forage into a product that can be safely stored and easily transported without danger of spoilage."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/005/x7660e/x7660e06.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Hay"^^xsd:string) <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000462> "An harvest process that involves a multiple step process to turns green, perishable, forage into a product that can be safely stored and easily transported without danger of spoilage."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000462> "haymaking process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000462> <http://purl.obolibrary.org/obo/AGRO_00000025>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000462> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.obolibrary.org/obo/ENVO_00002869>))
@@ -3467,24 +3555,41 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000468> ObjectIntersect
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000468> <http://purl.obolibrary.org/obo/PATO_0000921>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000468> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00000114>))
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000469> (crop rotation process)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Yates (1954) notes the agricultural definition is looser than an experimental one, i.e. substitution of crops or change to the length of the cycle. This definition must regard changes to the period of a rotation cycle as a different rotation, but should allow a rotation to be defined either using either named crops or a combination of named crops and crop types, for example an Oats, Legumes, Wheat rotation."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000469> "A planned process in which a definite cycle of crops or crop types is grown in succession on the same land."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000469> "crop rotation"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000469> "rotation"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000469> "rotation process"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000469> "crop rotation process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000469> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000469> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/AGRO_00000487>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000470> (sequence process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000470> "A process in which a definite cycle of management interventions is done on the same land."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000470> "sequence"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000470> "sequence process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000470> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000472> (tedder)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "https://en.wikipedia.org/wiki/Tedder_(machine)") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000472> "An agricultural implement that uses moving forks to aerate or \"wuffle\" the hay and thus speed up the process of hay-making. It is used after cutting and before windrowing."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000472> "hay tedder"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000472> "tedder"@fr)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000472> "tedder"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000472> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000472> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000462>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000473> (combine harvester)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "Richard Ostler") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000473> "An harvest implement that reaps, threshes, and cleans a crop in one operation."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000473> "combine harvester"@fr)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000473> "combine harvester"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000473> <http://purl.obolibrary.org/obo/AGRO_00000234>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000474> (lifting process)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "Richard Ostler") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000474> "An harvesting process in which root crop are removed from the soil"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000474> "lifting process"@fr)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000474> "lifting process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000474> <http://purl.obolibrary.org/obo/AGRO_00000025>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000475> (dessication process)
@@ -3492,18 +3597,465 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000474> <http://purl.obolibrar
 AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "https://en.wikipedia.org/wiki/Crop_desiccation") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000475> "A planned process in which an herbicide is applied to a crop shortly before harvest. The purpose is to reduce green crop foliage or assit crop drying."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000475> "Pre-harvest crop desiccation"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000475> "siccation"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000475> "dessication process"@fr)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000475> "dessication process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000475> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000475> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/CHEBI_59999>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000476> (long-term experiment)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Richard Ostler") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000476> "An agricultural experiment running over decadal time periods.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000476> "long-term experiment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000476> <http://purl.obolibrary.org/obo/AGRO_00000370>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000477> (short-term experiment)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Richard Ostler") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000477> "An agricultural experiment running over less than decadal time periods."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000477> "short-term experiment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000477> <http://purl.obolibrary.org/obo/AGRO_00000370>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000478> (sequence experiment)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Richard Ostler"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000478> "An agricultural experiment having one or more definite sequences."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000478> "sequence experiment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000478> <http://purl.obolibrary.org/obo/AGRO_00000370>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000479> (crop rotation experiment)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Richard Ostler"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000479> "An agricultural experiment having more than one definite rotations or a comparison between rotation and mono-cropping."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000479> "rotation experiment"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000479> "crop rotation experiment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000479> <http://purl.obolibrary.org/obo/AGRO_00000370>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000479> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/AGRO_00000469>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000480> (mono-cropping experiment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000480> "An agricultural experiment involving the prolonged growing of a single crop."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000480> "continuous crop experiment"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000480> "continuous mono-cropping experiment"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000480> "monoculture experiment"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Richard Ostler") rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000480> "mono-cropping experiment"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000480> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000325>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000480> <http://purl.obolibrary.org/obo/AGRO_00000370>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000481> (monoculture)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Monoculture"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000481> "A planned process in which a single crop is cultivated in an area at a time."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000481> "continuous crop"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000481> "continuous mono-cropping"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000481> "mono-cropping"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000481> "monoculture"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000481> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000482> (single cycle experiment)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Richard Ostler"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000482> "An agricultural experiment in which a sequence of crops is grown without repetition"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000482> "short-term rotation experiment"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000482> "crop-sequence experiment"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000482> "single cycle experiment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000482> <http://purl.obolibrary.org/obo/AGRO_00000370>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000483> (rotation layout)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000483> "An agronomic experimental design set for rotation experiments"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000483> "rotation experimental design"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000483> "rotation layout"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000483> <http://purl.obolibrary.org/obo/AGRO_00000343>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000479>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000484> (serial layout)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000484> "A rotation layoutan using series."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000484> "serial layout"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000484> <http://purl.obolibrary.org/obo/AGRO_00000483>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000485> (non-serial layout)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000485> "A rotation layout that does not use series. Therefore, plots carrying different phases of a rotation are intermixed across the experimental land."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000485> "non-serial layout"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000485> <http://purl.obolibrary.org/obo/AGRO_00000483>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000486> (series)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000486> "A block in which the plots carry the same phase of a rotation. A series is defined to answer management constraints rather than statistical constraints."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000486> "series"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000486> <http://purl.obolibrary.org/obo/AGRO_00000303>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000487> (rotation phase)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000487> "A planned process which is a distinguishable part of a rotation process"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000487> "rotation phase"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000487> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000488> (crop rotation duration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000488> "A duration inhering in a crop rotation process"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000488> "rotation duration"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000488> "crop rotation duration"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000488> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001309> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000469>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000488> <http://purl.obolibrary.org/obo/PATO_0001309>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.oisat.org/control_methods/cultural__practices/intercropping.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002000> "An inter-cropping experiement dunring which two or more crops are grown on the same field.  The planting of the second crop occurs after the first one has completed its development.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002000> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002000> "relay cropping experiment"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002000> ObjectIntersectionOf(ObjectMinCardinality(1 <http://purl.obolibrary.org/obo/RO_0000057> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002002>))) ObjectMinCardinality(1 <http://purl.obolibrary.org/obo/RO_0000057> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002003>)))))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002000> <http://purl.obolibrary.org/obo/AGRO_00020000>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002001> (crop role)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Crop") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002001> "A role that inheres in an organism that is harvested for food, clothing, livestock,fodder, biofuel, medicine, or other uses.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002001> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002001> "crop")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002001> "crop role"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002001> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002002> (first crop role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002002> "A crop role that inheres in a crop that is planted first on a land where more than one crop are planted.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002002> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002002> "first crop")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002002> "first crop role"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002002> <http://purl.obolibrary.org/obo/AGRO_00002001>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002003> (relay crop role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002003> "A crop role that inheres in a crop that is planted on the same field than another crop after the it has completed its development.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002003> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002003> "relay crop")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002003> "relay crop role"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002003> <http://purl.obolibrary.org/obo/AGRO_00002001>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002004> (draft animal role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002004> "A role that inheres in an animal that is kept by humans and trained to perform tasks.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002004> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002004> "draft animal")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002004> "draught animal")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002004> "working animal")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002004> "draft animal role"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002004> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002005> (human power role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002005> "A role that inheres in a human to power an implement.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002005> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002005> "human power role"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002005> <http://purl.obolibrary.org/obo/BFO_0000023>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002006> (weeding implement)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002006> "An agricultural implement used during a weeding process")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002006> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002006> "weeding implement"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002006> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00000416> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00020006>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002006> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002007> (weed puller)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002007> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002007> "An agricultural implement that is used to pull out plant from the soil. A weed puller is usually manual.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002007> "weed puller"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002007> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00020006>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002008> (mower)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002008> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002008> "An agricultural implement that is used to cut grass or any plant that grows on the ground.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002008> "weed cutter")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002008> "mower"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002008> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000220>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00020006>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002009> (stubble)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002009> "A crop residue which is the cut stalks of cereal plants left sticking out of the ground after the grain is harvested.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002009> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002009> "stubble"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002009> <http://purl.obolibrary.org/obo/AGRO_00000154>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002010> (husk)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002010> "A crop residie which is the cut outter shell or coating of a seed.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002010> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002010> "husk"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002010> <http://purl.obolibrary.org/obo/AGRO_00000154>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002011> (bubbler irrigation process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.sciencedirect.com/science/article/pii/S0167413707800175") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002011> "A localized irrigation process in which water is conveyed to the soil surface as a little stream, typically from a small diameter tube or a commercially available emitter. Because the application rates generally exceed the soil infiltration rates, small basins or furrows are needed to control the water distribution on the land.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002011> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002011> "bubbler irrigation process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002011> <http://purl.obolibrary.org/obo/AGRO_00000055>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002012> (mist irrigation process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://futurepump.com/smallholder-irrigation-options/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002012> "A localized irrigation process in which water is conveyed under high pressure through small nozzles and sprayed in a fine mist of water over the plants.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002012> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002012> "mist irrigation process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002012> <http://purl.obolibrary.org/obo/AGRO_00000055>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002013> (sprinker by lateral move irrigation process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agriculture.vic.gov.au/agriculture/farm-management/soil-and-water/irrigation/centre-pivot-and-lateral-move-systems") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002013> "A sprinkler irrigation process in which water is dispersed over the plant through a self-propelled irrigation systems with both ends of the system move at a constant speed up and down the area to irrigate.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002013> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002013> "linear move")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002013> "sprinker by lateral move irrigation process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002013> <http://purl.obolibrary.org/obo/AGRO_00000060>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002014> (side roll sprinkler irrigation process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://energypedia.info/wiki/Sprinkler_Irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002014> "A sprinkler irrigation process in which water is dispersed over the plant through a system long lateral pipes mounted on 1 to 3 meter wheels in diameter, the pipe serving as an axle. When the desired amount of water has been applied to an area, a gasoline engine at the centre is used to move the side roll to the next area.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002014> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002014> "wheel roll")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002014> "side roll sprinkler irrigation process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002014> <http://purl.obolibrary.org/obo/AGRO_00000060>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002015> (much removal process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002015> "A process in which mulch is removed from the soil.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002015> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002015> "much removal process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002015> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000092>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002017> (seedbed)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002017> "An environmental zone prepared for growing plants.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002017> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002017> "seedbed"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002017> <http://purl.obolibrary.org/obo/ENVO_01000408>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002018> (flat seedbed)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002018> "A seedbed that is flat. Flat beds are used where water availability is adequate and there are no drainage problem.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002018> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002018> "flat bed")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002018> "flat seedbed"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002018> <http://purl.obolibrary.org/obo/AGRO_00002017>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002021> (raised seedbed)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002021> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.nzdl.org/gsdlmod?e=d-00000-00---off-0hdl--00-0----0-10-0---0---0direct-10---4-------0-1l--11-en-50---20-about---00-0-1-00-0--4----0-0-11-10-0utfZz-8-00&cl=CL1.16&d=HASH412cd503b5262205ac14c6.6&gt=1") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002021> "A seedbed that is raised-up. They are especially advantageous for clayey soils under high rainfall or wherever else drainage is likely to be poor.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002021> "raised bed")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002021> "raised seedbed"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002021> <http://purl.obolibrary.org/obo/AGRO_00002017>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002022> (sunken seedbed)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002022> "a seedbed that is below the surrounding soil level. Sunken beds conserve water much more effectively than raised bed")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002022> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002022> "sunken bed")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002022> "sunken seedbed"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002022> <http://purl.obolibrary.org/obo/AGRO_00002017>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002023> (ridge seedbed)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002023> "A raised seedbed which is long and narrow with steep sides.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002023> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002023> "ridge bed")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002023> "ridge seedbed"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002023> <http://purl.obolibrary.org/obo/AGRO_00002021>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002024> (hill seedbed)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002024> "A raised seedbed that is of rounded form and limited extent.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002024> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002024> "hill bed")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002024> "hill seedbed"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002024> <http://purl.obolibrary.org/obo/AGRO_00002021>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002026> (binder)
+
+AnnotationAssertion(Annotation(rdfs:comment "https://en.wikipedia.org/wiki/Reaper-binder") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002026> "A harvest implement for grain crops which cuts the stems and binds the stems into bundles or sheaves. The binder is now largely obsolete replaced by the combine harvester.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002026> <http://orcid.org/0000-0002-1434-9495>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002026> "reaper binder")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002026> "binder"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002026> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000025>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002027> (baler)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002027> "An harvest implement that compresses a cut and raked crop into compact bales.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002027> <https://orcid.org/0000-0002-1434-9495>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002027> "hay baler")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002027> "baler"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002027> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000464>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002028> (power harrow)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002028> "A tillage implement that has multiple sets of vertical tines. Each set of tines is rotated on a vertical axis and tills the soil horizontally.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002028> <https://orcid.org/0000-0002-1434-9495>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002028> "rotary power harrow")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002028> "power harrow"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002028> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002029> (mowing implement)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002029> "An implement that is used in a mowing process.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002029> <https://orcid.org/0000-0002-1434-9495>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002029> "mowing implement"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002029> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00000416> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000220>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002029> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002030> (roller)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Roller_(agricultural_tool)") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002030> "The roller is an heavy agricultural tool used for flattening land or breaking up large clumps of soil, especially after ploughing or disc harrowing.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002030> <https://orcid.org/0000-0002-1434-9495>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002030> "Cambridge roller")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002030> "cultipacker")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002030> "roller"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002030> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000004>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002031> (bare fallow land)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002031> "An fallow land that is set aside for a period of time and kept free from vegetation by cultivation.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002031> <https://orcid.org/0000-0002-1434-9495>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002031> "bare fallow land"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002031> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00000390> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/AGRO_00000390>)))))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002031> <http://purl.obolibrary.org/obo/AGRO_00000390>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002033> (weed role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002033> "A pest role that inheres in an plant.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002033> <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002033> "weed role"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002033> <http://purl.obolibrary.org/obo/AGRO_00000035>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002034> (seedbed preparation process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002034> "A planned process in which a seedbed is prepared to grow plants.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002034> <https://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002034> "seedbed preparation process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002034> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00000004> <http://purl.obolibrary.org/obo/AGRO_00000028> <http://purl.obolibrary.org/obo/AGRO_01000015>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00002017>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00002004> <http://purl.obolibrary.org/obo/AGRO_00002005>))))))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002035> (broadcasting seed process)
+
+AnnotationAssertion(Annotation(rdfs:comment "http://ecoursesonline.iasri.res.in/mod/page/view.php?id=101087") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002035> "A seeding process that is the random scattering of seed.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002035> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002035> "broadcasting seed process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002035> <http://purl.obolibrary.org/obo/AGRO_00000142>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002036> (line sowing process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002036> "A seeding process during which seeds are sown in lines")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002036> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002036> "line sowing process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002036> <http://purl.obolibrary.org/obo/AGRO_00000142>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002037> (seed dibbling process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://ecoursesonline.iasri.res.in/mod/page/view.php?id=101087") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002037> "A seeding process that consists in placing seeds in holes.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002037> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002037> "seed dibbling process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002037> <http://purl.obolibrary.org/obo/AGRO_00000142>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002038> (seed drilling process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002038> "A seeding process which is dropping the seeds in furrow lines in a continuous flow and covering them with soil.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002038> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002038> "drill sowing")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002038> "seed drilling process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002038> <http://purl.obolibrary.org/obo/AGRO_00002036>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020000> "An agricultural experiment during which at least two different crops are grown at the same time.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020000> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020000> "inter-cropping experiment"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00020000> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0000057> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000325>))))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020000> <http://purl.obolibrary.org/obo/AGRO_00000370>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00020001> (biofertilizer)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Biofertilizer") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020001> "A environmental material which contains living microorganisms, which, when applied to seeds, plant surfaces, or soil, colonize the rhizosphere or the interior of the plant and promotes growth by increasing the supply or availability of primary nutrients to the host plant.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020001> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00020001> "bio-fertilizer")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020001> "biofertilizer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020001> <http://purl.obolibrary.org/obo/ENVO_01000155>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00020002> (biochar)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Biochar") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020002> "charcoal used as a soil amendment.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020002> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020002> "biochar"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020002> <http://purl.obolibrary.org/obo/ENVO_01000560>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00020003> (bird guano)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020003> "an animal manure composoed of the excrement of seabirds and bats.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020003> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00020003> "guano")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020003> "bird guano"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020003> <http://purl.obolibrary.org/obo/AGRO_00000079>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00020004> (deep tillage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020004> "A tillage process during which the tillage occurs at 25-30 cm depth. It can be used for deep rooted crop like pigeonpea.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020004> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00020004> "deep till")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020004> "deep tillage"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020004> <http://purl.obolibrary.org/obo/AGRO_00000015>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00020005> (fish fertilizer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020005> "Fish fertilizer is any fish product that is used specifically to feed plants and soil.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020005> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020005> "fish fertilizer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020005> <http://purl.obolibrary.org/obo/ENVO_01000155>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_33287>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00020006> (weeding process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020006> "Process to remove unwanted plants from an area of ground.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020006> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020006> "weeding process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020006> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00002004> <http://purl.obolibrary.org/obo/AGRO_00002005>))))))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00020007> (nitrogen fertilizer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020007> "Inorganic fertilizer that contains nitrogen")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020007> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020007> "nitrogen fertilizer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020007> <http://purl.obolibrary.org/obo/AGRO_00000034>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00020008> (phosphorus fertilizer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020008> "Inorganic fertilizer that contains phosphorus")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020008> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020008> "phosphorus fertilizer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020008> <http://purl.obolibrary.org/obo/AGRO_00000034>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00020009> (potassium fertilizer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020009> "Inorganic fertilizer that contains potassium")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020009> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020009> "potassium fertilizer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020009> <http://purl.obolibrary.org/obo/AGRO_00000034>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_01000000> "A planned process in which fertilizer is applied to an environmental material to promote the growth of a plant.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_01000000> "fertilization"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_01000000> "fertilization process")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_01000000> "agronomic fertilization process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_01000000> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_01000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/AGRO_00000036>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_01000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000227>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_01000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00002004> <http://purl.obolibrary.org/obo/AGRO_00002005>))))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000015> (tillage)
 
@@ -3600,7 +4152,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_91238> ObjectSomeValuesFrom(<ht
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00000020> (lake)
 
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000020> <http://purl.obolibrary.org/obo/AGRO_00000009>)
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>))
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00000022> (river)
@@ -3641,10 +4192,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000091> <http://purl.obolibrar
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000100> <http://purl.obolibrary.org/obo/AGRO_00000338>)
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000100> <http://purl.obolibrary.org/obo/AGRO_00000339>)
 
-# Class: <http://purl.obolibrary.org/obo/ENVO_00000114> (agricultural field)
-
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000114> <http://purl.obolibrary.org/obo/AGRO_00000387>)
-
 # Class: <http://purl.obolibrary.org/obo/ENVO_00000150> (coral reef)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000150> <http://purl.obolibrary.org/obo/AGRO_00000339>)
@@ -3664,6 +4211,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000283> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/ENVO_00000309> (depression)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000309> <http://purl.obolibrary.org/obo/AGRO_00000339>)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000309> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>))
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00000395> (channel of a watercourse)
 
@@ -3718,37 +4266,37 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00005774> ObjectSomeValuesFrom(<
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000560> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
-# Class: <http://purl.obolibrary.org/obo/ENVO_01000710> (flood)
-
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000710> <http://purl.obolibrary.org/obo/AGRO_00000344>)
-
-# Class: <http://purl.obolibrary.org/obo/ENVO_01000787> (wildfire)
-
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000787> <http://purl.obolibrary.org/obo/AGRO_00000344>)
-
-# Class: <http://purl.obolibrary.org/obo/ENVO_01000793> (atmospheric wind)
-
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000793> <http://purl.obolibrary.org/obo/AGRO_00000344>)
-
-# Class: <http://purl.obolibrary.org/obo/ENVO_01001305> (vegetated area)
-
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001305> <http://purl.obolibrary.org/obo/AGRO_00000387>)
-
 # Class: <http://purl.obolibrary.org/obo/ENVO_02000054> (bone meal)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_02000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
-# Class: <http://purl.obolibrary.org/obo/ENVO_1000745> (drought)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_319699> (Equus asinus x caballus)
 
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_1000745> <http://purl.obolibrary.org/obo/AGRO_00000344>)
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_319699> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>))
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_10239> (Viruses)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_89462> (Bubalus bubalis)
 
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_10239> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000069>))
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_89462> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>))
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_2> (Bacteria)
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_9783> (Elephas maximus)
 
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000069>))
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9783> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>))
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_9793> (Equus asinus)
+
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9793> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>))
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_9796> (Equus caballus)
+
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9796> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>))
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_9838> (Camelus dromedarius)
+
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9838> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>))
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_9913> (Bos taurus)
+
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9913> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000011> (planned process)
 
@@ -3817,5 +4365,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000001> ObjectSomeValuesFrom(<htt
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0000190> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/uo#is_unit_of> <http://purl.obolibrary.org/obo/PATO_0001470>))
 
 
+DisjointClasses(<http://purl.obolibrary.org/obo/AGRO_00002035> <http://purl.obolibrary.org/obo/AGRO_00002036> <http://purl.obolibrary.org/obo/AGRO_00002037>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IAO_0000005> "experiment objective"@en)
 )
