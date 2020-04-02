@@ -7147,7 +7147,7 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000134"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soil or rock and included ice or organic material at or below the freezing point of water (0 degrees Celsius or 32 degrees Fahrenheit) for two or more years.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Permafrost</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Permafrost</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000134"/>
@@ -15412,6 +15412,22 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <obo:IAO_0000115>A thermolysis process in which organic material is decomposed in the absence of oxygen.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">pyrolysis</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000848 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000848">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001305"/>
+        <obo:IAO_0000115>A vegetated area which includes a community of flowering plants that provide food for local pollinators.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">flower strip</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000848"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A vegetated area which includes a community of flowering plants that provide food for local pollinators.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://dx.doi.org/10.1111/1365-2664.12605</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
