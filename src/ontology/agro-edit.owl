@@ -494,6 +494,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002044>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002045>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002046>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002048>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002050>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -4042,6 +4044,23 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002048> "USG")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002048> "urea super granule"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002048> <http://purl.obolibrary.org/obo/AGRO_00002040>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002049> (harvested crop)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002049> "A crop that has been harvested after an harvesting process.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002049> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002049> "harvested plant")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002049> "harvested crop"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002049> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/AGRO_00000325>))))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002049> <http://purl.obolibrary.org/obo/AGRO_00000325>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002050> (harvested row)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002050> "A row that has been harvested.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002050> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002050> "row harvested")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002050> "harvested row"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002050> <http://purl.obolibrary.org/obo/AGRO_00000155>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
