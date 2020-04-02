@@ -507,6 +507,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002058>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002059>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002060>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002062>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -3993,7 +3994,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002039> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002039> "organic fertilizer"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002039> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002039> <http://purl.obolibrary.org/obo/AGRO_00002062>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002040> (inorganic fertilizer)
 
@@ -4003,7 +4004,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002040> "mineral fertilizer")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002040> "inorganic fertilizer"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_33287>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002040> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002040> <http://purl.obolibrary.org/obo/AGRO_00002062>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002042> (vermicompost)
 
@@ -4143,6 +4144,13 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002061> "water pressure spraying weeding process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002061> <http://purl.obolibrary.org/obo/AGRO_00020006>)
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002062> (agronomic fertilizer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002062> "An enviromental material that has a role of fertilization")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002062> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002062> "agronomic fertilizer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002062> <http://purl.obolibrary.org/obo/ENVO_00010483>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020000> "An agricultural experiment during which at least two different crops are grown at the same time.")
@@ -4205,6 +4213,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020006> ObjectSomeValuesFrom(<
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020007> "Inorganic fertilizer that contains nitrogen")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020007> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020007> "nitrogen fertilizer"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00020007> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00002040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/CHEBI_25555>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020007> <http://purl.obolibrary.org/obo/AGRO_00002040>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020008> (phosphorus fertilizer)
@@ -4212,6 +4221,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020007> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020008> "Inorganic fertilizer that contains phosphorus")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020008> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020008> "phosphorus fertilizer"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00020008> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00002040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/CHEBI_28659>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020008> <http://purl.obolibrary.org/obo/AGRO_00002040>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020009> (potassium fertilizer)
@@ -4219,6 +4229,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020008> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020009> "Inorganic fertilizer that contains potassium")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020009> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020009> "potassium fertilizer"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00020009> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00002040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/CHEBI_26216>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020009> <http://purl.obolibrary.org/obo/AGRO_00002040>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000000> (agronomic fertilization process)
