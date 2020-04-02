@@ -498,6 +498,15 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002049>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002050>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002051>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002054>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002055>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002056>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002057>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002058>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002060>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002061>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -4079,6 +4088,60 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002052> "mechanical plant transplanting process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002052> <http://purl.obolibrary.org/obo/AGRO_00000229>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>)))))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002053> (chemical weeding process)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002053> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002053> "chemical weeding process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002053> <http://purl.obolibrary.org/obo/AGRO_00020006>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002054> (mechanical control weeding process)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002054> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002054> "mechanical control weeding process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002054> <http://purl.obolibrary.org/obo/AGRO_00020006>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002055> (cold treatment weeding process)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002055> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002055> "cold treatment weeding process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002055> <http://purl.obolibrary.org/obo/AGRO_00020006>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002056> (fire treatment weeding process)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002056> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002056> "fire treatment weeding process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002056> <http://purl.obolibrary.org/obo/AGRO_00020006>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002057> (hand picking weeding process)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002057> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002057> "hand picking weeding process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002057> <http://purl.obolibrary.org/obo/AGRO_00020006>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002058> (heat treatment weeding process)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002058> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002058> "heat treatment weeding process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002058> <http://purl.obolibrary.org/obo/AGRO_00020006>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002059> (soil solarization treatment weeding process)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002059> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002059> "soil solarization treatment weeding process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002059> <http://purl.obolibrary.org/obo/AGRO_00020006>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002060> (weeding process using barrier)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002060> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002060> "weeding process using barrier"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002060> <http://purl.obolibrary.org/obo/AGRO_00020006>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002061> (water pressure spraying weeding process)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002061> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002061> "water pressure spraying weeding process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002061> <http://purl.obolibrary.org/obo/AGRO_00020006>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
