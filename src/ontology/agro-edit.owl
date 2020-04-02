@@ -496,6 +496,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002046>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002048>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002049>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002052>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -4061,6 +4063,22 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002050> "row harvested")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002050> "harvested row"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002050> <http://purl.obolibrary.org/obo/AGRO_00000155>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002051> (manual plant transplanting process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002051> "A plant transplanting process that is done manual by a human being.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002051> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002051> "manual plant transplanting process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002051> <http://purl.obolibrary.org/obo/AGRO_00000229>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002005>))))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002052> (mechanical plant transplanting process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002052> "A plant transplanting process that is done mechanically.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002052> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002052> "mechanical plant transplanting process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002052> <http://purl.obolibrary.org/obo/AGRO_00000229>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>)))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
