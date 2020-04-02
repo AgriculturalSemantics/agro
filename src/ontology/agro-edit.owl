@@ -1660,6 +1660,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000152> <http://purl.obolibrar
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://stats.oecd.org/glossary/detail.asp?ID=480") <http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/AGRO_00000154> "Plant material remaining on the field ground after harvesting, including leaves, stalks, roots."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000154> "crop residue"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000154> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> <http://purl.obolibrary.org/obo/PO_0009011>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000154> <http://purl.obolibrary.org/obo/PO_0025131>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000155> (row)
@@ -2594,6 +2595,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000315> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000316> (row spacing)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000316> "Distance between two rows."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000316> "distance between rows")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000316> "interrow"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000316> "space between rows"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000316> "row spacing"@en)
