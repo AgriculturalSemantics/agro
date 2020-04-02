@@ -5,6 +5,7 @@ SRC=$(ONT)-edit.owl
 RELEASEDIR=../..
 ROBOT= robot
 OWLTOOLS= owltools
+DOSDPTOOLS = dosdp-tools
 
 
 all: all_imports $(ONT).owl 
@@ -42,6 +43,18 @@ imports/%_import.owl: mirror/%.owl imports/%_terms.txt
 
 #imports/%_import.obo: imports/%_import.owl
 #	$(OWLTOOLS) $(USECAT) $< -o -f obo $@
+
+#patterns
+PATTERNS = eq
+PATTERNS_OWL = $(patsubst %, patterns/%.owl,$(PATTERNS))
+
+# Make this target to regenerate ALL patterns
+all_patterns: $(PATTERNS_OWL)
+
+patterns/%.owl: patterns/%.tsv
+	$(DOSDPTOOLS) --outfile=$@ --obo-prefixes=true --template=patterns/$*.yaml --ontology=imports/pato_import.owl generate --infile=$<
+	robot annotate -O "http://purl.obolibrary.org/obo/agro/patterns/$*.owl" -i $@ -o $@
+.PRECIOUS: patterns/%.owl
 
 # clone remote ontology locally, perfoming some excision of relations and annotations
 mirror/%.owl: $(SRC)
