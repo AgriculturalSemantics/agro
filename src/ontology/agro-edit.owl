@@ -535,12 +535,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000077>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000429>))
-Declaration(DataProperty(<http://purl.obolibrary.org/obo/AGRO_00000411>))
-Declaration(DataProperty(<http://purl.obolibrary.org/obo/AGRO_00000414>))
-Declaration(DataProperty(<http://purl.obolibrary.org/obo/AGRO_00000415>))
 Declaration(DataProperty(<http://purl.obolibrary.org/obo/AGRO_00000417>))
 Declaration(DataProperty(<http://purl.obolibrary.org/obo/AGRO_00000418>))
-Declaration(DataProperty(<http://purl.obolibrary.org/obo/AGRO_00000425>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AGRO_01000022>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000232>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/contributor>))
@@ -582,18 +578,6 @@ ObjectPropertyRange(<http://purl.obolibrary.org/obo/AGRO_00000429> <http://purl.
 #   Data Properties
 ############################
 
-# Data Property: <http://purl.obolibrary.org/obo/AGRO_00000411> (has model)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000411> "has model"@en)
-
-# Data Property: <http://purl.obolibrary.org/obo/AGRO_00000414> (has brand)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000414> "has brand"@en)
-
-# Data Property: <http://purl.obolibrary.org/obo/AGRO_00000415> (has notes)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000415> "has notes"@en)
-
 # Data Property: <http://purl.obolibrary.org/obo/AGRO_00000417> (has start date)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000417> "has start date"@en)
@@ -601,11 +585,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000417> "h
 # Data Property: <http://purl.obolibrary.org/obo/AGRO_00000418> (has end date)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000418> "has end date"@en)
-
-# Data Property: <http://purl.obolibrary.org/obo/AGRO_00000425> (has experiment code)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000425> "An experiment code is made of the name of serie plus year plus experiment number."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000425> "has experiment code"@en)
 
 
 ############################
@@ -2664,7 +2643,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000322> "treatment"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000322> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002609> <http://purl.obolibrary.org/obo/AGRO_00000341>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000322> <http://purl.obolibrary.org/obo/OBI_0000011>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000322> DataMinCardinality(1 <http://purl.obolibrary.org/obo/AGRO_00000415> xsd:string))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000323> (number of treatments)
 
@@ -2815,7 +2793,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000343> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000344> "Unexpected event arrived during the experiment."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000344> "complication during the experiment"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000344> <http://purl.obolibrary.org/obo/XCO_0000000>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000344> DataMinCardinality(1 <http://purl.obolibrary.org/obo/AGRO_00000415> xsd:string))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000345> (equipement complication)
 
@@ -2915,7 +2892,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000359> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000360> "Location where the experiment is implemented."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000360> "experimental site"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000360> <http://purl.obolibrary.org/obo/ENVO_01000408>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000360> DataMinCardinality(1 <http://purl.obolibrary.org/obo/AGRO_00000415> xsd:string))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000361> (farmer field)
 
@@ -3256,8 +3232,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000413> ObjectSomeValuesFrom(<
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000416> "agricultural implement"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000416> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> <http://purl.obolibrary.org/obo/AGRO_00000237>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000416> <http://purl.obolibrary.org/obo/BFO_0000030>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000416> DataMaxCardinality(1 <http://purl.obolibrary.org/obo/AGRO_00000411> xsd:string))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000416> DataMaxCardinality(1 <http://purl.obolibrary.org/obo/AGRO_00000414> xsd:string))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000420> (column)
 
