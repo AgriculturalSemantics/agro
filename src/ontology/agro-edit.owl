@@ -1134,8 +1134,8 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000075> "green manure"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000075> <http://purl.obolibrary.org/obo/ENVO_01000155>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000075> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000075> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000075> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002001>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000075> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002063>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000076> (farmyard manure)
 
@@ -1219,10 +1219,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000086> <http://purl.obolibrar
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000086> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000086> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000087> (bagasse)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000087> (obsolete bagasse)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Bagasse"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000087> "The biomass remaining after sugarcane stalks are crushed to extract their juice."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000087> "bagasse"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000087> "obsolete bagasse"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000087> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000088> (oil meal)
@@ -1429,41 +1429,41 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000116> ObjectIntersect
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000116> <http://purl.obolibrary.org/obo/OBI_0100026>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000116> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0003000> <http://purl.obolibrary.org/obo/AGRO_00000240>))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000117> (horse)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000117> (obsolete horse)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000117> "horse"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000117> "obsolete horse"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000117> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000118> (donkey)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000118> (obsolete donkey)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000118> "donkey"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000118> "obsolete donkey"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000118> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000119> (bull)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000119> (obsolete bull)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000119> "ox"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000119> "steer"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000119> "bull"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000119> "obsolete bull"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000119> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000120> (camel)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000120> (obsolete camel)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000120> "camel"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000120> "obsolete camel"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000120> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000121> (mule)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000121> (obsolete mule)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000121> "mule"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000121> "obsolete mule"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000121> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000122> (buffalo)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000122> (obsolete buffalo)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000122> "buffalo"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000122> "obsolete buffalo"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000122> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000123> (elephant)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000123> (obsolete elephant)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000123> "elephant"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000123> "obsolete elephant"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000123> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000124> (tractor)
@@ -3066,22 +3066,22 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000383> <http://purl.obolibrar
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000383> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000383> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002502> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002005>))))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000384> (Vegetation maintained on an experimental field)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000384> (obsolete Vegetation maintained on an experimental field)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000384> "Vegetation maintained in purpose on and at the border of an agronomic experimental field."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000384> "Vegetation maintained on an experimental field"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000384> "obsolete Vegetation maintained on an experimental field"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000384> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000385> (flower strip)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000385> (obsolete flower strip)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://onlinelibrary.wiley.com/doi/10.1111/cobi.12536/full") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000385> "Strip of flowers established at the edge of the field."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000385> "flower strip"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000385> "obsolete flower strip"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000385> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000387> (vegetation surronding an experimental site)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000387> (obsolete vegetation surronding an experimental site)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000387> "Type of vegetation surrounding an agronomic experimental site"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000387> "vegetation surronding an experimental site"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000387> "obsolete vegetation surronding an experimental site"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000387> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000388> (terraced)
