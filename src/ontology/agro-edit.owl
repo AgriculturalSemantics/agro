@@ -508,6 +508,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002058>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002061>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002062>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002063>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002064>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002065>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002066>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002067>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002069>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -4156,6 +4162,56 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002063> <https://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002063> "green manure role"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002063> <http://purl.obolibrary.org/obo/AGRO_00000033>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002064> (single superphosphate)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agropedia.iitk.ac.in/content/water-soluble-phosphatic-fertilizers") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002064> "A fertilizer that is obtained by acid chemical attack of a phosphate rock with sulfuric acid. It contains 16 to 20% P2O5. It comes in the form of grey granules.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002064> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002064> "SSP")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002064> "single superphosphate"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002064> <http://purl.obolibrary.org/obo/AGRO_00020008>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002065> (tripple superphosphate)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000115> "http://agropedia.iitk.ac.in/content/water-soluble-phosphatic-fertilizers") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002065> "A fertilizer that is obtained by acid chemical attack of a phosphate rock with phosphoric acid. It contains around 46% P2O5")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002065> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002065> "TSP")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002065> "calcium dihydrogen phosphate")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002065> "monocalcium phosphate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002065> "tripple superphosphate"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002065> <http://purl.obolibrary.org/obo/AGRO_00020008>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002066> (ureaform)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.grounds-mag.com/mag/grounds_maintenance_food_turf_slowrelease/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002066> "A fertilizer that is produced by the condensation between urea and formaldehyde consisting of short chains from methylene-diurea to tetramethylenepentaurea. It is a slow release nitrogenous fertilize,  sparingly soluble, and contains at least 35 percent total nitrogen, with at least 60 percent of the total Nitrogen as cold-water-insoluble Nitrogen (CWIN). The unreacted urea Nitrogen content is usually less than 15 percent of the total Nitrogen.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002066> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002066> "UF")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002066> "ureaform"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002066> <http://purl.obolibrary.org/obo/AGRO_00020007>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002067> (methylene urea)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.grounds-mag.com/mag/grounds_maintenance_food_turf_slowrelease/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002067> "A fertilizer that is produced by the condensation between urea and formaldehyde consisting of short chains from methylene-diurea to tetramethylenepentaurea. It is a slow release nitrogenous fertilize,  sparingly soluble. The total N content of these polymers is 39 to 40 percent, with between 25 and 60 percent of the N present as CWIN. The unreacted urea N content generally is in the range of 15 to 30 percent of the total N.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002067> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002067> "MU")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002067> "methylene urea"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002067> <http://purl.obolibrary.org/obo/AGRO_00020007>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002068> (crotonylidene diurea)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.jircas.go.jp/sites/default/files/publication/jarq/03-4-001-004_0.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002068> "A fertilizer that is a single compound made by the condensation of 2 mols of acetaldehyde and 2 mols of urea.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002068> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002068> "CDU")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002068> "crotonylidene diurea"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002068> <http://purl.obolibrary.org/obo/AGRO_00020007>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002069> (sulfur coated urea)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Coated_urea") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002069> "A fertilizer that is made by coating urea with sulphur and wax to increases nitrogen efficiency.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002069> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002069> "SCU")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002069> "sulfur coated urea"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002069> <http://purl.obolibrary.org/obo/AGRO_00020007>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
