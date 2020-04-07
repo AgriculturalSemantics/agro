@@ -8,7 +8,7 @@ OWLTOOLS= owltools
 DOSDPTOOLS = dosdp-tools
 
 
-all: all_imports $(ONT).owl 
+all: all_imports all_patterns $(ONT).owl 
 # $(ONT).obo # removed obo target for now
 test: touch $(ONT).owl
 prepare_release: all
@@ -28,7 +28,7 @@ $(ONT).owl: $(SRC)
 #	$(ROBOT) convert -i $< -o $(ONT).obo
 
 
-IMPORTS = envo bfo chebi obi iao pato uo po peco ncbitaxon foodon ro
+IMPORTS = envo bfo chebi obi iao pato uo po peco ncbitaxon foodon ro to
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) 
 
 #$(patsubst %, imports/%_import.obo,$(IMPORTS))
