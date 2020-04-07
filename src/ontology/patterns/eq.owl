@@ -248,6 +248,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/AGRO_00002062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00002062"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/AGRO_00010000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00010000">
@@ -577,7 +583,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00002039"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00002062"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
