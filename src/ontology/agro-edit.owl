@@ -464,6 +464,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000504>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000505>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000506>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000507>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000508>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000509>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000510>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000511>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -3721,7 +3725,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000500> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000501> (seed per acre)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000501> <http://orcid.org/0000-0001-6284-4821>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000501> "An area density unit which is equal to the number of seeds per acres."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000501> "An area density unit which is equal to the number of seeds per acre."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000501> "seed/ac"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000501> "seed per acre"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000501> <http://purl.obolibrary.org/obo/UO_0000054>)
@@ -3753,7 +3757,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000504> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000505> (row per acre)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000505> <http://orcid.org/0000-0001-6284-4821>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000505> "An area density unit which is equal to the number of rows per acres."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000505> "An area density unit which is equal to the number of rows per acre."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000505> "row/ac"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000505> "row per acre"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000505> <http://purl.obolibrary.org/obo/UO_0000054>)
@@ -3761,7 +3765,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000505> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000506> (row per hectare)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000506> <http://orcid.org/0000-0001-6284-4821>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000506> "An area density unit which is equal to the number of rows per hectares."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000506> "An area density unit which is equal to the number of rows per hectare."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000506> "row/ha"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000506> "row per hectare"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000506> <http://purl.obolibrary.org/obo/UO_0000054>)
@@ -3773,6 +3777,38 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.o
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000507> "plant/hill"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000507> "plant per hill"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000507> <http://purl.obolibrary.org/obo/UO_0000054>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000508> (plant per row)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000508> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000508> "An area density unit which is equal to the number of plants per row"@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000508> "plant/row"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000508> "plant per row"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000508> <http://purl.obolibrary.org/obo/UO_0000054>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000509> (plant per meter square)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000509> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000509> "An area density unit which is equal to the number of plants per meters squared."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000509> "plant/m2"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000509> "plant per meter square"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000509> <http://purl.obolibrary.org/obo/UO_0000054>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000510> (plant per hectare)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000510> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000510> "An area density unit which is equal to the number of plants per hectare."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000510> "plant/ha"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000510> "plant per hectare"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000510> <http://purl.obolibrary.org/obo/UO_0000054>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000511> (plant per pot)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000511> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000511> "An area density unit which is equal to the number of plants per pots."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000511> "plant/pot"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000511> "plant per pot"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000511> <http://purl.obolibrary.org/obo/UO_0000054>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
