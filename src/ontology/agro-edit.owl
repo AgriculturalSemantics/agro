@@ -3871,9 +3871,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002006> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002007> (weed puller)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002007> <http://orcid.org/0000-0002-8461-9745>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002007> "An agricultural implement that is used to pull out plant from the soil. A weed puller is usually manual.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00002007> "An agricultural implement that is used to pull out plant from the soil. A weed puller is usually manual."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002007> "weed puller"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002007> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002007> <http://purl.obolibrary.org/obo/AGRO_00000400>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00020006>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002008> (mower)
