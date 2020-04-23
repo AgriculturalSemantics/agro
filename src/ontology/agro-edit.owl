@@ -3584,6 +3584,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000469> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000470> (sequence process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000470> "A process in which a definite cycle of management interventions is done on the same land."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000470> "https://orcid.org/0000-0002-1434-9495"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000470> "sequence"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000470> "sequence process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000470> <http://purl.obolibrary.org/obo/OBI_0000011>)
@@ -3622,24 +3623,28 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000475> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000476> (long-term experiment)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Richard Ostler") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000476> "An agricultural experiment running over decadal time periods.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000476> "https://orcid.org/0000-0002-1434-9495"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000476> "long-term experiment"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000476> <http://purl.obolibrary.org/obo/AGRO_00000370>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000477> (short-term experiment)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Richard Ostler") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000477> "An agricultural experiment running over less than decadal time periods."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000477> "https://orcid.org/0000-0002-1434-9495"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000477> "short-term experiment"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000477> <http://purl.obolibrary.org/obo/AGRO_00000370>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000478> (sequence experiment)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Richard Ostler"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000478> "An agricultural experiment having one or more definite sequences."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000478> "https://orcid.org/0000-0002-1434-9495"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000478> "sequence experiment"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000478> <http://purl.obolibrary.org/obo/AGRO_00000370>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000479> (crop rotation experiment)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Richard Ostler"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000479> "An agricultural experiment having more than one definite rotations or a comparison between rotation and mono-cropping."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000479> "https://orcid.org/0000-0002-1434-9495"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000479> "rotation experiment"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000479> "crop rotation experiment"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000479> <http://purl.obolibrary.org/obo/AGRO_00000370>)
@@ -3658,6 +3663,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000480> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000481> (monoculture)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Monoculture"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000481> "A planned process in which a single crop is cultivated in an area at a time."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000481> "https://orcid.org/0000-0002-1434-9495"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000481> "continuous crop"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000481> "continuous mono-cropping"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000481> "mono-cropping"@en)
@@ -3668,6 +3674,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000481> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000482> (single cycle experiment)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Richard Ostler"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000482> "An agricultural experiment in which a sequence of crops is grown without repetition"@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000482> "https://orcid.org/0000-0002-1434-9495"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000482> "short-term rotation experiment"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000482> "crop-sequence experiment"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000482> "single cycle experiment"@en)
@@ -3702,6 +3709,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000486> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000487> (rotation phase)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000487> "A planned process which is a distinguishable part of a rotation process"@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000487> "https://orcid.org/0000-0002-1434-9495"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000487> "rotation phase"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000487> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000487> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
@@ -3873,7 +3881,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002006> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002007> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00002007> "An agricultural implement that is used to pull out plant from the soil. A weed puller is usually manual."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002007> "weed puller"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002007> <http://purl.obolibrary.org/obo/AGRO_00000400>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002007> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00020006>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002008> (mower)
