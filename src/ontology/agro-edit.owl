@@ -2394,8 +2394,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000275> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000276> (weight loss on ignition method)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://nofc.cfs.nrcan.gc.ca/bookstore_pdfs/21222.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.agvise.com/educational-articles/soil-organic-matter-a-choice-of-methods/") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www2.hawaii.edu/~rsyost/Konare_etal_LOI2010.pdf") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000276> "Protocol used to measure soil organic matter and soil organic carbon. The method is based upon measuring the weight loss from a dry soil sample when exposed to high temperatures (between 350°C and 600°C). The weight loss that occurs at this temperature is then correlated to oxidizable organic carbon."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000276> "LOI method"@en)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://nofc.cfs.nrcan.gc.ca/bookstore_pdfs/21222.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.agvise.com/educational-articles/soil-organic-matter-a-choice-of-methods/") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www2.hawaii.edu/~rsyost/Konare_etal_LOI2010.pdf") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000276> "Protocol used to measure soil organic matter and soil organic carbon. The method is based upon measuring the weight loss from a dry soil sample when exposed to high temperatures (between 350°C and 600°C). The weight loss that occurs at this temperature is then correlated to oxidizable organic carbon."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000276> "weight loss on ignition method"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000276> <http://purl.obolibrary.org/obo/AGRO_00000275>)
 
@@ -3320,6 +3320,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000413> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000416> (agricultural implement)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000416> "https://orcid.org/0000-0001-6284-4821"@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000416> "An object used to perform an agricultural process."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000416> "agricultural implement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000416> <http://purl.obolibrary.org/obo/BFO_0000030>)
 
@@ -3337,6 +3338,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000423> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000424> (soil profile altitude)
 
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000424> "Elevation above the sea level of the soil profile."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000424> "soil profile altitude"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000424> <http://purl.obolibrary.org/obo/PATO_0001687>)
 
@@ -4500,6 +4502,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_01000015> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_01000019> (crop yield experiment)
 
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_01000019> "An experiment in which a scientific method is implemented for testing crop yield."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_01000019> "crop yield experiment"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_01000019> <http://purl.obolibrary.org/obo/AGRO_00000370>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_01000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/AGRO_01000020>))
