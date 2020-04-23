@@ -459,6 +459,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000488>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000500>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000501>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000502>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000503>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -3728,6 +3729,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.o
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000502> "row/plot"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000502> "row per plot"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000502> <http://purl.obolibrary.org/obo/UO_0000054>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000503> (row per meter square)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000503> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000503> "An area density unit which is equal to the number of rows per meters squared."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000503> "row/m2"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000503> "row per meter square"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000503> <http://purl.obolibrary.org/obo/UO_0000054>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
