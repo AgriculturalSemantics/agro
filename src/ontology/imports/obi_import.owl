@@ -1554,8 +1554,8 @@ clustering algorithm.</obo:IAO_0000115>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
-        <obo:IAO_0000115 xml:lang="en">An intervention design is a study design in which a controlled process applied to the subjects (the intervention) serves as the independent variable manipulated by the experimentalist. The treatment (perturbation or intervention) defined can be defined as a combination of values taken by independent variable manipulated by the experimentalists are applied to the recruited subjects assigned (possibly by applying specific methods) to treatment groups. The specificity of intervention design is the fact that independent variables are being manipulated and a response of the biological system is evaluated via response variables as monitored by possibly a series of assays.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">intervention design</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An intervention design is a study design in which a controlled process applied to the subjects (the intervention) serves as the independent variable manipulated by the experimentalist. The treatment (perturbation or intervention) defined can be defined as a combination of values taken by independent variable manipulated by the experimentalists are applied to the recruited subjects assigned (possibly by applying specific methods) to treatment groups. The specificity of intervention design is the fact that independent variables are being manipulated and a response of the biological system is evaluated via response variables as monitored by possibly a series of assays.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intervention design</rdfs:label>
     </owl:Class>
     
 
@@ -2592,8 +2592,8 @@ clustering algorithm.</obo:IAO_0000115>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A study design in which the pathological condition of a part, organ, or system of an organism is studied. The etiology may be from infection, genetic defect, or environmental stress.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">disease state design</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A study design in which the pathological condition of a part, organ, or system of an organism is studied. The etiology may be from infection, genetic defect, or environmental stress.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease state design</rdfs:label>
     </owl:Class>
     
 
@@ -2624,8 +2624,8 @@ clustering algorithm.</obo:IAO_0000115>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A study design that assays differences between multiple strains, cultivars, serovars, isolates, lines from organisms of a single species.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">strain comparison design</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A study design that assays differences between multiple strains, cultivars, serovars, isolates, lines from organisms of a single species.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strain comparison design</rdfs:label>
     </owl:Class>
     
 
@@ -3454,8 +3454,8 @@ class labels for these objects. The resulting predictor can be used to attach cl
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000115"/>
-        <obo:IAO_0000115 xml:lang="en">A randomized complete block design is_a study design which assigns randomly treatments to block. The number of units per block equals the number of treatment so each block receives each treatment exactly once (hence the qualifier &apos;complete&apos;). The design was originally devised from field trials used in agronomy and agriculture. The analysis assumes that there is no interaction between block and treatment. The method was then used in other settings So The randomised complete block design is a design in which the subjects are matched according to a variable which the experimenter wishes to control. The subjects are put into groups (blocks) of the same size as the number of treatments. The members of each block are then randomly assigned to different treatment groups.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">randomized complete block design</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A randomized complete block design is_a study design which assigns randomly treatments to block. The number of units per block equals the number of treatment so each block receives each treatment exactly once (hence the qualifier &apos;complete&apos;). The design was originally devised from field trials used in agronomy and agriculture. The analysis assumes that there is no interaction between block and treatment. The method was then used in other settings So The randomised complete block design is a design in which the subjects are matched according to a variable which the experimenter wishes to control. The subjects are put into groups (blocks) of the same size as the number of treatments. The members of each block are then randomly assigned to different treatment groups.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">randomized complete block design</rdfs:label>
     </owl:Class>
     
 
@@ -3464,8 +3464,8 @@ class labels for these objects. The resulting predictor can be used to attach cl
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500007"/>
-        <obo:IAO_0000115 xml:lang="en">Latin square design is_a study design which allows in its simpler form controlling 2 levels of nuisance variables (also known as blocking variables).he 2 nuisance factors are divided into a tabular grid with the property that each row and each column receive each treatment exactly once.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">latin square design</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latin square design is_a study design which allows in its simpler form controlling 2 levels of nuisance variables (also known as blocking variables).he 2 nuisance factors are divided into a tabular grid with the property that each row and each column receive each treatment exactly once.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">latin square design</rdfs:label>
     </owl:Class>
     
 
