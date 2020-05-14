@@ -530,6 +530,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002067>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002068>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002069>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002071>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002073>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002074>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -4397,6 +4399,22 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002071> "agricultural process"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002071> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002073> (plot latitude coordinate measurement datum)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002073> "A measurement datum that is the measure of the latitude coordinate of an agricultural plot.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002073> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002073> "plot lattitude")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002073> "plot latitude coordinate measurement datum"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002073> <http://purl.obolibrary.org/obo/OBI_0001620>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002074> (plot longitude coordinate measurement datum)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002074> "A measurement datum that is the measure of the longitude coordinate of an agricultural plot.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002074> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002074> "plot longitude")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002074> "plot longitude coordinate measurement datum"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002074> <http://purl.obolibrary.org/obo/OBI_0001621>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
