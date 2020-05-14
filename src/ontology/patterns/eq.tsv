@@ -28,3 +28,131 @@ AGRO:00010020	number of rows harvested	PATO:0000070	amount	AGRO:00002050	harvest
 AGRO:00010021	length of rows harvested	PATO:0000122	length	AGRO:00002050	harvested row
 AGRO:00010022	space between rows harvested	PATO:0000040	distance	AGRO:00002050	harvested row
 AGRO:00010023	amount harvested	PATO:0000125	mass	AGRO:00002049	harvested crop
+AGRO:00010024	total number of puddling passes	PATO:0000057	occurrence	AGRO:00000028	puddling process
+AGRO:00010025	conventional tillage date	PATO:0000165	time	AGRO:00000015	conventional tillage process
+AGRO:00010026	reduced tillage date	PATO:0000165	time	AGRO:00000016	reduced tillage process
+AGRO:00010027	conservation tillage date	PATO:0000165	time	AGRO:00000017	conservation tillage process
+AGRO:00010028	puddling date	PATO:0000165	time	AGRO:00000028	puddling process
+AGRO:00010029	laser land levelling date	PATO:0000165	time	AGRO:00000020	laser land levelling process
+AGRO:00010030	traditional land levelling date	PATO:0000165	time	AGRO:00000214	traditional land levelling process
+AGRO:00010031	crop residue burning date	PATO:0000165	time	AGRO:00000212	crop residue burning process
+AGRO:00010032	crop residue spreading date	PATO:0000165	time	AGRO:00000213	crop residue spreading process
+AGRO:00010033	tillage date	PATO:0000165	time	AGRO:01000015	tillage
+AGRO:00010034	localized irrigation date	PATO:0000165	time	AGRO:00000055	localized irrigation process
+AGRO:00010035	sprinkler irrigation date	PATO:0000165	time	AGRO:00000060	sprinkler irrigation process
+AGRO:00010036	sub-irrigation date	PATO:0000165	time	AGRO:00000062	sub-irrigation process
+AGRO:00010037	surface irrigation date	PATO:0000165	time	AGRO:00000063	surface irrigation process
+AGRO:00010038	deep tillage date	PATO:0000165	time	AGRO:00020004	deep tillage
+AGRO:00010039	mulch-till process date	PATO:0000165	time	AGRO:00000029	mulch-till
+AGRO:00010040	ridge-till process date	PATO:0000165	time	AGRO:00000030	ridge-till
+AGRO:00010041	strip-till process date	PATO:0000165	time	AGRO:00000031	strip-till
+AGRO:00010042	mechanical pest destruction date	PATO:0000165	time	AGRO:00000108	mechanical pest destruction process
+AGRO:00010043	mechanical pest exclusion date	PATO:0000165	time	AGRO:00000109	mechanical pest exclusion process
+AGRO:00010044	mechanical pest removal date	PATO:0000165	time	AGRO:00000110	mechanical pest removal process
+AGRO:00010048	mechanical pest control date	PATO:0000165	time	AGRO:00000021	mechanical pest control process
+AGRO:00010049	biological pest control date	PATO:0000165	time	AGRO:00000022	biological pest control process
+AGRO:00010050	chemical pest control date	PATO:0000165	time	AGRO:00000024	chemical pest control process
+AGRO:00010051	weeding date	PATO:0000165	time	AGRO:00020006	weeding process
+AGRO:00010052	threshing date	PATO:0000165	time	AGRO:00000454	threshing process
+AGRO:00010053	winnowing date	PATO:0000165	time	AGRO:00000457	winnowing process
+AGRO:00010054	haymaking date	PATO:0000165	time	AGRO:00000462	haymaking process
+AGRO:00010055	windrowing date	PATO:0000165	time	AGRO:00000463	windrowing
+AGRO:00010056	baling date	PATO:0000165	time	AGRO:00000464	baling process
+AGRO:00010057	trussing date	PATO:0000165	time	AGRO:00000465	trussing process
+AGRO:00010058	cutting date	PATO:0000165	time	AGRO:00000467	cutting process
+AGRO:00010059	lifting date	PATO:0000165	time	AGRO:00000474	lifting process
+AGRO:00010060	desuckering date	PATO:0000165	time	AGRO:00000007	desuckering process
+AGRO:00010061	tree topping date	PATO:0000165	time	AGRO:00000458	tree topping process
+AGRO:00010062	detrashing date	PATO:0000165	time	AGRO:00000459	detrashing process
+AGRO:00010063	limbing date	PATO:0000165	time	AGRO:00000460	limbing process
+AGRO:00010064	drip irrigation date	PATO:0000165	time	AGRO:00000056	drip irrigation process
+AGRO:00010065	pitcher irrigation date	PATO:0000165	time	AGRO:00000057	pitcher irrigation process
+AGRO:00010066	subsurface drip irrigation date	PATO:0000165	time	AGRO:00000058	subsurface drip irrigation process
+AGRO:00010067	subsurface textile irrigation date	PATO:0000165	time	AGRO:00000059	subsurface textile irrigation process
+AGRO:00010068	bubbler irrigation date	PATO:0000165	time	AGRO:00002011	bubbler irrigation process
+AGRO:00010069	mist irrigation date	PATO:0000165	time	AGRO:00002012	mist irrigation process
+AGRO:00010070	center-pivot irrigation date	PATO:0000165	time	AGRO:00000061	center-pivot irrigation process
+AGRO:00010071	sprinker by lateral move irrigation date	PATO:0000165	time	AGRO:00002013	sprinker by lateral move irrigation process
+AGRO:00010072	side roll sprinkler irrigation date	PATO:0000165	time	AGRO:00002014	side roll sprinkler irrigation process
+AGRO:00010073	bassin irrigation date	PATO:0000165	time	AGRO:00000064	bassin irrigation process
+AGRO:00010074	border irrigation date	PATO:0000165	time	AGRO:00000066	border irrigation process
+AGRO:00010075	furrow irrigation date	PATO:0000165	time	AGRO:00000067	furrow irrigation process
+AGRO:00010076	uncontrolled flooding date	PATO:0000165	time	AGRO:00000068	uncontrolled flooding process
+AGRO:00010077	continuous flood date	PATO:0000165	time	AGRO:00000065	continuous flood process
+AGRO:00010078	tillage date	PATO:0000165	time	AGRO:00000002	tillage process
+AGRO:00010079	heat treatment date	PATO:0000165	time	AGRO:00000204	heat treatment
+AGRO:00010080	cold treatment date	PATO:0000165	time	AGRO:00000206	cold treatment
+AGRO:00010081	flood treatment date	PATO:0000165	time	AGRO:00000207	flood treatment
+AGRO:00010082	fire treatment date	PATO:0000165	time	AGRO:00000209	fire treatment
+AGRO:00010083	steam treatment date	PATO:0000165	time	AGRO:00000210	steam treatment
+AGRO:00010084	diatomaceous earth spreading date	PATO:0000165	time	AGRO:00000211	diatomaceous earth spreading
+AGRO:00010085	mulching date	PATO:0000165	time	AGRO:00000111	mulching process
+AGRO:00010086	using barrier date	PATO:0000165	time	AGRO:00000216	using barrier process
+AGRO:00010087	trapping date	PATO:0000165	time	AGRO:00000215	trapping process
+AGRO:00010088	hand picking date	PATO:0000165	time	AGRO:00000217	hand picking process
+AGRO:00010089	water pressure spraying date	PATO:0000165	time	AGRO:00000218	water pressure spraying process
+AGRO:00010090	insect vacuuming date	PATO:0000165	time	AGRO:00000219	insect vacuuming process
+AGRO:00010091	mowing date	PATO:0000165	time	AGRO:00000220	mowing process
+AGRO:00010092	soil solarization treatment date	PATO:0000165	time	AGRO:00000208	soil solarization treatment
+AGRO:00010093	broadcasting seed date	PATO:0000165	time	AGRO:00002035	broadcasting seed process
+AGRO:00010094	line sowing date	PATO:0000165	time	AGRO:00002036	line sowing process
+AGRO:00010095	seed dibbling date	PATO:0000165	time	AGRO:00002037	seed dibbling process
+AGRO:00010096	manual plant transplanting date	PATO:0000165	time	AGRO:00002051	manual plant transplanting process
+AGRO:00010097	mechanical plant transplanting date	PATO:0000165	time	AGRO:00002052	mechanical plant transplanting process
+AGRO:00010098	seeding date	PATO:0000165	time	AGRO:00000142	seeding process
+AGRO:00010099	agricultural experiment date	PATO:0000165	time	AGRO:00000370	agricultural experiment
+AGRO:00010100	long-term experiment date	PATO:0000165	time	AGRO:00000476	long-term experiment
+AGRO:00010101	short-term experiment date	PATO:0000165	time	AGRO:00000477	short-term experiment
+AGRO:00010102	sequence experiment date	PATO:0000165	time	AGRO:00000478	sequence experiment
+AGRO:00010103	crop rotation experiment date	PATO:0000165	time	AGRO:00000479	crop rotation experiment
+AGRO:00010104	mono-cropping experiment date	PATO:0000165	time	AGRO:00000480	mono-cropping experiment
+AGRO:00010105	single cycle experiment date	PATO:0000165	time	AGRO:00000482	single cycle experiment
+AGRO:00010106	inter-cropping experiment date	PATO:0000165	time	AGRO:00020000	inter-cropping experiment
+AGRO:00010107	crop yield experiment date	PATO:0000165	time	AGRO:01000019	crop yield experiment
+AGRO:00010108	rotational grazing date	PATO:0000165	time	AGRO:00000430	rotational grazing
+AGRO:00010109	continuous grazing date	PATO:0000165	time	AGRO:00000431	continuous grazing
+AGRO:00010110	intensive rotational grazing date	PATO:0000165	time	AGRO:00000433	intensive rotational grazing
+AGRO:00010111	creep grazing date	PATO:0000165	time	AGRO:00000436	creep grazing
+AGRO:00010112	first-last grazing date	PATO:0000165	time	AGRO:00000437	first-last grazing
+AGRO:00010113	holistic planned grazing date	PATO:0000165	time	AGRO:00000427	holistic planned grazing
+AGRO:00010114	mob grazing date	PATO:0000165	time	AGRO:00000428	mob grazing
+AGRO:00010115	strip grazing date	PATO:0000165	time	AGRO:00000432	strip grazing
+AGRO:00010116	controlled grazing date	PATO:0000165	time	AGRO:00000434	controlled grazing
+AGRO:00010117	hohenheim grazing system date	PATO:0000165	time	AGRO:00000435	hohenheim grazing system
+AGRO:00010118	seed drilling date	PATO:0000165	time	AGRO:00002038	seed drilling process
+AGRO:00010119	cold treatment weeding date	PATO:0000165	time	AGRO:00002055	cold treatment weeding process
+AGRO:00010120	fire treatment weeding date	PATO:0000165	time	AGRO:00002056	fire treatment weeding process
+AGRO:00010121	hand picking weeding date	PATO:0000165	time	AGRO:00002057	hand picking weeding process
+AGRO:00010122	heat treatment weeding date	PATO:0000165	time	AGRO:00002058	heat treatment weeding process
+AGRO:00010123	water pressure spraying weeding date	PATO:0000165	time	AGRO:00002061	water pressure spraying weeding process
+AGRO:00010124	land levelling date	PATO:0000165	time	AGRO:00000004	land levelling process
+AGRO:00010125	crop residue management date	PATO:0000165	time	AGRO:00000005	crop residue management process
+AGRO:00010126	irrigation date	PATO:0000165	time	AGRO:00000006	irrigation process
+AGRO:00010127	pest control date	PATO:0000165	time	AGRO:00000023	pest control process
+AGRO:00010128	harvesting date	PATO:0000165	time	AGRO:00000025	harvesting process
+AGRO:00010129	pruning date	PATO:0000165	time	AGRO:00000027	pruning process
+AGRO:00010130	liming date	PATO:0000165	time	AGRO:00000112	liming process
+AGRO:00010131	plant transplanting date	PATO:0000165	time	AGRO:00000229	plant transplanting process
+AGRO:00010132	planting date	PATO:0000165	time	AGRO:00000231	planting process
+AGRO:00010133	treatment date	PATO:0000165	time	AGRO:00000322	treatment
+AGRO:00010134	propping date	PATO:0000165	time	AGRO:00000461	propping process
+AGRO:00010135	storage date	PATO:0000165	time	AGRO:00000466	storage process
+AGRO:00010136	crop rotation sart date	PATO:0000165	time	AGRO:00000469	crop rotation process
+AGRO:00010137	sequence start date	PATO:0000165	time	AGRO:00000470	sequence process
+AGRO:00010138	dessication date	PATO:0000165	time	AGRO:00000475	dessication process
+AGRO:00010140	rotation phase  start date	PATO:0000165	time	AGRO:00000487	rotation phase
+AGRO:00010141	much removal date	PATO:0000165	time	AGRO:00002015	much removal process
+AGRO:00010142	seedbed preparation date	PATO:0000165	time	AGRO:00002034	seedbed preparation process
+AGRO:00010143	agronomic fertilization date	PATO:0000165	time	AGRO:01000000	agronomic fertilization process
+AGRO:00010144	crop cultivation date	PATO:0000165	time	AGRO:01000020	crop cultivation process
+AGRO:00010145	relay cropping experiment date	PATO:0000165	time	AGRO:00002000	relay cropping experiment
+AGRO:00010146	regulation of grazing date	PATO:0000165	time	AGRO:00000426	regulation of grazing
+AGRO:00010147	chemical weeding date	PATO:0000165	time	AGRO:00002053	chemical weeding process
+AGRO:00010148	mechanical control weeding date	PATO:0000165	time	AGRO:00002054	mechanical control weeding process
+AGRO:00010149	no-till process date	PATO:0000165	time	AGRO:00000026	no-till
+AGRO:00010150	soil analysis date	PATO:0000165	time	AGRO:00000349	soil analysis process
+AGRO:00010151	experiment date	PATO:0000165	time	AGRO:00000369	experiment
+					
+					
+					
+					
