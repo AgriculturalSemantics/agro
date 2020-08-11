@@ -469,6 +469,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000509>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000510>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000511>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000512>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000513>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -1546,6 +1547,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000129> "m
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000129> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000129> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000129> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000028>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000129> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000512>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000130> (subsoiler)
 
@@ -3913,6 +3915,16 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000512> <http://purl.obolibrar
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000512> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000512> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000132>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000512> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00000283>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000512> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00002004> <http://purl.obolibrary.org/obo/AGRO_00002005>))))))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000513> (land clearing process)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000513> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.evansly.co/documents/CLEAR%20AND%20GRUBBING/870218-41_land_clearing.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www2.gnb.ca/content/gnb/en/departments/10/agriculture/content/crops/organic_production/land_development/land_clearing.html") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000513> "A planned process in which trees, stumps, brush, stones and other obstacles are removed from an area with the intention of creating a potential use for agricultural purposes."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000513> "land clearing process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000513> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000513> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000513> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00002004> <http://purl.obolibrary.org/obo/AGRO_00002005>))))))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
