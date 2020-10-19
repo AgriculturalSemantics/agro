@@ -4377,14 +4377,17 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002064> "single superphosphate"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002064> <http://purl.obolibrary.org/obo/AGRO_00020008>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00002065> (tripple superphosphate)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002065> (triple superphosphate)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000115> "http://agropedia.iitk.ac.in/content/water-soluble-phosphatic-fertilizers") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002065> "A fertilizer that is obtained by acid chemical attack of a phosphate rock with phosphoric acid. It contains around 46% P2O5")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002065> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.2136/sssaj1959.03615995002300010010x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.soils.org/publications/soils-glossary") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00002065> "A product made from phosphate rock and phosphoric acid, usually containing 19 to 21% P (44 to 48% P2O5), and composed of monocalcium phosphate monohydrate, Ca(H2PO4)2 . 2H2O."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002065> "TSP")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002065> "calcium dihydrogen phosphate")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002065> "concentrated superphosphate"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002065> "monocalcium phosphate")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002065> "tripple superphosphate"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002065> "treble superphosphate"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002065> "triple superphosphate"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002065> <http://purl.obolibrary.org/obo/AGRO_00020008>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002066> (ureaform)
