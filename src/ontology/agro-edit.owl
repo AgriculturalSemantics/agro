@@ -4372,8 +4372,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002063> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002064> (single superphosphate)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agropedia.iitk.ac.in/content/water-soluble-phosphatic-fertilizers") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002064> "A fertilizer that is obtained by acid chemical attack of a phosphate rock with sulfuric acid. It contains 16 to 20% P2O5. It comes in the form of grey granules.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002064> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002064> <https://orcid.org/0000-0002-8213-0815>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1002/jsfa.2740050601") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.soils.org/publications/soils-glossary") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00002064> "A product made by reaction of phosphate rock with sulfuric acid, usually containing 7 to 10% P (16 to 22% P2O5), composed of monocalcium phosphate, Ca(H2PO4)2, and gypsum, CaSO4."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002064> "SSP")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002064> "normal superphosphate"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002064> "ordinary superphoshate"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002064> "single superphosphate"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002064> <http://purl.obolibrary.org/obo/AGRO_00020008>)
 
