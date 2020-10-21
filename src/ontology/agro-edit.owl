@@ -471,6 +471,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000511>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000512>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000513>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000514>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000515>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -3935,6 +3936,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000514> "An area density quality which inheres in animal manure by virtue of some influence exerted by the mass of animal manure applied in a given surface area."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000514> "animal manure area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000514> <http://purl.obolibrary.org/obo/PATO_0001351>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000515> (sustainable agriculture process)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000515> <http://https://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/288329/11-546-future-of-food-and-farming-report.pdf") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000515> "An agricultural process using processes that are non-polluting, conserve non-renewable energy and natural resources, are economically efficient, are safe for workers, communities and consumers, and do not compromise the needs of future generations"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000515> "sustainable agriculture process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000515> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000515> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00002071>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
