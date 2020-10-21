@@ -1185,6 +1185,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000078> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000079> (animal manure)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Manure") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000079> "Organic matter mostly derived from animal feces which can be used as organic fertilizer in agriculture."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000079> "https://orcid.org/0000-0002-8213-0815"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.soils.org/publications/soils-glossary") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000079> "The excreta of animals, with or without an admixture of bedding or litter, fresh or at various stages of further decomposition or composting."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000079> "animal manure"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000079> <http://purl.obolibrary.org/obo/ENVO_00010483>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000079> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
@@ -4783,6 +4785,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000952> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/PATO_0000964> (transparent)
 
 SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000964> <http://purl.obolibrary.org/obo/AGRO_00000194>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0001351> (area density)
+
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0001351> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000079>))
 
 # Class: <http://purl.obolibrary.org/obo/PATO_0001355> (convex)
 
