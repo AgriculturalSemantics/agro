@@ -470,6 +470,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000510>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000511>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000512>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000513>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000514>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -3925,6 +3926,13 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000513> "l
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000513> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000513> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000513> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00002004> <http://purl.obolibrary.org/obo/AGRO_00002005>))))))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000514> (animal manure area density)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000514> <https://orcid.org/0000-0002-8213-0815>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000514> "An area density quality which inheres in animal manure by virtue of some influence exerted by the mass of animal manure applied in a given surface area."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000514> "animal manure area density"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000514> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
