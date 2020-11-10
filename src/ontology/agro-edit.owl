@@ -536,6 +536,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002069>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002071>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002074>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002075>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -4467,6 +4468,13 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002074> "plot longitude")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002074> "plot longitude coordinate measurement datum"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002074> <http://purl.obolibrary.org/obo/OBI_0001621>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002075> (residue incorporation percentage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002075> "Proportion of residue incorporated into the soil during a residue management process.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002075> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002075> "residue incorporation percentage"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002075> <http://purl.obolibrary.org/obo/PATO_0001470>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
