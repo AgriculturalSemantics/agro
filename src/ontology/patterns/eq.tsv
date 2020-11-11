@@ -4,15 +4,14 @@ AGRO:00010001	puddling depth 	PATO:0001595	depth	AGRO:00000028	puddling process
 AGRO:00010002	tillage depth	PATO:0001595	depth	AGRO:00000002	tillage process
 AGRO:00010003	total number of tillage passes	PATO:0000057	occurrence	AGRO:00000002	tillage process
 AGRO:00010004	crop residue thickness	PATO:0000915	thickness	AGRO:00000154	crop residue
-AGRO:00010005	crop residue amount	PATO:0000070	amount	AGRO:00000154	crop residue
 AGRO:00010006	crop residue percent coverage	PATO:0001323	area	AGRO:00000154	crop residue
 AGRO:00010007	residue incorporation depth	PATO:0001595	depth	AGRO:00000154	crop residue
-AGRO:00010008	organic fertilizer amount	PATO:0000070	amount	AGRO:00002039	organic fertilizer
-AGRO:00010009	inorganic fertilizer amount	PATO:0000070	amount	AGRO:00002040	inorganic fertilizer
-AGRO:00010010	nutrient amount	PATO:0000070	amount	CHEBI:33284	nutrient
+AGRO:00010008	organic fertilizer amount	PATO:0001351	area density	AGRO:00002039	organic fertilizer
+AGRO:00010009	inorganic fertilizer amount	PATO:0001351	area density	AGRO:00002040	inorganic fertilizer
+AGRO:00010010	nutrient amount	PATO:0001351	area density	CHEBI:33284	nutrient
 AGRO:00010011	number of fertilizer applications	PATO:0000057	occurrence	AGRO:01000000	fertilization process
 AGRO:00010012	mulch thickness	PATO:0000915	thickness	AGRO:00000092	mulch
-AGRO:00010013	mulch amount	PATO:0000070	amount	AGRO:00000092	mulch
+AGRO:00010013	mulch amount	PATO:0001351	area density	AGRO:00000092	mulch
 AGRO:00000194	mulch color	PATO:0000014	color	AGRO:00000092	mulch
 AGRO:00000439	mulch percent coverage	PATO:0001323	area	AGRO:00000092	mulch
 AGRO:00010015	number of irrigations	PATO:0000057	occurrence	AGRO:00000006	irrigation process
@@ -152,7 +151,7 @@ AGRO:00010148	mechanical control weeding date	PATO:0000165	time	AGRO:00002054	me
 AGRO:00010149	no-till process date	PATO:0000165	time	AGRO:00000026	no-till
 AGRO:00010150	soil analysis date	PATO:0000165	time	AGRO:00000349	soil analysis process
 AGRO:00010151	experiment date	PATO:0000165	time	AGRO:00000369	experiment
-					
+AGRO:00000444	crop residue area density	PATO:0001351	area density	AGRO:00000154	crop residue
 					
 					
 					
