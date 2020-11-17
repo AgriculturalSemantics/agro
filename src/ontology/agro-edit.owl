@@ -555,11 +555,13 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000077>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/uo#is_unit_of>))
 Declaration(DataProperty(<http://purl.obolibrary.org/obo/AGRO_00000417>))
 Declaration(DataProperty(<http://purl.obolibrary.org/obo/AGRO_00000418>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AGRO_01000022>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000232>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/contributor>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/description>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/licence>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/title>))
@@ -1529,13 +1531,13 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000127> "c
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000127> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000127> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000128> (disk harrow)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000128> (disc harrow)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Disc_harrow") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000128> "An implement that consists of many carbon steel or boron discs, which have many varying concavities and disc blade sizes and spacing and which are arranged into two or four sections. It is used to till the soil where crops are to be planted. It is also used to chop up unwanted weeds or crop remainders."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000128> "https://orcid.org/0000-0001-6284-4821"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000128> "bladed harrow"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000128> "disc plough"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000128> "disk harrow"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000128> "disc harrow"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000128> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000128> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000128> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000004>))
@@ -4693,7 +4695,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000529> <http://purl.obolibrar
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002000> <http://purl.obolibrary.org/obo/AGRO_00000339>)
 
-# Class: <http://purl.obolibrary.org/obo/ENVO_00002041> (ground water)
+# Class: <http://purl.obolibrary.org/obo/ENVO_00002041> (obsolete ground water)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>))
 
