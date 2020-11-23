@@ -472,6 +472,13 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000512>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000513>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000514>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000515>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000516>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000517>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000518>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000519>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000520>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000521>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000522>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -3758,6 +3765,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000480> <http://purl.obolibrar
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Monoculture"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000481> "A planned process in which a single crop is cultivated in an area at a time."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000481> "https://orcid.org/0000-0002-1434-9495"@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000481> "monocropping"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000481> "continuous crop"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000481> "continuous mono-cropping"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000481> "mono-cropping"@en)
@@ -3947,6 +3955,56 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000515> "sustainable agriculture process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000515> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000515> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/AGRO_00002071>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000516> (intercropping)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000516> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "https://eap.mcgill.ca/CSI_1.htm") Annotation(<http://purl.org/dc/elements/1.1/source> "https://en.wikipedia.org/wiki/Intercropping") Annotation(<http://purl.org/dc/elements/1.1/source> "https://www.researchgate.net/publication/224934832_Annual_intercrops_An_alternative_pathway_for_sustainable_agriculture#pf4") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000516> "An agricultural process in wich two or more crops are cultivated in the same space at the same time."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000516> "intercropping"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000516> <http://purl.obolibrary.org/obo/AGRO_00002071>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000517> (mixed intercropping)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000517> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "https://eap.mcgill.ca/CSI_1.htm") Annotation(<http://purl.org/dc/elements/1.1/source> "https://en.wikipedia.org/wiki/Intercropping") Annotation(<http://purl.org/dc/elements/1.1/source> "https://www.researchgate.net/publication/224934832_Annual_intercrops_An_alternative_pathway_for_sustainable_agriculture#pf4") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000517> "An agricultural process in which two or more plant species are cultivated on the same area, totally mixed without arrangement in distinct rows."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000517> "mixed intercropping"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000517> <http://purl.obolibrary.org/obo/AGRO_00000516>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000518> (row intercropping)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000518> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "https://www.researchgate.net/publication/224934832_Annual_intercrops_An_alternative_pathway_for_sustainable_agriculture#pf4") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000518> "An agricultural process in which two or more plant species are cultivated in separate alternate row."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000518> "row intercropping"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000518> <http://purl.obolibrary.org/obo/AGRO_00000516>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000519> (within row intercropping)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000519> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "https://eap.mcgill.ca/CSI_1.htm") Annotation(<http://purl.org/dc/elements/1.1/source> "https://www.researchgate.net/publication/224934832_Annual_intercrops_An_alternative_pathway_for_sustainable_agriculture#pf4") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000519> "An agricultural process in which two or more plant species are planted simultaneously within the same row in varying seeding ratios."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000519> "within row intercropping"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000519> <http://purl.obolibrary.org/obo/AGRO_00000516>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000520> (relay cropping)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000520> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "https://eap.mcgill.ca/CSI_1.htm") Annotation(<http://purl.org/dc/elements/1.1/source> "https://www.researchgate.net/publication/224934832_Annual_intercrops_An_alternative_pathway_for_sustainable_agriculture#pf4") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000520> "An agricultural process in which two or more plant species are cultivated on the same area and where the second crop is sown during the growth, often near the onset of reproductive development or fruiting of the first crop, so that the first crop is harvested to make room for the full development of the second crop"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000520> "relay cropping"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000520> <http://purl.obolibrary.org/obo/AGRO_00000516>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000521> (sequential intercropping)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000521> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "https://en.wikipedia.org/wiki/Intercropping") Annotation(<http://purl.org/dc/elements/1.1/source> "https://www.researchgate.net/publication/224934832_Annual_intercrops_An_alternative_pathway_for_sustainable_agriculture#pf4") Annotation(rdfs:comment "https://eap.mcgill.ca/CSI_1.htm") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000521> "An agricultural process in which a fast-growing crop is seeded simultaneously with a slow-growing crop, so that the first crop is harvested before the second crop starts to mature."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000521> "temporal intercropping"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000521> "sequential intercropping"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000521> <http://purl.obolibrary.org/obo/AGRO_00000516>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000522> (strip intercropping)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000522> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "https://eap.mcgill.ca/CSI_1.htm") Annotation(<http://purl.org/dc/elements/1.1/source> "https://en.wikipedia.org/wiki/Intercropping") Annotation(<http://purl.org/dc/elements/1.1/source> "https://www.researchgate.net/publication/224934832_Annual_intercrops_An_alternative_pathway_for_sustainable_agriculture#pf4") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000522> "An agricultural process in which two or more plant species are cultivated simultaneously on the same area in different strips wide enough to permit independent cultivation but narrow enough for the crops to interact agronomically."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000522> "strip intercropping"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000522> <http://purl.obolibrary.org/obo/AGRO_00000516>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
@@ -4453,6 +4511,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002071> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002071> "agricultural process"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_00000114>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002071> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002073> (plot latitude coordinate measurement datum)
@@ -4695,7 +4754,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000529> <http://purl.obolibrar
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002000> <http://purl.obolibrary.org/obo/AGRO_00000339>)
 
-# Class: <http://purl.obolibrary.org/obo/ENVO_00002041> (obsolete ground water)
+# Class: <http://purl.obolibrary.org/obo/ENVO_00002041> (ground water)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>))
 
