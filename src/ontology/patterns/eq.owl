@@ -176,6 +176,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000036"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/AGRO_00000055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000055"/>
@@ -796,6 +802,88 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000512 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000512"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000533 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000533">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000165"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000512"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The time of a seeding process</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000545 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000545">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000040"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000283"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The distance of a bund</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000560">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00002062"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The amount of a agronomic fertilizer</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000562 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000562">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000165"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000036"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The time of a irrigation process</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/AGRO_00002000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00002000"/>
@@ -961,7 +1049,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The occurrence of a land levelling process</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">total number of land levelling passes</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of land levelling passes</rdfs:label>
     </owl:Class>
     
 
@@ -1021,7 +1109,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The occurrence of a tillage process</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">total number of tillage passes</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of tillage passes</rdfs:label>
     </owl:Class>
     
 
@@ -1401,7 +1489,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The occurrence of a puddling process</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">total number of puddling passes</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of puddling passes</rdfs:label>
     </owl:Class>
     
 
@@ -3441,7 +3529,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The time of a pruning process</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pruning date</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thinning date</rdfs:label>
     </owl:Class>
     
 
@@ -3911,6 +3999,12 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_33284 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33284"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000283"/>
     
 
 
