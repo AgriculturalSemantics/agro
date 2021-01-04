@@ -1260,6 +1260,40 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PECO_0001058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007233"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal plant exposure (PECO:0007233) involving the exposure of plant to the pathogen belonging to Glomeromyetes class.</obo:IAO_0000115>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glomeromycota treatment (narrow)</oboInOwl:hasNarrowSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glomeromycota exposure</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0001058"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal plant exposure (PECO:0007233) involving the exposure of plant to the pathogen belonging to Glomeromyetes class.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:laura_moore</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PECO_0001059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001058"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Glomeromycota exposure (PECO:0001058) involving the exposure of compatible plants to mutualistic arbuscular mycorrhizal fungi.</obo:IAO_0000115>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arbuscular mycorrhizal fungal treatment (narrow)</oboInOwl:hasNarrowSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arbuscular mycorrhizal fungal exposure</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0001059"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Glomeromycota exposure (PECO:0001058) involving the exposure of compatible plants to mutualistic arbuscular mycorrhizal fungi.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:laura_moore</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PECO_0007004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007004">
@@ -1402,6 +1436,42 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007191"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant exposure (PECO:0001001) involving the application of chemical or non-biological factors.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PECO_0007233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007357"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biotic plant exposure (PECO:0007357) involving exposure of a plant to a fungus or a combination of fungi.</obo:IAO_0000115>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fungal plant treatment (narrow)</oboInOwl:hasNarrowSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fungal plant exposure</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007233"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biotic plant exposure (PECO:0007357) involving exposure of a plant to a fungus or a combination of fungi.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:ivy</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBI_taxid:4751</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PECO_0007357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007357">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant exposure (PECO:0001001) involving the application of a biotic or biological factor such as a microbe, insect, animal, or plant or a combination thereof.</obo:IAO_0000115>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biotic plant treatment (narrow)</oboInOwl:hasNarrowSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biotic plant exposure</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007357"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant exposure (PECO:0001001) involving the application of a biotic or biological factor such as a microbe, insect, animal, or plant or a combination thereof.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
     </owl:Axiom>

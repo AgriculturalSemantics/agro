@@ -13435,8 +13435,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33937">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33284"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macronutrients</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macronutrient</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33937"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macronutrients</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 

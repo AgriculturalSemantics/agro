@@ -5956,6 +5956,20 @@ class labels for these objects. The resulting predictor can be used to attach cl
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0002903 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002903">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_0000008 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000008">

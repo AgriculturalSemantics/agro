@@ -1908,6 +1908,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_78298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_78298">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental contaminant</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_79389 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_79389">
@@ -7460,6 +7469,77 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000328 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000328">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000408"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A zone beneath the land surface and above the level of permanent groundwater or phreatic zone in which water has a hydraulic head less than atmospheric pressure and is retained by a combination of adhesion and capillary action.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unsaturated zone</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vadose zone</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000328"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A zone beneath the land surface and above the level of permanent groundwater or phreatic zone in which water has a hydraulic head less than atmospheric pressure and is retained by a combination of adhesion and capillary action.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://wasg.iinet.net.au/terminol.html</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Vadose_zone</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000328"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unsaturated zone</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Vadose_zone</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000329">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001479"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001784"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000814"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000984"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound astronomical body part which is located beneath the land surface and in which all interstices are filled with water that has a hydraulic head greater than atmospheric pressure due to the weight of overlying groundwater.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zone of saturation</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phreatic zone</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000329"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound astronomical body part which is located beneath the land surface and in which all interstices are filled with water that has a hydraulic head greater than atmospheric pressure due to the weight of overlying groundwater.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://wasg.iinet.net.au/terminol.html</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Phreatic_zone</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000329"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zone of saturation</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Phreatic_zone</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00000339 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000339">
@@ -8723,6 +8803,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002186"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002264"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water that has been adversely affected in quality by anthropogenic influence.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waste water</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water that has been adversely affected in quality by anthropogenic influence.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Wastewater</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00002005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002005">
@@ -8927,6 +9024,39 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002018">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00002001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002276"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002276"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wastewater that is contaminated with feces or urine,</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sewage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002018"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wastewater that is contaminated with feces or urine,</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Wastewater</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00002030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002030">
@@ -9072,6 +9202,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000271"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sedimentary rock composed mainly of sand-size mineral or rock grains.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sandstone</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002055"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sedimentary rock composed mainly of sand-size mineral or rock grains.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Sandstone</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00002114 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002114">
@@ -9147,6 +9293,34 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anaerobic sludge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002133">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001456"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001456"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Mud which has no or neglible concentrations of dissolved oxygen.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anoxic mud</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anaerobic mud</rdfs:label>
     </owl:Class>
     
 
@@ -9323,6 +9497,53 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The aerobically decomposed remnants of organic materials.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Compost</oboInOwl:hasDbXref>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002186">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/envo#has_increased_levels_of"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78298"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/envo#has_increased_levels_of"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78298"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polluted water</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contaminated water</rdfs:label>
+    </owl:Class>
     
 
 
@@ -9826,6 +10047,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002873"/>
+        <oboInOwl:hasBroadSynonym>animal waste</oboInOwl:hasBroadSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal waste material</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00002869 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002869">
@@ -9856,6 +10087,16 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The biomass remaining after sugarcane stalks are crushed to extract their juice.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Bagasse</oboInOwl:hasDbXref>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002873">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000373"/>
+        <oboInOwl:hasBroadSynonym>organic waste</oboInOwl:hasBroadSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic waste material</rdfs:label>
+    </owl:Class>
     
 
 
@@ -10284,6 +10525,33 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00005771 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00005771">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Soil which is composed of a large proportion of mud, thus having properties resembling mud.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muddy soil</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00005773 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00005773">
@@ -10376,6 +10644,50 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">upland soil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00005792 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00005792">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000941"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Water which has physicochemical properties determined by processes which occur beneath the planetary crust.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subterranean water</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">underground water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00005795 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00005795">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000447"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000447"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Mud which is part of a marine ecosystem.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">marine mud</rdfs:label>
     </owl:Class>
     
 
@@ -10487,6 +10799,59 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00012408 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00012408">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001275"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000328"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000329"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00002982"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000001"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000016"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000018"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00001995"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000984"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An underground layer of water-bearing permeable rock or unconsolidated materials (gravel, sand, silt, or clay) from which groundwater can be usefully extracted using a water well.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aquifer</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00012408"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An underground layer of water-bearing permeable rock or unconsolidated materials (gravel, sand, silt, or clay) from which groundwater can be usefully extracted using a water well.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Aquifer</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_0010001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_0010001">
@@ -10540,6 +10905,34 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_0010001"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agricultural environmental material</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A liquid or semi-liquid mixture of water and some combination of soil, silt, and clay.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mud</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A liquid or semi-liquid mixture of water and some combination of soil, silt, and clay.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Mud</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -11397,6 +11790,22 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmospheric water vapor</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Water_vapor</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002016"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clastic sedimentary rocks are sedimentary rocks that are composed of silicate minerals and rock fragments that were transported by moving fluids. Clastic rocks are composed largely of quartz, feldspar, rock (lithic) fragments, clay minerals, and mica; numerous other minerals may be present as accessories and may be important locally.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clastic sedimentary rock</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000271"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clastic sedimentary rocks are sedimentary rocks that are composed of silicate minerals and rock fragments that were transported by moving fluids. Clastic rocks are composed largely of quartz, feldspar, rock (lithic) fragments, clay minerals, and mica; numerous other minerals may be present as accessories and may be important locally.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Sedimentary_rock#Clastic_sedimentary_rocks</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12378,6 +12787,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000373">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002873"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological waste is waste containing mostly natural organic materials (remains of plants, animal excrement, biological sludge from waste-water treatment plants and so forth).</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>biological waste</oboInOwl:hasBroadSynonym>
+        <rdfs:label>biological waste material</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000373"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological waste is waste containing mostly natural organic materials (remains of plants, animal excrement, biological sludge from waste-water treatment plants and so forth).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:978-92-1-161386-5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://stats.oecd.org/glossary/detail.asp?ID=3097</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000375 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000375">
@@ -12535,6 +12968,30 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>montane forest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000451 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000451">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000797"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000267"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16526"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Atmospheric carbon dioxide is an environmental material composed of carbon dioxide in its gaseous form present in an atmosphere.</obo:IAO_0000115>
+        <rdfs:label>atmospheric carbon dioxide</rdfs:label>
     </owl:Class>
     
 
@@ -12732,6 +13189,49 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000063"/>
         <obo:IAO_0000115>A lotic water body is a water body in which the accumulated water, in its totality, is flowing.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">lotic water body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000622 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000622">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001548"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001547"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Vaporisation of an element or compound is process whereby that element or compound undergoes a phase transition from the liquid to vapor.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>vaporization</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">vaporisation</rdfs:label>
     </owl:Class>
     
 
@@ -13146,6 +13646,80 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000676">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00002005"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/envo#has_increased_levels_of"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78298"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/envo#has_increased_levels_of"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78298"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Contaminated air is air which has sufficient concentrations of environmental pollutants such that it may adversely affect a given ecosystem.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">contaminated air</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000680">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00000020"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002186"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000020"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A lake which has concentrations of environmental contaminants high enough to harm the ecosystems associated with it.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">polluted lake</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000685 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000685">
@@ -13260,6 +13834,23 @@
         <owl:annotatedTarget>Hydrological precipitation is a process during which any product of the condensation of atmospheric water vapour is pulled to the planetary surface by gravity.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Precipitation</oboInOwl:hasDbXref>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000704">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500031"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500034"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Hydrological evaporation is the evaporation of water, generally as part of a planetary water cycle.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">hydrological evaporation</rdfs:label>
+    </owl:Class>
     
 
 
@@ -14521,6 +15112,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000941 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000941">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000324"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000639"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Regions of a planet which are not exposed to the planet&apos;s atmosphere or space, often comprising parts of one or more planetary structural layers.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">planetary subsurface zone</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000947 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000947">
@@ -15019,6 +15633,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00005792"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00012408"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Underground water which is located in pore spaces found in rock or unconsolidated deposits such as soil, clay, or gravel.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>ground water</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">groundwater</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Underground water which is located in pore spaces found in rock or unconsolidated deposits such as soil, clay, or gravel.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Groundwater</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01001008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001008">
@@ -15290,6 +15927,68 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>An environmental system which has its properties and dynamics determined by soil.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">soil environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001046">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000254"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000941"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000254"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000941"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An environmental system which has its properties and dynamics determined by the subsurface zone of a planet.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">planetary subsurface environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001047">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01001046"/>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001657"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001046"/>
+        <obo:IAO_0000115>An environmental system which has its properties and dynamics determined by those parts of a planetary subsurface zone which are not saline.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">non-saline planetary subsurface environment</rdfs:label>
     </owl:Class>
     
 
@@ -17996,6 +18695,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001362">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000008"/>
+        <obo:IAO_0000115>The speed of an atmospheric wind.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>flow velocity of wind</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>speed of wind</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>wind flow velocity</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>wind speed</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>speed of atmospheric wind</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">atmospheric wind speed</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001362"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The speed of an atmospheric wind.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Wind_speed</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01001366 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001366">
@@ -19683,6 +20403,39 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001776 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001776">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000408"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000799"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000267"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000637"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An environmental zone which includes those regions of an astronomical body which are not exposed to its atmosphere or space.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">subsurface zone of an astronomical body</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01001780 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001780">
@@ -20183,6 +20936,22 @@
         <obo:IAO_0000115>A material accumulation process during which the volume of liquid entity increases.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">liquid accumulation process</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001859 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001859">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_09200001"/>
+        <obo:IAO_0000115>A temperature of air at which air become saturated with water vapour and below which airborne water vapour will condense to form liquid water (dew).</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dew point</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001859"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A temperature of air at which air become saturated with water vapour and below which airborne water vapour will condense to form liquid water (dew).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://en.wikipedia.org/wiki/Dew_point"/>
+    </owl:Axiom>
     
 
 
@@ -20777,6 +21546,93 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000704"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_02500035"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Evapotranspiration is the sum of evaporation and plant transpiration from the Earth&apos;s land and ocean surface to the atmosphere.</obo:IAO_0000115>
+        <rdfs:label>evapotranspiration</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500033"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Evapotranspiration is the sum of evaporation and plant transpiration from the Earth&apos;s land and ocean surface to the atmosphere.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Evapotranspiration</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000622"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00010504"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001548"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Evaporation is a form of vaporisation which occurs when a portion of the surface layer of a liquid in contact with a gaseous material, which is not saturated with the evaporating substance, vaporises.</obo:IAO_0000115>
+        <rdfs:label>evaporation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500034"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Evaporation is a form of vaporisation which occurs when a portion of the surface layer of a liquid in contact with a gaseous material, which is not saturated with the evaporating substance, vaporises.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Evaporation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Transpiration is the process of water movement through a plant and its evaporation from aerial parts of that plant, such as from leaves but also from stems and flowers.</obo:IAO_0000115>
+        <rdfs:label>transpiration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_03000009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000009">
@@ -21345,6 +22201,39 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_04000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_04000015">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_03000009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000451"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000451"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A material accumulation process during which atmospheric carbon dioxide is captured and stored.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">carbon sequestration process</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_04000015"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A material accumulation process during which atmospheric carbon dioxide is captured and stored.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://www.usgs.gov/faqs/what-carbon-sequestration?qt-news_science_products=0#qt-news_science_products</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_09200000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_09200000">
@@ -21791,6 +22680,55 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The composition of some water.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water composition</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">composition of water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_09200020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_09200020">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17632"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001004"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_3100022"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17632"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001004"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of a nitrate when measured in groundwater.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>ground water nitrate concentration</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">groundwater nitrate concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of nitrate in groundwater</rdfs:label>
     </owl:Class>
     
 
@@ -22699,6 +23637,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001906"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality inhering in a bearer by virtue of the bearer&apos;s scalar absolute value of the rate of change of the bearer&apos;s position.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">velocity</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">speed</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000025 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000025">
@@ -23438,6 +24387,16 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rod-shaped</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tubulate</oboInOwl:hasNarrowSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cylindrical</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001906 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001906">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality inhering in a bearer by virtue of the bearer&apos;s participation in movement.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">movement quality</rdfs:label>
     </owl:Class>
     
 

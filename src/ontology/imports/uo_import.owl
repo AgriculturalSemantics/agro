@@ -5656,6 +5656,78 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010050">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010050"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010051">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010051"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000111"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010051"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010053">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010053"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010054">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000011"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/has_prefix"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000302"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010054"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000004"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
@@ -7124,6 +7196,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000054"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram per square meter based unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000111"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large calorie based unit</rdfs:label>
     </owl:Class>
     
 
@@ -8681,6 +8762,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010050 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010050"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010051 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010053 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010053"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010054 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010054"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -9459,6 +9564,18 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010049">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram per square meter</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010050">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanogram per microliter</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010051">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large calorie</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010053">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micrograms per wheaton bottle</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010054">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picoampere</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 
