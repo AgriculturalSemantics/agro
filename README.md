@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/AgriculturalSemantics/agro.svg?branch=master)](https://travis-ci.org/AgriculturalSemantics/agro)
+[![Build Status](https://travis-ci.org/AgriculturalSemantics/agro.svg?branch=master)](https://travis-ci.org/AgriculturalSemantics/agro) [![DOI](https://zenodo.org/badge/60259622.svg)](https://zenodo.org/badge/latestdoi/60259622)
+
 
 # AgrO
 AgrO, the Agronomy Ontology, describes agronomic practices, techniques, and variables used in agronomic experiments. AgrO is being built using traits identified by agronomists, the ICASA variables, and other existing ontologies such as ENVO, UO, PATO, IAO, and CHEBI. Further, AgrO powers AgroFIMS, the Agronomy Fieldbook and Information Management System modeled on a CGIAR Breeding Management System to capture agronomic data.
