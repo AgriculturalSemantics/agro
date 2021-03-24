@@ -519,6 +519,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000562>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000563>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000564>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000565>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000566>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000567>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -715,12 +717,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000006> ObjectSomeValuesFrom(<
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00002006>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00002004> <http://purl.obolibrary.org/obo/AGRO_00002005>))))))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000007> (desuckering process)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000007> (desuckering)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000007> "A pruning process in which one or more suckers are removed."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000007> "desuckering"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000007> "desuckering process"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000007> "Which suckers are removed depends on the criteria set by the agent of the desuckering process."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000007> "desuckering process"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000007> "desuckering"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000007> <http://purl.obolibrary.org/obo/AGRO_00000027>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/PO_0004545>))
 
@@ -843,14 +845,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000026> <http://purl.obolibrar
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000027> (thinning process)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000027> (thinning)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://aims.fao.org/aos/agrovoc/c_6274") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Pruning#Types_of_pruning") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000027> "A planned process in which selected parts of the plant are removed. The practice entails targeted removal of diseased, damaged, dead, non-productive, structurally unsound, or otherwise unwanted tissue from plants. This is done in order to shape the plant or tree, improve plant or tree health, reduce the risk from falling branches, prepare nursery specimens for transplanting, and increase the yield or quality of harvested products."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000027> "https://orcid.org/0000-0001-6284-4821"@en)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000027> "Agricultural process during which removal of some plants, or parts of plants, are removed to make room for the growth of others but does not involve the cutting of the whole tree."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000027> "Agricultural process during which removal of some plants, or parts of plants to make room for the growth of others but does not involve the cutting of the whole tree."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000027> "pruning"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000027> "thinning process"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000027> <http://purl.obolibrary.org/obo/OBI_0000011>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000027> "thinning process"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000027> "thinning"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000027> <http://purl.obolibrary.org/obo/AGRO_00000566>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/PO_0000003>))
 
@@ -3641,19 +3644,21 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000458> "tipping"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000458> "étêtage"@fr)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000458> "tree topping process"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000458> <http://purl.obolibrary.org/obo/AGRO_00000027>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000458> <http://purl.obolibrary.org/obo/AGRO_00000566>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000459> (detrashing process)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000459> (detrashing)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.sugarcanecrops.com/agronomic_practices/detrashing/") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cabdirect.org/cabdirect/abstract/20103065565") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000459> "A pruning process in which dried, yellowish green, bottom leaves in the sugarcane crop are removed at regular intervals."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000459> "detrashing process"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000459> "detrashing process"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000459> "detrashing"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000459> <http://purl.obolibrary.org/obo/AGRO_00000027>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000460> (limbing process)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000460> (limbing)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://extension.missouri.edu/p/G1958") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000460> "A pruning process in which branches from either standing or downed trees are removed."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000460> "limbing process"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000460> <http://purl.obolibrary.org/obo/AGRO_00000027>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000460> "limbing process"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000460> "limbing"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000460> <http://purl.obolibrary.org/obo/AGRO_00000566>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000461> (propping process)
 
@@ -4354,6 +4359,22 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000565> "controlled traffic"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000565> "controlled traffic farming"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000565> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000566> (pruning)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000566> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Pruning") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000566> "Process which involves the selective removal of certain parts of a plant, such as branches, buds, or roots."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000566> "pruning process"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000566> "pruning"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000566> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000567> (renewal pruning)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000567> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://extension.uga.edu/publications/detail.html?number=B961&title=Pruning%20Ornamental%20Plants%20in%20the%20Landscape") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000567> "Process which involves cutting the plants back 6 to 12 inches above ground level."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000567> "renewal pruning process"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000567> "renewal pruning"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000567> <http://purl.obolibrary.org/obo/AGRO_00000566>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
