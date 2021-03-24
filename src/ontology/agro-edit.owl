@@ -518,6 +518,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000561>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000562>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000563>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000564>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000565>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -4344,6 +4345,15 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000564> "source distance"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000564> "distance between the water source and the field"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000564> <http://purl.obolibrary.org/obo/PATO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000565> (controlled traffic farming)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000565> <https://orcid.org/0000-0003-3985-4911>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Controlled_traffic_farming") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://qcat.wocat.net/en/wocat/technologies/view/technologies_945/") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000565> "A planned process which confines all machinery loads to the least possible area of permanent traffic lanes. The permanent traffic lanes are normally parallel to each other."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000565> "CTF"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000565> "controlled traffic"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000565> "controlled traffic farming"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000565> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
