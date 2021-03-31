@@ -527,7 +527,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000572>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000573>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000574>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000575>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000577>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -4228,6 +4227,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000544> ObjectSomeValuesFrom(<
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000545> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000545> "Distance between two ridges."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000545> "distance between ridges"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000545> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00000283>)))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000546> (aboveground biomass)
 
@@ -4409,8 +4409,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000572> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000573> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000573> "A unique identifier of the postion a field on earth, usually expressed in alphanumeric characters."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000573> "GPS coordinates of a field"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000573> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_01000352>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000573> <http://purl.obolibrary.org/obo/AGRO_00000572>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000573> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_01000352>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000574> (field latitude coordinate)
 
@@ -4418,7 +4418,6 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000574> "Latitude coordinate of a field."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000574> "field latitude coordinate measurement datum"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000574> "field latitude coordinate"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000574> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_01000352>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000574> <http://purl.obolibrary.org/obo/OBI_0001620>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000575> (field longitude coordinate)
@@ -4427,15 +4426,8 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000575> "Longitude coordinate of a field."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000575> "field longitude coordinate measurement datum"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000575> "field longitude coordinate"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000575> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_01000352>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000575> <http://purl.obolibrary.org/obo/OBI_0001621>)
-
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000577> (number of weeding interventions)
-
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000577> <http://orcid.org/0000-0001-6284-4821>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000577> "number of weeding interventions"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000577> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00020006>))
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000577> <http://purl.obolibrary.org/obo/PATO_0000057>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000575> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_01000352>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
@@ -4952,8 +4944,8 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002073> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002073> "plot latitude"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002073> "plot latitude coordinate measurement datum"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002073> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002073> <http://purl.obolibrary.org/obo/OBI_0001620>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002073> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002074> (plot longitude coordinate measurement datum)
 
@@ -4961,8 +4953,8 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002074> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002074> "plot longitude")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002074> "plot longitude coordinate measurement datum"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002074> <http://purl.obolibrary.org/obo/OBI_0001621>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002075> (residue incorporation percentage)
 
@@ -5335,6 +5327,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000190> ObjectSomeValuesFrom(<htt
 DisjointClasses(<http://purl.obolibrary.org/obo/AGRO_00002035> <http://purl.obolibrary.org/obo/AGRO_00002036> <http://purl.obolibrary.org/obo/AGRO_00002037>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010000> "total number of land levelling passes"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010003> "total number of tillage passes"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010018> "number of weeding interventions")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010024> "total number of land levelling passes"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010129> "pruning date"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IAO_0000005> "experiment objective"@en)
