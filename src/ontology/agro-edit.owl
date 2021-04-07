@@ -4028,6 +4028,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "https://eap.mcgill.ca/CSI_1.htm") Annotation(<http://purl.org/dc/elements/1.1/source> "https://en.wikipedia.org/wiki/Intercropping") Annotation(<http://purl.org/dc/elements/1.1/source> "https://www.researchgate.net/publication/224934832_Annual_intercrops_An_alternative_pathway_for_sustainable_agriculture#pf4") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000516> "An agricultural process in wich two or more crops are cultivated in the same space at the same time."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000516> "intercropping"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000516> <http://purl.obolibrary.org/obo/AGRO_00002071>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000516> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000325>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000517> (mixed intercropping)
 
@@ -4450,7 +4451,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000579> "hedgerow intercropping"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000579> "alley cropping"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000579> <http://purl.obolibrary.org/obo/AGRO_00000516>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000579> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000584>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000580> (silvopasture)
 
@@ -4459,7 +4459,6 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "https:/
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000580> "silvopastoral system"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000580> "silvopasture"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000580> <http://purl.obolibrary.org/obo/AGRO_00000584>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000580> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000584>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000581> (multistrata agroforestry)
 
