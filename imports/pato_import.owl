@@ -1699,6 +1699,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0000150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A morphologic quality inhering in a bearer by virtue of the bearer&apos;s relative size, organization and distribution of its surface elements or the representation or invention of the appearance of its surface; visual and tactile surface characteristics.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">texture</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000150"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A morphologic quality inhering in a bearer by virtue of the bearer&apos;s relative size, organization and distribution of its surface elements or the representation or invention of the appearance of its surface; visual and tactile surface characteristics.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000152 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000152">
@@ -1808,6 +1824,23 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A color hue with medium wavelength of that portion of the visible spectrum lying between orange and green, evoked in the human observer by radiant energy with wavelengths of approximately 570 to 590 nanometers.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dictionary:http://dictionary.reference.com/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000700 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000700">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000150"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A texture quality inhering in a bearer by virtue of the bearer&apos;s irregular surface.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coarse</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rough</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000700"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A texture quality inhering in a bearer by virtue of the bearer&apos;s irregular surface.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 

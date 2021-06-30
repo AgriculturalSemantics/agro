@@ -245,6 +245,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002180 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002180">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002202 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002202">
@@ -282,7 +290,6 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002220">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002163"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:ObjectProperty>
     
 
@@ -380,6 +387,14 @@
     <!-- http://purl.obolibrary.org/obo/RO_0002328 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002328"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002351 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002351">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    </owl:ObjectProperty>
     
 
 
@@ -675,6 +690,15 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:label xml:lang="en">fiat object</rdfs:label>
         <rdfs:label xml:lang="en">fiat object part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:label xml:lang="en">object aggregate</rdfs:label>
     </owl:Class>
     
 
@@ -7794,13 +7818,19 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000739"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PCO_0000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000739"/>
             </owl:Restriction>
@@ -10342,6 +10372,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002170"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>Soil which is derived from compost.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compost soil</rdfs:label>
     </owl:Class>
     
@@ -10495,6 +10526,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00005747"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001526"/>
+        <obo:IAO_0000115>Compost soil which is frozen.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frozen compost soil</rdfs:label>
     </owl:Class>
     
@@ -11852,22 +11884,47 @@
     <!-- http://purl.obolibrary.org/obo/ENVO_01000277 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000277">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01001125"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000814"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001125"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002354"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01001549"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_03000008"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_03000055"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice is water frozen into a solid state. It can appear transparent or opaque bluish-white color, depending on the presence of impurities or air inclusions. The addition of other materials such as soil may further alter its appearance.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice which is formed from water.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>ice</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water ice</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000277"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice is water frozen into a solid state. It can appear transparent or opaque bluish-white color, depending on the presence of impurities or air inclusions. The addition of other materials such as soil may further alter its appearance.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice which is formed from water.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Ice</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -12918,6 +12975,22 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000277"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000027"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_03520007"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snow is an environmental material which is primarily composed of flakes of crystalline water ice.</obo:IAO_0000115>
         <rdfs:label>snow</rdfs:label>
     </owl:Class>
@@ -13956,6 +14029,55 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000726">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001510"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001547"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001546"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Desublimation is a process in which a portion of some gas undergoes a phase transition into a portion of some solid.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>deposition</oboInOwl:hasBroadSynonym>
+        <rdfs:label xml:lang="en">desublimation process</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000726"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Desublimation is a process in which a portion of some gas undergoes a phase transition into a portion of some solid.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Deposition_(phase_transition)</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000739 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000739">
@@ -14458,6 +14580,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000799"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001164"/>
             </owl:Restriction>
@@ -14466,13 +14594,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000637"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000799"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An object which is composed of one or more gravitationally bound structures that are associated with a position in space.</obo:IAO_0000115>
@@ -14751,7 +14872,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000831"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A droplet is a small column of liquid, bounded completely or almost completely by free surfaces which maintains its shape due to the surface tension of the liquid.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Drop_%28liquid%29</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:resource="https://en.wikipedia.org/wiki/Drop_%28liquid%29"/>
     </owl:Axiom>
     
 
@@ -14929,6 +15050,46 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>A thermolysis process in which organic material is decomposed in the absence of oxygen.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">pyrolysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000845 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000845">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000814"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001411"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A solid material whose constituents, such as atoms, molecules or ions, are arranged in a highly ordered microscopic structure, forming a crystal lattice that extends in all directions.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">crystal</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000845"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A solid material whose constituents, such as atoms, molecules or ions, are arranged in a highly ordered microscopic structure, forming a crystal lattice that extends in all directions.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Crystal</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000846 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000846">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000131"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000845"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000277"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A crystal which is primarily composed of water ice.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>ice crystal</oboInOwl:hasBroadSynonym>
+        <rdfs:label xml:lang="en">water ice crystal</rdfs:label>
     </owl:Class>
     
 
@@ -15134,15 +15295,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001776"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000324"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000639"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000639"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000324"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Regions of a planet which are not exposed to the planet&apos;s atmosphere or space, often comprising parts of one or more planetary structural layers.</obo:IAO_0000115>
@@ -15158,6 +15318,12 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
             </owl:Restriction>
@@ -16788,13 +16954,19 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001097"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002354"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001093"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001097"/>
             </owl:Restriction>
@@ -17188,6 +17360,73 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A planet which has a surface layer that nearly completely or completely covered by ice, and which has a substantial portion of its mass composed of ice.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Ice_planet</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001138">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01001125"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16526"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001125"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16526"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice which is primarily composed of carbon dioxide.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>dry ice</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">carbon dioxide ice</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001138"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice which is primarily composed of carbon dioxide.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Ice</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001141">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01001125"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17245"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001125"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17245"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice which is primarily composed of carbon monoxide.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">carbon monoxide ice</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001141"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice which is primarily composed of carbon monoxide.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Ice</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -19484,7 +19723,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A surface layer of a water body which is part of an ocean or sea.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A surface layer which is part of an ocean or sea.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">sea surface layer</rdfs:label>
     </owl:Class>
     
@@ -21649,6 +21888,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <obo:IAO_0000115>A physical process during which atoms, molecules, or other consituents of a material entity are forced closer together.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">compaction process</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000008"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A physical process during which atoms, molecules, or other consituents of a material entity are forced closer together.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Compaction</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_03000009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000009">
@@ -21875,6 +22130,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000726"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500031"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A desublimation process during which water vapour is frozen into water ice.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">desublimation of water vapour into ice</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_03000110 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000110">
@@ -21992,6 +22264,84 @@
         <oboInOwl:hasExactSynonym>liquid water nitrate and nitrite concentration</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">concentration of nitrate and nitrite in liquid water</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03520007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03520007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000846"/>
+        <obo:IAO_0000115 xml:lang="en">A water ice crystal which is constituted by water molecules aligned in a hexagonal array.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym xml:lang="en">snowflake</oboInOwl:hasBroadSynonym>
+        <rdfs:label xml:lang="en">snow crystal</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03520007"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A water ice crystal which is constituted by water molecules aligned in a hexagonal array.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snowcrystals.com/science/science.html"/>
+        <oboInOwl:hasDbXref rdf:resource="https://www.athropolis.com/arctic-facts/fact-snow-crystal.htm"/>
+        <oboInOwl:hasDbXref rdf:resource="https://www.noaa.gov/stories/how-do-snowflakes-form-science-behind-snow"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03520007"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget xml:lang="en">snowflake</owl:annotatedTarget>
+        <rdfs:comment xml:lang="en">Snow crystals and snowflakes are often noted as synonyms, however, the term &quot;snowflake&quot; is generally used more loosely. Some sites mention that snow crystals refer to individual crystals of ice, while the term &quot;snowflake&quot; can refer both to an individual crystal of ice and to a bundle of snow crystals. Please see here [https://github.com/EnvironmentOntology/envo/issues/998#issuecomment-685649444]</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03600001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03600001">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00002007"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/envo#has_increased_levels_of"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78298"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002114"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/envo#has_increased_levels_of"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78298"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Sediment which contains some chemical contaminant.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">chemically contaminated sediment</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03600001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Sediment which contains some chemical contaminant.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://en.wikipedia.org/wiki/Contamination"/>
+    </owl:Axiom>
     
 
 
@@ -22744,7 +23094,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of a nitrate when measured in groundwater.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ground water nitrate concentration</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">groundwater nitrate concentration</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of nitrate in groundwater</rdfs:label>
+        <rdfs:label>concentration of nitrate in groundwater</rdfs:label>
     </owl:Class>
     
 
@@ -23154,6 +23504,11 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002403 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002403">
+        <obo:IAO_0000115 xml:lang="en">Any substance that can be consumed by an organism to satisfy nutritional or other health needs, or to provide a social or organoleptic food experience</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">food</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">foodstuff</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">nourishment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">sustenance</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">food material</rdfs:label>
     </owl:Class>
     
@@ -23249,7 +23604,6 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prokaryota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prokaryotae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bacteria</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not Bacteria Haeckel 1894</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prokaryote</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prokaryotes</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacteria</rdfs:label>
@@ -23390,7 +23744,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32525">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40674"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theria</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theria &lt;Mammalia&gt;</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theria &lt;mammals&gt;</rdfs:label>
     </owl:Class>
     
 
@@ -23399,10 +23753,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chlorophyta/Embryophyta group</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chlorophyte/embryophyte group</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">green plants</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chlorobionta</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chlorophyta/Embryophyta group</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chlorophyte/embryophyte group</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chloroplastida</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">green plants</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viridiplantae</rdfs:label>
     </owl:Class>
@@ -23511,7 +23866,7 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertebrata</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vertebrates</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vertebrates</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertebrata &lt;Metazoa&gt;</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertebrata &lt;vertebrates&gt;</rdfs:label>
     </owl:Class>
     
 
@@ -23522,7 +23877,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gnathostomata</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jawed vertebrates</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gnathostomata &lt;vertebrate&gt;</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gnathostomata &lt;vertebrates&gt;</rdfs:label>
     </owl:Class>
     
 
@@ -23541,7 +23896,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_89593">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7711"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Craniata</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Craniata &lt;chordata&gt;</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Craniata &lt;chordates&gt;</rdfs:label>
     </owl:Class>
     
 
@@ -23617,7 +23972,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115 xml:lang="en">A processual entity that realizes a plan which is the concretization of a plan specification.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A process that realizes a plan which is the concretization of a plan specification.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">planned process</rdfs:label>
     </owl:Class>
     
@@ -24070,6 +24425,16 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A morphology quality inhering in a bearer by virtue of the bearer&apos;s lack of distinct morphology.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amorphous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001411">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000141"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A structural quality inhering in a bearer by virtue of the bearer&apos;s having distinct structure.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">structured</rdfs:label>
     </owl:Class>
     
 
@@ -25267,6 +25632,17 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002416"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007376"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure that overlaps the outer epithelial layer and is adjacent to the space surrounding the organism.</obo:IAO_0000115>

@@ -156,15 +156,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1225529 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1225529">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9789"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Equus incertae sedis</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1293361 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1293361">
@@ -380,16 +371,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_157652">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40336"/>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mucuna prueriens</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stizolobium pruriens</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mucuna pruriens</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_157652"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mucuna prueriens</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#misspelling"/>
-    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_157652"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
@@ -725,6 +709,40 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2696291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2696291">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33634"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ochrophyta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2698737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2698737">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAR supergroup</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sar</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2698737"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAR supergroup</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2715227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2715227">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9789"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Equus intersubgeneric hybrids</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_271790 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_271790">
@@ -977,7 +995,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_319699 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_319699">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1225529"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2715227"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hybrid of male donkey and female horse</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mule</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Equus asinus x Equus caballus</oboInOwl:hasRelatedSynonym>
@@ -1207,7 +1225,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_33634 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33634">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2698737"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterokonts</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromophyta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heterokonta</oboInOwl:hasRelatedSynonym>
@@ -1594,7 +1612,6 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">goober</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ground-nut</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peanut</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arachis hypogea</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arachis hypogaea</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1614,12 +1631,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peanut</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3818"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arachis hypogea</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#misspelling"/>
     </owl:Axiom>
     
 
@@ -1745,7 +1756,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1462606"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soybean</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soybeans</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glycine max; cv. Wye</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glycine max</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1759,12 +1769,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soybeans</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3847"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glycine max; cv. Wye</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#misspelling"/>
     </owl:Axiom>
     
 
@@ -1926,7 +1930,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3904"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spring vetch</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tare</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vicia sativ</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vicia sativa</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1940,12 +1943,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tare</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3908"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vicia sativ</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#misspelling"/>
     </owl:Axiom>
     
 
@@ -2036,7 +2033,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_356"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BANA domain</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bradyrhizobium group</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nitrobacteriaceae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-2 proteobacteria</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bradyrhizobiaceae</rdfs:label>
     </owl:Class>
@@ -2051,12 +2047,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bradyrhizobium group</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_41294"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nitrobacteriaceae</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#misspelling"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_41294"/>
@@ -2164,7 +2154,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_4511">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4510"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">finger millet</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eleusine coracan</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eleusine coracana</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2172,12 +2161,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">finger millet</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4511"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eleusine coracan</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#misspelling"/>
     </owl:Axiom>
     
 
@@ -2193,7 +2176,6 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pennisetum glaucum</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pennisetum typhoides</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pennisetum typhoideum</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pennistum glaucum</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Setaria glauca</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cenchrus americanus</rdfs:label>
     </owl:Class>
@@ -2238,12 +2220,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pennisetum typhoideum</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4543"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pennistum glaucum</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#misspelling"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4543"/>
@@ -2307,7 +2283,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_569578 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_569578">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33634"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2696291"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">algae</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PX clade</rdfs:label>
     </owl:Class>
@@ -2389,7 +2365,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_69277">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_356"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesorhizobium/Phyllobacterium group</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phylobacteriaceae</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phyllobacteriaceae</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2397,12 +2372,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesorhizobium/Phyllobacterium group</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_69277"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phylobacteriaceae</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#misspelling"/>
     </owl:Axiom>
     
 
@@ -2642,21 +2611,21 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_78534">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_78532"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trigonella foenumgraecum</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fenugreek</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trigonella foenum-graceum</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trigonella foenum-graecum</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_78534"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fenugreek</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trigonella foenumgraecum</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_78534"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trigonella foenum-graceum</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#misspelling"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fenugreek</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
     </owl:Axiom>
     
 
@@ -2711,11 +2680,8 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domestic water buffalo</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">river buffalo</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water buffalo</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bubalis arnee bubalis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bubalis bubalis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bubalus arnee</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bubalus arnee bubalis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bubalus bubalus</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bubalus bubalis</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2739,18 +2705,6 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_89462"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bubalis arnee bubalis</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#misspelling"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_89462"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bubalis bubalis</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#misspelling"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_89462"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bubalus arnee</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
@@ -2759,12 +2713,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bubalus arnee bubalis</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_89462"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bubalus bubalus</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#misspelling"/>
     </owl:Axiom>
     
 
@@ -3298,7 +3246,6 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dairy cow</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domestic cattle</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domestic cow</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bos Tauurus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bos bovis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bos primigenius taurus</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bos taurus</rdfs:label>
@@ -3338,12 +3285,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domestic cow</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bos Tauurus</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#misspelling"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
