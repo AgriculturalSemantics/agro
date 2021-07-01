@@ -547,6 +547,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000586>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000587>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000588>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000589>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000590>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000591>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -4553,6 +4555,20 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000589> "water harvesting"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000589> <http://purl.obolibrary.org/obo/AGRO_00002071>)
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000590> (water tank)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000590> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000590> "A manufactured container within which water is stored."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000590> "water tank"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000590> <http://purl.obolibrary.org/obo/ENVO_00003074>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000591> (grass strip)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000591> <https://orcid.org/0000-0003-3985-4911>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000591> "A vegetated area which includes strips of grass within a field or farm created for erosion control, typically they are placed along contour lines."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000591> "grass strip"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000591> <http://purl.obolibrary.org/obo/ENVO_01001305>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.oisat.org/control_methods/cultural__practices/intercropping.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002000> "An inter-cropping experiement dunring which two or more crops are grown on the same field.  The planting of the second crop occurs after the first one has completed its development.")
@@ -5061,6 +5077,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002071> "a
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_00000114>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002071> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000590>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002073> (plot latitude coordinate measurement datum)
 
