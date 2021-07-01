@@ -140,12 +140,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/AGRO_00000026 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000026"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/AGRO_00000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000027"/>
@@ -1166,26 +1160,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/AGRO_00010012 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00010012">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000915"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000092"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The thickness of a mulch</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mulch thickness</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/AGRO_00010013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00010013">
@@ -1562,26 +1536,6 @@
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The time of a crop residue spreading process</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crop residue spreading date</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/AGRO_00010033 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00010033">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000165"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_01000015"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The time of a tillage</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tillage date</rdfs:label>
     </owl:Class>
     
 
@@ -3806,26 +3760,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/AGRO_00010149 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00010149">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000165"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000026"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The time of a no-till</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no-till process date</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/AGRO_00010150 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00010150">
@@ -3947,12 +3881,6 @@
     <!-- http://purl.obolibrary.org/obo/AGRO_01000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_01000000"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/AGRO_01000015 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_01000015"/>
     
 
 
