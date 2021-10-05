@@ -557,6 +557,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000596>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000597>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000598>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000599>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000601>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000602>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -1850,6 +1852,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000156> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000158> (nitrogen area density)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000158> "An area density quality which inheres in nitrogen by virtue of some influence exerted by the mass of nitrogen applied in a given surface area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000158> "amount of nitrogen applied"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000158> "nitrogen area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000158> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
@@ -1857,6 +1860,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000158> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000160> "An area density quality which inheres in phosphorus by virtue of some influence exerted by the mass of phosphorus applied in a given surface area."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000160> "phosphorus total amount"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000160> "quantity of phosphorus applied"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000160> "phosphorus area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000160> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
@@ -1871,6 +1875,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000162> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000164> (sulfur area density)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000164> "An area density quality which inheres in sulfur by virtue of some influence exerted by the mass of sulfur applied in a given surface area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000164> "amount of sulfur applied on a surface"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000164> "sulfur area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000164> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
@@ -1884,36 +1889,42 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000166> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000168> (nitrate area density)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000168> "An area density quality which inheres in nitrate by virtue of some influence exerted by the mass of nitrate applied in a given surface area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000168> "amont of nitrate applied"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000168> "nitrate area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000168> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000169> (ammonium area density)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000169> "An area density quality which inheres in ammonium by virtue of some influence exerted by the mass of ammonium applied in a given surface area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000169> "amount of ammonium applied"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000169> "ammonium area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000169> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000170> (calcium area density)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000170> "An area density quality which inheres in calcium by virtue of some influence exerted by the mass of calcium applied in a given surface area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000170> "amount of calcium applied"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000170> "calcium area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000170> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000174> (magnesium area density)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000174> "An area density quality which inheres in magnesium by virtue of some influence exerted by the mass of magnesium applied in a given surface area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000174> "amount of magnesium applied"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000174> "magnesium area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000174> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000175> (iron area density)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000175> "An area density quality which inheres in iron by virtue of some influence exerted by the mass of iron applied in a given surface area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000175> "amount of iron applied"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000175> "iron area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000175> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000176> (zinc area density)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000176> "An area density quality which inheres in zinc by virtue of some influence exerted by the mass of zinc applied in a given surface area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000176> "amount of zinc applied on a surface"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000176> "zinc area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000176> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
@@ -1944,6 +1955,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000180> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000188> (chlorine area density)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000188> "An area density quality which inheres in chlorine by virtue of some influence exerted by the mass of chlorine applied in a given surface area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000188> "amount of chlorine applied on a surface"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000188> "chlorine area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000188> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
@@ -2006,12 +2018,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000199> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000200> (fertilizer area density)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000200> "An area density quality which inheres in fertilizer by virtue of some influence exerted by the mass of fertilizer applied in a given surface area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000200> "amount of fertilizer applied"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000200> "fertilizer quantity applied"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000200> "fertilizer area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000200> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000201> (potassium area density)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000201> "An area density quality which inheres in potassium by virtue of some influence exerted by the mass of potassium applied in a given surface area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000201> "amount of potassium applied on a surface"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000201> "potassium area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000201> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
@@ -4031,6 +4046,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000513> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000514> <https://orcid.org/0000-0002-8213-0815>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000514> "An area density quality which inheres in animal manure by virtue of some influence exerted by the mass of animal manure applied in a given surface area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000514> "amount of animal manure applied"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000514> "animal manure area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000514> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
@@ -4629,6 +4645,20 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000599> "kg/plot"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000599> "kilogram per plot"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000599> <http://purl.obolibrary.org/obo/UO_0000054>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000601> (on farm experiment)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000601> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000601> "agricultural experiment performed on a farm"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000601> "on farm experiment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000601> <http://purl.obolibrary.org/obo/AGRO_00000370>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000602> (on station experiment)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000602> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000602> "agricultural experiment performed on a research station"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000602> "on station experiment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000602> <http://purl.obolibrary.org/obo/AGRO_00000370>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
