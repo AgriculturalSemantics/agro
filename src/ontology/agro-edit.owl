@@ -4504,9 +4504,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000583> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000584> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "http://www.fao.org/forestry/agroforestry/80338/en/") <http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000584> "A land-use systems and technologies where woody perennials (trees, shrubs, palms, bamboos, etc.) are deliberately used on the same land-management units as agricultural crops and/or animals, in some form of spatial arrangement or temporal sequence"@en)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000584> "agroforestry practice"@en)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000584> "agroforestry process"@en)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000584> "agroforestry technique"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000584> "agroforestry practice"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000584> "agroforestry process"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000584> "agroforestry technique"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000584> "agroforestry"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000584> <http://purl.obolibrary.org/obo/AGRO_00002071>)
 
