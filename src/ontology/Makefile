@@ -52,7 +52,7 @@ PATTERNS_OWL = $(patsubst %, patterns/%.owl,$(PATTERNS))
 all_patterns: $(PATTERNS_OWL)
 
 patterns/%.owl: patterns/%.tsv
-	$(DOSDPTOOLS) --outfile=$@ --obo-prefixes=true --template=patterns/$*.yaml --ontology=imports/pato_import.owl generate --infile=$<
+	$(DOSDPTOOLS) generate --outfile=$@ --obo-prefixes=true --template=patterns/$*.yaml --ontology=imports/pato_import.owl --infile=$<
 	robot annotate -O "http://purl.obolibrary.org/obo/agro/patterns/$*.owl" -i $@ -o $@
 .PRECIOUS: patterns/%.owl
 
