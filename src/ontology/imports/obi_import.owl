@@ -3037,6 +3037,32 @@ clustering algorithm.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0002989 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002989">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000018"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>A person or organization that provides material supplies to other people or organizations.</obo:IAO_0000115>
+        <rdfs:label>material supplier</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026">
@@ -4087,19 +4113,8 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0000462 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000462">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000018"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002989"/>
     </owl:NamedIndividual>
     
 
@@ -4107,13 +4122,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0000752 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000752">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4121,13 +4130,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0000753 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000753">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4135,13 +4138,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0000754 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000754">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4157,13 +4154,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0000756 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000756">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4171,13 +4162,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0000757 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000757">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4185,13 +4170,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0000758 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000758">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4199,13 +4178,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0000759 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000759">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4254,13 +4227,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0000765 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000765">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4295,13 +4262,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0000769 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000769">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4309,13 +4270,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0000770 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000770">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4366,13 +4321,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0000776 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000776">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4397,13 +4346,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0000779 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000779">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4445,13 +4388,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0000829 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000829">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4459,13 +4396,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0000901 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0000901">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000014"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000450"/>
     </owl:NamedIndividual>
     
 
@@ -4523,13 +4454,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0001213 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001213">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4537,13 +4462,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0001224 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001224">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4551,13 +4470,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0001287 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001287">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4565,13 +4478,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0001312 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001312">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4579,13 +4486,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0001320 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001320">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4593,13 +4494,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0001321 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001321">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4607,13 +4502,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0001338 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001338">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4621,13 +4510,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0001340 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001340">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4635,13 +4518,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0001347 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001347">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4649,13 +4526,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0001355 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001355">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4663,13 +4534,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0001372 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001372">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4677,13 +4542,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0001375 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001375">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4691,13 +4550,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0001424 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001424">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4705,13 +4558,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0001428 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001428">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4719,13 +4566,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0001431 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001431">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4733,13 +4574,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0001434 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001434">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4747,13 +4582,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0001443 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001443">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4761,13 +4590,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0001458 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001458">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4775,13 +4598,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0001855 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001855">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4789,13 +4606,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0001856 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001856">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -4803,13 +4614,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0001860 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0001860">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -5945,13 +5750,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0002755 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002755">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 
@@ -5959,13 +5758,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
     <!-- http://purl.obolibrary.org/obo/OBI_0002903 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002903">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
     </owl:NamedIndividual>
     
 

@@ -18,7 +18,7 @@ Ontology: <http://purl.obolibrary.org/obo/agro/agro-idranges.owl>
 Annotations: 
     idsfor: "AGRO",
     idprefix: "http://purl.obolibrary.org/obo/AGRO_",
-    iddigits: 7
+    iddigits: 8
 
 AnnotationProperty: idprefix:
 
@@ -34,19 +34,19 @@ AnnotationProperty: allocatedto:
 Datatype: idrange:1
 
     Annotations: 
-        allocatedto: "ONTOLOGY-CREATOR"
+        allocatedto: "Céline Aubert"
     
     EquivalentTo: 
-        xsd:integer[>= 0 , <= 999999]
+        xsd:integer[>= 0 , <= 1999]
 
     
 Datatype: idrange:2
 
     Annotations: 
-        allocatedto: "ADDITIONAL EDITOR"
+        allocatedto: "Marie-Angélique Laporte"
     
     EquivalentTo: 
-        xsd:integer[>= 1000000 , <= 1999999]
+        xsd:integer[>= 2000 , <= 3999]
     
     
 Datatype: xsd:integer
@@ -56,10 +56,10 @@ Datatype: xsd:integer
 Datatype: idrange:3
 
     Annotations: 
-        allocatedto: "Pattern"
+        allocatedto: "Krishna Udaiwal"
     
     EquivalentTo: 
-        xsd:integer[> 2000000 , <= 2999999]
+        xsd:integer[>= 10000 , < 15000]
     
     
 Datatype: rdf:PlainLiteral
