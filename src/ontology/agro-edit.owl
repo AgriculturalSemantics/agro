@@ -2104,12 +2104,12 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000212> "crop residue burning process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000212> <http://purl.obolibrary.org/obo/AGRO_00000552>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000213> (crop residue spreading process)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000213> (obsolete crop residue spreading process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000213> "A crop residue management process in which crop residues are spread across the field."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000213> "https://orcid.org/0000-0001-6284-4821"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000213> "crop residue spreading process"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000213> <http://purl.obolibrary.org/obo/AGRO_00000606>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000213> "obsolete crop residue spreading process"@en)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000213> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000214> (traditional land levelling process)
 
