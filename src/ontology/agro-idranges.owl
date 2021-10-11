@@ -60,8 +60,17 @@ Datatype: idrange:3
     
     EquivalentTo: 
         xsd:integer[>= 10000 , < 15000]
-    
-    
+
+
+
+Datatype: idrange:4
+
+    Annotations:
+        allocatedto: "AGRO-P, E-A-L"
+
+    EquivalentTo:
+        xsd:integer[>= 00030000 , <= 00039999]
+
 Datatype: rdf:PlainLiteral
 
     
