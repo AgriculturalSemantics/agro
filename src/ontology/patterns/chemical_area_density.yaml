@@ -8,7 +8,7 @@ relations:
   inheres in: RO:0000052
 
 vars:
-  chemical: "'chemical entity'"
+  chemical: "chemical entity"
 
 name:
   text: "%s area density"
@@ -24,11 +24,12 @@ annotations:
     vars:
       - chemical
 
+
 def:
   text: "An area density quality which inheres in %s by virtue of some influence exerted by the mass of %s applied in a given surface area."
   vars:
     - chemical
     - chemical
 
-SubClass of: 
+subClassOf: 
   text: "'area density'"
