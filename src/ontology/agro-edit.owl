@@ -2910,9 +2910,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000329> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000330> (strip plot design)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://books.google.fr/books?id=PVN7_XRhpdUC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000330> "An experimental design in which the desired precision for measuring the interaction effect between the two factors is higher than that for measuring the main effect of either one of  the two factors. This is accomplished with the use of three plot sizes : 
-1. Vertical strip plot for the first factor – vertical factor 
-2. Horizontal strip plot for the second factor – horizontal factor 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://books.google.fr/books?id=PVN7_XRhpdUC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000330> "An experimental design in which the desired precision for measuring the interaction effect between the two factors is higher than that for measuring the main effect of either one of  the two factors. This is accomplished with the use of three plot sizes :
+1. Vertical strip plot for the first factor – vertical factor
+2. Horizontal strip plot for the second factor – horizontal factor
 3. Interaction plot for the interaction between 2 factors"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000330> "split block design"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000330> "strip plot design"@en)
@@ -3773,11 +3773,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000465> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000466> (agricultural product storage process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000466> "A planned process in which the harvest is stored."@en)
-<<<<<<< Updated upstream
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000466> "agricultural product storage process"@en)
-=======
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000466> "storage process"@en)
->>>>>>> Stashed changes
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000466> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000467> (cutting process)
@@ -4076,11 +4073,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000513> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000514> "An area density quality which inheres in animal manure by virtue of some influence exerted by the mass of animal manure applied in a given surface area."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000514> <https://orcid.org/0000-0002-8213-0815>)
-<<<<<<< Updated upstream
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000514> "An area density quality which inheres in animal manure by virtue of some influence exerted by the mass of animal manure applied in a given surface area."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000514> "amount of animal manure applied"@en)
-=======
->>>>>>> Stashed changes
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000514> "animal manure area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000514> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
@@ -4345,10 +4339,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000548> <http://purl.obolibrar
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Rainfed_agriculture") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000549> "A proccess in which water inputs rely only on rainfall."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000549> <http://orcid.org/0000-0001-6284-4821>)
-<<<<<<< Updated upstream
-=======
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000549> "no irrigation"@en)
->>>>>>> Stashed changes
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000549> "zero irrigation"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000549> "rainfed"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000549> "no irrigation process"@en)
