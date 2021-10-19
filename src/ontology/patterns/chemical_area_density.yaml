@@ -10,13 +10,25 @@ classes:
 relations:
   inheres in: RO:0000052
 
-annotationProperties:
-  exact_synonym: oio:hasExactSynonym
-
 # Var types
 vars:
   chemical: "'chemical entity'"
   subclass: "'subclass'"
+
+subClassOf: 
+
+  text: '%s'
+  vars: 
+  - 'subclass'
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+
+# OBO fields 
+name:
+  text: "%s area density"
+  vars:
+    - chemical
 
 # Specifying axioms:
 annotations:
@@ -25,22 +37,11 @@ annotations:
     vars:
       - chemical
 
-# OBO fields 
-name:
-  text: "%s area density"
-  vars:
-    - chemical
-
 def:
   text: "An area density quality which inheres in %s by virtue of some influence exerted by the mass of %s applied in a given surface area."
   vars:
     - chemical
     - chemical
-
-subClassOf: 
-  text: '%s'
-  vars: 
-  - 'subclass'
 
 equivalentTo:
   text: "'inheres in' some %s"
