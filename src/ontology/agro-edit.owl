@@ -4246,7 +4246,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000537> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000539> (boom sprayer)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.google.com/patents/US8420070") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000539> "An implement that is used to spray liquid. It usually has an air pump which compresses air into the tanks and pressurizes the liquid to spray. "@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.google.com/patents/US8420070") Annotation(rdfs:comment "https://en.wikipedia.org/w/index.php?title=Sprayer&oldid=1031049884"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000539> "An implement which is a pipe for distributing spray using attached nozzles. It has a list of system components that work together to deliver the spray fluid."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000539> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000539> "boom sprayer"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000539> <http://purl.obolibrary.org/obo/AGRO_00000537>)
