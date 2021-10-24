@@ -1,44 +1,42 @@
 name: Add synonym
 description: New synonym suggestion for an existing AgrO term.
 title: '[Synonym] '
-labels: term-annot
+labels: [term-annot]
 assignees: KrishnaTO
-# Template originally forked from [@mondo](https://github.com/monarch-initiative/mondo/tree/master/.github/ISSUE_TEMPLATE)
-
 body:
   - type: input
     id: term
     attributes:
-      label: AgrO term 
+      label: AgrO term
       description: ID and Label
-      placeholder: `[liming process](http://purl.obolibrary.org/obo/AGRO_00000112)`
-      validations:
-        required: true
+      placeholder: "[liming process](http://purl.obolibrary.org/obo/AGRO_00000112)"
+    validations:
+      required: true
   - type: input
     id: add
     attributes:
       label: Synonym to be added
       description: ie, broad/exact/narrow/related
-      validations:
-        required: true
+    validations:
+      required: true
   - type: input
     id: subtype
     attributes:
       label: Synonym subtype
       description: ie, broad/exact/narrow/related
-      validations:
-        required: false
+    validations:
+      required: false
   - type: input
     id: ref
     attributes:
       label: Database cross reference for the synonym
       description: Such as PURL, source (website) or a cross-reference to another ontology, like ENVO or PATO.
-      validations:
-        required: false
+    validations:
+      required: false
   - type: input
     id: attribution
     attributes:
       label: Your nano-attribution (ORCID)
       description: If you don't have an ORCID, you can sign up for one [here](https://orcid.org/)
-      validations:
-        required: false
+    validations:
+      required: false
