@@ -1,8 +1,9 @@
-name: Add synonym
-description: New synonym suggestion for an existing AgrO term.
-title: '[Synonym] '
-labels: [term-annot]
-assignees: KrishnaTO
+name: Revise subclass relationship
+description: Revise the subclass structure for AgrO terms; relating to `Equivalent To` or `SubClass Of` axioms for a term
+title: "[Axiom] "
+labels: [term-logic]
+assignees: krishnaTO
+# Template originally forked from [@mondo](https://github.com/monarch-initiative/mondo/tree/master/.github/ISSUE_TEMPLATE)
 body:
   - type: input
     id: term
@@ -13,28 +14,20 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: add
-    attributes:
-      label: Synonym to be added
-      description: ie, broad/exact/narrow/related
-    validations:
-      required: true
   - type: input
-    id: subtype
+    id: revision
     attributes:
-      label: Synonym subtype
-      description: ie, broad/exact/narrow/related
+      label: Suggested revision
     validations:
       required: false
 
   - type: textarea
-    id: ref
+    id: reason
     attributes:
-      label: Database cross reference for the synonym
-      description: Such as PURL, source (website) or a cross-reference to another ontology, like ENVO or PATO.
+      label: Suggestion reasons
     validations:
       required: false
+
   - type: input
     id: attribution
     attributes:

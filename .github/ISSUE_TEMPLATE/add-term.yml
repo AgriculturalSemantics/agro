@@ -1,0 +1,54 @@
+name: Add new term
+description: New term suggestion for AgrO
+title: "[NTR] "
+labels: [term-add]
+assignees: KrishnaTO
+# Template originally forked from [@mondo](https://github.com/monarch-initiative/mondo/tree/master/.github/ISSUE_TEMPLATE)
+body:
+  - type: input
+    id: term
+    attributes:
+      label: AgrO term
+      description: ID and Label
+      placeholder: "[liming process](http://purl.obolibrary.org/obo/AGRO_00000112)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: Synonyms
+    attributes:
+      label: Synonyms
+    validations:
+      required: false
+
+  - type: textarea
+    id: Definition
+    attributes:
+      label: Definition
+      description: please give PubMed ID, if applicable [PMID:#######]
+    validations:
+      required: true
+
+  - type: input
+    id: Parent
+    attributes:
+      label: Parent term
+      description: use [OLS](https://www.ebi.ac.uk/ols/ontologies/AgrO), or your favorite ontology browser
+    validations:
+      required: true
+
+  - type: textarea
+    id: Children
+    attributes:
+      label: Children terms
+      description: Should any existing terms that should be moved underneath this new proposed term?
+    validations:
+      required: false
+
+  - type: input
+    id: attribution
+    attributes:
+      label: Your nano-attribution (ORCID)
+      description: If you don't have an ORCID, you can sign up for one [here](https://orcid.org/)
+    validations:
+      required: false
