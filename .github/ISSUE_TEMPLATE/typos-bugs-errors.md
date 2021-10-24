@@ -8,11 +8,9 @@ assignees: KrishnaTO
 
 ---
 
-**AgrO term (ID Label)**
+**AgrO term (ID and Label):**
 
+**Bug/Typo/Error description**: 
 
-**Bug/Typo/Error description**
-
-
-**Your nano-attribution (ORCID)**
-If you don't have an ORCID, you can sign up for one [here](https://orcid.org/)
+**Your nano-attribution (ORCID)**: 
+> If you don't have an ORCID, you can sign up for one [here](https://orcid.org/)
