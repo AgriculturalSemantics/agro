@@ -1,5 +1,5 @@
 ---
-name: Add synonym
+name: Add synonym (old)
 about: New synonym suggestion for an existing AgrO term.
 title: '[Synonym] '
 labels: term-annot
