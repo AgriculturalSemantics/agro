@@ -646,7 +646,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000019>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_01000021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000077>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/uo#is_unit_of>))
 Declaration(DataProperty(<http://purl.obolibrary.org/obo/AGRO_00000417>))
@@ -671,10 +670,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_01000022> "p
 ############################
 #   Object Properties
 ############################
-
-# Object Property: <http://purl.obolibrary.org/obo/AGRO_00000148> (has method)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000148> "has method"@en)
 
 # Object Property: <http://purl.obolibrary.org/obo/AGRO_00000253> (measurement method of)
 
@@ -1986,7 +1981,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000192> "mulch thickness"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000192> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000915> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000092>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000192> <http://purl.obolibrary.org/obo/PATO_0000915>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000192> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000148> <http://purl.obolibrary.org/obo/AGRO_00000247>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000194> (mulch color)
 
@@ -2354,8 +2348,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000245> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000247> "With a ruler measure the distance between the soil surface and the top of the mulch layer."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000247> "mulch thickness measurement protocol"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000247> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000192>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000247> <http://purl.obolibrary.org/obo/OBI_0000272>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000247> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000192>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000248> (interrow width measurement protocol)
 
@@ -2552,8 +2546,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000277> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000278> "Record the color of the mulch applied."@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000278> "Need to add a standard protocol to measure the color of the mulch, if it exists."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000278> "mulch color recording protocol"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000278> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000194>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000278> <http://purl.obolibrary.org/obo/OBI_0000272>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000278> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000194>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000279> (transplant age counting protocol)
 
