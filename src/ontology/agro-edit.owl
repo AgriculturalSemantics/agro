@@ -649,8 +649,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000077>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/uo#is_unit_of>))
-Declaration(DataProperty(<http://purl.obolibrary.org/obo/AGRO_00000417>))
-Declaration(DataProperty(<http://purl.obolibrary.org/obo/AGRO_00000418>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AGRO_01000022>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000232>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/contributor>))
@@ -679,19 +677,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000148> "h
 # Object Property: <http://purl.obolibrary.org/obo/AGRO_00000253> (measurement method of)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000253> "measurement method of"@en)
-
-
-############################
-#   Data Properties
-############################
-
-# Data Property: <http://purl.obolibrary.org/obo/AGRO_00000417> (has start date)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000417> "has start date"@en)
-
-# Data Property: <http://purl.obolibrary.org/obo/AGRO_00000418> (has end date)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000418> "has end date"@en)
 
 
 ############################
@@ -5577,11 +5562,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9838> ObjectSomeValuesFrom(
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_9913> (Bos taurus)
 
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9913> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>))
-
-# Class: <http://purl.obolibrary.org/obo/OBI_0000011> (planned process)
-
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000011> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000417> xsd:dateTime))
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000011> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000418> xsd:dateTime))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0500007> (randomized complete block design)
 
