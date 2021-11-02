@@ -532,7 +532,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000565>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000566>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000567>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000570>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000571>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000572>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000573>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000574>))
@@ -565,6 +564,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000604>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000606>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000607>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000608>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000609>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -2699,6 +2699,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000300> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/wairdocs/ilri/x5546e/x5546e0a.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000301> "A site within which an agricultural experimental process is conducted"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/AGRO_00000301> "This should be harmonized with statistical plot designs, perhaps with STATO")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000301> "gross plot"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000301> "parcel")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000301> "plot"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000301> "agricultural experimental plot"@en)
@@ -2708,6 +2709,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000301> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000302> (plot area)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000302> "An area quality inhering in a plot."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000302> "agricultural experimental plot area"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000302> "gross plot area"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000302> "parcel area"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000302> "plot area"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000302> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001323> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000301>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000302> <http://purl.obolibrary.org/obo/PATO_0001323>)
@@ -4473,18 +4477,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000567> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000570> (net plot)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Huelsen, W. A. (1943). Stand irregularity and its relation to the yields of sweet corn. Journal of Agricultural Research, 67(5), 211–224. https://naldc.nal.usda.gov/download/IND43969864/PDF") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://unaab.edu.ng/wp-content/uploads/2009/12/481_PCP%20501.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000570> "Agricultural experimental plot unit, where the quantity measure inheres in area size, to which a result is assigned as part of the field trial."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Huelsen, W. A. (1943). Stand irregularity and its relation to the yields of sweet corn. Journal of Agricultural Research, 67(5), 211–224. https://naldc.nal.usda.gov/download/IND43969864/PDF") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://unaab.edu.ng/wp-content/uploads/2009/12/481_PCP%20501.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000570> "An agricultural experimental plot from which unwanted areas have been removed, most often the outside rows."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000570> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000570> "net plot"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000570> <http://purl.obolibrary.org/obo/AGRO_00000301>)
-
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000571> (gross plot)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Huelsen, W. A. (1943). Stand irregularity and its relation to the yields of sweet corn. Journal of Agricultural Research, 67(5), 211–224. https://naldc.nal.usda.gov/download/IND43969864/PDF") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000571> "Agricultural experimental plot area, where the quantity measure inheres in area size, covering the field trial."@en)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000571> <http://orcid.org/0000-0001-6284-4821>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000571> "gross plot"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000571> <http://purl.obolibrary.org/obo/AGRO_00000301>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000571> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/AGRO_00000570>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000572> (GPS coordinates)
 
@@ -4739,6 +4735,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000608> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000608> "crop residue harvest process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000608> <http://purl.obolibrary.org/obo/AGRO_00000552>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000609> (net plot area)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://naldc.nal.usda.gov/download/IND43969864/PDF"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000609> "An plot area quality inhering in a net plot. It corresponds to the plot area minus the unwanted area removed, most often the outside rows."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000609> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000609> "net plot area"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000609> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00000302> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000570>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000609> <http://purl.obolibrary.org/obo/AGRO_00000302>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
