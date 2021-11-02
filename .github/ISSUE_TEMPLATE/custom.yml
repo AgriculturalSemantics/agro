@@ -2,3 +2,10 @@ name: Custom issue template
 description: When the issue isn't defined by other templates. Please provide as many references to resources mentioned as timely available.
 assignees: krishnaTO
 # Template originally forked from [@mondo](https://github.com/monarch-initiative/mondo/tree/master/.github/ISSUE_TEMPLATE)
+body:
+  - type: textarea
+    id: desc
+    attributes:
+      label: Please describe the issue in as much detail as possible
+    validations:
+      required: true
