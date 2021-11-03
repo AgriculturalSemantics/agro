@@ -9,11 +9,13 @@ classes:
 
 relations:
   inheres in: RO:0000052
+  has_part: BFO:0000051
 
 # Var types
 vars:
   chemical: "'chemical entity'"
   subclass: "'subclass'"
+  areadensity: "'area density'"
 
 subClassOf: 
 
@@ -44,8 +46,9 @@ def:
     - chemical
 
 equivalentTo:
-  text: "'inheres in' some %s"
+  text: "%s and ('inheres in' some ('has_part' some %s)"
   vars:
+    - areadensity
     - chemical
 
 comment:
