@@ -15,7 +15,6 @@ relations:
 vars:
   chemical: "'chemical entity'"
   subclass: "'subclass'"
-  areadensity: "'area density'"
 
 subClassOf: 
 
@@ -26,7 +25,7 @@ subClassOf:
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
 
-# OBO fields 
+  # OBO fields 
 name:
   text: "%s area density"
   vars:
@@ -46,9 +45,8 @@ def:
     - chemical
 
 equivalentTo:
-  text: "%s and ('inheres in' some ('has_part' some %s)"
+  text: "'area density' and ('inheres in' some %s)"
   vars:
-    - areadensity
     - chemical
 
 comment:
