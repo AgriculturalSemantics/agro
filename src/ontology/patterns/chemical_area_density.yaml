@@ -14,13 +14,9 @@ relations:
 # Var types
 vars:
   chemical: "'chemical entity'"
-  subclass: "'subclass'"
 
 subClassOf: 
-
-  text: '%s'
-  vars: 
-  - 'subclass'
+  text: "'area density'"
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
@@ -45,7 +41,7 @@ def:
     - chemical
 
 equivalentTo:
-  text: "'area density' and ('inheres in' some %s)"
+  text: "'area density' and 'inheres in' some %s"
   vars:
     - chemical
 
