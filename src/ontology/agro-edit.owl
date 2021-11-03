@@ -2003,14 +2003,18 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000166> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000168> "An area density quality which inheres in nitrate by virtue of some influence exerted by the mass of nitrate applied in a given surface area."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000168> "amont of nitrate applied"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000168> "Generated equivalence by pattern 'agro/patterns/chemical_area_density', using dosdp-tools and ROBOT tool"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000168> "nitrate area density"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000168> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001351> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/CHEBI_25555>))))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000168> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000169> (ammonium area density)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000169> "An area density quality which inheres in ammonium by virtue of some influence exerted by the mass of ammonium applied in a given surface area."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000169> "amount of ammonium applied"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000169> "Generated equivalence by pattern 'agro/patterns/chemical_area_density', using dosdp-tools and ROBOT tool"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000169> "ammonium area density"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000169> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001351> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/CHEBI_25555>))))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000169> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000170> (calcium area density)
