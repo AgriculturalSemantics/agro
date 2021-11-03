@@ -785,15 +785,17 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000009> "i
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000009> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000009> <http://purl.obolibrary.org/obo/ENVO_00000063>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000010> (irrigation water quantity)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000010> (volume of irrigation water)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000010> "Quantity of water applied per irrigation operation."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000010> "Volume of water applied during an irrigation process."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000010> "amount of irrigation water")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000010> "irrigation depth"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000010> "This definition is unclear. It is not clear what is being measured and what this data is about. see: https://github.com/AgriculturalSemantics/agro/issues/5"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000010> "irrigation water quantity"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000010> <http://purl.obolibrary.org/obo/PATO_0000122>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000010> <http://purl.obolibrary.org/obo/PATO_0000918>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/CHEBI_15377>))
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000010> "quantity of irrigation water"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000010> "volume of irrigation water"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000010> <http://purl.obolibrary.org/obo/AGRO_00000006>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00000301> <http://purl.obolibrary.org/obo/ENVO_00000114>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> ObjectUnionOf(<http://purl.obolibrary.org/obo/UO_0000016> <http://purl.obolibrary.org/obo/UO_1000096>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PATO_0000918>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000015> (conventional tillage process)
 
