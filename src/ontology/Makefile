@@ -45,7 +45,7 @@ imports/%_import.owl: mirror/%.owl imports/%_terms.txt
 #	$(OWLTOOLS) $(USECAT) $< -o -f obo $@
 
 #patterns
-PATTERNS = eq, chemical_area_density
+PATTERNS = eq chemical_area_density
 PATTERNS_OWL = $(patsubst %, patterns/%.owl,$(PATTERNS))
 
 # Make this target to regenerate ALL patterns
