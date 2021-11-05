@@ -785,15 +785,16 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000009> "i
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000009> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000008>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000009> <http://purl.obolibrary.org/obo/ENVO_00000063>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000010> (irrigation water quantity)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000010> (volume of irrigation water)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000010> "Quantity of water applied per irrigation operation."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000010> "Volume of water applied during an irrigation process."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000010> "amount of irrigation water")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000010> "irrigation depth"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000010> "This definition is unclear. It is not clear what is being measured and what this data is about. see: https://github.com/AgriculturalSemantics/agro/issues/5"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000010> "irrigation water quantity"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000010> <http://purl.obolibrary.org/obo/PATO_0000122>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000010> "quantity of irrigation water"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000010> "volume of irrigation water"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000010> <http://purl.obolibrary.org/obo/PATO_0000918>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/CHEBI_15377>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> ObjectUnionOf(<http://purl.obolibrary.org/obo/UO_0000016> <http://purl.obolibrary.org/obo/UO_0000096>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000080> <http://purl.obolibrary.org/obo/AGRO_00000006>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000015> (conventional tillage process)
 
@@ -4366,12 +4367,16 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000552> "crop residue removal process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000552> <http://purl.obolibrary.org/obo/AGRO_00000005>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000553> (millimeter per plot)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000553> (obsolete_millimeter per plot)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/AGRO_00000553> "Use more defined class with better reasoning"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000231> <http://purl.obolibrary.org/obo/AGRO_00000553> <http://purl.obolibrary.org/obo/IAO_0000103>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AGRO_00000553> <http://purl.obolibrary.org/obo/AGRO_00000010>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000553> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000553> "mm/plot"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000553> "millimeter per plot"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000553> <http://purl.obolibrary.org/obo/UO_0000054>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000553> "obsolete_millimeter per plot"@en)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000553> "true"^^xsd:boolean)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000553> <http://www.geneontology.org/formats/oboInOwl#ObsoleteClass>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000554> (plants per foot square)
 
@@ -4381,12 +4386,16 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000554> "plants per foot square"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000554> <http://purl.obolibrary.org/obo/UO_0000054>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000555> (inch per plot)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000555> (obsolete_inch per plot)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/AGRO_00000555> "Use more defined class with better reasoning"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000231> <http://purl.obolibrary.org/obo/AGRO_00000555> <http://purl.obolibrary.org/obo/IAO_0000103>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AGRO_00000555> <http://purl.obolibrary.org/obo/AGRO_00000010>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000555> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000555> "in/plot"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000555> "inch per plot"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000555> <http://purl.obolibrary.org/obo/UO_0000054>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000555> "obsolete_inch per plot"@en)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000555> "true"^^xsd:boolean)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000555> <http://www.geneontology.org/formats/oboInOwl#ObsoleteClass>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000556> (plants per plot)
 
