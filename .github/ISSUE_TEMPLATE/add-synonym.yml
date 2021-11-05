@@ -20,7 +20,6 @@ body:
       description: ie, broad/exact/narrow/related
     validations:
       required: true
-
   - type: input
     id: subtype
     attributes:
@@ -36,7 +35,6 @@ body:
       description: Such as PURL, source (website) or a cross-reference to another ontology, like ENVO or PATO.
     validations:
       required: false
-
   - type: input
     id: attribution
     attributes:

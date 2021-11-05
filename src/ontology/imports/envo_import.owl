@@ -41,12 +41,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
@@ -9195,7 +9189,6 @@
     <!-- http://purl.obolibrary.org/obo/ENVO_00002041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002041">
-        <obo:IAO_0100001 rdf:resource="ENVO:01001004"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete ground water</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -26497,16 +26490,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000248"/>
             </owl:Restriction>
         </rdf:type>
-        <obo:IAO_0000115>&quot;Suni, or Jalca, is one of the eight Natural Regions of Peru. It is located in the Andes at an altitude between 3,500 and 4,000 metres above sea level. Suni has a dry and cold weather and there are many glacial valleys. The flora includes gramineous plants and shrubs such as the taya-taya (Caesalpinia spinosa), the quishuar (Buddleja coriacea), and the cantuta (Cantua buxifolia) which was considered sacred by the Incas. Even though it is hard for plants to grow because of the weather, people are able to cultivate such crops as quinoa, qañiwa, broad beans and ulluku (Ullucus tuberosus). The main fauna is the guinea pig and, among numerous other highland birds, the Chiguanco thrush.&quot;</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>Jalca</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">Suni</rdfs:label>
     </owl:NamedIndividual>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://www.wikidata.org/wiki/Q2306597"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>&quot;Suni, or Jalca, is one of the eight Natural Regions of Peru. It is located in the Andes at an altitude between 3,500 and 4,000 metres above sea level. Suni has a dry and cold weather and there are many glacial valleys. The flora includes gramineous plants and shrubs such as the taya-taya (Caesalpinia spinosa), the quishuar (Buddleja coriacea), and the cantuta (Cantua buxifolia) which was considered sacred by the Incas. Even though it is hard for plants to grow because of the weather, people are able to cultivate such crops as quinoa, qañiwa, broad beans and ulluku (Ullucus tuberosus). The main fauna is the guinea pig and, among numerous other highland birds, the Chiguanco thrush.&quot;</owl:annotatedTarget>
-        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Suni_(geography)</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
