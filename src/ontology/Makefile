@@ -8,7 +8,7 @@ OWLTOOLS= owltools
 DOSDPTOOLS = dosdp-tools
 
 
-all: all_imports all_patterns $(ONT).owl 
+all: all_imports $(ONT).owl 
 # $(ONT).obo # removed obo target for now
 test: touch $(ONT).owl
 prepare_release: all
