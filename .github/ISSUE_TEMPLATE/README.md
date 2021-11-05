@@ -45,6 +45,7 @@ Others:
 
 ---
 
+
 ## Issue forms upgrade
 
 Used github issue forms template for new issues.
@@ -52,3 +53,16 @@ References:
 
 - [Github Community - Issue Template](https://gh-community.github.io/issue-template-feedback/structured/)
 - [Github Docs](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#creating-issue-templates)
+
+## Fields
+**AgrO term**: 
+> ID and Label (ie. `[liming process](http://purl.obolibrary.org/obo/AGRO_00000112)`)
+
+**Suggested new label:**: 
+
+**_Optional_**: 
+> Any additional information (like supporting evidence, PubMed ID, etc.)
+
+**Your nano-attribution (ORCID)**: 
+> If you don't have an ORCID, you can sign up for one [here](https://orcid.org/)
+
