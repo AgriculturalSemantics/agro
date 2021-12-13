@@ -993,7 +993,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000026> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000027> (thinning)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://aims.fao.org/aos/agrovoc/c_6274") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Pruning#Types_of_pruning") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000027> "A planned process in which selected parts of the plant are removed. The practice entails targeted removal of diseased, damaged, dead, non-productive, structurally unsound, or otherwise unwanted tissue from plants. This is done in order to shape the plant or tree, improve plant or tree health, reduce the risk from falling branches, prepare nursery specimens for transplanting, and increase the yield or quality of harvested products."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000027> "Agricultural process during which removal of some plants, or parts of plants to make room for the growth of others but does not involve the cutting of the whole tree."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000027> "https://orcid.org/0000-0001-6284-4821"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000027> "pruning"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000027> "thinning process"@en)
@@ -3902,8 +3901,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000465> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000466> (agricultural product storage process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000466> "A planned process in which the harvest is stored."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000466> "storage process"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000466> "agricultural product storage process"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000466> "storage process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000466> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000467> (cutting process)
@@ -5443,8 +5442,8 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010155> <http://orcid.org/0000-0002-2627-0696>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010155> "2021-10-20T14:45:35Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010155> "inorganic fertilizer role"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00010155> <http://purl.obolibrary.org/obo/BFO_0000023>)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00010155> <http://purl.obolibrary.org/obo/CHEBI_33287>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010155> <http://purl.obolibrary.org/obo/BFO_0000023>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
