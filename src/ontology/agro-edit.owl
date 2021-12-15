@@ -4806,24 +4806,28 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000593> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000594> (band application on surface)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000594> "Band application on the surface of an area."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000594> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000594> "band application on surface"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000594> <http://purl.obolibrary.org/obo/AGRO_00000038>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000595> (band application beneath surface)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000595> "Band application below the surface of an area."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000595> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000595> "band application beneath surface"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000595> <http://purl.obolibrary.org/obo/AGRO_00000038>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000596> (broadcast incorporated)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://ramiran.uvlf.sk/doc11/RAMIRAN%20Glossary_2011.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000596> "Broadcast application where a material entity is mixed into the soil."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000596> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000596> "broadcast incorporated"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000596> <http://purl.obolibrary.org/obo/AGRO_00000040>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000597> (broadcast on surface)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://ramiran.uvlf.sk/doc11/RAMIRAN%20Glossary_2011.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000597> "Broadcast application on the surface of an area."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000597> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000597> "broadcast on surface"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000597> <http://purl.obolibrary.org/obo/AGRO_00000040>)
@@ -5445,8 +5449,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010155> <http://orcid.org/0000-0002-2627-0696>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010155> "2021-10-20T14:45:35Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010155> "inorganic fertilizer role"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00010155> <http://purl.obolibrary.org/obo/BFO_0000023>)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00010155> <http://purl.obolibrary.org/obo/CHEBI_33287>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010155> <http://purl.obolibrary.org/obo/CHEBI_33287>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
