@@ -761,9 +761,11 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#inS
 #   Annotation Properties
 ############################
 
-# Annotation Property: <http://purl.obolibrary.org/obo/AGRO_01000022> (preferred fieldbook label)
+# Annotation Property: <http://purl.obolibrary.org/obo/AGRO_01000022> (obsolete preferred fieldbook label)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_01000022> "preferred fieldbook label"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_01000022> "Not in use"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_01000022> "obsolete preferred fieldbook label"@en)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_01000022> "true"^^xsd:boolean)
 
 
 ############################
