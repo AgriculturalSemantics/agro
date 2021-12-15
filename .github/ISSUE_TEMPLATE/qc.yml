@@ -1,0 +1,18 @@
+name: Quality Control
+description: Quality Control issues, addressing automated reports (ie. ROBOT report) or workflows modifications/suggestions
+labels: [QC]
+assignees: KrishnaTO
+# Template originally forked from [@mondo](https://github.com/monarch-initiative/mondo/tree/master/.github/ISSUE_TEMPLATE) 
+body:
+  - type: input
+    id: report
+    attributes:
+      label: Report ID
+    validations:
+      required: false
+  - type: textarea
+    id: desc
+    attributes:
+      label: Please describe the issue in as much detail as possible
+    validations:
+      required: true

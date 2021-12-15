@@ -1,0 +1,520 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/agro/patterns/chemical_area_density_eq.owl#"
+     xml:base="http://purl.obolibrary.org/obo/agro/patterns/chemical_area_density_eq.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/agro/patterns/chemical_area_density_eq.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000158">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25555"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001351"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generated equivalence by pattern &apos;agro/patterns/chemical_area_density&apos;, using dosdp-tools and ROBOT tool</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000160">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28659"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001351"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generated equivalence by pattern &apos;agro/patterns/chemical_area_density&apos;, using dosdp-tools and ROBOT tool</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000164">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26833"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001351"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generated equivalence by pattern &apos;agro/patterns/chemical_area_density&apos;, using dosdp-tools and ROBOT tool</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000168">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17632"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001351"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generated equivalence by pattern &apos;agro/patterns/chemical_area_density&apos;, using dosdp-tools and ROBOT tool</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000169">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28938"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001351"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generated equivalence by pattern &apos;agro/patterns/chemical_area_density&apos;, using dosdp-tools and ROBOT tool</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000170">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22984"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001351"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generated equivalence by pattern &apos;agro/patterns/chemical_area_density&apos;, using dosdp-tools and ROBOT tool</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000174">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25107"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001351"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generated equivalence by pattern &apos;agro/patterns/chemical_area_density&apos;, using dosdp-tools and ROBOT tool</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000175">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18248"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001351"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generated equivalence by pattern &apos;agro/patterns/chemical_area_density&apos;, using dosdp-tools and ROBOT tool</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000176">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27363"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001351"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generated equivalence by pattern &apos;agro/patterns/chemical_area_density&apos;, using dosdp-tools and ROBOT tool</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000177">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28694"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001351"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generated equivalence by pattern &apos;agro/patterns/chemical_area_density&apos;, using dosdp-tools and ROBOT tool</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000178">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27560"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001351"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generated equivalence by pattern &apos;agro/patterns/chemical_area_density&apos;, using dosdp-tools and ROBOT tool</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000179">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28685"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001351"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generated equivalence by pattern &apos;agro/patterns/chemical_area_density&apos;, using dosdp-tools and ROBOT tool</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000180">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18291"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001351"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generated equivalence by pattern &apos;agro/patterns/chemical_area_density&apos;, using dosdp-tools and ROBOT tool</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000188">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23116"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001351"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generated equivalence by pattern &apos;agro/patterns/chemical_area_density&apos;, using dosdp-tools and ROBOT tool</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000201">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26216"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001351"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generated equivalence by pattern &apos;agro/patterns/chemical_area_density&apos;, using dosdp-tools and ROBOT tool</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17632"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18248"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18291"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22984 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22984"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25107"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25555 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25555"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26216"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26833 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26833"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27363"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27560"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28659"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28685 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28685"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28694 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28694"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28938 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28938"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

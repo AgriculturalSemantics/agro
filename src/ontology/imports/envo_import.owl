@@ -41,6 +41,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
@@ -9189,6 +9195,7 @@
     <!-- http://purl.obolibrary.org/obo/ENVO_00002041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002041">
+        <obo:IAO_0100001 rdf:resource="ENVO:01001004"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete ground water</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>

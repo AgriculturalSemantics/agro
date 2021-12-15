@@ -8,7 +8,7 @@ OWLTOOLS= owltools
 DOSDPTOOLS = dosdp-tools
 
 
-all: all_imports all_patterns $(ONT).owl 
+all: all_imports $(ONT).owl 
 # $(ONT).obo # removed obo target for now
 test: touch $(ONT).owl
 prepare_release: all
@@ -45,15 +45,28 @@ imports/%_import.owl: mirror/%.owl imports/%_terms.txt
 #	$(OWLTOOLS) $(USECAT) $< -o -f obo $@
 
 #patterns
-PATTERNS = eq
+PATTERNS = eq chemical_area_density
 PATTERNS_OWL = $(patsubst %, patterns/%.owl,$(PATTERNS))
 
 # Make this target to regenerate ALL patterns
 all_patterns: $(PATTERNS_OWL)
 
 patterns/%.owl: patterns/%.tsv
-	$(DOSDPTOOLS) generate --outfile=$@ --obo-prefixes=true --template=patterns/$*.yaml --ontology=imports/pato_import.owl --infile=$<
-	robot annotate -O "http://purl.obolibrary.org/obo/agro/patterns/$*.owl" -i $@ -o $@
+	$(DOSDPTOOLS) generate \
+		--outfile=$@ \
+		--obo-prefixes=true \
+		--template=patterns/$*.yaml \
+		--infile=$<
+	robot annotate \
+		-i $@ \
+		-O "http://purl.obolibrary.org/obo/agro/patterns/$*.owl" \
+		-o $@
+	robot merge \
+		--input agro-edit.owl \
+		--input $@ \
+		--collapse-import-closure false convert \
+		--format ofn \
+		--output agro-edit.owl
 .PRECIOUS: patterns/%.owl
 
 # clone remote ontology locally, perfoming some excision of relations and annotations

@@ -1,0 +1,39 @@
+format-version: 1.2
+ontology: file:/imports/chebi_import.owl
+
+[Term]
+id: CHEBI:24431
+name: chemical entity
+def: "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances." []
+synonym: "chemical entity" EXACT [UniProt:]
+synonym: "grouped_by_chemistry" RELATED [ChEBI:]
+
+[Term]
+id: CHEBI:33232
+name: application
+def: "Intended use of the molecular entity or part thereof by humans." []
+is_a: CHEBI:50906 ! role
+
+[Term]
+id: CHEBI:33286
+name: agrochemical
+def: "An agrochemical is a substance that is used in agriculture or horticulture." []
+synonym: "agrichemical" RELATED [ChEBI:]
+synonym: "agrichemicals" RELATED [ChEBI:]
+synonym: "agricultural chemicals" RELATED [ChEBI:]
+synonym: "agrochemicals" RELATED [ChEBI:]
+is_a: CHEBI:33232 ! application
+
+[Term]
+id: CHEBI:33287
+name: fertilizer
+def: "A fertilizer is any substance that is added to soil or water to assist the growth of plants." []
+synonym: "fertiliser" RELATED [ChEBI:]
+synonym: "fertilizers" RELATED [ChEBI:]
+is_a: CHEBI:33286 ! agrochemical
+
+[Term]
+id: CHEBI:50906
+name: role
+def: "A role is particular behaviour which a material entity may exhibit." []
+
