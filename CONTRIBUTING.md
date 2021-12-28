@@ -1,8 +1,6 @@
-# Contributing via making requests on issue tracker
-
 ## Before you write a new request, please consider the following: 
 
-- **Does the term already exist?** Before submitting suggestions for new ontology terms, check whether the term exist, either as a primary term or a synonym term. You can search using [OLS](http://www.ebi.ac.uk/ols/ontologies/{{ project.id }})
+- **Does the term already exist?** Before submitting suggestions for new ontology terms, check whether the term exist, either as a primary term or a synonym term. You can search using [OLS](http://www.ebi.ac.uk/ols/ontologies/agro)
 
 ## Guidelines for creating GitHub tickets with contributions to the ontology:
 
@@ -14,6 +12,4 @@
 
 4. **For updates to relationships:** Provide details of the current axioms, why you think they are wrong or not sufficient, and what exactly should be added or removed.
 
-# Contributing via making Pull Requests
-
-See [README-Editors](https://github.com/AgriculturalSemantics/agro/blob/master/src/ontology/README-editors.md) for additional info adding to the Ontology.
+On behalf of the Agronomy ontology editorial team, Thanks!

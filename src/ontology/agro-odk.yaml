@@ -1,0 +1,24 @@
+id: agro
+title: Agronomy ontology
+github_org: Aur-Int
+repo: agro
+report_fail_on: NONE
+use_dosdps: TRUE
+export_formats:
+  - owl
+  - obo
+  - json
+import_group:
+  products:
+    - id: bfo
+    - id: iao
+    - id: obi
+    - id: ro
+      use_base: True
+pattern_pipelines_group:
+  products:
+    - id: chemical_area_density
+      dosdp_tools_options: "--obo-prefixes=true"
+    - id: entity_attribute_location
+      dosdp_tools_options: "--obo-prefixes=true"
+robot_java_args: '-Xmx16G'

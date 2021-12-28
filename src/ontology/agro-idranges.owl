@@ -1,3 +1,4 @@
+## ID Ranges File
 Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 Prefix: idsfor: <http://purl.obolibrary.org/obo/IAO_0000598>
 Prefix: dc: <http://purl.org/dc/elements/1.1/>
@@ -10,55 +11,53 @@ Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 Prefix: idrange: <http://purl.obolibrary.org/obo/ro/idrange/>
 Prefix: owl: <http://www.w3.org/2002/07/owl#>
 
-
-
 Ontology: <http://purl.obolibrary.org/obo/agro/agro-idranges.owl>
 
 
-Annotations: 
+Annotations:
     idsfor: "AGRO",
     idprefix: "http://purl.obolibrary.org/obo/AGRO_",
-    iddigits: 8
+    iddigits: 7
 
 AnnotationProperty: idprefix:
 
-    
+
 AnnotationProperty: iddigits:
 
-    
+
 AnnotationProperty: idsfor:
 
-    
+
 AnnotationProperty: allocatedto:
 
 Datatype: idrange:1
 
-    Annotations: 
+    Annotations:
         allocatedto: "Céline Aubert"
-    
-    EquivalentTo: 
+
+    EquivalentTo:
         xsd:integer[>= 0 , <= 1999]
 
-    
+
 Datatype: idrange:2
 
-    Annotations: 
+    Annotations:
         allocatedto: "Marie-Angélique Laporte"
-    
-    EquivalentTo: 
+
+    EquivalentTo:
         xsd:integer[>= 2000 , <= 3999]
-    
-    
+
+
 Datatype: xsd:integer
 
-    
+
 
 Datatype: idrange:3
 
-    Annotations: 
+    Annotations:
         allocatedto: "Krishna Udaiwal"
-    
-    EquivalentTo: 
+
+    EquivalentTo:
         xsd:integer[>= 10000 , < 15000]
 
 
@@ -79,6 +78,5 @@ Datatype: idrange:5
     EquivalentTo:
         xsd:integer[>= 00040000 , <= 00049999]
 
+Datatype: xsd:integer
 Datatype: rdf:PlainLiteral
-
-    

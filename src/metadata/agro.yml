@@ -4,28 +4,24 @@ idspace: AGRO
 base_url: /obo/agro
 
 products:
-- agro.owl: https://raw.githubusercontent.com/AgriculturalSemantics/master/agro.owl
-# OBO format not implemented
-#- agro.obo: https://raw.githubusercontent.com/AgriculturalSemantics/master/agro.obo
+- agro.owl: https://raw.githubusercontent.com/Aur-Int/agro/main/agro.owl
+- agro.obo: https://raw.githubusercontent.com/Aur-Int/agro/main/agro.obo
 
 term_browser: ontobee
 example_terms:
-- AGRO_00000000
+- AGRO_0000000
 
 entries:
 
 - prefix: /releases/
-  replacement: https://raw.githubusercontent.com/AgriculturalSemantics/agro/v
+  replacement: https://raw.githubusercontent.com/Aur-Int/agro/v
 
 - prefix: /tracker/
-  replacement: https://github.com/AgriculturalSemantics/agro/issues/
-
-- prefix: /diffs/
-  replacement: https://github.com/AgriculturalSemantics/agro/commit/
+  replacement: https://github.com/Aur-Int/agro/issues
 
 - prefix: /about/
-  replacement: http://www.ontobee.org/browser/rdf.php?o=AGRO&iri=http://purl.obolibrary.org/obo/
+  replacement: http://www.ontobee.org/ontology/AGRO?iri=http://purl.obolibrary.org/obo/
 
 ## generic fall-through, serve direct from github by default
 - prefix: /
-  replacement: https://raw.githubusercontent.com/AgriculturalSemantics/agro/master/
+  replacement: https://raw.githubusercontent.com/Aur-Int/agro/main/
