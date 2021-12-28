@@ -2,7 +2,7 @@
 ![Build Status](https://github.com/Aur-Int/agro/workflows/CI/badge.svg)
 # Agronomy ontology
 
-Description: None
+Description: WIP; built with base relations only. All additional files (from agro:main) were manually moved (NOTE: currently failing due to ncbitaxon make:patterns check fail)
 
 More information can be found at http://obofoundry.org/ontology/agro
 
@@ -27,3 +27,4 @@ Please use this GitHub repository's [Issue tracker](https://github.com/Aur-Int/a
 ## Acknowledgements
 
 This ontology repository was created using the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit).
+Config for build: [agro-odk.yaml](src/ontology/agro-odk.yaml)
