@@ -2,23 +2,46 @@ id: agro
 title: Agronomy ontology
 github_org: Aur-Int
 repo: agro
-report_fail_on: NONE
+report_fail_on: ERROR
 use_dosdps: TRUE
+reasoner: ELK
 export_formats:
   - owl
   - obo
   - json
 import_group:
   products:
+    - id: ncbitaxon
+      mirror_from: http://purl.obolibrary.org/obo/ncbitaxon.owl.gz
+      use_base: True
+      is_large: True
+    - id: chebi
+      mirror_from: http://purl.obolibrary.org/obo/chebi.owl.gz
+      use_base: True
+      is_large: True
+    - id: go
+      use_base: True
+      is_large: True
     - id: bfo
+    - id: envo
+    - id: foodon
     - id: iao
     - id: obi
+    - id: pato
+      use_base: True
+    - id: pco
+    - id: peco
+    - id: po
     - id: ro
       use_base: True
+    - id: to
+    - id: uo
+    - id: xco
 pattern_pipelines_group:
   products:
     - id: chemical_area_density
       dosdp_tools_options: "--obo-prefixes=true"
     - id: entity_attribute_location
       dosdp_tools_options: "--obo-prefixes=true"
-robot_java_args: '-Xmx16G'
+robot_java_args: '-Xmx20G'
+allow_equivalents: all

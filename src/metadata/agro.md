@@ -30,10 +30,22 @@ products:
   - id: agro/agro-base.json
     name: "Agronomy ontology additional release in OBOJSon format"
 dependencies:
+- id: ncbitaxon
+- id: chebi
+- id: go
 - id: bfo
+- id: envo
+- id: foodon
 - id: iao
 - id: obi
+- id: pato
+- id: pco
+- id: peco
+- id: po
 - id: ro
+- id: to
+- id: uo
+- id: xco
 
 tracker: https://github.com/Aur-Int/agro/issues
 license:

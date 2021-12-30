@@ -57,9 +57,6 @@ FORMATS = $(sort  owl obo json owl)
 FORMATS_INCL_TSV = $(sort $(FORMATS) tsv)
 RELEASE_ARTEFACTS = $(sort $(ONT)-full $(ONT)-base $(ONT)-base $(ONT)-full)
 
-
-export _JAVA_OPTIONS="-Xms512m -Xmx16G"
-
 # ----------------------------------------
 # Top-level targets
 # ----------------------------------------
@@ -71,7 +68,7 @@ all: odkversion all_imports patterns all_main all_subsets sparql_test all_report
 
 .PHONY: test
 test: odkversion sparql_test all_reports $(REPORTDIR)/validate_profile_owl2dl_$(ONT).owl.txt
-	$(ROBOT) reason --input $(SRC) --reasoner ELK  --equivalent-classes-allowed asserted-only --exclude-tautologies structural --output test.owl && rm test.owl && echo "Success"
+	$(ROBOT) reason --input $(SRC) --reasoner ELK  --equivalent-classes-allowed all --exclude-tautologies structural --output test.owl && rm test.owl && echo "Success"
 
 .PHONY: odkversion
 odkversion:
@@ -97,7 +94,7 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS =  envo bfo chebi obi iao pato uo po peco ncbitaxon foodon ro to
+IMPORTS =  ncbitaxon chebi go bfo envo foodon iao obi pato pco peco po ro to uo xco
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -236,6 +233,27 @@ imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt
 
 .PRECIOUS: imports/%_import.owl
 
+## Module for ontology: ncbitaxon
+
+imports/ncbitaxon_import.owl: mirror/ncbitaxon.owl imports/ncbitaxon_terms_combined.txt
+	if [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then $(ROBOT) extract -i $< -T imports/ncbitaxon_terms_combined.txt --force true --individuals include --method BOT \
+		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/postprocess-module.ru \
+		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+## Module for ontology: chebi
+
+imports/chebi_import.owl: mirror/chebi.owl imports/chebi_terms_combined.txt
+	if [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then $(ROBOT) extract -i $< -T imports/chebi_terms_combined.txt --force true --individuals include --method BOT \
+		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/postprocess-module.ru \
+		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+## Module for ontology: go
+
+imports/go_import.owl: mirror/go.owl imports/go_terms_combined.txt
+	if [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then $(ROBOT) extract -i $< -T imports/go_terms_combined.txt --force true --individuals include --method BOT \
+		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/postprocess-module.ru \
+		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
+
 .PHONY: refresh-imports
 refresh-imports:
 	make IMP=true MIR=true PAT=false IMP_LARGE=true all_imports -B
@@ -269,6 +287,33 @@ MIR=true # Global parameter to bypass mirror generation
 IMP_LARGE=true # Global parameter to bypass handling of large imports
 PAT=true # Global parameter to bypass pattern generation
 
+## ONTOLOGY: ncbitaxon
+## Copy of ncbitaxon is re-downloaded whenever source changes
+mirror/ncbitaxon.trigger: $(SRC)
+
+mirror/ncbitaxon.owl: mirror/ncbitaxon.trigger
+	if [ $(MIR) = true ] && [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then $(ROBOT) convert -I http://purl.obolibrary.org/obo/ncbitaxon.owl.gz -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: mirror/ncbitaxon.owl
+
+
+## ONTOLOGY: chebi
+## Copy of chebi is re-downloaded whenever source changes
+mirror/chebi.trigger: $(SRC)
+
+mirror/chebi.owl: mirror/chebi.trigger
+	if [ $(MIR) = true ] && [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then $(ROBOT) convert -I http://purl.obolibrary.org/obo/chebi.owl.gz -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: mirror/chebi.owl
+
+
+## ONTOLOGY: go
+## Copy of go is re-downloaded whenever source changes
+mirror/go.trigger: $(SRC)
+
+mirror/go.owl: mirror/go.trigger
+	if [ $(MIR) = true ] && [ $(IMP) = true ] && [ $(IMP_LARGE) = true ]; then curl -L $(URIBASE)/go/go-base.owl --create-dirs -o mirror/go.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/go.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: mirror/go.owl
+
+
 ## ONTOLOGY: bfo
 ## Copy of bfo is re-downloaded whenever source changes
 mirror/bfo.trigger: $(SRC)
@@ -276,6 +321,24 @@ mirror/bfo.trigger: $(SRC)
 mirror/bfo.owl: mirror/bfo.trigger
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/bfo.owl --create-dirs -o mirror/bfo.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/bfo.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: mirror/bfo.owl
+
+
+## ONTOLOGY: envo
+## Copy of envo is re-downloaded whenever source changes
+mirror/envo.trigger: $(SRC)
+
+mirror/envo.owl: mirror/envo.trigger
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/envo.owl --create-dirs -o mirror/envo.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/envo.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: mirror/envo.owl
+
+
+## ONTOLOGY: foodon
+## Copy of foodon is re-downloaded whenever source changes
+mirror/foodon.trigger: $(SRC)
+
+mirror/foodon.owl: mirror/foodon.trigger
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/foodon.owl --create-dirs -o mirror/foodon.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/foodon.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: mirror/foodon.owl
 
 
 ## ONTOLOGY: iao
@@ -296,6 +359,42 @@ mirror/obi.owl: mirror/obi.trigger
 .PRECIOUS: mirror/obi.owl
 
 
+## ONTOLOGY: pato
+## Copy of pato is re-downloaded whenever source changes
+mirror/pato.trigger: $(SRC)
+
+mirror/pato.owl: mirror/pato.trigger
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/pato/pato-base.owl --create-dirs -o mirror/pato.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/pato.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: mirror/pato.owl
+
+
+## ONTOLOGY: pco
+## Copy of pco is re-downloaded whenever source changes
+mirror/pco.trigger: $(SRC)
+
+mirror/pco.owl: mirror/pco.trigger
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/pco.owl --create-dirs -o mirror/pco.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/pco.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: mirror/pco.owl
+
+
+## ONTOLOGY: peco
+## Copy of peco is re-downloaded whenever source changes
+mirror/peco.trigger: $(SRC)
+
+mirror/peco.owl: mirror/peco.trigger
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/peco.owl --create-dirs -o mirror/peco.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/peco.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: mirror/peco.owl
+
+
+## ONTOLOGY: po
+## Copy of po is re-downloaded whenever source changes
+mirror/po.trigger: $(SRC)
+
+mirror/po.owl: mirror/po.trigger
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/po.owl --create-dirs -o mirror/po.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/po.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: mirror/po.owl
+
+
 ## ONTOLOGY: ro
 ## Copy of ro is re-downloaded whenever source changes
 mirror/ro.trigger: $(SRC)
@@ -303,6 +402,33 @@ mirror/ro.trigger: $(SRC)
 mirror/ro.owl: mirror/ro.trigger
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/ro/ro-base.owl --create-dirs -o mirror/ro.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/ro.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: mirror/ro.owl
+
+
+## ONTOLOGY: to
+## Copy of to is re-downloaded whenever source changes
+mirror/to.trigger: $(SRC)
+
+mirror/to.owl: mirror/to.trigger
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/to.owl --create-dirs -o mirror/to.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/to.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: mirror/to.owl
+
+
+## ONTOLOGY: uo
+## Copy of uo is re-downloaded whenever source changes
+mirror/uo.trigger: $(SRC)
+
+mirror/uo.owl: mirror/uo.trigger
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/uo.owl --create-dirs -o mirror/uo.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/uo.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: mirror/uo.owl
+
+
+## ONTOLOGY: xco
+## Copy of xco is re-downloaded whenever source changes
+mirror/xco.trigger: $(SRC)
+
+mirror/xco.owl: mirror/xco.trigger
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/xco.owl --create-dirs -o mirror/xco.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/xco.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: mirror/xco.owl
 
 
 
@@ -388,7 +514,7 @@ pattern_clean:
 
 .PHONY: pattern_schema_checks
 pattern_schema_checks: update_patterns
-	./$(PATTERN_TESTER) $(PATTERNDIR)/dosdp-patterns/
+	$(PATTERN_TESTER) $(PATTERNDIR)/dosdp-patterns/
 
 #This command is a workaround for the absence of -N and -i in wget of alpine (the one ODK depend on now). It downloads all patterns specified in external.txt
 .PHONY: update_patterns
@@ -521,7 +647,7 @@ $(ONT)-base.owl: $(SRC) $(OTHER_SRC)
 # Full: The full artefacts with imports merged, reasoned
 $(ONT)-full.owl: $(SRC) $(OTHER_SRC)
 	$(ROBOT) merge --input $< \
-		reason --reasoner ELK --equivalent-classes-allowed asserted-only --exclude-tautologies structural \
+		reason --reasoner ELK --equivalent-classes-allowed all --exclude-tautologies structural \
 		relax \
 		reduce -r ELK \
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@

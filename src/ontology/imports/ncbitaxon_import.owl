@@ -1,15 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/agro/imports/bfo_import.owl#"
-     xml:base="http://purl.obolibrary.org/obo/agro/imports/bfo_import.owl"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/agro/imports/ncbitaxon_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/agro/imports/ncbitaxon_import.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/agro/imports/bfo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/agro/releases/2021-12-29/imports/bfo_import.owl"/>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/agro/imports/ncbitaxon_import.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/agro/releases/2021-12-29/imports/ncbitaxon_import.owl"/>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-29</owl:versionInfo>
     </owl:Ontology>
 </rdf:RDF>
