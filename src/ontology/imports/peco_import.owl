@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/agro/imports/peco_import.owl#"
      xml:base="http://purl.obolibrary.org/obo/agro/imports/peco_import.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -12,7 +13,11 @@
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/agro/imports/peco_import.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/agro/imports/peco_import.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/agro/releases/2021-12-29/imports/peco_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/peco/releases/2020-08-21/peco.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-29</owl:versionInfo>
+    </owl:Ontology>
     
 
 
@@ -51,12 +56,6 @@
     
 
 
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
@@ -78,6 +77,12 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/RO_0002582 -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/RO_0002582"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
     
 
 
@@ -1117,7 +1122,7 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</rdfs:label>
+        <rdfs:label>entity</rdfs:label>
     </owl:Class>
     
 
@@ -1133,8 +1138,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
             </owl:Restriction>
         </owl:disjointWith>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuant</rdfs:label>
+        <obo:IAO_0000115>An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</obo:IAO_0000115>
+        <rdfs:label>continuant</rdfs:label>
     </owl:Class>
     
 
@@ -1149,8 +1154,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
             </owl:Restriction>
         </owl:disjointWith>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An entity that has temporal parts and that happens, unfolds or develops through time.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occurrent</rdfs:label>
+        <obo:IAO_0000115>An entity that has temporal parts and that happens, unfolds or develops through time.</obo:IAO_0000115>
+        <rdfs:label>occurrent</rdfs:label>
     </owl:Class>
     
 
@@ -1159,15 +1164,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.</obo:IAO_0000115>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">independent continuant</rdfs:label>
+        <obo:IAO_0000115>A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.</obo:IAO_0000115>
+        <obo:IAO_0000115>b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</obo:IAO_0000115>
+        <rdfs:label>independent continuant</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</owl:annotatedTarget>
-        <obo1:IAO_0010000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/bfo/axiom/017-002</obo1:IAO_0010000>
+        <owl:annotatedTarget>b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</owl:annotatedTarget>
+        <obo1:IAO_0010000>http://purl.obolibrary.org/obo/bfo/axiom/017-002</obo1:IAO_0010000>
     </owl:Axiom>
     
 
@@ -1176,15 +1181,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.</obo:IAO_0000115>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process</rdfs:label>
+        <obo:IAO_0000115>An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.</obo:IAO_0000115>
+        <obo:IAO_0000115>p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])</obo:IAO_0000115>
+        <rdfs:label>process</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])</owl:annotatedTarget>
-        <obo1:IAO_0010000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/bfo/axiom/083-003</obo1:IAO_0010000>
+        <owl:annotatedTarget>p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])</owl:annotatedTarget>
+        <obo1:IAO_0010000>http://purl.obolibrary.org/obo/bfo/axiom/083-003</obo1:IAO_0010000>
     </owl:Axiom>
     
 
@@ -1193,8 +1198,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity</rdfs:label>
+        <obo:IAO_0000115>An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</obo:IAO_0000115>
+        <rdfs:label>material entity</rdfs:label>
     </owl:Class>
     
 
@@ -1203,7 +1208,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003674">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular_function</rdfs:label>
+        <rdfs:label>molecular_function</rdfs:label>
     </owl:Class>
     
 
@@ -1211,7 +1216,7 @@
     <!-- http://purl.obolibrary.org/obo/GO_0004872 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0004872">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">receptor activity</rdfs:label>
+        <rdfs:label>receptor activity</rdfs:label>
     </owl:Class>
     
 
@@ -1220,19 +1225,19 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological process</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physiological process</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single organism process</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single-organism process</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</rdfs:label>
+        <obo:IAO_0000115>Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>biological process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>physiological process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>single organism process</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>single-organism process</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>biological_process</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:go_curators</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:isa_complete</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GOC:go_curators</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:isa_complete</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1240,259 +1245,6 @@
     <!-- http://purl.obolibrary.org/obo/GO_0048018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0048018"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0001001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007359"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant experimental condition (PECO:0007359) or set of conditions describing the application of an abiotic (PECO:0007191) or biotic plant exposure (PECO:0007357) or the combinatorial application thereof.</obo:IAO_0000115>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant treatment (narrow)</oboInOwl:hasNarrowSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant exposure</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0001001"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant experimental condition (PECO:0007359) or set of conditions describing the application of an abiotic (PECO:0007191) or biotic plant exposure (PECO:0007357) or the combinatorial application thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0001058 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001058">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007233"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal plant exposure (PECO:0007233) involving the exposure of plant to the pathogen belonging to Glomeromyetes class.</obo:IAO_0000115>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glomeromycota treatment (narrow)</oboInOwl:hasNarrowSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glomeromycota exposure</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0001058"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal plant exposure (PECO:0007233) involving the exposure of plant to the pathogen belonging to Glomeromyetes class.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:laura_moore</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0001059 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001059">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001058"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Glomeromycota exposure (PECO:0001058) involving the exposure of compatible plants to mutualistic arbuscular mycorrhizal fungi.</obo:IAO_0000115>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arbuscular mycorrhizal fungal treatment (narrow)</oboInOwl:hasNarrowSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arbuscular mycorrhizal fungal exposure</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0001059"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Glomeromycota exposure (PECO:0001058) involving the exposure of compatible plants to mutualistic arbuscular mycorrhizal fungi.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:laura_moore</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0007004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007050"/>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loam content treatment (narrow)</oboInOwl:hasNarrowSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loam content exposure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0007049 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007147"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving growing plants in soil growth media with varying contents.</obo:IAO_0000115>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soil environment treatment (narrow)</oboInOwl:hasNarrowSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soil environment exposure</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007049"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving growing plants in soil growth media with varying contents.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0007050 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007049"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving growing plants in varying textures of soil growth media.</obo:IAO_0000115>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soil texture treatment (narrow)</oboInOwl:hasNarrowSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soil texture exposure</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007050"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving growing plants in varying textures of soil growth media.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0007051 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007050"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving growing plants in a sandy soil growth media.</obo:IAO_0000115>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sand content treatment (narrow)</oboInOwl:hasNarrowSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sand content exposure</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007051"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving growing plants in a sandy soil growth media.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0007052 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007050"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving growing plants in a growth media containing organic matter.</obo:IAO_0000115>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic matter content treatment (narrow)</oboInOwl:hasNarrowSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic matter content exposure</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007052"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving growing plants in a growth media containing organic matter.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0007053 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007050"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving growing plants in a silty soil growth media.</obo:IAO_0000115>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">silt content treatment (narrow)</oboInOwl:hasNarrowSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">silt content exposure</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007053"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving growing plants in a silty soil growth media.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0007054 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007054">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007050"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving growing plants in a clay soil growth media.</obo:IAO_0000115>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clay content treatment (narrow)</oboInOwl:hasNarrowSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clay content exposure</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007054"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving growing plants in a clay soil growth media.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0007147 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007147">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007191"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abiotic plant exposure (PECO:0007191) involving the use of a solid or liquid substrate for growing plants or tissue-cultured plant samples.</obo:IAO_0000115>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant growth medium treatment (narrow)</oboInOwl:hasNarrowSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant growth medium exposure</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007147"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abiotic plant exposure (PECO:0007191) involving the use of a solid or liquid substrate for growing plants or tissue-cultured plant samples.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0007191 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007191">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant exposure (PECO:0001001) involving the application of chemical or non-biological factors.</obo:IAO_0000115>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abiotic plant treatment (narrow)</oboInOwl:hasNarrowSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abiotic plant exposure</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007191"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant exposure (PECO:0001001) involving the application of chemical or non-biological factors.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0007233 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007233">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007357"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biotic plant exposure (PECO:0007357) involving exposure of a plant to a fungus or a combination of fungi.</obo:IAO_0000115>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fungal plant treatment (narrow)</oboInOwl:hasNarrowSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fungal plant exposure</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007233"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biotic plant exposure (PECO:0007357) involving exposure of a plant to a fungus or a combination of fungi.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:ivy</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBI_taxid:4751</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0007357 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007357">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant exposure (PECO:0001001) involving the application of a biotic or biological factor such as a microbe, insect, animal, or plant or a combination thereof.</obo:IAO_0000115>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biotic plant treatment (narrow)</oboInOwl:hasNarrowSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biotic plant exposure</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007357"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant exposure (PECO:0001001) involving the application of a biotic or biological factor such as a microbe, insect, animal, or plant or a combination thereof.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0007359 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007359">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant exposure (PECO:0001001) and/or study type (PECO:0007231) applied to a whole plant (PO:0000003), a plant structure (PO:00090119), and/or a plant population as part of an experiment to evaluate the plant response.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant treatment ontology (related)</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">treatment ontology (related)</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant experimental condition</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007359"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant exposure (PECO:0001001) and/or study type (PECO:0007231) applied to a whole plant (PO:0000003), a plant structure (PO:00090119), and/or a plant population as part of an experiment to evaluate the plant response.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -1592,8 +1344,8 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MF(X)-directly_regulates-&gt;MF(Y)-enabled_by-&gt;GP(Z) =&gt; MF(Y)-has_input-&gt;GP(Y) e.g. if &apos;protein kinase activity&apos;(X) directly_regulates &apos;protein binding activity (Y)and this is enabled by GP(Z) then X has_input Z</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infer input from direct reg</rdfs:label>
+        <rdfs:comment>MF(X)-directly_regulates-&gt;MF(Y)-enabled_by-&gt;GP(Z) =&gt; MF(Y)-has_input-&gt;GP(Y) e.g. if &apos;protein kinase activity&apos;(X) directly_regulates &apos;protein binding activity (Y)and this is enabled by GP(Z) then X has_input Z</rdfs:comment>
+        <rdfs:label>infer input from direct reg</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -1722,8 +1474,8 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GP(X)-enables-&gt;MF(Y)-part_of-&gt;BP(Z) =&gt; GP(X) involved_in BP(Z) e.g. if X enables &apos;protein kinase activity&apos; and Y &apos;part of&apos; &apos;signal tranduction&apos; then X involved in &apos;signal transduction&apos;</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">involved in BP</rdfs:label>
+        <rdfs:comment>GP(X)-enables-&gt;MF(Y)-part_of-&gt;BP(Z) =&gt; GP(X) involved_in BP(Z) e.g. if X enables &apos;protein kinase activity&apos; and Y &apos;part of&apos; &apos;signal tranduction&apos; then X involved in &apos;signal transduction&apos;</rdfs:comment>
+        <rdfs:label>involved in BP</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>

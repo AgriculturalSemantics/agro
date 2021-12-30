@@ -1,27 +1,41 @@
 These notes are for the EDITORS of agro
 
-For more details on ontology management, please see the OBO tutorial:
+This project was created using the [ontology development kit](https://github.com/INCATools/ontology-development-kit). See the site for details.
 
- * https://github.com/jamesaoverton/obo-tutorial
+For more details on ontology management, please see the [OBO tutorial](https://github.com/jamesaoverton/obo-tutorial) or the [Gene Ontology Editors Tutorial](https://go-protege-tutorial.readthedocs.io/en/latest/)
+
+You may also want to read the [GO ontology editors guide](http://go-ontology.readthedocs.org/)
+
+## Requirements
+
+ 1. Protege (for editing)
+ 2. A git client (we assume command line git)
+ 3. [docker](https://www.docker.com/get-docker) (for managing releases)
 
 ## Editors Version
 
-Do you have an ID range in the idranges file (agro-idranges.owl),
-in this directory). If not, get one from the head curator. 
+Make sure you have an ID range in the [idranges file](agro-idranges.owl)
 
-The editors version is [agro-edit.obo](agro-edit.obo)
+If you do not have one, get one from the maintainer of this repo.
 
-** DO NOT EDIT agro.obo OR agro.owl **
+The editors version is [agro-edit.owl](agro-edit.owl)
 
-agro.obo is the release version
+** DO NOT EDIT agro.obo OR agro.owl in the top level directory **
 
-The editors version can be edited using OBO-Edit. Protege can be used
-ONLY IF the version is 5beta-snapshot18 or higher. DO NOT EDIT WITH
-PREVIOUS VERSIONS.
+[../../agro.owl](../../agro.owl) is the release version
+
+To edit, open the file in Protege. First make sure you have the repository cloned, see [the GitHub project](https://github.com/Aur-Int/agro) for details.
+
+You should discuss the git workflow you should use with the maintainer
+of this repo, who should document it here. If you are the maintainer,
+you can contact the odk developers for assistance. You may want to
+copy the flow an existing project, for example GO: [Gene Ontology
+Editors Tutorial](https://go-protege-tutorial.readthedocs.io/en/latest/).
+
+In general, it is bad practice to commit changes to master. It is
+better to make changes on a branch, and make Pull Requests.
 
 ## ID Ranges
-
-TODO - these are not set up
 
 These are stored in the file
 
@@ -29,35 +43,97 @@ These are stored in the file
 
 ** ONLY USE IDs WITHIN YOUR RANGE!! **
 
-## Setting ID ranges in OBO-Edit
+If you have only just set up this repository, modify the idranges file
+	and add yourself or other editors. Note Protege does not read the file
+- it is up to you to ensure correct Protege configuration.
 
-In the Metadata menu, select the ID manager option. You can set the ID range of any 
-profile you create here by clicking on the settings icon (cog wheels) next to the profile 
-name. In the window that appears, you can set the ID range by editing the default rule: 
-"ID:$sequence(<number of digits>,<minimum of range>,<maximum of range>)$"
-Thus, "AGRO:$sequence(8,2000000,2999999)$" will set a range of 8 digit IDs from 200000 
-to 2999999.  
- 
-## Git Quick Guide
 
-TODO add instructions here
+### Setting ID ranges in Protege
 
+We aim to put this up on the technical docs for OBO on http://obofoundry.org/
+
+For now, consult the [GO Tutorial on configuring Protege](http://go-protege-tutorial.readthedocs.io/en/latest/Entities.html#new-entities)
+
+## Imports
+
+All import modules are in the [imports/](imports/) folder.
+
+There are two ways to include new classes in an import module
+
+ 1. Reference an external ontology class in the edit ontology. In Protege: "add new entity", then paste in the PURL
+ 2. Add to the imports/ont_terms.txt file, for example imports/go_terms.txt
+
+After doing this, you can run
+
+`./run.sh make all_imports`
+
+to regenerate imports.
+
+Note: the ont_terms.txt file may include 'starter' classes seeded from
+the ontology starter kit. It is safe to remove these.
+
+## Design patterns
+
+You can automate (class) term generation from design patterns by placing DOSDP
+yaml file and tsv files under src/patterns. Any pair of files in this
+folder that share a name (apart from the extension) are assumed to be
+a DOSDP design pattern and a corresponding tsv specifying terms to
+add.
+
+Design patterns can be used to maintain and generate complete terms
+(names, definitions, synonyms etc) or to generate logical axioms
+only, with other axioms being maintained in editors file.  This can be
+specified on a per-term basis in the TSV file.
+
+Design pattern docs are checked for validity via Travis, but can be
+tested locally using
+
+`./run.sh make patterns`
+
+In addition to running standard tests, this command generates an owl
+file (`src/patterns/pattern.owl`), which demonstrates the relationships
+between design patterns.
+
+(At the time of writing, the following import statements need to be
+added to `src/patterns/pattern.owl` for all imports generated in
+`src/imports/*_import.owl`.   This will be automated in a future release.')
+
+To compile design patterns to terms run:
+
+`./run.sh make ../patterns/definitions.owl`
+
+This generates a file (`src/patterns/definitions.owl`).  You then need
+to add an import statement to the editor's file to import the
+definitions file.
 ## Release Manager notes
 
 You should only attempt to make a release AFTER the edit version is
-committed and pushed, and the travis build passes.
+committed and pushed, AND the travis build passes.
+
+These instructions assume you have
+[docker](https://www.docker.com/get-docker). This folder has a script
+[run.sh](run.sh) that wraps docker commands.
 
 to release:
 
+first type
+
+    git branch
+
+to make sure you are on master
+
     cd src/ontology
-    make
+    sh run.sh make all
 
 If this looks good type:
 
-    make release
+    sh run.sh make prepare_release
 
 This generates derived files such as agro.owl and agro.obo and places
-them in the top level (../..). The versionIRI will be added.
+them in the top level (../..).
+
+Note that the versionIRI value automatically will be added, and will
+end with YYYY-MM-DD, as per OBO guidelines.
 
 Commit and push these files.
 
@@ -65,20 +141,29 @@ Commit and push these files.
 
 And type a brief description of the release in the editor window
 
+Finally type:
+
+    git push origin master
+
 IMMEDIATELY AFTERWARDS (do *not* make further modifications) go here:
 
- * https://github.com/AgriculturalSemantics/agro/releases
- * https://github.com/AgriculturalSemantics/agro/releases/new
+ * https://github.com/Aur-Int/agro/releases
+ * https://github.com/Aur-Int/agro/releases/new
 
-The value of the "Tag version" field MUST be
+__IMPORTANT__: The value of the "Tag version" field MUST be
 
     vYYYY-MM-DD
 
 The initial lowercase "v" is REQUIRED. The YYYY-MM-DD *must* match
-what is in the versionIRI of the derived agro.owl (data-version in
-agro.obo).
+what is in the `owl:versionIRI` of the derived agro.owl (`data-version` in
+agro.obo). This will be today's date.
+
+This cannot be changed after the fact, be sure to get this right!
 
 Release title should be YYYY-MM-DD, optionally followed by a title (e.g. "january release")
+
+You can also add release notes (this can also be done after the fact). These are in markdown format.
+In future we will have better tools for auto-generating release notes.
 
 Then click "publish release"
 
@@ -95,11 +180,12 @@ For questions on this contact Chris Mungall or email obo-admin AT obofoundry.org
 
 # Travis Continuous Integration System
 
-Check the build status here: [![Build Status](https://travis-ci.org/AgriculturalSemantics/agro.svg?branch=master)](https://travis-ci.org/agro-ontology/agro)
+Check the build status here: [![Build Status](https://travis-ci.org/Aur-Int/agro.svg?branch=master)](https://travis-ci.org/Aur-Int/agro)
 
-This replaces Jenkins for this ontology
+Note: if you have only just created this project you will need to authorize travis for this repo.
 
-## General Guidelines
+ 1. Go to [https://travis-ci.org/profile/Aur-Int](https://travis-ci.org/profile/Aur-Int)
+ 2. click the "Sync account" button
+ 3. Click the tick symbol next to agro
 
-See:
-http://wiki.geneontology.org/index.php/Curator_Guide:_General_Conventions
+Travis builds should now be activated

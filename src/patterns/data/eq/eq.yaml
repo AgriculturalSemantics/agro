@@ -1,0 +1,29 @@
+pattern_name: to/eq
+classes:
+  Thing: owl:Thing
+  quality: PATO:0000001
+
+relations:
+  part of: BFO:0000050
+  inheres in: RO:0000052
+    
+vars: 
+  attribute: "quality"
+  entity: "plant structure"
+
+name:
+  text: "%s"
+  vars:
+    - defined_class_label
+
+def: 
+ text: "The %s of a %s"
+ vars:
+   - attribute
+   - entity
+   
+equivalentTo: 
+  text: "%s and 'inheres in' some %s"
+  vars:
+    - attribute
+    - entity

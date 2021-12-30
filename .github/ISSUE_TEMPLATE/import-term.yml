@@ -1,0 +1,46 @@
+name: Term - import/transfer
+description: Import term from registered Ontology into AgrO
+title: "[Import] "
+labels: [term-add]
+assignees: KrishnaTO
+body:
+  - type: checkboxes
+    id: transfer
+    attributes:
+      label: Are you requesting to import or transfer the term?
+      description: "Importing a term makes a term local to AgrO and accessible offline. Transferring a term means the term has been previously published in other Ontology but is a better fit in AgrO (Ideally, only curators should be making this request)."
+      options:
+        - label: "Import term into AgrO from another Ontology"
+        - label: "Transfer term into AgrO from another Ontology"
+
+  - type: input
+    id: term
+    attributes:
+      label: Term label
+      description: Please list the label and IRI from the registered ontologies
+      placeholder: "[liming process](http://purl.obolibrary.org/obo/AGRO_00000112)"
+    validations:
+      required: true
+
+  - type: input
+    id: Parent
+    attributes:
+      label: Parent term
+      description: Please list term(s) which this term should be under? (Hint- [OLS](https://www.ebi.ac.uk/ols/ontologies/AgrO) allows east searching)
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Please state the reason to import the term into AgrO
+    validations:
+      required: false
+
+  - type: input
+    id: attribution
+    attributes:
+      label: Your nano-attribution (ORCID)
+      description: If you don't have an ORCID, you can sign up for one [here](https://orcid.org/)
+    validations:
+      required: false
