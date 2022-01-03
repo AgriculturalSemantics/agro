@@ -632,8 +632,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002074>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002075>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010155>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010157>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010156>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010157>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -5448,13 +5448,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010155> "i
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00010155> <http://purl.obolibrary.org/obo/CHEBI_33287>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010155> <http://purl.obolibrary.org/obo/BFO_0000023>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00010157> (boundary planting)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Technical Specification Boundary Planting. https://takingroot.org/wp-content/uploads/2015/04/takingroot-boundary-planting.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010157> "A planting process where trees are planted along boundaries to delimitate property, agricultural fields, pastures, roads or any other place where fences might be located."@en)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010157> "https://orcid.org/0000-0003-3985-4911")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010157> "2021-12-27T16:54:13Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010157> "boundary planting"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010157> <http://purl.obolibrary.org/obo/AGRO_00000231>)
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010156> (live fence)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "\"Harvey, C.A., Villanueva, C., Villacís, J., Chacón, M., Muñoz, D., López, M., Ibrahim, M., Gómez, R., Taylor, R., Martinez, J. and Navas, A., 2005. Contribution of live fences to the ecological integrity of agricultural landscapes. Agriculture, ecosystems & environment, 111(1-4), pp.200-230. ecological integrity of agricultural landscapes\"") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010156> "Fences established by planting large cuttings, that easily produce roots and on which several strings of wire are attached with the obvious purpose of keeping livestock in or out."@en)
@@ -5462,6 +5455,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010156> "2021-12-24T00:21:23Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010156> "live fence"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010156> <http://purl.obolibrary.org/obo/ENVO_01000468>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010157> (boundary planting)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Technical Specification Boundary Planting. https://takingroot.org/wp-content/uploads/2015/04/takingroot-boundary-planting.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010157> "A planting process where trees or hedges are planted along boundaries to delimitate property, agricultural fields, pastures, roads or any other place where fences might be located."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010157> "https://orcid.org/0000-0003-3985-4911")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010157> "2021-12-27T16:54:13Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010157> "boundary planting"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010157> <http://purl.obolibrary.org/obo/AGRO_00000231>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
