@@ -4715,6 +4715,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000583> "improved fallows"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000583> "agroforestry fallow"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000583> <http://purl.obolibrary.org/obo/AGRO_00000390>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000583> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00010167>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000583> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000584>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000584> (agroforestry)
