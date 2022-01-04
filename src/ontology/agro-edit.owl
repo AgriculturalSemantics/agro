@@ -641,6 +641,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010161>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010162>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010163>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010164>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010165>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -5533,6 +5534,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynon
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00010164> "Scattered trees may enhance the provision of ecosystem services that might benefit farmers and owners of rural properties, such as pollination of crops, shading for cattle, regulation of nitrogen dynamics and carbon sequestration, herbaceous production, and wood provision."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010164> "scattered trees"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010164> <http://purl.obolibrary.org/obo/AGRO_00000585>)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010165> (taungya farming)
+
+AnnotationAssertion(Annotation(rdfs:comment "https://www.sciencedirect.com/science/article/abs/pii/S1462901111000451") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010165> "A forestry system that involves inter-planting trees with agricultural crops, particularly the local population’s staple foods, and so serves to satisfy the farmer’s quest for arable land."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010165> <https://orcid.org/0000-0003-3985-4911>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010165> "2022-01-04T00:56:20Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010165> "taungya farming"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010165> <http://purl.obolibrary.org/obo/AGRO_00002071>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
