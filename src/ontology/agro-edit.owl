@@ -5464,12 +5464,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010155> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010156> (live fence)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "\"Harvey, C.A., Villanueva, C., Villacís, J., Chacón, M., Muñoz, D., López, M., Ibrahim, M., Gómez, R., Taylor, R., Martinez, J. and Navas, A., 2005. Contribution of live fences to the ecological integrity of agricultural landscapes. Agriculture, ecosystems & environment, 111(1-4), pp.200-230. ecological integrity of agricultural landscapes\"") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010156> "Fences established by planting large cuttings, that easily produce roots and on which several strings of wire are attached with the obvious purpose of keeping livestock in or out."@en)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010156> <http://orcid.org/0000-0002-2627-0696>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "\"Harvey, C.A., Villanueva, C., Villacís, J., Chacón, M., Muñoz, D., López, M., Ibrahim, M., Gómez, R., Taylor, R., Martinez, J. and Navas, A., 2005. Contribution of live fences to the ecological integrity of agricultural landscapes. Agriculture, ecosystems & environment, 111(1-4), pp.200-230. ecological integrity of agricultural landscapes\"") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010156> "Fence established by planting large cuttings, that easily produce roots and on which several strings of wire are attached with the obvious purpose of keeping livestock in or out."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010156> <https://orcid.org/0000-0003-3985-4911>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010156> "2021-12-24T00:21:23Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010156> "fenceline planting")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010156> "live fence"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010156> <http://purl.obolibrary.org/obo/ENVO_01000468>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010156> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000584>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010157> (boundary planting)
 
@@ -5478,6 +5479,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010157> "2021-12-27T16:54:13Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010157> "boundary planting"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010157> <http://purl.obolibrary.org/obo/AGRO_00000231>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010158> (windbreak)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.fs.usda.gov/nac/practices/windbreaks.php") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010158> "Windbreaks are linear plantings of trees and shrubs designed to enhance crop production, protect people and livestock, and benefit soil and water conservation."@en)
@@ -5505,6 +5507,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010160> "buffer planting"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010160> <http://purl.obolibrary.org/obo/AGRO_00000584>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010160> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000231>))
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010161> (hedgerow trees)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/w/index.php?title=Hedge&oldid=1062906324") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010161> "Tree plantings which are grown in hedgerows but have been allowed to reach their full height and width."@en)
@@ -5513,6 +5516,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00010161> "production hedges")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010161> "hedgerow trees"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010161> <http://purl.obolibrary.org/obo/ENVO_00000046>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010162> (fodder bank)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://hdl.handle.net/10568/44583") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010162> "Fodder collected to provide cattle farmers with high quality fodder for the dry season."@en)
@@ -5521,6 +5525,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010162> "fodder bank"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010162> <http://purl.obolibrary.org/obo/BFO_0000023>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010162> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectUnionOf(<http://purl.obolibrary.org/obo/ENVO_00002869> <http://purl.obolibrary.org/obo/ENVO_00003869>)))
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010163> (farm woodland)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "BRENCHLEY, W. The Management of Farm Woodlands. Nature 146, 475 (1940). https://doi.org/10.1038/146475a0") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://smallfarmersjournal.com/an-introduction-to-farm-woodlands/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010163> "Woodlands which exist in farms."@en)
@@ -5528,6 +5533,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010163> "2022-01-04T00:43:04Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010163> "farm woodland"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00010163> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ENVO_00000078> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/ENVO_00000109>)))
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010164> (scattered trees)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2664.12943") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010164> "Trees which have ecological functions in landscapes like offering shelter and food sources for animals, enhancing landscape connectivity by acting as stepping stones, and functioning as nuclei for plant regeneration in disturbed landscapes."@en)
@@ -5540,6 +5546,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynon
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00010164> "Scattered trees may enhance the provision of ecosystem services that might benefit farmers and owners of rural properties, such as pollination of crops, shading for cattle, regulation of nitrogen dynamics and carbon sequestration, herbaceous production, and wood provision."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010164> "scattered trees"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010164> <http://purl.obolibrary.org/obo/AGRO_00000585>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010165> (taungya farming)
 
 AnnotationAssertion(Annotation(rdfs:comment "https://www.sciencedirect.com/science/article/abs/pii/S1462901111000451") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010165> "A forestry system that involves inter-planting trees with agricultural crops, particularly the local population’s staple foods, and so serves to satisfy the farmer’s quest for arable land."@en)
@@ -5547,6 +5554,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010165> "2022-01-04T00:56:20Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010165> "taungya farming"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010165> <http://purl.obolibrary.org/obo/AGRO_00002071>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010166> (forest garden)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Crawford, Martin (2010). Creating a Forest Garden. Green Books. https://www.agroforestry.co.uk/wp-content/uploads/product/creating-a-forest-garden-2/Creating_a_forest_garden.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010166> "A garden structured on woodlands which have direct or indirect agricultural uses, and are self-maintained."@en)
@@ -5555,6 +5563,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00010166> "Woodland garden"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010166> "forest garden"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010166> <http://purl.obolibrary.org/obo/AGRO_00000584>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010167> (shifting cultivation)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cfc.umt.edu/rattan/files/Swidden%20agriculture.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.survivalinternational.org/about/swidden") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010167> "A technique of rotational farming in which land is cleared for cultivation (normally by fire) and then left to regenerate after a few years."@en)
@@ -5564,6 +5573,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010167> "swidden farming"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010167> "shifting cultivation"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010167> <http://purl.obolibrary.org/obo/AGRO_00002071>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010168> (forest grazing)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010168> "Grazing which occurs in a forest area."@en)
