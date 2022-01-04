@@ -632,6 +632,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002074>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002075>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010155>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010161>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -5445,6 +5446,15 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010155> "inorganic fertilizer role"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00010155> <http://purl.obolibrary.org/obo/CHEBI_33287>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010155> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010161> (hedgerow trees)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/w/index.php?title=Hedge&oldid=1062906324") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010161> "Tree plantings which are grown in hedgerows but have been allowed to reach their full height and width."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010161> <https://orcid.org/0000-0003-3985-4911>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010161> "2022-01-04T00:23:05Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00010161> "production hedges")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010161> "hedgerow trees"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010161> <http://purl.obolibrary.org/obo/ENVO_00000046>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
