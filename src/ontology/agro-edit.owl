@@ -632,6 +632,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002074>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002075>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010155>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010167>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -5445,6 +5446,16 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010155> "inorganic fertilizer role"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00010155> <http://purl.obolibrary.org/obo/CHEBI_33287>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010155> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010167> (shifting cultivation)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cfc.umt.edu/rattan/files/Swidden%20agriculture.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.survivalinternational.org/about/swidden") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010167> "A technique of rotational farming in which land is cleared for cultivation (normally by fire) and then left to regenerate after a few years."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010167> <https://orcid.org/0000-0003-3985-4911>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010167> "2022-01-04T01:04:12Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010167> "swidden agriculture"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010167> "swidden farming"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010167> "shifting cultivation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010167> <http://purl.obolibrary.org/obo/AGRO_00002071>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
