@@ -643,6 +643,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010163>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010164>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010165>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010166>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010167>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -4725,6 +4726,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000583> "improved fallows"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000583> "agroforestry fallow"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000583> <http://purl.obolibrary.org/obo/AGRO_00000390>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000583> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00010167>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000583> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000584>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000584> (agroforestry)
@@ -5550,6 +5552,15 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00010166> "Woodland garden"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010166> "forest garden"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010166> <http://purl.obolibrary.org/obo/AGRO_00000584>)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010167> (shifting cultivation)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cfc.umt.edu/rattan/files/Swidden%20agriculture.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.survivalinternational.org/about/swidden") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010167> "A technique of rotational farming in which land is cleared for cultivation (normally by fire) and then left to regenerate after a few years."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010167> <https://orcid.org/0000-0003-3985-4911>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010167> "2022-01-04T01:04:12Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010167> "swidden agriculture"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010167> "swidden farming"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010167> "shifting cultivation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010167> <http://purl.obolibrary.org/obo/AGRO_00002071>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
