@@ -566,6 +566,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000606>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000607>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000608>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000609>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000610>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -4916,6 +4917,13 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000609> "net plot area"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000609> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00000302> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000570>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000609> <http://purl.obolibrary.org/obo/AGRO_00000302>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000610> (hedgerow intercropping)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Sinclair, F.L., 1999. A general classification of agroforestry practice. Agroforestry systems, 46(2), pp.161-180."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000610> "Intercropping in which several rows of crops are interspersed with hedges of fast growing shrubs that are coppiced every few weeks to provide a nitrogen-rich mulch for the crop."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000610> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000610> "hedgerow intercropping"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000610> <http://purl.obolibrary.org/obo/AGRO_00000516>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
