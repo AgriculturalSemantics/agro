@@ -632,6 +632,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002074>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002075>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010155>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010158>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010159>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00010160>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00020002>))
@@ -5445,6 +5448,34 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010155> "inorganic fertilizer role"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00010155> <http://purl.obolibrary.org/obo/CHEBI_33287>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010155> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010158> (windbreak)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.fs.usda.gov/nac/practices/windbreaks.php") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010158> "Windbreaks are linear plantings of trees and shrubs designed to enhance crop production, protect people and livestock, and benefit soil and water conservation."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010158> <https://orcid.org/0000-0003-3985-4911>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010158> "2022-01-03T23:59:15Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010158> "shelterbelt")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010158> "windbreak"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010158> <http://purl.obolibrary.org/obo/AGRO_00000584>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010158> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000231>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010159> (timberbelt)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/agriculture-and-seafood/agricultural-land-and-environment/agroforestry/100100-3_shelterbelts.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010159> "Multiple row windbreaks that are planted for both production of tree crops and environmental benefits like wind protection, soil conservation, wildlife habitat."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010159> <https://orcid.org/0000-0003-3985-4911>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010159> "2022-01-04T00:11:30Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010159> "timberbelt"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010159> <http://purl.obolibrary.org/obo/AGRO_00010158>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010160> (buffer planting)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/agriculture-and-seafood/agricultural-land-and-environment/agroforestry/100100-3_shelterbelts.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010160> "Fence where one or more rows of trees and/or shrubs specifically planted to provide a visual screen or intercept light, odour, dust, and noise or a combination thereof."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010160> <https://orcid.org/0000-0003-3985-4911>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010160> "2022-01-04T00:13:31Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010160> "buffer"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010160> "buffer planting"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010160> <http://purl.obolibrary.org/obo/AGRO_00000584>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010160> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000231>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00020000> (inter-cropping experiment)
 
