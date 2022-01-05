@@ -567,6 +567,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000607>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000608>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000609>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000610>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000611>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -4925,6 +4926,13 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000610> "hedgerow intercropping"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000610> <http://purl.obolibrary.org/obo/AGRO_00000516>)
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000611> (cropping phase of taungya farming)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000611> "Phase during which farmers are permitted to seed crops between trees during the establishment phase of plantation forestry."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000611> < https://orcid.org/0000-0003-3985-4911>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000611> "cropping phase of taungya farming"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000611> <http://purl.obolibrary.org/obo/AGRO_00010165>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.oisat.org/control_methods/cultural__practices/intercropping.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002000> "An inter-cropping experiement dunring which two or more crops are grown on the same field.  The planting of the second crop occurs after the first one has completed its development.")
@@ -5557,7 +5565,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010164> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010165> (taungya farming)
 
-AnnotationAssertion(Annotation(rdfs:comment "https://www.sciencedirect.com/science/article/abs/pii/S1462901111000451") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010165> "A forestry system that involves inter-planting trees with agricultural crops, particularly the local population’s staple foods, and so serves to satisfy the farmer’s quest for arable land."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Sinclair, F.L., 1999. A general classification of agroforestry practice. Agroforestry systems, 46(2), pp.161-180.") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010165> "An agroforestry process where peasant farmers are permitted to seed crops between trees during the establishment phase of plantation forestry."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010165> <https://orcid.org/0000-0003-3985-4911>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010165> "2022-01-04T00:56:20Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010165> "taungya farming"@en)
