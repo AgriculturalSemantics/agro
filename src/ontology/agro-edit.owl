@@ -4724,14 +4724,12 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000582> "t
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000582> <http://purl.obolibrary.org/obo/AGRO_00000092>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000582> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000584>))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000583> (agroforestry fallow)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000583> (improved fallow)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "http://www.fao.org/forestry/agroforestry/89998/en/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000583> "Woody species planted and left to grow during fallow."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000583> <http://orcid.org/0000-0003-3985-4911>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000583> "improved fallows"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000583> "agroforestry fallow"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000583> "improved fallow"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000583> <http://purl.obolibrary.org/obo/AGRO_00000390>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000583> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00010167>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000583> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000584>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000584> (agroforestry)
