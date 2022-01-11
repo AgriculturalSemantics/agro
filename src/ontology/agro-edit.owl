@@ -566,6 +566,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000606>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000607>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000608>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000609>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000612>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -4900,6 +4901,16 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000609> "net plot area"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000609> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AGRO_00000302> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000570>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000609> <http://purl.obolibrary.org/obo/AGRO_00000302>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000612> (field altitude)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Altitude") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000612> "Elevation above the sea level of a field."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000612> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000612> "agricultural field altitude"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000612> "farmer's field altitude"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000612> "field altitude"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000612> <http://purl.obolibrary.org/obo/PATO_0001687>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000612> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00000114>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
