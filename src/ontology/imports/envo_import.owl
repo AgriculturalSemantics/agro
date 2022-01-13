@@ -41,6 +41,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
@@ -9189,6 +9195,7 @@
     <!-- http://purl.obolibrary.org/obo/ENVO_00002041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002041">
+        <obo:IAO_0100001 rdf:resource="ENVO:01001004"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete ground water</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -23269,6 +23276,34 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_09200016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_09200016">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001757"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001757"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The conductivity of some soil.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soil conductivity</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conductivity of soil</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_09200017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_09200017">
@@ -23293,6 +23328,34 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The composition of some water.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water composition</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">composition of water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_09200018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_09200018">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001757"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001757"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The conductivity of some water.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water conductivity</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conductivity of water</rdfs:label>
     </owl:Class>
     
 
@@ -24828,6 +24891,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0001585 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001585">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality inhering in a bearer by virtue of the bearer&apos;s disposition to transmit of an entity through a medium.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conductivity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001591 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001591">
@@ -24960,6 +25033,16 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality that inheres in an bearer by virtue of how that bearer interacts with radiation.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001757 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001757">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001585"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A conductivity quality inhering in a bearer by virtue of the bearer&apos;s ability to convey electricity.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electrical conductivity</rdfs:label>
     </owl:Class>
     
 
