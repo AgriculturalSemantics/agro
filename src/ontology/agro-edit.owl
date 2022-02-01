@@ -4655,28 +4655,28 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000572> "GPS coordinates"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000572> <http://purl.obolibrary.org/obo/IAO_0000109>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000573> (GPS coordinates of a field)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000573> (field GPS coordinates)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000573> "A unique identifier of the postion a field on earth, usually expressed in alphanumeric characters."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000573> <http://orcid.org/0000-0001-6284-4821>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000573> "GPS coordinates of a field"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000573> "field GPS coordinates"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000573> <http://purl.obolibrary.org/obo/AGRO_00000572>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000573> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_01000352>))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000574> (field latitude coordinate)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000574> (field latitude)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000574> "Latitude coordinate of a field."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000574> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000574> "field latitude coordinate measurement datum"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000574> "field latitude coordinate"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000574> "field latitude"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000574> <http://purl.obolibrary.org/obo/OBI_0001620>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000575> (field longitude coordinate)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000575> (field longitude)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000575> "Longitude coordinate of a field."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000575> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000575> "field longitude coordinate measurement datum"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000575> "field longitude coordinate"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000575> "field longitude"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000575> <http://purl.obolibrary.org/obo/OBI_0001621>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000575> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_01000352>))
 
@@ -5441,21 +5441,21 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002071> ObjectUnionOf(O
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002071> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000590>))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00002073> (plot latitude coordinate measurement datum)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002073> (plot latitude)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002073> "A measurement datum that is the measure of the latitude coordinate of an agricultural plot.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002073> <http://orcid.org/0000-0002-8461-9745>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002073> "plot latitude"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002073> "plot latitude coordinate measurement datum"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002073> "plot latitude coordinate measurement datum"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002073> "plot latitude"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002073> <http://purl.obolibrary.org/obo/OBI_0001620>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002073> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00002074> (plot longitude coordinate measurement datum)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002074> (plot longitude)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002074> "A measurement datum that is the measure of the longitude coordinate of an agricultural plot.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002074> <http://orcid.org/0000-0002-8461-9745>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002074> "plot longitude")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002074> "plot longitude coordinate measurement datum"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002074> "plot longitude coordinate measurement datum"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002074> "plot longitude"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002074> <http://purl.obolibrary.org/obo/OBI_0001621>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 
