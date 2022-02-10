@@ -568,6 +568,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000608>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000609>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000612>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000613>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000616>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000617>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000618>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000619>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -4926,6 +4930,31 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000613> "intrarow spacing"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000613> "intra-row spacing"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000613> <http://purl.obolibrary.org/obo/AGRO_00000316>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000616> (seed variety type)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000616> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/format> <http://purl.obolibrary.org/obo/AGRO_00000616> "Type of seed variety used"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000616> "seed variety type"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000616> <http://purl.obolibrary.org/obo/TO_0000931>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000617> (local seed variety)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000617> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000617> "local seed variety"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000617> <http://purl.obolibrary.org/obo/AGRO_00000616>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000618> (improved seed variety)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000618> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000618> "improved seed variety"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000618> <http://purl.obolibrary.org/obo/AGRO_00000616>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000619> (hybrid seed variety)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000619> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000619> "hybrid seed variety"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000619> <http://purl.obolibrary.org/obo/AGRO_00000616>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
