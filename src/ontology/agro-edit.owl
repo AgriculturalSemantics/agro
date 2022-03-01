@@ -586,6 +586,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000632>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000633>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000634>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000635>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000637>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -5076,6 +5077,15 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000635> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000635> "temperature of air maximum yearly"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000635> <http://purl.obolibrary.org/obo/AGRO_00000626>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000637> (relative humidity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/relative-humidity") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000637> "Humidity that correspond to moisture content of the atmosphere, expressed as a percentage of the amount of moisture that can be retained by the atmosphere at a given temperature and pressure without condensation."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000637> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000637> "relative humidity"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000637> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_01000829>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000637> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000357>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000637> <http://purl.obolibrary.org/obo/PATO_0015009>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
