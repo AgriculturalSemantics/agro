@@ -572,6 +572,20 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000616>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000617>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000618>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000619>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000620>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000621>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000622>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000623>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000626>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000627>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000628>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000629>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000630>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000631>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000632>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000633>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000634>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000635>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -4674,6 +4688,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000574> "field latitude coordinate measurement datum"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000574> "field latitude"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000574> <http://purl.obolibrary.org/obo/OBI_0001620>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000574> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00000114>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000575> (field longitude)
 
@@ -4682,6 +4697,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000575> "field longitude coordinate measurement datum"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000575> "field longitude"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000575> <http://purl.obolibrary.org/obo/OBI_0001621>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000575> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00000114>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000575> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_01000352>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000579> (alley cropping)
@@ -4955,6 +4971,111 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000618> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000619> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000619> "hybrid seed variety"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000619> <http://purl.obolibrary.org/obo/AGRO_00000616>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000620> (weather station latitude)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000620> "Latitude coordinate of a weather station"@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000620> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000620> "weather station latitude"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000620> <http://purl.obolibrary.org/obo/OBI_0001620>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000620> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000357>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000621> (weather station longitude)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000621> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000621> "Longitude coordinate of a weather station."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000621> "weather station longitude"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000621> <http://purl.obolibrary.org/obo/OBI_0001621>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000621> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000357>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000622> (weather station GPS coordinates)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000622> "GPS coordinates of a weather station."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000622> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000622> "weather station GPS coordinates"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000622> <http://purl.obolibrary.org/obo/AGRO_00000572>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000622> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000357>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000623> (distance between a weather station and the field)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000623> "Distance between the weather station and the field."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000623> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000623> "distance between a weather station and the field"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000623> <http://purl.obolibrary.org/obo/PATO_0000040>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000357>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000360>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00000114>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000626> (temperature of air maximum)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000626> "Maximum temperature of air."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000626> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000626> "temperature of air maximum"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000626> <http://purl.obolibrary.org/obo/ENVO_09200001>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000627> (temperature of air minimum)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000627> "Minimum temperature of air."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000627> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000627> "temperature of air minimum"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000627> <http://purl.obolibrary.org/obo/ENVO_09200001>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000628> (temperature of air average)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000628> "Average temperature of air."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000628> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000628> "temperature of air average"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000628> <http://purl.obolibrary.org/obo/ENVO_09200001>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000629> (temperature of air average daily)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000629> "Average temperature of air over a day."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000629> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000629> "temperature of air average daily"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000629> <http://purl.obolibrary.org/obo/AGRO_00000628>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000630> (temperature of air average yearly)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000630> "Average temperature of air over a year."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000630> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000630> "average annual temperature"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000630> "temperature of air average yearly"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000630> <http://purl.obolibrary.org/obo/AGRO_00000628>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000631> (temperature of air average monthly)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000631> "Average temperature of air over a month."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000631> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000631> "temperature of air average monthly"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000631> <http://purl.obolibrary.org/obo/AGRO_00000628>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000632> (temperature of air minimum daily)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000632> "Minimum temperature of air reached in a day."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000632> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000632> "temperature of air minimum daily"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000632> <http://purl.obolibrary.org/obo/AGRO_00000627>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000633> (temperature of air minimum yearly)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000633> "Minimum temperature of air reached in a year."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000633> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000633> "temperature of air minimum yearly"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000633> <http://purl.obolibrary.org/obo/AGRO_00000627>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000634> (temperature of air maximum daily)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000634> "Maximum temperature of air reached in a day."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000634> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000634> "temperature of air maximum daily"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000634> <http://purl.obolibrary.org/obo/AGRO_00000626>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000635> (temperature of air maximum yearly)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000635> "Maximum temperature of air reached in a year."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000635> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000635> "temperature of air maximum yearly"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000635> <http://purl.obolibrary.org/obo/AGRO_00000626>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
@@ -6112,6 +6233,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001116> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/ENVO_02000054> (bone meal)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_02000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_09200001> (temperature of air)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_09200001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000357>))
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_319699> (Equus asinus x caballus)
 
