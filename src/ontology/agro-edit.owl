@@ -1953,6 +1953,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000146> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000152> (liming material area density)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000152> "An area density quality which inheres in liming material by virtue of some influence exerted by the mass of liming material applied on a given surface area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000152> "lime amount"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000152> "lime quantity"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000152> "liming material area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000152> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
@@ -2155,6 +2157,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000196> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000197> (liming material)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/nutrient-management/nutrient-lime-guidelines/liming-materials-for-minnesota-soils/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000197> "An environmental material containing calcium and/or magnesium compounds  and applied to soil in order to neutralize soil acidity."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000197> "lime"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000197> "liming material"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000197> <http://purl.obolibrary.org/obo/ENVO_00010483>)
 
