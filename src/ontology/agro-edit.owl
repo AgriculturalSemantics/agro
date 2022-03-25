@@ -568,6 +568,28 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000608>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000609>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000610>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000611>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000612>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000613>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000616>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000617>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000618>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000619>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000620>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000621>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000622>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000623>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000626>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000627>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000628>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000629>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000630>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000631>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000632>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000633>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000634>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000635>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000637>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000638>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -824,6 +846,7 @@ DatatypeDefinition(xsd:base64Binary xsd:Name)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Tillage") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://stats.oecd.org/glossary/detail.asp?ID=447") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000002> "A planned process in which soil is mechanicaly mixed, stirred or overturned."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000002> "incorporation process"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000002> "ploughing"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000002> "tillage"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000002> "tillage process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000002> <http://purl.obolibrary.org/obo/AGRO_00000108>)
@@ -1946,6 +1969,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000146> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000152> (liming material area density)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000152> "An area density quality which inheres in liming material by virtue of some influence exerted by the mass of liming material applied on a given surface area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000152> "lime amount"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000152> "lime quantity"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000152> "liming material area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000152> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
@@ -2148,6 +2173,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000196> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000197> (liming material)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.extension.umn.edu/agriculture/nutrient-management/nutrient-lime-guidelines/liming-materials-for-minnesota-soils/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000197> "An environmental material containing calcium and/or magnesium compounds  and applied to soil in order to neutralize soil acidity."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000197> "lime"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000197> "liming material"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000197> <http://purl.obolibrary.org/obo/ENVO_00010483>)
 
@@ -2171,9 +2197,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000199> ObjectSomeValuesFrom(<
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000200> (fertilizer area density)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000200> "An area density quality which inheres in fertilizer by virtue of some influence exerted by the mass of fertilizer applied in a given surface area."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000200> "Mass of fertilizer applied in a given surface area."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000200> "amount of fertilizer applied"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000200> "fertilizer amount"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000200> "fertilizer quantity applied"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000200> "fertilizer rate"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000200> "rate of fertilizer applied"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000200> "fertilizer area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000200> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
@@ -2189,9 +2218,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000201> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000202> (seeding rate)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000202> "seed rate"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000202> "seeding area density"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000202> "sowing rate"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000202> "An area density quality which inheres in seeds by virtue of some influence exerted by the mass of the seeds sown on a given surface area."@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000202> <http://purl.obolibrary.org/obo/AGRO_00000205>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000202> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PO_0009010>))
 
@@ -2203,7 +2232,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000204> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000205> (plant reproductive material area density)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000205> "An area density quality which inheres in plant reproductive material by virtue of some influence exerted by the mass of plant reproductive material planted in a given surface area."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000205> "Mass of plant reproductive material planted on a given surface area."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000205> "planting rate"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000205> "plant reproductive material area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000205> <http://purl.obolibrary.org/obo/PATO_0001351>)
@@ -2965,8 +2994,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000317> ObjectSomeValuesFrom(<
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000318> (distance between rows)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000318> "Interrow spacing"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000318> "inter-row spacing"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000318> <http://purl.obolibrary.org/obo/PATO_0000040>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000318> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PO_0000003>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000319> (row orientation)
 
@@ -3616,6 +3646,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000420> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000423> (fertilizer area density over a cropping season)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000423> "Total quantity of fertilizer applied in a given surface area during a cropping season."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000423> "fertilizer amount applied over a season"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000423> "fertilizer area density over a cropping season"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000423> <http://purl.obolibrary.org/obo/AGRO_00000200>)
 
@@ -3942,7 +3973,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000469> "rotation"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000469> "rotation process"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000469> "crop rotation process"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000469> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000469> <http://purl.obolibrary.org/obo/AGRO_00000638>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000469> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/AGRO_00000487>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000469> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000469> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_00000114>))
@@ -4038,7 +4069,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000481> "mono-cropping"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000481> "monocropping"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000481> "monoculture"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000481> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000481> <http://purl.obolibrary.org/obo/AGRO_00000638>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000481> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000481> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_00000114>))
 
@@ -4237,7 +4268,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000515> ObjectSomeValuesFrom(<
 AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "https://eap.mcgill.ca/CSI_1.htm") Annotation(<http://purl.org/dc/elements/1.1/source> "https://en.wikipedia.org/wiki/Intercropping") Annotation(<http://purl.org/dc/elements/1.1/source> "https://www.researchgate.net/publication/224934832_Annual_intercrops_An_alternative_pathway_for_sustainable_agriculture#pf4") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000516> "An agricultural process in wich two or more crops are cultivated in the same space at the same time."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000516> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000516> "intercropping"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000516> <http://purl.obolibrary.org/obo/AGRO_00002071>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000516> <http://purl.obolibrary.org/obo/AGRO_00000638>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000516> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000516> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_00000114>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000516> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000325>))
@@ -4663,29 +4694,31 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000572> "GPS coordinates"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000572> <http://purl.obolibrary.org/obo/IAO_0000109>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000573> (GPS coordinates of a field)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000573> (field GPS coordinates)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000573> "A unique identifier of the postion a field on earth, usually expressed in alphanumeric characters."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000573> <http://orcid.org/0000-0001-6284-4821>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000573> "GPS coordinates of a field"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000573> "field GPS coordinates"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000573> <http://purl.obolibrary.org/obo/AGRO_00000572>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000573> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_01000352>))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000574> (field latitude coordinate)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000574> (field latitude)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000574> "Latitude coordinate of a field."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000574> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000574> "field latitude coordinate measurement datum"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000574> "field latitude coordinate"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000574> "field latitude"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000574> <http://purl.obolibrary.org/obo/OBI_0001620>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000574> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00000114>))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000575> (field longitude coordinate)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000575> (field longitude)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000575> "Longitude coordinate of a field."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000575> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000575> "field longitude coordinate measurement datum"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000575> "field longitude coordinate"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000575> "field longitude"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000575> <http://purl.obolibrary.org/obo/OBI_0001621>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000575> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00000114>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000575> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_01000352>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000579> (alley cropping)
@@ -4930,6 +4963,171 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000611> < https://orcid.org/0000-0003-3985-4911>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000611> "cropping phase of taungya farming"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000611> <http://purl.obolibrary.org/obo/AGRO_00010165>)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000612> (field altitude)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Altitude") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000612> "Elevation above the sea level of a field."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000612> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000612> "agricultural field altitude"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000612> "farmer's field altitude"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000612> "field altitude"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000612> <http://purl.obolibrary.org/obo/PATO_0001687>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000612> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00000114>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000613> (intra-row spacing)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000613> "Distance between two plants in a same row."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000613> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000613> "distance between plants in a row"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000613> "intrarow spacing"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000613> "intra-row spacing"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000613> <http://purl.obolibrary.org/obo/AGRO_00000316>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000616> (seed variety type)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000616> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/format> <http://purl.obolibrary.org/obo/AGRO_00000616> "Type of seed variety used"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000616> "seed variety type"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000616> <http://purl.obolibrary.org/obo/TO_0000931>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000617> (local seed variety)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000617> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000617> "local seed variety"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000617> <http://purl.obolibrary.org/obo/AGRO_00000616>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000618> (improved seed variety)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000618> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000618> "improved seed variety"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000618> <http://purl.obolibrary.org/obo/AGRO_00000616>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000619> (hybrid seed variety)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000619> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000619> "hybrid seed variety"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000619> <http://purl.obolibrary.org/obo/AGRO_00000616>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000620> (weather station latitude)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000620> "Latitude coordinate of a weather station"@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000620> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000620> "weather station latitude"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000620> <http://purl.obolibrary.org/obo/OBI_0001620>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000620> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000357>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000621> (weather station longitude)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000621> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/AGRO_00000621> "Longitude coordinate of a weather station."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000621> "weather station longitude"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000621> <http://purl.obolibrary.org/obo/OBI_0001621>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000621> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000357>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000622> (weather station GPS coordinates)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000622> "GPS coordinates of a weather station."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000622> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000622> "weather station GPS coordinates"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000622> <http://purl.obolibrary.org/obo/AGRO_00000572>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000622> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000357>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000623> (distance between a weather station and the field)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000623> "Distance between the weather station and the field."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000623> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000623> "distance between a weather station and the field"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000623> <http://purl.obolibrary.org/obo/PATO_0000040>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000357>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000360>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00000114>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000626> (temperature of air maximum)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000626> "Maximum temperature of air."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000626> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000626> "temperature of air maximum"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000626> <http://purl.obolibrary.org/obo/ENVO_09200001>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000627> (temperature of air minimum)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000627> "Minimum temperature of air."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000627> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000627> "temperature of air minimum"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000627> <http://purl.obolibrary.org/obo/ENVO_09200001>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000628> (temperature of air average)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000628> "Average temperature of air."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000628> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000628> "temperature of air average"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000628> <http://purl.obolibrary.org/obo/ENVO_09200001>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000629> (temperature of air average daily)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000629> "Average temperature of air over a day."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000629> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000629> "temperature of air average daily"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000629> <http://purl.obolibrary.org/obo/AGRO_00000628>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000630> (temperature of air average yearly)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000630> "Average temperature of air over a year."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000630> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000630> "average annual temperature"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000630> "temperature of air average yearly"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000630> <http://purl.obolibrary.org/obo/AGRO_00000628>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000631> (temperature of air average monthly)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000631> "Average temperature of air over a month."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000631> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000631> "temperature of air average monthly"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000631> <http://purl.obolibrary.org/obo/AGRO_00000628>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000632> (temperature of air minimum daily)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000632> "Minimum temperature of air reached in a day."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000632> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000632> "temperature of air minimum daily"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000632> <http://purl.obolibrary.org/obo/AGRO_00000627>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000633> (temperature of air minimum yearly)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000633> "Minimum temperature of air reached in a year."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000633> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000633> "temperature of air minimum yearly"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000633> <http://purl.obolibrary.org/obo/AGRO_00000627>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000634> (temperature of air maximum daily)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000634> "Maximum temperature of air reached in a day."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000634> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000634> "temperature of air maximum daily"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000634> <http://purl.obolibrary.org/obo/AGRO_00000626>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000635> (temperature of air maximum yearly)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000635> "Maximum temperature of air reached in a year."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000635> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000635> "temperature of air maximum yearly"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000635> <http://purl.obolibrary.org/obo/AGRO_00000626>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000637> (relative humidity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/relative-humidity") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000637> "Humidity that correspond to moisture content of the atmosphere, expressed as a percentage of the amount of moisture that can be retained by the atmosphere at a given temperature and pressure without condensation."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000637> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000637> "relative humidity"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000637> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_01000829>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000637> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000357>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000637> <http://purl.obolibrary.org/obo/PATO_0015009>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000638> (cropping system)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://extension.cropsciences.illinois.edu/handbook/pdfs/chapter05.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000638> "An agricultural process in which crops are cultivated following crop sequences and management techniques."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000638> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000638> "cropping system"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000638> <http://purl.obolibrary.org/obo/AGRO_00002071>)
+
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
@@ -5215,6 +5413,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002038> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002039> "A material entity that has a fertilizer role and that is derived from animal or vegetable matter.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002039> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002039> "organic amendment"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002039> "organic amendments"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00002039> "organic input"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002039> "organic fertilizer"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002039> <http://purl.obolibrary.org/obo/AGRO_00002062>)
@@ -5442,21 +5643,21 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002071> ObjectUnionOf(O
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002071> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000590>))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00002073> (plot latitude coordinate measurement datum)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002073> (plot latitude)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002073> "A measurement datum that is the measure of the latitude coordinate of an agricultural plot.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002073> <http://orcid.org/0000-0002-8461-9745>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002073> "plot latitude"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002073> "plot latitude coordinate measurement datum"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002073> "plot latitude coordinate measurement datum"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002073> "plot latitude"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002073> <http://purl.obolibrary.org/obo/OBI_0001620>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002073> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00002074> (plot longitude coordinate measurement datum)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002074> (plot longitude)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002074> "A measurement datum that is the measure of the longitude coordinate of an agricultural plot.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002074> <http://orcid.org/0000-0002-8461-9745>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002074> "plot longitude")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002074> "plot longitude coordinate measurement datum"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002074> "plot longitude coordinate measurement datum"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002074> "plot longitude"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002074> <http://purl.obolibrary.org/obo/OBI_0001621>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 
@@ -6213,6 +6414,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001116> ObjectSomeValuesFrom(<
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_02000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
+# Class: <http://purl.obolibrary.org/obo/ENVO_09200001> (temperature of air)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_09200001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000357>))
+
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_319699> (Equus asinus x caballus)
 
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_319699> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>))
@@ -6311,7 +6516,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000190> ObjectSomeValuesFrom(<htt
 DisjointClasses(<http://purl.obolibrary.org/obo/AGRO_00002035> <http://purl.obolibrary.org/obo/AGRO_00002036> <http://purl.obolibrary.org/obo/AGRO_00002037>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010000> "number of land levelling passes"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010003> "number of tillage passes"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010008> "organic amendment rate"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010008> "organic fertilizer area density"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010008> "organic fertilizer quantity"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010008> "organic fertilizer rate"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010008> "organic input rate"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010011> "total number of fertilizer applications")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00010012> "true"^^xsd:boolean)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010015> "total number of irrigations")
