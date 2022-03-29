@@ -592,6 +592,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000639>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000640>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000641>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000642>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000643>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000644>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -1953,6 +1955,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000146> "furrow opener"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000146> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000146> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000142>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000146> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000644>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000146> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_01000000>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000152> (liming material area density)
@@ -5139,6 +5142,22 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000642> "pelle"@fr)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000642> "shovel"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000642> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000643> (self-propelled sprinkler)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000643> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000643> "self-propelled sprinkler"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000643> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000644> (furrow construction process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.fao.org/3/s8684e/s8684e04.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000644> "An agricultural process in which furrow are build in the field."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000644> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000644> "contruction de sillons"@fr)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000644> "formación de surcos"@es)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000644> "furrow design process"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000644> "furrow construction process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000644> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
