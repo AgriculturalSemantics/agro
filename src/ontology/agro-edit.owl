@@ -594,6 +594,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000641>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000642>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000643>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000644>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000645>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000646>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000647>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -1766,8 +1769,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000127> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Disc_harrow") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000128> "An implement that consists of many carbon steel or boron discs, which have many varying concavities and disc blade sizes and spacing and which are arranged into two or four sections. It is used to till the soil where crops are to be planted. It is also used to chop up unwanted weeds or crop remainders."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000128> "https://orcid.org/0000-0001-6284-4821"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000128> "arado de disco"@es)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000128> "bladed harrow"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000128> "disc plough"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000128> "disc plow"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000128> "disc harrow"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000128> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000128> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
@@ -1804,6 +1809,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000130> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://minosagri.com/chisel-plough") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000131> "An implement that loosen and aerate soil without inverting or turning it."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000131> "https://orcid.org/0000-0001-6284-4821"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000131> "Arado de Cincel"@es)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000131> "chisel plow"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000131> "chisel plough"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000131> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000131> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
@@ -3412,6 +3419,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000382> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000383> "An object to be used by hand to plough soil."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000383> "https://orcid.org/0000-0001-6284-4821"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000383> "hand plow"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000383> "hand plough"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000383> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000383> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000002>))
@@ -5158,6 +5166,31 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000644> "furrow design process"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000644> "furrow construction process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000644> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000645> (coa)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://herramientasagricola.com/inicio/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000645> "An agricultural implement that consists of a long stick ending in a point or embedded in a metal tip that can have the shape of a shovel or spatula, or a straight part and a curved part. It is used to open holes in the ground in South America."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000645> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000645> "coa"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000645> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000646> (machete)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Machete") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000646> "An agricultural implement that consist of a broad blade typically 30 to 45 centimetres long and usually under 3 millimetres thick."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000646> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000646> "machete"@es)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000646> "machette"@fr)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000646> "machete"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000646> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000647> (egyptian plough)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000647> "An agricultural implement that is a traditional wooden plough."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000647> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000647> "Arado Egipcio"@es)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000647> "egyptian plow"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000647> "egyptian plough"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000647> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
