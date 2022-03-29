@@ -591,6 +591,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000638>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000639>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000640>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000641>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000642>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -5130,6 +5131,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000641> "motor pump"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000641> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000642> (shovel)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Shovel") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000642> "An implement consisting of a broad blade fixed to a medium-length handle."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000642> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000642> "palas"@es)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000642> "pelle"@fr)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000642> "shovel"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000642> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.oisat.org/control_methods/cultural__practices/intercropping.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002000> "An inter-cropping experiement dunring which two or more crops are grown on the same field.  The planting of the second crop occurs after the first one has completed its development.")
@@ -5236,12 +5246,12 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002012> "mist irrigation process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002012> <http://purl.obolibrary.org/obo/AGRO_00000055>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00002013> (sprinker by lateral move irrigation process)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002013> (sprinkler by lateral move irrigation process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://agriculture.vic.gov.au/agriculture/farm-management/soil-and-water/irrigation/centre-pivot-and-lateral-move-systems") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002013> "A sprinkler irrigation process in which water is dispersed over the plant through a self-propelled irrigation systems with both ends of the system move at a constant speed up and down the area to irrigate.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002013> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002013> "linear move")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002013> "sprinker by lateral move irrigation process"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002013> "sprinkler by lateral move irrigation process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002013> <http://purl.obolibrary.org/obo/AGRO_00000060>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002014> (side roll sprinkler irrigation process)
