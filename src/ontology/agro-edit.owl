@@ -600,6 +600,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000647>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000648>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000649>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000650>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000651>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000652>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -5227,6 +5229,22 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000650> "seeding depth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000650> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001595> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000142>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000650> <http://purl.obolibrary.org/obo/PATO_0001595>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000651> (furrow)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.thefreedictionary.com/furrow") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000651> "a trench that is long, narrow, shallow and made in the ground with an agricultural implement."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000651> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000651> "furrow"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000651> <http://purl.obolibrary.org/obo/ENVO_01000649>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000651> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000067>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000652> (furrow lenght)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000652> "A lenght quality that inheres in a furrow"@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000652> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000652> "furrow lenght"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000652> <http://purl.obolibrary.org/obo/PATO_0000122>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000652> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000651>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
