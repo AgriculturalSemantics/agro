@@ -599,6 +599,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000646>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000647>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000648>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000649>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000650>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -5216,6 +5217,16 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000649> "rototiller"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000649> "rotary tiller"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000649> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000650> (seeding depth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000650> "The depth to which a seed is deposited during a seeding process."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000650> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000650> "sowing depth"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000650> "planting depth"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000650> "seeding depth"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000650> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001595> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000142>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000650> <http://purl.obolibrary.org/obo/PATO_0001595>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
