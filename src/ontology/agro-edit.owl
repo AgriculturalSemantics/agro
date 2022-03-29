@@ -597,6 +597,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000644>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000645>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000646>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000647>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000648>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000649>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -1783,6 +1785,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000128> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://lambangjaya.com/product/detail/mouldboard-plough.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000129> "An implement that cut, lift and reverse soil with a cutting depth of approximately 15 cm."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000129> "https://orcid.org/0000-0001-6284-4821"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000129> "arado vertedera"@es)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000129> "frame-plough"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000129> "moldboard plow"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000129> "mouldboard"@en)
@@ -1841,6 +1844,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000133> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000134> "Board used in field with a total water coverage to shape field surface. Weight can be added to the board."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000134> "leveling board"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000134> "nivelador de madera"@es)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000134> "levelling board"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000134> <http://purl.obolibrary.org/obo/AGRO_00000224>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000134> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000004>))
@@ -5191,6 +5195,27 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000647> "egyptian plow"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000647> "egyptian plough"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000647> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000648> (rotary harrow)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> "https://www.thefreedictionary.com/rotary+harrow") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000648> "Agricultural implement consisting of either of a series of toothed wheels on one or more horizontal axles or a single large toothed wheel on a vertical axle."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000648> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000648> "herce rotative"@fr)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000648> "rotary harrow"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000648> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000649> (rotary tiller)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.newworldencyclopedia.org/entry/Rotary_tiller") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000649> "Agricultural implement that consist of a motorized cultivator that works the soil by means of rotating tines or blades."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000649> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000649> "power tiller"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000649> "rotary hoe"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000649> "rotary plough"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000649> "rotary plow"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000649> "rotavator"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000649> "rototiller"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000649> "rotary tiller"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000649> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
