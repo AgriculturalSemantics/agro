@@ -588,6 +588,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000634>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000635>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000637>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000638>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000639>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000640>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000641>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -3509,6 +3512,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000397> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Hoe_(tool)") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000398> "An agricultural hand tool ade of a blade set to an handle and used to shape the soil, control weeds, clear soil, and harvest root crops."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000398> "https://orcid.org/0000-0001-6284-4821"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000398> "Azadón"@es)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000398> "hand-held hoe")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000398> "hoe"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000398> <http://purl.obolibrary.org/obo/AGRO_00000416>)
@@ -5098,6 +5102,33 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000638> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000638> "cropping system"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000638> <http://purl.obolibrary.org/obo/AGRO_00002071>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000639> (wheelbarrow)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Wheelbarrow") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000639> "An agricultural implement that is a small hand-propelled vehicle, usually with just one wheel, designed to be pushed and guided by a single person using two handles at the rear."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000639> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000639> "brouette"@fr)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000639> "carretilla"@es)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000639> "wheelbarrow"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000639> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000640> (wheelbarrow sprayer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000640> "An agricultural implement consisting of a tank and a spraying system attached to wheels."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000640> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000640> "carretilla de aspersión"@es)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000640> "wheelbarrow tank sprayers"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000640> "wheeled sprayer"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000640> "wheelbarrow sprayer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000640> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000641> (motor pump)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.watelectrical.com/motor-pump-working-and-its-types/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000641> "An implement that  is a mechanical device, used to move the liquids or gases from one place to another by using mechanical action."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000641> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000641> "motobomba"@es)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000641> "motor pump"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000641> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
