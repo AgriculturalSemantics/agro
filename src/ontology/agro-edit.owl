@@ -776,13 +776,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_91240>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000077>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00002053>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001351>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000148>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AGRO_00000253>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/uo#is_unit_of>))
-Declaration(DataProperty(<http://purl.obolibrary.org/obo/AGRO_00000417>))
-Declaration(DataProperty(<http://purl.obolibrary.org/obo/AGRO_00000418>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AGRO_01000022>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000232>))
@@ -806,26 +803,9 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_01000022> "p
 #   Object Properties
 ############################
 
-# Object Property: <http://purl.obolibrary.org/obo/AGRO_00000148> (has method)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000148> "has method"@en)
-
 # Object Property: <http://purl.obolibrary.org/obo/AGRO_00000253> (measurement method of)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000253> "measurement method of"@en)
-
-
-############################
-#   Data Properties
-############################
-
-# Data Property: <http://purl.obolibrary.org/obo/AGRO_00000417> (has start date)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000417> "has start date"@en)
-
-# Data Property: <http://purl.obolibrary.org/obo/AGRO_00000418> (has end date)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000418> "has end date"@en)
 
 
 ############################
@@ -2158,7 +2138,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000192> "mulch thickness"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000192> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000915> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000092>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000192> <http://purl.obolibrary.org/obo/PATO_0000915>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000192> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000148> <http://purl.obolibrary.org/obo/AGRO_00000247>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000194> (mulch color)
 
@@ -2532,8 +2511,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000245> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000247> "With a ruler measure the distance between the soil surface and the top of the mulch layer."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000247> "mulch thickness measurement protocol"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000247> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000192>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000247> <http://purl.obolibrary.org/obo/OBI_0000272>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000247> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000192>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000248> (interrow width measurement protocol)
 
@@ -2730,8 +2709,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000277> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000278> "Record the color of the mulch applied."@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000278> "Need to add a standard protocol to measure the color of the mulch, if it exists."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000278> "mulch color recording protocol"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000278> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000253> <http://purl.obolibrary.org/obo/AGRO_00000194>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000278> <http://purl.obolibrary.org/obo/OBI_0000272>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000278> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000194>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000279> (transplant age counting protocol)
 
@@ -5111,8 +5090,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000635> <http://purl.obolibrar
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/relative-humidity") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000637> "Humidity that correspond to moisture content of the atmosphere, expressed as a percentage of the amount of moisture that can be retained by the atmosphere at a given temperature and pressure without condensation."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000637> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000637> "relative humidity"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000637> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_01000829>))
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000637> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000357>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000637> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0015009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_01000829>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000637> <http://purl.obolibrary.org/obo/PATO_0015009>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000638> (cropping system)
@@ -6403,10 +6381,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001116> ObjectSomeValuesFrom(<
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_02000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
 
-# Class: <http://purl.obolibrary.org/obo/ENVO_09200001> (temperature of air)
-
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_09200001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000357>))
-
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_319699> (Equus asinus x caballus)
 
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_319699> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>))
@@ -6434,11 +6408,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9838> ObjectSomeValuesFrom(
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_9913> (Bos taurus)
 
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9913> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00002004>))
-
-# Class: <http://purl.obolibrary.org/obo/OBI_0000011> (planned process)
-
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000011> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000417> xsd:dateTime))
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000011> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/AGRO_00000418> xsd:dateTime))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0500007> (randomized complete block design)
 

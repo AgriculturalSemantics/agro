@@ -1,8 +1,20 @@
-name: Custom issue template
+name: Custom issue template (Feature Request/Help/Question)
 description: When the issue isn't defined by other templates. Please provide as many references to resources mentioned as timely available.
-assignees: krishnaTO
-# Template originally forked from [@mondo](https://github.com/monarch-initiative/mondo/tree/master/.github/ISSUE_TEMPLATE)
+assignees: marieALaporte
 body:
+  - type: checkboxes
+    id: feature
+    attributes:
+      label: feature
+      description: "Please check if this issue involves the following:"
+      options:
+        - label: "Feature Request"
+        - label: "Help/Question on AgrO"
+
+  - type: markdown
+    attributes:
+      value: "Note: For bug reports, please switch to the Typos/Bugs/Errors issue template"
+
   - type: textarea
     id: desc
     attributes:

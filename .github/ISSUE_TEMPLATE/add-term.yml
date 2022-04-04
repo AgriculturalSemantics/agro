@@ -1,16 +1,15 @@
-name: Add new term
+name: Term - add new 
 description: New term suggestion for AgrO
 title: "[NTR] "
 labels: [term-add]
-assignees: KrishnaTO
-# Template originally forked from [@mondo](https://github.com/monarch-initiative/mondo/tree/master/.github/ISSUE_TEMPLATE)
+assignees: marieALaporte
 body:
   - type: input
     id: term
     attributes:
-      label: AgrO term
-      description: ID and Label
-      placeholder: "[liming process](http://purl.obolibrary.org/obo/AGRO_00000112)"
+      label: Proposed term label
+      description: Please enter the label as found in a published source
+      placeholder: "liming process"
     validations:
       required: true
 
@@ -33,7 +32,7 @@ body:
     id: Parent
     attributes:
       label: Parent term
-      description: use [OLS](https://www.ebi.ac.uk/ols/ontologies/AgrO), or your favorite ontology browser
+      description: Please list term(s) which this term should be under? (Hint- [OLS](https://www.ebi.ac.uk/ols/ontologies/AgrO) allows east searching)
     validations:
       required: true
 
