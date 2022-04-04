@@ -569,6 +569,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000609>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000610>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000611>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000653>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000654>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -3708,14 +3709,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000437> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000438> (harvested surface area)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000438> "Area quality inhering in a surface that have been harvested."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000438> "Area of field that have been harvested."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000438> "harvested surface area"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000438> <http://purl.obolibrary.org/obo/PATO_0001323>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000439> (mulch percent coverage)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000439> "soil mulch coverage"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000439> "Area of soil covered with mulch."@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000439> "Area of soil surfae covered with mulch."@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000439> <http://purl.obolibrary.org/obo/PATO_0001323>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000440> (soil organic fertilizer coverage)
@@ -4943,6 +4944,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000653> <http://purl.obolibrar
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000653> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00010161>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000653> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00000508>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000653> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_01000466>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000654> (soil surface stoniness)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000654> "area of soil surface covered by stones."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000654> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000654> "soil surface stoniness"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000654> <http://purl.obolibrary.org/obo/PATO_0001323>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000654> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_04000010>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
