@@ -5111,8 +5111,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000635> <http://purl.obolibrar
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/relative-humidity") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000637> "Humidity that correspond to moisture content of the atmosphere, expressed as a percentage of the amount of moisture that can be retained by the atmosphere at a given temperature and pressure without condensation."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000637> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000637> "relative humidity"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000637> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_01000829>))
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000637> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000357>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000637> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0015009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_01000829>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000637> <http://purl.obolibrary.org/obo/PATO_0015009>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000638> (cropping system)
@@ -6402,10 +6401,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001116> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/ENVO_02000054> (bone meal)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_02000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00000033>))
-
-# Class: <http://purl.obolibrary.org/obo/ENVO_09200001> (temperature of air)
-
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_09200001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000357>))
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_319699> (Equus asinus x caballus)
 
