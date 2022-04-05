@@ -41,12 +41,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
@@ -9195,7 +9189,6 @@
     <!-- http://purl.obolibrary.org/obo/ENVO_00002041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002041">
-        <obo:IAO_0100001 rdf:resource="ENVO:01001004"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete ground water</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -15436,6 +15429,40 @@
         <oboInOwl:hasExactSynonym>snow fall</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">snowfall</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000896 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000896">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000830"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000832"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001985"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Rainfall which occurs when the temperature of a planetary surface and its surrounding atmosphere are below the freezing point of water, resulting in supercooled raindrops which freeze upon impact with solid surfaces.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>freezing rain</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>freezing rain fall</oboInOwl:hasBroadSynonym>
+        <rdfs:label xml:lang="en">freezing rainfall</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000896"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Rainfall which occurs when the temperature of a planetary surface and its surrounding atmosphere are below the freezing point of water, resulting in supercooled raindrops which freeze upon impact with solid surfaces.</owl:annotatedTarget>
+        <rdfs:comment>https://en.wikipedia.org/wiki/Freezing_rain</rdfs:comment>
+    </owl:Axiom>
     
 
 
@@ -22401,6 +22428,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <obo:IAO_0000115>A one-dimensional temporal region which is delimited by the occurrence of processes which serve as its delimiters.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">season</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_03000110 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000110">
@@ -22521,6 +22558,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000096"/>
+        <obo:IAO_0000115>A season during which changes in atmospheric circulation associated with the asymmetric heating of land and sea cause moisture to be brought inland by monsoon winds, leading to increased rainfall as moisture-laden air rises  and cools over land.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">monsoon season</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000129"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A season during which changes in atmospheric circulation associated with the asymmetric heating of land and sea cause moisture to be brought inland by monsoon winds, leading to increased rainfall as moisture-laden air rises  and cools over land.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Monsoon</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_03520007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03520007">
@@ -22595,6 +22648,54 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">Sediment which contains some chemical contaminant.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="https://en.wikipedia.org/wiki/Contamination"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03600018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03600018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03600030"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_04000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A soil horizon which is composed primarily of organic matter.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym xml:lang="en">soil organic layer</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">organic surface layer</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">organic horizon</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03600018"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A soil horizon which is composed primarily of organic matter.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://en.wikipedia.org/wiki/Soil_horizon"/>
+        <oboInOwl:hasDbXref rdf:resource="https://pikeconservation.org/soil-profile/#:~:text=The%20uppermost%20horizon%20is%20called,nutrients%20that%20enrich%20the%20soils."/>
+        <oboInOwl:hasDbXref rdf:resource="https://soilsofcanada.ca/soil-formation/horizons.php"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03600030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03600030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000281"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A layer which is parallel to the soil surface and which has roughly homogenous physical, chemical and biological properties relative to the soil layers above or beneath it.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">soil horizon</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03600030"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A layer which is parallel to the soil surface and which has roughly homogenous physical, chemical and biological properties relative to the soil layers above or beneath it.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://en.wikipedia.org/wiki/Soil_horizon"/>
     </owl:Axiom>
     
 
@@ -22784,6 +22885,28 @@
         <obo:IAO_0000115>The concentration of carbon dioxide when measured in seawater.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">concentration of carbon dioxide in seawater</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_04000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_04000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Organic material in soil, which consists of plant and animal residues at various stages of decomposition, cells and tissues of soil organisms, and substances synthesized by soil organisms.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">soil organic matter</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_04000008"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Organic material in soil, which consists of plant and animal residues at various stages of decomposition, cells and tissues of soil organisms, and substances synthesized by soil organisms.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Soil_organic_matter</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
