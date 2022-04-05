@@ -573,6 +573,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000654>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000655>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000656>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000657>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000658>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -4979,6 +4980,13 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000657> "distance between field and farmer house"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000657> <http://purl.obolibrary.org/obo/PATO_0000040>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000657> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00000114>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000658> (soil fertility)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.fao.org/global-soil-partnership/areas-of-work/soil-fertility/en/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000658> "Fertility quality inhering in soil. Soil fertility is the ability of a soil to sustain plant growth."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000658> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000658> "soil fertility"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000658> <http://purl.obolibrary.org/obo/PATO_0000274>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
