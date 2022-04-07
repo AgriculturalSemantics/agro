@@ -2955,7 +2955,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000314> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000315> "Distance quality that represents the distance between two plots."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000315> "plot spacing"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000315> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000301>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000315> <http://purl.obolibrary.org/obo/PATO_0000040>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000315> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 
@@ -2975,7 +2974,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000317> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000318> (distance between rows)
 
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000318> <http://purl.obolibrary.org/obo/PATO_0000040>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000318> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PO_0000003>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000318> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000155>)))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000319> (row orientation)
 
@@ -4463,7 +4462,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000544> ObjectSomeValuesFrom(<
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000545> "Distance between two ridges."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000545> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000545> "distance between ridges"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000545> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00000283>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000545> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00000283>)))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000546> (aboveground biomass)
 
@@ -5547,6 +5546,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002075> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002075> "residue incorporation percentage"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002075> <http://purl.obolibrary.org/obo/PATO_0001470>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010016> (distance between bunds)
+
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010016> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000196>)))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010022> (space between rows harvested)
+
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010022> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00002050>)))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010155> (inorganic fertilizer role)
 
