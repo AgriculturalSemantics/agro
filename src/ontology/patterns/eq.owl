@@ -46,12 +46,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/AGRO_00000148 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/AGRO_00000148"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052"/>
@@ -328,10 +322,6 @@
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000014"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000148"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000278"/>
-                    </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000092"/>
