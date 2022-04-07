@@ -5262,7 +5262,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002040> "commercial fertilizer")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002040> "mineral fertilizer")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002040> "inorganic fertilizer"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/AGRO_00010155>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_33287>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002040> <http://purl.obolibrary.org/obo/AGRO_00002062>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002042> (vermicompost)
@@ -5511,14 +5511,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010016> ObjectIntersectionOf(<
 
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010022> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00002050>)))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00010155> (inorganic fertilizer role)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010155> (obsolete inorganic fertilizer role)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Fertilizer"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010155> "A role that inheres in a material entity that is mined from mineral deposits or manufactured from synthetic compounds and that excludes carbon-containing materials except ureas."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Fertilizer"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010155> "obsolete A role that inheres in a material entity that is mined from mineral deposits or manufactured from synthetic compounds and that excludes carbon-containing materials except ureas."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AGRO_00010155> <http://purl.obolibrary.org/obo/CHEBI_33287>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010155> <http://orcid.org/0000-0002-2627-0696>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010155> "2021-10-20T14:45:35Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010155> "inorganic fertilizer role"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00010155> <http://purl.obolibrary.org/obo/CHEBI_33287>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010155> <http://purl.obolibrary.org/obo/BFO_0000023>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010155> "obsolete inorganic fertilizer role"@en)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00010155> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010156> (live fence)
 
