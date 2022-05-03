@@ -577,6 +577,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000658>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000659>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000660>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000661>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000662>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000663>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -1980,11 +1982,12 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000164> "s
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000164> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001351> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/CHEBI_26833>))))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000164> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000166> (chemical pest control material area density)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000166> (pesticide area density)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000166> "An area density quality which inheres in chemical pest control material by virtue of some influence exerted by the mass of chemical pest control material applied in a given surface area."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000166> "pesticide area density"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000166> "chemical pest control material area density"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000166> "chemical pest control material area density"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000166> "pesticide application rate"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000166> "pesticide area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000166> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000168> (nitrate area density)
@@ -2142,6 +2145,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000199> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000200> "An area density quality which inheres in fertilizer by virtue of some influence exerted by the mass of fertilizer applied in a given surface area."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000200> "amount of fertilizer applied"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000200> "fertilizer application rate"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000200> "fertilizer quantity applied"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000200> "fertilizer area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000200> <http://purl.obolibrary.org/obo/PATO_0001351>)
@@ -4963,6 +4967,26 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000661> "disease severity"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000661> <http://purl.obolibrary.org/obo/PATO_0001323>)
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000662> (herbicide area density)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000662> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000662> "Mass of herbicide applied on a surface."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000662> "herbicide amount"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000662> "herbicide application rate"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000662> "herbicide quantity applied"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000662> "herbicide area density"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000662> <http://purl.obolibrary.org/obo/AGRO_00000166>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000663> (insecticide area density)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000663> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000663> "Mass of insecticide applied on a surface."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000663> "insecticide amount"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000663> "insecticide aplication rate"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000663> "insecticide quantity applied"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000663> "insecticide area density"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000663> <http://purl.obolibrary.org/obo/AGRO_00000166>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.oisat.org/control_methods/cultural__practices/intercropping.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002000> "An inter-cropping experiement dunring which two or more crops are grown on the same field.  The planting of the second crop occurs after the first one has completed its development.")
@@ -6346,6 +6370,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000190> ObjectSomeValuesFrom(<htt
 DisjointClasses(<http://purl.obolibrary.org/obo/AGRO_00002035> <http://purl.obolibrary.org/obo/AGRO_00002036> <http://purl.obolibrary.org/obo/AGRO_00002037>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010000> "number of land levelling passes"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010003> "number of tillage passes"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010008> "organic fertilizer application rate"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010008> "organic fertilizer area density"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010011> "total number of fertilizer applications")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00010012> "true"^^xsd:boolean)
