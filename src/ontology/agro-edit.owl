@@ -4529,12 +4529,12 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000559> "harvest cut height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000559> <http://purl.obolibrary.org/obo/PATO_0000119>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000560> (pesticide amount)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000560> (obsolete pesticide amount)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000560> "The amount of a pesticide"@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000560> <http://orcid.org/0000-0001-6284-4821>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000560> "pesticide amount"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000560> <http://purl.obolibrary.org/obo/PATO_0000070>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000560> "obsolete pesticide amount"@en)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000560> "true"@en)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000561> (number of pesticide application)
 
@@ -4551,12 +4551,12 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000562> "pesticide application date"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000562> <http://purl.obolibrary.org/obo/PATO_0000165>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000563> (weeding chemical amount)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000563> (obsolete weeding chemical amount)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000563> "The amount of a weeding chemical"@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000563> <http://orcid.org/0000-0001-6284-4821>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000563> "weeding chemical amount"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000563> <http://purl.obolibrary.org/obo/AGRO_00000560>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000563> "obsolete weeding chemical amount"@en)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000563> "true"@en)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000564> (distance between the water source and the field)
 
@@ -6375,6 +6375,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010011> "total number of fertilizer applications")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00010012> "true"^^xsd:boolean)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010015> "total number of irrigations")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00010017> "true"^^xsd:boolean)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010018> "number of weeding interventions")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010024> "number of puddling passes"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00010033> "true"^^xsd:boolean)
