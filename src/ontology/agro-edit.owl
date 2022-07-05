@@ -616,6 +616,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000661>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000662>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000663>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000665>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000666>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -5334,6 +5335,15 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000665> "w
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000665> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000665> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000665> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_00000114>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000666> (field rockiness)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.agronomy.org/news/science-news/between-rock-and-hard-place/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000666> "Amount of rock in an agricultural field."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000666> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000666> "field stone content"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000666> "level of rocks in the field"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000666> "field rockiness"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000666> <http://purl.obolibrary.org/obo/PATO_0000070>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
