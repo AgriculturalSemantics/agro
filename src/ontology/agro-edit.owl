@@ -579,6 +579,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000660>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000661>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000662>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000663>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000664>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -3002,7 +3003,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000327> ObjectSomeValuesFrom(<
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000328> (slope orientation)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000328> "Orientation of the slope"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000328> "Orientation of the slope."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/AGRO_00000328> "slope aspect"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000328> "orientation de la pente"@fr)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000328> "slope orientation"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000328> <http://purl.obolibrary.org/obo/PATO_0000133>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000328> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00002000>))
@@ -3173,6 +3176,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000354> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000355> (slope shape)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FAO, 1990") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000355> "Shape quality that refers to the general shape of a slope in both vertical and horizontal directions."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000355> "curvature as the direction of the bend"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000355> "slope curvature"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000355> "slope form"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000355> "slope shape"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000355> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00002000>)))
@@ -4619,6 +4624,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000572> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000572> "geographic coordinate system"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000572> "GPS coordinates measurement datum"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000572> "geo-location"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000572> "GPS coordinates"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000572> <http://purl.obolibrary.org/obo/IAO_0000109>)
 
@@ -4626,6 +4632,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000572> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000573> "A unique identifier of the postion a field on earth, usually expressed in alphanumeric characters."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000573> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000573> "field geo-location"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000573> "field location"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000573> "GPS coordinates of a field"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000573> <http://purl.obolibrary.org/obo/AGRO_00000572>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000573> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_01000352>))
@@ -4986,6 +4994,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000663> "insecticide quantity applied"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000663> "insecticide area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000663> <http://purl.obolibrary.org/obo/AGRO_00000166>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000664> (GPS coordinates of a weather station)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000664> "A unique identifier of the postion a weather station on earth, usually expressed in alphanumeric characters."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000664> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000664> "geo-location of a weather station"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000664> "GPS coordinates of a weather station"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000664> <http://purl.obolibrary.org/obo/AGRO_00000572>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
