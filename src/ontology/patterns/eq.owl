@@ -3750,7 +3750,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The time of a experiment</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The time of an experiment</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experiment date</rdfs:label>
     </owl:Class>
     
@@ -3759,19 +3759,8 @@
     <!-- http://purl.obolibrary.org/obo/AGRO_00010152 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00010152">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001823"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000154"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The wet of a crop residue</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wet crop residue</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Fresh crop residue</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">fresh crop residue</rdfs:label>
     </owl:Class>
     
 
@@ -3779,19 +3768,8 @@
     <!-- http://purl.obolibrary.org/obo/AGRO_00010153 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00010153">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001824"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000154"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The dry of a crop residue</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dry crop residue</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Crop residue that have been dried</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dry crop residue</rdfs:label>
     </owl:Class>
     
 
@@ -3799,19 +3777,7 @@
     <!-- http://purl.obolibrary.org/obo/AGRO_00010154 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00010154">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000451"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of of a atmospheric carbon dioxide</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of atmospheric carbon dioxide</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete concentration of carbon dioxide in soil</rdfs:label>
     </owl:Class>
     
 
