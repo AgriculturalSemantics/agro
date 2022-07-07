@@ -617,6 +617,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000662>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000663>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000665>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000666>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000667>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -5344,6 +5345,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000666> "level of rocks in the field"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000666> "field rockiness"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000666> <http://purl.obolibrary.org/obo/PATO_0000070>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000667> (net pot area harvested)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000667> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000667> "An plot area quality inhering in a net plot. It corresponds to the plot area harvested minus the unwanted area removed, most often the outside rows.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000667> "net pot area harvested"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000667> <http://purl.obolibrary.org/obo/AGRO_00000302>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
