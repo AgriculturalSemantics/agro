@@ -615,6 +615,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000660>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000661>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000662>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000663>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000665>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000666>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000667>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -875,7 +878,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 ") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "www.dictionary.com/browse/irrigation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000006> "A planned process in which water is artificially supplied to plant or soil to sustain plants."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000006> "irrigation"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000006> "irrigation process"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000006> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000006> <http://purl.obolibrary.org/obo/AGRO_00000665>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/AGRO_00000054>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_00000114>))
@@ -1057,6 +1060,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000031> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000032> (plant reproductive material)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://ec.europa.eu/dgs/health_food-safety/pressroom/docs/proposal_aphp_en.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000032> "A plant anatomical entity that is defined to mean plants or parts of plant capable of and intended for producing or reproducing entire plants."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000032> "planting material"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000032> "plant reproductive material"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000032> <http://purl.obolibrary.org/obo/PO_0025131>)
 
@@ -2849,6 +2853,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000301> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000302> (plot area)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000302> "An area quality inhering in a plot."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000302> "plot size"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000302> "agricultural experimental plot area"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000302> "gross plot area"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000302> "parcel area"@en)
@@ -3038,7 +3043,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000327> ObjectSomeValuesFrom(<
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000328> (slope orientation)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000328> "Orientation of the slope"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000328> "Orientation of the slope."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000328> "slope aspect"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000328> "slope orientation"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000328> <http://purl.obolibrary.org/obo/PATO_0000133>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000328> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00002000>))
@@ -3104,7 +3110,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000337> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000338> (higher-level landform)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/019/a0541e/a0541e.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000338> "The landform refers to the shape of the land surface in the area in which the agronomic trial site is located."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/019/a0541e/a0541e.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000338> "Shape of the land surface surronding an area."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000338> "higher-level landform"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000338> <http://purl.obolibrary.org/obo/ENVO_00000191>)
 
@@ -3209,6 +3215,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000354> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000355> (slope shape)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FAO, 1990") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000355> "Shape quality that refers to the general shape of a slope in both vertical and horizontal directions."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000355> "curvature as the direction of the bend"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000355> "slope curvature"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000355> "slope form"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000355> "slope shape"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000355> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00002000>)))
@@ -3308,6 +3316,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000369> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000370> "An experiment in which a scientific method is implemented for testing certain agricultural phenomena."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000370> "agronomic experiment"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000370> "type of study"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000370> "agricultural experiment"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000370> <http://purl.obolibrary.org/obo/AGRO_00000369>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000370> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/AGRO_00000322>))
@@ -3930,14 +3939,14 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000468> ObjectIntersect
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000468> <http://purl.obolibrary.org/obo/PATO_0000921>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000468> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00000114>))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000469> (crop rotation process)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000469> (crop rotation)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Yates (1954) notes the agricultural definition is looser than an experimental one, i.e. substitution of crops or change to the length of the cycle. This definition must regard changes to the period of a rotation cycle as a different rotation, but should allow a rotation to be defined either using either named crops or a combination of named crops and crop types, for example an Oats, Legumes, Wheat rotation."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000469> "A planned process in which a definite cycle of crops or crop types is grown in succession on the same land."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000469> "crop rotation"@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Yates (1954) notes the agricultural definition is looser than an experimental one, i.e. substitution of crops or change to the length of the cycle. This definition must regard changes to the period of a rotation cycle as a different rotation, but should allow a rotation to be defined either using either named crops or a combination of named crops and crop types, for example an Oats, Legumes, Wheat rotation."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000469> "An cropping system in which a definite cycle of crops or crop types is grown in succession on the same land."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000469> "crop rotation process"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000469> "rotation"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000469> "rotation process"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000469> "crop rotation process"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000469> <http://purl.obolibrary.org/obo/OBI_0000011>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000469> "crop rotation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000469> <http://purl.obolibrary.org/obo/AGRO_00000638>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000469> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/AGRO_00000487>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000469> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000469> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_00000114>))
@@ -4026,14 +4035,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000480> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000481> (monoculture)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Monoculture"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000481> "A planned process in which a single crop is cultivated in an area at a time."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Monoculture"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000481> "An cropping system in which a single crop is cultivated in an area at a time."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000481> "https://orcid.org/0000-0002-1434-9495"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000481> "continuous crop"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000481> "continuous mono-cropping"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000481> "mono-cropping"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000481> "monocropping"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000481> "monoculture"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000481> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000481> <http://purl.obolibrary.org/obo/AGRO_00000638>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000481> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000481> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_00000114>))
 
@@ -4229,10 +4238,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000515> ObjectSomeValuesFrom(<
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000516> (intercropping)
 
-AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "https://eap.mcgill.ca/CSI_1.htm") Annotation(<http://purl.org/dc/elements/1.1/source> "https://en.wikipedia.org/wiki/Intercropping") Annotation(<http://purl.org/dc/elements/1.1/source> "https://www.researchgate.net/publication/224934832_Annual_intercrops_An_alternative_pathway_for_sustainable_agriculture#pf4") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000516> "An agricultural process in wich two or more crops are cultivated in the same space at the same time."@en)
+AnnotationAssertion(Annotation(<http://purl.org/dc/elements/1.1/source> "https://eap.mcgill.ca/CSI_1.htm") Annotation(<http://purl.org/dc/elements/1.1/source> "https://en.wikipedia.org/wiki/Intercropping") Annotation(<http://purl.org/dc/elements/1.1/source> "https://www.researchgate.net/publication/224934832_Annual_intercrops_An_alternative_pathway_for_sustainable_agriculture#pf4") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000516> "An cropping system in which two or more crops are cultivated in the same space at the same time."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000516> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000516> "intercropping"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000516> <http://purl.obolibrary.org/obo/AGRO_00002071>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000516> <http://purl.obolibrary.org/obo/AGRO_00000638>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000516> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000516> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_00000114>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000516> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000325>))
@@ -4473,15 +4482,15 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000548> "seedling"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000548> <http://purl.obolibrary.org/obo/PO_0000003>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000549> (no irrigation process)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000549> (rainfed process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Rainfed_agriculture") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000549> "A proccess in which water inputs rely only on rainfall."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000549> <http://orcid.org/0000-0001-6284-4821>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000549> "no irrigation"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000549> "zero irrigation"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000549> "no irrigation"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000549> "rainfed"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000549> "no irrigation process"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000549> <http://purl.obolibrary.org/obo/OBI_0000011>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000549> "zero irrigation"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000549> "rainfed process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000549> <http://purl.obolibrary.org/obo/AGRO_00000665>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000549> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000549> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_00000114>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000549> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/CHEBI_15377>))
@@ -4655,6 +4664,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000572> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000572> "geographic coordinate system"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000572> "GPS coordinates measurement datum"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000572> "geo-location"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000572> "GPS coordinates"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000572> <http://purl.obolibrary.org/obo/IAO_0000109>)
 
@@ -4662,6 +4672,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000572> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000573> "A unique identifier of the postion a field on earth, usually expressed in alphanumeric characters."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000573> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000573> "field location"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000573> "geo-location of a field"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000573> "GPS coordinates of a field"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000573> <http://purl.obolibrary.org/obo/AGRO_00000572>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000573> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_01000352>))
@@ -4995,6 +5007,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000621> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000622> "GPS coordinates of a weather station."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000622> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000622> "geo-location of a weather station"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000622> "weather station GPS coordinates"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000622> <http://purl.obolibrary.org/obo/AGRO_00000572>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000622> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000357>))
@@ -5092,8 +5105,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000637> <http://purl.obolibrar
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://extension.cropsciences.illinois.edu/handbook/pdfs/chapter05.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000638> "An agricultural process in which crops are cultivated following crop sequences and management techniques."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000638> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000638> "farming system"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000638> "cropping system"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000638> <http://purl.obolibrary.org/obo/AGRO_00002071>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000638> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000638> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000638> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_00000114>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000639> (wheelbarrow)
 
@@ -5310,6 +5326,34 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000663> "insecticide quantity applied"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000663> "insecticide area density"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000663> <http://purl.obolibrary.org/obo/AGRO_00000166>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000665> (water management process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000665> "An agricultural process in which water is managed on an agricultural field."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000665> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000665> "hydric regime"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000665> "regimen hidrico"@es)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000665> "régime hydrique"@fr)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000665> "water management process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000665> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000665> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000665> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_00000114>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000666> (field rockiness)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.agronomy.org/news/science-news/between-rock-and-hard-place/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000666> "Amount of rock in an agricultural field."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000666> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000666> "field stone content"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000666> "level of rocks in the field"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000666> "field rockiness"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000666> <http://purl.obolibrary.org/obo/PATO_0000070>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000667> (net pot area harvested)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000667> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000667> "An plot area quality inhering in a net plot. It corresponds to the plot area harvested minus the unwanted area removed, most often the outside rows.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000667> "net pot area harvested"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000667> <http://purl.obolibrary.org/obo/AGRO_00000302>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
@@ -5815,7 +5859,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002069> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002071> (agricultural process)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002071> "A planned process which occurs during an agricultural experiment.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002071> "A planned process which occurs in an agricultural field."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002071> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002071> "agricultural process"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002071> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_00000114>)))
@@ -5955,7 +5999,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010165> <https://orcid.org/0000-0003-3985-4911>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010165> "2022-01-04T00:56:20Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010165> "taungya farming"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010165> <http://purl.obolibrary.org/obo/AGRO_00002071>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010165> <http://purl.obolibrary.org/obo/AGRO_00000584>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010166> (forest garden practice)
 
@@ -5969,13 +6013,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010166> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010167> (shifting cultivation)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FAO, 1982. University of Ibadan Workshop on Shifting Cultivation and Extension, in Ibadan. https://www.fao.org/3/r1340E/r1340e04.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cfc.umt.edu/rattan/files/Swidden%20agriculture.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.survivalinternational.org/about/swidden") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010167> "A farming system in which relatively short periods of cultivation are followed by relatively long periods of fallow."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FAO, 1982. University of Ibadan Workshop on Shifting Cultivation and Extension, in Ibadan. https://www.fao.org/3/r1340E/r1340e04.htm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cfc.umt.edu/rattan/files/Swidden%20agriculture.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.survivalinternational.org/about/swidden") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010167> "A cropping system in which relatively short periods of cultivation are followed by relatively long periods of fallow."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010167> <https://orcid.org/0000-0003-3985-4911>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010167> "2022-01-04T01:04:12Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010167> "swidden agriculture"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010167> "swidden farming"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010167> "shifting cultivation"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010167> <http://purl.obolibrary.org/obo/AGRO_00002071>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010167> <http://purl.obolibrary.org/obo/AGRO_00000638>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010168> (forest grazing)
 
