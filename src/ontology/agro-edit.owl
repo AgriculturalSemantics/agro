@@ -567,7 +567,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000607>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000608>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000609>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000610>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000611>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000612>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000613>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000616>))
@@ -618,6 +617,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000663>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000665>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000666>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000667>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000683>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000684>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000685>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -804,6 +806,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_91238>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_91240>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000077>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00002053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000274>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001351>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
@@ -4936,13 +4939,6 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000610> "hedgerow intercropping"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000610> <http://purl.obolibrary.org/obo/AGRO_00000579>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000611> (cropping phase of taungya farming)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000611> "Phase during which farmers are permitted to seed crops between trees during the establishment phase of plantation forestry."@en)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000611> < https://orcid.org/0000-0003-3985-4911>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000611> "cropping phase of taungya farming"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000611> <http://purl.obolibrary.org/obo/AGRO_00010165>)
-
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000612> (field altitude)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Altitude") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000612> "Elevation above the sea level of a field."@en)
@@ -5355,6 +5351,28 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000667> 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000667> "net pot area harvested"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000667> <http://purl.obolibrary.org/obo/AGRO_00000302>)
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000683> (forest garden)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Crawford, Martin (2010). Creating a Forest Garden. Green Books. https://www.agroforestry.co.uk/wp-content/uploads/product/creating-a-forest-garden-2/Creating_a_forest_garden.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000683> "A carefully designed and maintained ecosystem of useful plants modelled on the structure of young natural woodland, utilising plants of direct and indirect benefit to people – often edible plants. Forest garden can be cultivated on any scale."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000683> <https://orcid.org/0000-0003-3985-4911>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000683> "forest garden"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000683> <http://purl.obolibrary.org/obo/ENVO_00000077>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000683> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000584>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000684> (experiment start date)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000684> "Start date of an experiment."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000684> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000684> "experiment start date"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000684> <http://purl.obolibrary.org/obo/AGRO_00010151>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000685> (experiment end date)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000685> "End date of an experiment."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000685> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000685> "experiment end date"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000685> <http://purl.obolibrary.org/obo/AGRO_00010151>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.oisat.org/control_methods/cultural__practices/intercropping.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002000> "An inter-cropping experiement dunring which two or more crops are grown on the same field.  The planting of the second crop occurs after the first one has completed its development.")
@@ -5441,7 +5459,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002009> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002010> (husk)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002010> "A crop residie which is the cut outter shell or coating of a seed.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002010> "A crop residue which is the cut outter shell or coating of a seed.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002010> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002010> "husk"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> <http://purl.obolibrary.org/obo/PO_0009054>))
@@ -5864,7 +5882,6 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002071> "agricultural process"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00002071> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_00000114>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002071> <http://purl.obolibrary.org/obo/OBI_0000011>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000590>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002073> (plot latitude coordinate measurement datum)
 
@@ -5899,6 +5916,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010016> ObjectIntersectionOf(<
 
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010022> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00002050>)))
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010152> (fresh crop residue)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010152> "wet crop residue"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010152> <http://purl.obolibrary.org/obo/AGRO_00000154>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00010153> (dry crop residue)
+
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010153> <http://purl.obolibrary.org/obo/AGRO_00000154>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010155> (obsolete inorganic fertilizer role)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Fertilizer"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010155> "obsolete A role that inheres in a material entity that is mined from mineral deposits or manufactured from synthetic compounds and that excludes carbon-containing materials except ureas."@en)
@@ -5915,16 +5941,19 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010156> "2021-12-24T00:21:23Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010156> "fenceline planting")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010156> "live fence"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010156> <http://purl.obolibrary.org/obo/ENVO_01000468>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010156> <http://purl.obolibrary.org/obo/ENVO_00000077>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010156> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000584>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010157> (boundary planting)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Technical Specification Boundary Planting. https://takingroot.org/wp-content/uploads/2015/04/takingroot-boundary-planting.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010157> "A planting process where trees or hedges are planted along boundaries to delimitate property, agricultural fields, pastures, roads or any other place where fences might be located."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Baker, K., Baumann, D., Michaud, J.S., van Mossel-Forrester, B., 2014. Technical Specification Boundary Planting. Registered Plan Vivo Project: The CommuniTree Carbon Project. 64p. URL: https://takingroot.org/wp-content/uploads/2015/04/takingroot-boundary-planting.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Technical Specification Boundary Planting. https://takingroot.org/wp-content/uploads/2015/04/takingroot-boundary-planting.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010157> "Live fence made of trees. Boundary planting are used to delimitate property, agricultural fields, pastures, roads or any other place where fences might be located."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010157> "https://orcid.org/0000-0003-3985-4911")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010157> "2021-12-27T16:54:13Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010157> "barrier planting")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010157> "trees on boundary"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010157> "boundary planting"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010157> <http://purl.obolibrary.org/obo/AGRO_00000231>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010157> <http://purl.obolibrary.org/obo/AGRO_00010156>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010157> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000584>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010158> (windbreak)
 
@@ -5933,8 +5962,8 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010158> "2022-01-03T23:59:15Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010158> "shelterbelt")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010158> "windbreak"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010158> <http://purl.obolibrary.org/obo/AGRO_00000584>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010158> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000231>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010158> <http://purl.obolibrary.org/obo/ENVO_00000077>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010158> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000584>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010159> (timberbelt)
 
@@ -5946,13 +5975,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010159> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010160> (buffer planting)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/agriculture-and-seafood/agricultural-land-and-environment/agroforestry/100100-3_shelterbelts.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010160> "Fence where one or more rows of trees and/or shrubs specifically planted to provide a visual screen or intercept light, odour, dust, and noise or a combination thereof."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/agriculture-and-seafood/agricultural-land-and-environment/agroforestry/100100-3_shelterbelts.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010160> "Fence where one or more rows of trees and/or shrubs are specifically planted to provide a visual screen or intercept light, odour, dust, and noise or a combination thereof."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010160> <https://orcid.org/0000-0003-3985-4911>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010160> "2022-01-04T00:13:31Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010160> "buffer"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010160> "buffer planting"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010160> <http://purl.obolibrary.org/obo/AGRO_00000584>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010160> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000231>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010160> <http://purl.obolibrary.org/obo/ENVO_00000077>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010161> (hedgerow trees)
 
@@ -5961,7 +5989,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010161> "2022-01-04T00:23:05Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00010161> "production hedges")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010161> "hedgerow trees"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010161> <http://purl.obolibrary.org/obo/ENVO_00000046>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010161> <http://purl.obolibrary.org/obo/ENVO_00000077>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010162> (fodder bank)
 
@@ -5969,8 +5997,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010162> <https://orcid.org/0000-0003-3985-4911>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010162> "2022-01-04T00:36:41Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010162> "fodder bank"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010162> <http://purl.obolibrary.org/obo/BFO_0000023>)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010162> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectUnionOf(<http://purl.obolibrary.org/obo/ENVO_00002869> <http://purl.obolibrary.org/obo/ENVO_00003869>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010162> <http://purl.obolibrary.org/obo/ENVO_0010003>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010163> (farm woodland)
 
@@ -5978,7 +6005,8 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010163> <https://orcid.org/0000-0003-3985-4911>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010163> "2022-01-04T00:43:04Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010163> "farm woodland"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00010163> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ENVO_00000078> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/ENVO_00000109>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010163> <http://purl.obolibrary.org/obo/ENVO_00000077>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010163> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/ENVO_00000109>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010164> (scattered trees)
 
@@ -5991,7 +6019,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynon
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/AGRO_00010164> "remnant trees"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00010164> "Scattered trees may enhance the provision of ecosystem services that might benefit farmers and owners of rural properties, such as pollination of crops, shading for cattle, regulation of nitrogen dynamics and carbon sequestration, herbaceous production, and wood provision."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010164> "scattered trees"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010164> <http://purl.obolibrary.org/obo/AGRO_00000580>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010164> <http://purl.obolibrary.org/obo/ENVO_00000077>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010165> (taungya farming)
 
@@ -6003,13 +6031,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010165> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010166> (forest garden practice)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Crawford, Martin (2010). Creating a Forest Garden. Green Books. https://www.agroforestry.co.uk/wp-content/uploads/product/creating-a-forest-garden-2/Creating_a_forest_garden.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.agroforestry.co.uk/about-agroforestry/forest-gardening/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010166> "An agroforestry practice based on trees, shrubs and perennial plants. It is a carefully designed and maintained ecosystem of useful plants modelled on the structure of young natural woodland, utilising plants of direct and indirect benefit to people – often edible plants. Forest garden can be cultivated on any scale."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Crawford, Martin (2010). Creating a Forest Garden. Green Books. https://www.agroforestry.co.uk/wp-content/uploads/product/creating-a-forest-garden-2/Creating_a_forest_garden.pdf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.agroforestry.co.uk/about-agroforestry/forest-gardening/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010166> "An agroforestry practice based on trees, shrubs and perennial plants to create a carefully designed and maintained ecosystem of useful plants modelled on the structure of young natural woodland, utilising plants of direct and indirect benefit to people."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010166> <https://orcid.org/0000-0003-3985-4911>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010166> "2022-01-04T01:00:02Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00010166> "Woodland garden"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010166> "forest garden"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010166> "forest garden practice"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010166> <http://purl.obolibrary.org/obo/AGRO_00000584>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010166> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000683>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010167> (shifting cultivation)
 
@@ -6528,14 +6557,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000027> ObjectSomeValuesFrom(<
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000038> <http://purl.obolibrary.org/obo/AGRO_00000339>)
 
-# Class: <http://purl.obolibrary.org/obo/ENVO_00000046> (hedge)
-
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000046> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AGRO_00010156>))
-SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000046> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00010157>))
-
 # Class: <http://purl.obolibrary.org/obo/ENVO_00000057> (mangrove swamp)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000057> <http://purl.obolibrary.org/obo/AGRO_00000339>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000077> (agricultural ecosystem)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000077> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000584>))
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_00000081> (mountain)
 
@@ -6745,11 +6773,13 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00010012
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010015> "total number of irrigations")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00010017> "true"^^xsd:boolean)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010018> "number of weeding interventions")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010023> "harvested weight"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010024> "number of puddling passes"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00010033> "true"^^xsd:boolean)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010129> "pruning date"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010143> "fertilizer application date"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00010149> "true"^^xsd:boolean)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00010154> "true"^^xsd:boolean)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/IAO_0000005> "experiment objective"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UO_0000283> "kg/ha"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UO_0000323> "t/ha"@en)
