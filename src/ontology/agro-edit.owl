@@ -620,6 +620,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000667>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000683>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000684>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000685>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000687>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -5372,6 +5373,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000685> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000685> "experiment end date"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000685> <http://purl.obolibrary.org/obo/AGRO_00010151>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000687> (manual application)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000687> "An application method in which a material entity is applied manually."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000687> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000687> "manual application"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000687> <http://purl.obolibrary.org/obo/AGRO_00000036>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
