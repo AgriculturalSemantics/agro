@@ -633,6 +633,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000679>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000680>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000681>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000682>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000690>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000691>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000692>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000693>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -5479,6 +5483,34 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000682> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000682> "animal harvesting process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000682> <http://purl.obolibrary.org/obo/AGRO_00002071>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000690> (animal processing waste material)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://en.wikipedia.org/wiki/Animal_product >) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000690> "Waste material produced when an animal is processed for consumption."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000690> <http://orcid.org/0000-0001-5275-8866>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000690> "animal processing waste material"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000690> <http://purl.obolibrary.org/obo/ENVO_00002873>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000691> (poultry processing waste material)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000691> "Waste material produced when poultry is processed for consumption."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000691> <http://orcid.org/0000-0002-1107-9135>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000691> "poultry processing waste material"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000691> <http://purl.obolibrary.org/obo/AGRO_00000690>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000692> (weep fluid)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Emma Griffiths") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000692> "A fluid that leaks from a bag containing an animal carcass, and can include water, chemicals and anatomical fluids."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000692> <http://orcid.org/0000-0002-1107-9135>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000692> "weep fluid"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000692> <http://purl.obolibrary.org/obo/AGRO_00000690>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000693> (poultry plucking water)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Emma Griffiths") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000693> "A type of water obtained from rinsing poultry carcasses during the feather plucking process."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000693> <http://orcid.org/0000-0001-5275-8866>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000693> "poultry plucking water"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000693> <http://purl.obolibrary.org/obo/AGRO_00000691>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
