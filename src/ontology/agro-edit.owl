@@ -617,6 +617,25 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000663>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000665>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000666>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000667>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000668>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000669>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000670>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000671>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000672>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000673>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000674>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000675>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000676>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000677>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000678>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000679>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000680>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000681>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000682>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000690>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000691>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000692>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000693>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000683>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000684>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000685>))
@@ -5350,6 +5369,144 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000667> "An plot area quality inhering in a net plot. It corresponds to the plot area harvested minus the unwanted area removed, most often the outside rows.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000667> "net pot area harvested"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000667> <http://purl.obolibrary.org/obo/AGRO_00000302>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000668> (animal harvesting equipment)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Emma Griffiths") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000668> "Equipment used to harvest an animal or its production which is meant for consumption."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000668> <http://orcid.org/0000-0002-1107-9135>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000668> "animal harvesting equipment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000668> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000668> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000682>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000669> (plucking belt)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000669> <http://orcid.org/0000-0002-1107-9135>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000669> "plucking belt"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000669> <http://purl.obolibrary.org/obo/AGRO_00000668>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000670> (egg belt)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> "Emma Griffiths") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000670> "A conveyor belt used to collect eggs in an industrial egg production environment."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000670> <http://orcid.org/0000-0002-1107-9135>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000670> "egg collection belt"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000670> "egg belt"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000670> <http://purl.obolibrary.org/obo/AGRO_00000668>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000671> (animal transportation equipment)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Emma Griffiths") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000671> "An equipment used in the transportation of an animal."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000671> <http://orcid.org/0000-0002-1107-9135>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000671> "animal transportation equipment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000671> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000671> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000681>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000672> (chick pad)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Emma Griffiths") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000672> "The lining of a box or crate used to transport chicks (juvenile chickens)."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000672> <http://orcid.org/0000-0002-1107-9135>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000672> "chick pad"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000672> <http://purl.obolibrary.org/obo/AGRO_00000671>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000673> (dead haul truck)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Emma Griffiths") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000673> "A truck used to haul dead animal from an abattoir."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000673> <http://orcid.org/0000-0002-1107-9135>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000673> "dead haul truck"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000673> <http://purl.obolibrary.org/obo/AGRO_00000671>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000674> (live haul truck)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Emma Griffiths") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000674> "A truck used to haul live animals."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000674> <http://orcid.org/0000-0002-1107-9135>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000674> "live haul truck"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000674> <http://purl.obolibrary.org/obo/AGRO_00000671>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000675> (animal feeding equipment)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Emma Griffiths") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000675> "An equipment used to feed and water livestock animals."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000675> <http://orcid.org/0000-0002-1107-9135>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000675> "animal feeding equipment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000675> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000676> (feed pan)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Emma Griffiths") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000676> "A bowl or pan which is used to feed livestock."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000676> <http://orcid.org/0000-0002-1107-9135>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000676> "feed pan"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000676> <http://purl.obolibrary.org/obo/AGRO_00000675>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000677> (watering bowl)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Emma Griffiths") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000677> "A bowl from which animals can drink."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000677> <http://orcid.org/0000-0002-1107-9135>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000677> "watering bowl"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000677> <http://purl.obolibrary.org/obo/AGRO_00000675>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000678> (chick box)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Emma Griffiths") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000678> "The box which is used to transport chick (juvenile chicken)."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000678> <http://orcid.org/0000-0002-1107-9135>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000678> "chick box"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000678> <http://purl.obolibrary.org/obo/AGRO_00000671>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000679> (animal feeder)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Emma Griffiths") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000679> "An animal feeding equipment that has a food storage unit and which enables livestock to obtain their own food."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000679> <http://orcid.org/0000-0002-1107-9135>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000679> "animal feeder"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000679> <http://purl.obolibrary.org/obo/AGRO_00000675>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000680> (animal drinker)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Anoosha Sehar") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000680> "An animal feeding equipment that has a water storage unit which enables livestock to obtain their own water."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000680> <http://orcid.org/0000-0001-5275-8866>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000680> "animal drinker"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000680> <http://purl.obolibrary.org/obo/AGRO_00000675>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000681> (animal transportation process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Transportation_of_animals") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000681> "An agricultural process in which the intentional movement of an animal by transport occurs."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000681> <http://orcid.org/0000-0001-5275-8866>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000681> "animal transport"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000681> "animal transportation"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000681> "transportation of animals"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000681> "animal transportation process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000681> <http://purl.obolibrary.org/obo/AGRO_00002071>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000682> (animal harvesting process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000682> "An agricultural process in which an animal is harvested for consumption."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000682> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000682> "animal harvesting process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000682> <http://purl.obolibrary.org/obo/AGRO_00002071>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000690> (animal processing waste material)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://en.wikipedia.org/wiki/Animal_product >) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000690> "Waste material produced when an animal is processed for consumption."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000690> <http://orcid.org/0000-0001-5275-8866>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000690> "animal processing waste material"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000690> <http://purl.obolibrary.org/obo/ENVO_00002873>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000691> (poultry processing waste material)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000691> "Waste material produced when poultry is processed for consumption."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000691> <http://orcid.org/0000-0002-1107-9135>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000691> "poultry processing waste material"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000691> <http://purl.obolibrary.org/obo/AGRO_00000690>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000692> (weep fluid)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Emma Griffiths") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000692> "A fluid that leaks from a bag containing an animal carcass, and can include water, chemicals and anatomical fluids."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000692> <http://orcid.org/0000-0002-1107-9135>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000692> "weep fluid"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000692> <http://purl.obolibrary.org/obo/AGRO_00000690>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000693> (poultry plucking water)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Emma Griffiths") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000693> "A type of water obtained from rinsing poultry carcasses during the feather plucking process."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000693> <http://orcid.org/0000-0001-5275-8866>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000693> "poultry plucking water"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000693> <http://purl.obolibrary.org/obo/AGRO_00000691>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000683> (forest garden)
 
