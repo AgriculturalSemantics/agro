@@ -639,6 +639,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000693>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000683>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000684>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000685>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000687>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000688>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -4499,7 +4501,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000547> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000548> (seedling)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Seedling") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000548> "Young sporophyte developing out of a plant embryo from a seed:"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Seedling") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000548> "Young sporophyte developing out of a plant embryo from a seed."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000548> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000548> "seedling"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000548> <http://purl.obolibrary.org/obo/PO_0000003>)
@@ -5529,6 +5531,22 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000685> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000685> "experiment end date"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000685> <http://purl.obolibrary.org/obo/AGRO_00010151>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000687> (manual application)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000687> "An application method in which a material entity is applied manually."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000687> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000687> "manual application"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000687> <http://purl.obolibrary.org/obo/AGRO_00000036>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000688> (graft)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000688> "Plant resulting from the union of scion and stock."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000688> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000688> "budded plant"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000688> "grafted plant"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000688> "graft"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000688> <http://purl.obolibrary.org/obo/PO_0000003>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
