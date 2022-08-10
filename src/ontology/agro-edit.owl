@@ -622,6 +622,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000684>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000685>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000687>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000688>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000694>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000695>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -5391,6 +5393,20 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000688> "graft"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000688> <http://purl.obolibrary.org/obo/PO_0000003>)
 
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000694> (rill seedbed)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000694> "Narrow and shallow channels which are eroded into unprotected soil by hillslope runoff."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000694> <http://orcid.org/0000-0003-0041-4812>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000694> "rill seedbed"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000694> <http://purl.obolibrary.org/obo/AGRO_00002021>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000695> (coutour ridge seedbed)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000115> "Medha Devare") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000695> "A ridge seedbed with ridges that follow the contour at a spacing of usually 1 to 2 metres."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000695> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000695> "coutour ridge seedbed"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000695> <http://purl.obolibrary.org/obo/AGRO_00002023>)
+
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.oisat.org/control_methods/cultural__practices/intercropping.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002000> "An inter-cropping experiement dunring which two or more crops are grown on the same field.  The planting of the second crop occurs after the first one has completed its development.")
@@ -5527,6 +5543,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002015> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002017> "An environmental zone prepared for growing plants.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002017> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002017> "land arrangement"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002017> "seedbed"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002017> <http://purl.obolibrary.org/obo/ENVO_01000408>)
 
@@ -5535,6 +5552,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002017> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002018> "A seedbed that is flat. Flat beds are used where water availability is adequate and there are no drainage problem.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00002018> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002018> "flat bed")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002018> "leveled land arrangement"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002018> "leveled seedbed"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002018> "flat seedbed"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002018> <http://purl.obolibrary.org/obo/AGRO_00002017>)
 
