@@ -624,6 +624,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000687>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000688>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000694>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000695>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000696>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000697>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000698>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -5406,6 +5409,30 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000115> "Med
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000695> <http://orcid.org/0000-0002-8461-9745>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000695> "coutour ridge seedbed"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000695> <http://purl.obolibrary.org/obo/AGRO_00002023>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000696> (disease control process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000696> "A process in which plant disease is treated."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000696> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000696> "disease control process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000696> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000697> (seed per hectare)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/AGRO_00000697> "An area density unit which is equal to the number of seeds per hectacre."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000697> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000697> "seed/ha"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000697> "seed per hectare"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000697> <http://purl.obolibrary.org/obo/UO_0000054>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000698> (stick)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/AGRO_00000698> "A woody piece or part of a tree used during an agricultural process."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000698> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000698> "stick"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000698> <http://purl.obolibrary.org/obo/AGRO_00000416>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000698> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000142>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000698> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000231>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
