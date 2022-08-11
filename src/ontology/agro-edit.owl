@@ -627,6 +627,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000695>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000696>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000697>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000698>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000699>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000700>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -3189,6 +3191,10 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000349> "soil test"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000349> "soil analysis process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000349> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000349> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000349> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_01000021>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000349> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_00000114>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000349> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000350> (planting distribution)
 
@@ -5246,6 +5252,9 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000653> "soil conservation"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000653> "soil erosion prevention process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000653> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000653> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000653> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_01000021>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000653> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_00000114>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000653> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00010161>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000653> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00000508>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000653> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_01000466>))
@@ -5433,6 +5442,25 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000698> "s
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000698> <http://purl.obolibrary.org/obo/AGRO_00000416>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000698> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000142>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000698> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/AGRO_00000231>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000699> (soil sampling process)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000699> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000699> "soil sample"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000699> "soil sampling process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000699> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000699> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000699> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_01000021>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000699> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_00000114>))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000699> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/ENVO_00001998>))
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000700> (soil sampling date)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000700> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000700> "soil sample date"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000700> "soil sampling date"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000700> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000165> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000699>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000700> <http://purl.obolibrary.org/obo/PATO_0000165>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
