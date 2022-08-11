@@ -629,6 +629,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000697>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000698>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000699>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000700>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000701>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -5220,7 +5221,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000649> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000650> (seeding depth)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000650> "The depth to which a seed is deposited during a seeding process."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000650> "The depth at which a seed is deposited during a seeding process."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000650> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000650> "sowing depth"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/AGRO_00000650> "planting depth"@en)
@@ -5457,10 +5458,21 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000699> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000700> (soil sampling date)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000700> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000700> "sampling date"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000700> "soil sample date"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000700> "soil sampling date"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000700> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000165> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000699>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000700> <http://purl.obolibrary.org/obo/PATO_0000165>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000701> (soil sampling depth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000701> "The depth at which a sample of soil is collected during a soil sampling process."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000701> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000701> "sample depth"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000701> "sampling depth"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000701> "soil sampling depth"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000701> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001595> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000699>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000701> <http://purl.obolibrary.org/obo/PATO_0001595>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
