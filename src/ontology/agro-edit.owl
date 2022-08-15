@@ -632,6 +632,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000700>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000701>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000702>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000703>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000704>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -4606,11 +4607,11 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00000560
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000561> (number of pesticide application)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000561> "The occurrence of a pesticide process"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000561> "Number of pesticide process"@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000561> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000561> "total number of pesticide application")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000561> "number of pesticide application"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000561> <http://purl.obolibrary.org/obo/PATO_0000057>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000561> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000024>)))
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000562> (pesticide application date)
 
@@ -5499,6 +5500,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000703> "frequency of weeding process"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000703> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00020006>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000703> <http://purl.obolibrary.org/obo/PATO_0000044>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000704> (frequency of harvesting process)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000704> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000704> "Number of harvesting processes over a given period."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000704> "harvesting frequency"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000704> "frequency of harvesting process"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000704> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000025>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000704> <http://purl.obolibrary.org/obo/PATO_0000044>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
@@ -6909,6 +6919,7 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00010012
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010015> "total number of irrigations")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00010017> "true"^^xsd:boolean)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010018> "number of weeding interventions")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010018> "number of weeding process"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010023> "harvested weight"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010024> "number of puddling passes"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00010033> "true"^^xsd:boolean)
