@@ -6231,6 +6231,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020005> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020006> "Process to remove unwanted plants from an area of ground.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020006> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00020006> "weeding management type"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020006> "weeding process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020006> <http://purl.obolibrary.org/obo/AGRO_00000023>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> ObjectUnionOf(<http://purl.obolibrary.org/obo/AGRO_00002004> <http://purl.obolibrary.org/obo/AGRO_00002005>))))))
@@ -6899,6 +6900,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010024> "number of puddling passes"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00010033> "true"^^xsd:boolean)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010129> "pruning date"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010143> "amendment application date"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010143> "amendment date"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010143> "fertilizer application date"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00010149> "true"^^xsd:boolean)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00010154> "true"^^xsd:boolean)
