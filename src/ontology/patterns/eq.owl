@@ -341,6 +341,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000200"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/AGRO_00000202 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000202">
@@ -1075,7 +1081,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AGRO_00000200"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00002039"/>
@@ -1083,8 +1089,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The area density of a organic fertilizer</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic fertilizer amount</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mass of organic fertilizer applied on a given surface area.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic fertilizer area density</rdfs:label>
     </owl:Class>
     
 
@@ -1095,7 +1101,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AGRO_00000200"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00002040"/>
@@ -1103,8 +1109,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The area density of a inorganic fertilizer</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inorganic fertilizer amount</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mass of inorganic fertilizer applied on a given surface area.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inorganic fertilizer area density</rdfs:label>
     </owl:Class>
     
 

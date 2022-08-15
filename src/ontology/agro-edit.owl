@@ -2197,11 +2197,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000199> ObjectSomeValuesFrom(<
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000200> (fertilizer area density)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000200> "An area density quality which inheres in fertilizer by virtue of some influence exerted by the mass of fertilizer applied in a given surface area."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000200> "Mass of fertilizer applied on a given surface area."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000200> "fertilizer amount"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000200> "amount of fertilizer applied"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000200> "fertilizer application rate"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000200> "fertilizer quantity applied"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000200> "fertilizer area density"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000200> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001351> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/CHEBI_33287>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000200> <http://purl.obolibrary.org/obo/PATO_0001351>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000201> (potassium area density)
@@ -3641,6 +3643,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000420> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000423> (fertilizer area density over a cropping season)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000423> "Total quantity of fertilizer applied in a given surface area during a cropping season."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000423> "fertilizer amount over a season"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000423> "fertilizer area density over a cropping season"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000423> <http://purl.obolibrary.org/obo/AGRO_00000200>)
 
@@ -6881,8 +6884,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000190> ObjectSomeValuesFrom(<htt
 DisjointClasses(<http://purl.obolibrary.org/obo/AGRO_00002035> <http://purl.obolibrary.org/obo/AGRO_00002036> <http://purl.obolibrary.org/obo/AGRO_00002037>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010000> "number of land levelling passes"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010003> "number of tillage passes"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010008> "organic fertilizer amount"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010008> "organic fertilizer application rate"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010008> "organic fertilizer area density"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010008> "organic fertilizer quantity"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00010009> "inorganic fertilizer amount"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010009> "inorganic fertilizer quantity"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010011> "total number of fertilizer applications")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AGRO_00010012> "true"^^xsd:boolean)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00010015> "total number of irrigations")
