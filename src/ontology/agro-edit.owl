@@ -631,6 +631,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000699>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000700>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000701>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000702>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000703>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002002>))
@@ -5481,12 +5482,22 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000701> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000702> (frequency of tillage process)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000702> "Number of tillage processes that took place during a given period."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000702> "Number of tillage processes over a given period."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000702> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000702> "tillage frequency"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000702> "frequency of tillage process"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000702> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000002>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000702> <http://purl.obolibrary.org/obo/PATO_0000044>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000703> (frequency of weeding process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000703> "Number of weeding processes over a given period."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000703> <http://orcid.org/0000-0001-6284-4821>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000703> "weed management frequency"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000703> "weeding frequency"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000703> "frequency of weeding process"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/AGRO_00000703> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00020006>)))
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000703> <http://purl.obolibrary.org/obo/PATO_0000044>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002000> (relay cropping experiment)
 
@@ -6231,6 +6242,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020005> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00020006> "Process to remove unwanted plants from an area of ground.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00020006> <http://orcid.org/0000-0002-8461-9745>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00020006> "weed management type"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00020006> "weeding management type"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00020006> "weeding process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00020006> <http://purl.obolibrary.org/obo/AGRO_00000023>)
