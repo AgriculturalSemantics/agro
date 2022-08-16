@@ -2221,9 +2221,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000201> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000202> (seeding rate)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000202> "amount of seeds used"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000202> "seeding area density"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000202> "sowing rate"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000202> "An area density quality which inheres in seeds by virtue of some influence exerted by the mass of the seeds sown on a given surface area."@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000202> "Mass of the seeds sown on a given surface area."@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000202> <http://purl.obolibrary.org/obo/AGRO_00000205>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000202> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PO_0009010>))
 
