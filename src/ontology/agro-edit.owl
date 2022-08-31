@@ -1007,14 +1007,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000024> <http://purl.obolibrar
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/AGRO_00000036>)))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/AGRO_00000233>))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000025> (plant harvesting process)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000025> (harvest process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.fao.org/docrep/t0522e/T0522E05.htm") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000025> "A planned process in which the useful part or parts of the plant are gathered."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000025> "https://orcid.org/0000-0001-6284-4821"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000025> "harvest"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000025> "harvesting"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000025> "plant harvesting process")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AGRO_00000025> "The usefulness of the part or parts of the plant depends on the criteria set by the agent of the harvesting process."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000025> "plant harvesting process"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000025> "harvest process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000025> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/AGRO_00000301>))
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_00000114>))
@@ -1073,11 +1074,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000031> "strip-till"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000031> <http://purl.obolibrary.org/obo/AGRO_00000017>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000032> (plant reproductive material)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000032> (planting material)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://ec.europa.eu/dgs/health_food-safety/pressroom/docs/proposal_aphp_en.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000032> "A plant anatomical entity that is defined to mean plants or parts of plant capable of and intended for producing or reproducing entire plants."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000032> "planting material"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000032> "plant reproductive material"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000032> "plant reproductive material"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000032> "planting material"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000032> <http://purl.obolibrary.org/obo/PO_0025131>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000033> (organic fertilizer role)
@@ -2234,11 +2235,11 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000204> "heat treatment"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000204> <http://purl.obolibrary.org/obo/AGRO_00000108>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000205> (plant reproductive material area density)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000205> (planting rate)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000205> "An area density quality which inheres in plant reproductive material by virtue of some influence exerted by the mass of plant reproductive material planted in a given surface area."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000205> "planting rate"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000205> "plant reproductive material area density"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000205> "plant reproductive material area density"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000205> "planting rate"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000205> <http://purl.obolibrary.org/obo/PATO_0001351>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000205> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000032>))
 
