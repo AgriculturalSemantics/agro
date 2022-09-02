@@ -632,15 +632,15 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000679>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000680>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000681>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000682>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000690>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000691>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000692>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000693>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000683>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000684>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000685>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000687>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000688>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000690>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000691>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000692>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000693>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000694>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000695>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00000696>))
@@ -5513,34 +5513,6 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000682> "animal harvesting process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000682> <http://purl.obolibrary.org/obo/AGRO_00002071>)
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000690> (animal processing waste material)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://en.wikipedia.org/wiki/Animal_product >) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000690> "Waste material produced when an animal is processed for consumption."@en)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000690> <http://orcid.org/0000-0001-5275-8866>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000690> "animal processing waste material"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000690> <http://purl.obolibrary.org/obo/ENVO_00002873>)
-
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000691> (poultry processing waste material)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000691> "Waste material produced when poultry is processed for consumption."@en)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000691> <http://orcid.org/0000-0002-1107-9135>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000691> "poultry processing waste material"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000691> <http://purl.obolibrary.org/obo/AGRO_00000690>)
-
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000692> (weep fluid)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Emma Griffiths") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000692> "A fluid that leaks from a bag containing an animal carcass, and can include water, chemicals and anatomical fluids."@en)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000692> <http://orcid.org/0000-0002-1107-9135>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000692> "weep fluid"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000692> <http://purl.obolibrary.org/obo/AGRO_00000690>)
-
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000693> (poultry plucking water)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Emma Griffiths") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000693> "A type of water obtained from rinsing poultry carcasses during the feather plucking process."@en)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000693> <http://orcid.org/0000-0001-5275-8866>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000693> "poultry plucking water"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000693> <http://purl.obolibrary.org/obo/AGRO_00000691>)
-
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000683> (forest garden)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Crawford, Martin (2010). Creating a Forest Garden. Green Books. https://www.agroforestry.co.uk/wp-content/uploads/product/creating-a-forest-garden-2/Creating_a_forest_garden.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000683> "A carefully designed and maintained ecosystem of useful plants modelled on the structure of young natural woodland, utilising plants of direct and indirect benefit to people – often edible plants. Forest garden can be cultivated on any scale."@en)
@@ -5578,6 +5550,34 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000688> "grafted plant"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000688> "graft"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000688> <http://purl.obolibrary.org/obo/PO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000690> (animal processing waste material)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://en.wikipedia.org/wiki/Animal_product>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000690> "Waste material produced when an animal is processed for consumption."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000690> <http://orcid.org/0000-0001-5275-8866>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000690> "animal processing waste material"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000690> <http://purl.obolibrary.org/obo/ENVO_00002873>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000691> (poultry processing waste material)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000691> "Waste material produced when poultry is processed for consumption."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000691> <http://orcid.org/0000-0002-1107-9135>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000691> "poultry processing waste material"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000691> <http://purl.obolibrary.org/obo/AGRO_00000690>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000692> (weep fluid)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Emma Griffiths") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000692> "A fluid that leaks from a bag containing an animal carcass, and can include water, chemicals and anatomical fluids."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000692> <http://orcid.org/0000-0002-1107-9135>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000692> "weep fluid"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000692> <http://purl.obolibrary.org/obo/AGRO_00000690>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000693> (poultry plucking water)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Emma Griffiths") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000693> "A type of water obtained from rinsing poultry carcasses during the feather plucking process."@en)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000693> <http://orcid.org/0000-0001-5275-8866>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000693> "poultry plucking water"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000693> <http://purl.obolibrary.org/obo/AGRO_00000691>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00000694> (rill seedbed)
 
@@ -6359,7 +6359,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00010167> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/AGRO_00010168> (forest grazing)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://forestry.usu.edu/news/utah-forest-facts/forest-grazing-managing-your-land-for-trees-forage-and-livestock") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00010168> "Agroforestry practice in which grazing occurs in a forest area."@en)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010168> < https://orcid.org/0000-0003-3985-4911>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00010168> <https://orcid.org/0000-0003-3985-4911>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/AGRO_00010168> "2022-01-04T01:08:02Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00010168> "plantation grazing"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00010168> "forest grazing"@en)
