@@ -4714,6 +4714,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000572> "geographic coordinate system"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000572> "GPS coordinates measurement datum"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000572> "geo-location"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000572> "geolocation"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000572> "GPS coordinates"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000572> <http://purl.obolibrary.org/obo/IAO_0000109>)
 
@@ -4722,6 +4723,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000572> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000573> "A unique identifier of the postion a field on earth, usually expressed in alphanumeric characters."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000573> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/AGRO_00000573> "field location"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000573> "field geolocation"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000573> "geo-location of a field"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000573> "GPS coordinates of a field"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000573> <http://purl.obolibrary.org/obo/AGRO_00000572>)
@@ -5050,12 +5052,13 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000621> "w
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000621> <http://purl.obolibrary.org/obo/OBI_0001621>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000621> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000357>))
 
-# Class: <http://purl.obolibrary.org/obo/AGRO_00000622> (weather station GPS coordinates)
+# Class: <http://purl.obolibrary.org/obo/AGRO_00000622> (GPS coordinates of a weather station)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000622> "GPS coordinates of a weather station."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00000622> "A unique identifier of the postion a weather station on earth, usually expressed in alphanumeric characters."@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/AGRO_00000622> <http://orcid.org/0000-0001-6284-4821>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000622> "geo-location of a weather station"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000622> "weather station GPS coordinates"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00000622> "weather station GPS coordinates"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00000622> "GPS coordinates of a weather station"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000622> <http://purl.obolibrary.org/obo/AGRO_00000572>)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00000622> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/AGRO_00000357>))
 
