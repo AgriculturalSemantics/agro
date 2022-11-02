@@ -661,6 +661,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
         <obo:IAO_0000115 xml:lang="en">An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</obo:IAO_0000115>
+        <rdfs:label>material entity</rdfs:label>
         <rdfs:label xml:lang="en">material entity</rdfs:label>
     </owl:Class>
     
@@ -680,8 +681,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</rdfs:label>
+        <obo:IAO_0000115>A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</obo:IAO_0000115>
+        <rdfs:label>biological_process</rdfs:label>
     </owl:Class>
     
 
@@ -1163,7 +1164,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viruses</rdfs:label>
+        <rdfs:label>Viruses</rdfs:label>
     </owl:Class>
     
 
@@ -1172,7 +1173,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_117571">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Euteleostomi</rdfs:label>
+        <rdfs:label>Euteleostomi</rdfs:label>
     </owl:Class>
     
 
@@ -1181,7 +1182,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacteria</rdfs:label>
+        <rdfs:label>Bacteria</rdfs:label>
     </owl:Class>
     
 
@@ -1190,7 +1191,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2157">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Archaea</rdfs:label>
+        <rdfs:label>Archaea</rdfs:label>
     </owl:Class>
     
 
@@ -1199,7 +1200,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukaryota</rdfs:label>
+        <rdfs:label>Eukaryota</rdfs:label>
     </owl:Class>
     
 
@@ -1208,7 +1209,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_314146">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40674"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Euarchontoglires</rdfs:label>
+        <rdfs:label>Euarchontoglires</rdfs:label>
     </owl:Class>
     
 
@@ -1217,7 +1218,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32523">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_117571"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tetrapoda</rdfs:label>
+        <rdfs:label>Tetrapoda</rdfs:label>
     </owl:Class>
     
 
@@ -1226,7 +1227,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32524">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32523"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amniota</rdfs:label>
+        <rdfs:label>Amniota</rdfs:label>
     </owl:Class>
     
 
@@ -1235,7 +1236,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33154">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opisthokonta</rdfs:label>
+        <rdfs:label>Opisthokonta</rdfs:label>
     </owl:Class>
     
 
@@ -1244,7 +1245,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33213">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33154"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bilateria</rdfs:label>
+        <rdfs:label>Bilateria</rdfs:label>
     </owl:Class>
     
 
@@ -1253,7 +1254,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_40674">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32524"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalia</rdfs:label>
+        <rdfs:label>Mammalia</rdfs:label>
     </owl:Class>
     
 
@@ -1262,7 +1263,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7742">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33213"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertebrata &lt;vertebrates&gt;</rdfs:label>
+        <rdfs:label>Vertebrata &lt;vertebrates&gt;</rdfs:label>
     </owl:Class>
     
 
@@ -1271,7 +1272,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314146"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens</rdfs:label>
+        <rdfs:label>Homo sapiens</rdfs:label>
     </owl:Class>
     
 
@@ -1585,8 +1586,8 @@ clustering algorithm.</obo:IAO_0000115>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An intervention design is a study design in which a controlled process applied to the subjects (the intervention) serves as the independent variable manipulated by the experimentalist. The treatment (perturbation or intervention) defined can be defined as a combination of values taken by independent variable manipulated by the experimentalists are applied to the recruited subjects assigned (possibly by applying specific methods) to treatment groups. The specificity of intervention design is the fact that independent variables are being manipulated and a response of the biological system is evaluated via response variables as monitored by possibly a series of assays.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intervention design</rdfs:label>
+        <obo:IAO_0000115>An intervention design is a study design in which a controlled process applied to the subjects (the intervention) serves as the independent variable manipulated by the experimentalist. The treatment (perturbation or intervention) defined can be defined as a combination of values taken by independent variable manipulated by the experimentalists are applied to the recruited subjects assigned (possibly by applying specific methods) to treatment groups. The specificity of intervention design is the fact that independent variables are being manipulated and a response of the biological system is evaluated via response variables as monitored by possibly a series of assays.</obo:IAO_0000115>
+        <rdfs:label>intervention design</rdfs:label>
     </owl:Class>
     
 
@@ -1643,7 +1644,7 @@ clustering algorithm.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A role borne by an entity and that is realized in a process that is part of an investigation in which an objective is achieved. These processes include, among others: planning, overseeing, funding, reviewing.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">investigation agent role</rdfs:label>
+        <rdfs:label>investigation agent role</rdfs:label>
     </owl:Class>
     
 
@@ -1835,7 +1836,7 @@ clustering algorithm.</obo:IAO_0000115>
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000274"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">target of material addition role is a role realized by an entity into which a material is added in a material addition process</obo:IAO_0000115>
+        <obo:IAO_0000115>target of material addition role is a role realized by an entity into which a material is added in a material addition process</obo:IAO_0000115>
         <rdfs:label xml:lang="en">target of material addition role</rdfs:label>
     </owl:Class>
     
@@ -1930,8 +1931,8 @@ clustering algorithm.</obo:IAO_0000115>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a planned process that carries out a study design</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">study design execution</rdfs:label>
+        <obo:IAO_0000115>a planned process that carries out a study design</obo:IAO_0000115>
+        <rdfs:label>study design execution</rdfs:label>
     </owl:Class>
     
 
@@ -1959,8 +1960,8 @@ clustering algorithm.</obo:IAO_0000115>
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000457"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manufacturer role is a role which inheres in a person or organization and which is realized by a manufacturing process.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manufacturer role</rdfs:label>
+        <obo:IAO_0000115>Manufacturer role is a role which inheres in a person or organization and which is realized by a manufacturing process.</obo:IAO_0000115>
+        <rdfs:label>manufacturer role</rdfs:label>
     </owl:Class>
     
 
@@ -2003,8 +2004,8 @@ clustering algorithm.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is a material processing with the objective to combine two or more material entities as input into a single material entity as output.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material combination</rdfs:label>
+        <obo:IAO_0000115>is a material processing with the objective to combine two or more material entities as input into a single material entity as output.</obo:IAO_0000115>
+        <rdfs:label>material combination</rdfs:label>
     </owl:Class>
     
 
@@ -2036,7 +2037,7 @@ clustering algorithm.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A planned process with the objective of collecting a specimen.</obo:IAO_0000115>
+        <obo:IAO_0000115>A planned process with the objective of collecting a specimen.</obo:IAO_0000115>
         <rdfs:label>specimen collection process</rdfs:label>
     </owl:Class>
     
@@ -2102,7 +2103,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000684">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A objective specification to obtain a material entity for potential use as an input during an investigation.</obo:IAO_0000115>
+        <obo:IAO_0000115>A objective specification to obtain a material entity for potential use as an input during an investigation.</obo:IAO_0000115>
         <rdfs:label>specimen collection objective</rdfs:label>
     </owl:Class>
     
@@ -2112,8 +2113,8 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000686">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000456"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is an objective to obtain an output material that contains several input materials.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material combination objective</rdfs:label>
+        <obo:IAO_0000115>is an objective to obtain an output material that contains several input materials.</obo:IAO_0000115>
+        <rdfs:label>material combination objective</rdfs:label>
     </owl:Class>
     
 
@@ -2128,8 +2129,8 @@ clustering algorithm.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0200179"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A support vector machine is a data transformation with a class prediction objective based on the construction of a separating hyperplane that maximizes the margin between two data sets of vectors in n-dimensional space.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">support vector machine</rdfs:label>
+        <obo:IAO_0000115>A support vector machine is a data transformation with a class prediction objective based on the construction of a separating hyperplane that maximizes the margin between two data sets of vectors in n-dimensional space.</obo:IAO_0000115>
+        <rdfs:label>support vector machine</rdfs:label>
     </owl:Class>
     
 
@@ -2138,8 +2139,8 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000704">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200166"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A decision tree induction objective is a data transformation objective in which a tree-like graph of edges and nodes is created and from which the selection of each branch requires that some type of logical decision is made.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decision tree induction objective</rdfs:label>
+        <obo:IAO_0000115>A decision tree induction objective is a data transformation objective in which a tree-like graph of edges and nodes is created and from which the selection of each branch requires that some type of logical decision is made.</obo:IAO_0000115>
+        <rdfs:label>decision tree induction objective</rdfs:label>
     </owl:Class>
     
 
@@ -2164,8 +2165,8 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000713">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000010"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a software that provides access to more than 100 tools for gene expression analysis, proteomics, SNP analysis and common data processing tasks.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GenePattern software</rdfs:label>
+        <obo:IAO_0000115>a software that provides access to more than 100 tools for gene expression analysis, proteomics, SNP analysis and common data processing tasks.</obo:IAO_0000115>
+        <rdfs:label>GenePattern software</rdfs:label>
     </owl:Class>
     
 
@@ -2174,8 +2175,8 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000726">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peak matching is a data transformation performed on a dataset of a graph of ordered data points (e.g. a spectrum) with the objective of pattern matching local maxima above a noise threshold</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peak matching</rdfs:label>
+        <obo:IAO_0000115>Peak matching is a data transformation performed on a dataset of a graph of ordered data points (e.g. a spectrum) with the objective of pattern matching local maxima above a noise threshold</obo:IAO_0000115>
+        <rdfs:label>peak matching</rdfs:label>
     </owl:Class>
     
 
@@ -2216,8 +2217,8 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000740">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000112"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material sample role is a specimen role borne by a material entity that is the output of a material sampling process.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material sample role</rdfs:label>
+        <obo:IAO_0000115>A material sample role is a specimen role borne by a material entity that is the output of a material sampling process.</obo:IAO_0000115>
+        <rdfs:label>material sample role</rdfs:label>
     </owl:Class>
     
 
@@ -2241,8 +2242,8 @@ clustering algorithm.</obo:IAO_0000115>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specimen gathering process with the objective to obtain a specimen that is representative of the input material entity</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material sampling process</rdfs:label>
+        <obo:IAO_0000115>A specimen gathering process with the objective to obtain a specimen that is representative of the input material entity</obo:IAO_0000115>
+        <rdfs:label>material sampling process</rdfs:label>
     </owl:Class>
     
 
@@ -2262,8 +2263,8 @@ clustering algorithm.</obo:IAO_0000115>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity that has the material sample role</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material sample</rdfs:label>
+        <obo:IAO_0000115>A material entity that has the material sample role</obo:IAO_0000115>
+        <rdfs:label>material sample</rdfs:label>
     </owl:Class>
     
 
@@ -2310,8 +2311,8 @@ clustering algorithm.</obo:IAO_0000115>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200171"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data transformation which assesses how the results of a statistical analysis will generalize to an independent data set.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">statistical model validation</rdfs:label>
+        <obo:IAO_0000115>A data transformation which assesses how the results of a statistical analysis will generalize to an independent data set.</obo:IAO_0000115>
+        <rdfs:label>statistical model validation</rdfs:label>
     </owl:Class>
     
 
@@ -2320,8 +2321,8 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000828">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organization formed with a goal to have its members conduct investigations</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research organization</rdfs:label>
+        <obo:IAO_0000115>An organization formed with a goal to have its members conduct investigations</obo:IAO_0000115>
+        <rdfs:label>research organization</rdfs:label>
     </owl:Class>
     
 
@@ -2346,8 +2347,8 @@ clustering algorithm.</obo:IAO_0000115>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A person or organization that has a manufacturer role</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manufacturer</rdfs:label>
+        <obo:IAO_0000115>A person or organization that has a manufacturer role</obo:IAO_0000115>
+        <rdfs:label>manufacturer</rdfs:label>
     </owl:Class>
     
 
@@ -2391,8 +2392,8 @@ clustering algorithm.</obo:IAO_0000115>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the part of the execution of an intervention design study which is varied between two or more subjects in the study</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">study intervention</rdfs:label>
+        <obo:IAO_0000115>the part of the execution of an intervention design study which is varied between two or more subjects in the study</obo:IAO_0000115>
+        <rdfs:label>study intervention</rdfs:label>
     </owl:Class>
     
 
@@ -2407,8 +2408,8 @@ clustering algorithm.</obo:IAO_0000115>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a process that achieves a training objective</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">training process</rdfs:label>
+        <obo:IAO_0000115>a process that achieves a training objective</obo:IAO_0000115>
+        <rdfs:label>training process</rdfs:label>
     </owl:Class>
     
 
@@ -2436,8 +2437,8 @@ clustering algorithm.</obo:IAO_0000115>
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is a role which inheres in a person or organization and is realized in in a planned process which provides access to training, materials or execution of protocols for an organization or person</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">service provider role</rdfs:label>
+        <obo:IAO_0000115>is a role which inheres in a person or organization and is realized in in a planned process which provides access to training, materials or execution of protocols for an organization or person</obo:IAO_0000115>
+        <rdfs:label>service provider role</rdfs:label>
     </owl:Class>
     
 
@@ -2455,8 +2456,8 @@ clustering algorithm.</obo:IAO_0000115>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specimen that has been intentionally physically modified.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">processed specimen</rdfs:label>
+        <obo:IAO_0000115>A specimen that has been intentionally physically modified.</obo:IAO_0000115>
+        <rdfs:label>processed specimen</rdfs:label>
     </owl:Class>
     
 
@@ -2465,8 +2466,8 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000962">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An objective specification which is fulfilled by the provision of some training.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">training objective</rdfs:label>
+        <obo:IAO_0000115>An objective specification which is fulfilled by the provision of some training.</obo:IAO_0000115>
+        <rdfs:label>training objective</rdfs:label>
     </owl:Class>
     
 
@@ -2475,8 +2476,8 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000963">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000009"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A label that is part of a categorical datum and that indicates the value of the data item on the categorical scale.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">categorical label</rdfs:label>
+        <obo:IAO_0000115>A label that is part of a categorical datum and that indicates the value of the data item on the categorical scale.</obo:IAO_0000115>
+        <rdfs:label>categorical label</rdfs:label>
     </owl:Class>
     
 
@@ -2485,8 +2486,8 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000969">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a directive information entity that describes the dose that will be administered to a target</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dose specification</rdfs:label>
+        <obo:IAO_0000115>a directive information entity that describes the dose that will be administered to a target</obo:IAO_0000115>
+        <rdfs:label>dose specification</rdfs:label>
     </owl:Class>
     
 
@@ -2496,7 +2497,7 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
         <obo:IAO_0000115 xml:lang="en">A document with a set of printed or written questions with a choice of answers, devised for the purposes of a survey or statistical study.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">questionnaire</rdfs:label>
+        <rdfs:label>questionnaire</rdfs:label>
     </owl:Class>
     
 
@@ -2515,7 +2516,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001156">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001167"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An age measurement datum that is the result of the measurement of the age of an organism since planting, the process of placing a plant in media (e.g. soil) to allow it to grow, which excludes sowing.</obo:IAO_0000115>
+        <obo:IAO_0000115>An age measurement datum that is the result of the measurement of the age of an organism since planting, the process of placing a plant in media (e.g. soil) to allow it to grow, which excludes sowing.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">age since planting measurement datum</rdfs:label>
     </owl:Class>
     
@@ -2525,7 +2526,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001161">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001167"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An age measurement datum that is the result of the measurement of the age of an organism since germination, the process consisting of physiological and developmental changes by a seed, spore, pollen grain (microspore), or zygote that occur after release from dormancy, and encompassing events prior to and including the first visible indications of growth.</obo:IAO_0000115>
+        <obo:IAO_0000115>An age measurement datum that is the result of the measurement of the age of an organism since germination, the process consisting of physiological and developmental changes by a seed, spore, pollen grain (microspore), or zygote that occur after release from dormancy, and encompassing events prior to and including the first visible indications of growth.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">age since germination measurement datum</rdfs:label>
     </owl:Class>
     
@@ -2535,7 +2536,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001167"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An age measurement datum that is the result of the measurement of the age of an organism since sowing, the process of placing a seed or spore in some media with the intention to invoke germination.</obo:IAO_0000115>
+        <obo:IAO_0000115>An age measurement datum that is the result of the measurement of the age of an organism since sowing, the process of placing a seed or spore in some media with the intention to invoke germination.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">age since sowing measurement datum</rdfs:label>
     </owl:Class>
     
@@ -2551,7 +2552,7 @@ clustering algorithm.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time measurement datum that is the result of measurement of age of an organism</obo:IAO_0000115>
+        <obo:IAO_0000115>A time measurement datum that is the result of measurement of age of an organism</obo:IAO_0000115>
         <rdfs:label xml:lang="en">age measurement datum</rdfs:label>
     </owl:Class>
     
@@ -2561,7 +2562,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001175">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an objective specification to generate a population or type of organism within species that have some uniform behavioral, morphological, physiological, or genetic characteristics with similarly bred organisms.</obo:IAO_0000115>
+        <obo:IAO_0000115>an objective specification to generate a population or type of organism within species that have some uniform behavioral, morphological, physiological, or genetic characteristics with similarly bred organisms.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">selective organism creation objective</rdfs:label>
     </owl:Class>
     
@@ -2592,7 +2593,7 @@ clustering algorithm.</obo:IAO_0000115>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organism that is bred to have some uniform behavioral, morphological, physiological, or genetic characteristics with similarly bred organisms</obo:IAO_0000115>
+        <obo:IAO_0000115>An organism that is bred to have some uniform behavioral, morphological, physiological, or genetic characteristics with similarly bred organisms</obo:IAO_0000115>
         <rdfs:label xml:lang="en">selectively maintained organism</rdfs:label>
     </owl:Class>
     
@@ -2624,8 +2625,8 @@ clustering algorithm.</obo:IAO_0000115>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A study design in which the pathological condition of a part, organ, or system of an organism is studied. The etiology may be from infection, genetic defect, or environmental stress.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease state design</rdfs:label>
+        <obo:IAO_0000115>A study design in which the pathological condition of a part, organ, or system of an organism is studied. The etiology may be from infection, genetic defect, or environmental stress.</obo:IAO_0000115>
+        <rdfs:label>disease state design</rdfs:label>
     </owl:Class>
     
 
@@ -2656,8 +2657,8 @@ clustering algorithm.</obo:IAO_0000115>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A study design that assays differences between multiple strains, cultivars, serovars, isolates, lines from organisms of a single species.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strain comparison design</rdfs:label>
+        <obo:IAO_0000115>A study design that assays differences between multiple strains, cultivars, serovars, isolates, lines from organisms of a single species.</obo:IAO_0000115>
+        <rdfs:label>strain comparison design</rdfs:label>
     </owl:Class>
     
 
@@ -2666,8 +2667,8 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001554">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A scalar measurement datum that represents the number of events occuring over a time interval</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rate measurement datum</rdfs:label>
+        <obo:IAO_0000115>A scalar measurement datum that represents the number of events occuring over a time interval</obo:IAO_0000115>
+        <rdfs:label>rate measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -2791,7 +2792,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002205">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a histologic grade assigned to a tumor slide specimen according to the American Joint Committee on Cancer (AJCC) 7th Edition grading system.</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical value specification that is a histologic grade assigned to a tumor slide specimen according to the American Joint Committee on Cancer (AJCC) 7th Edition grading system.</obo:IAO_0000115>
         <rdfs:label>histologic grade according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
@@ -2801,7 +2802,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002210">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a histologic grade assigned to a tumor slide specimen according to the Fuhrman Nuclear Grading System.</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical value specification that is a histologic grade assigned to a tumor slide specimen according to the Fuhrman Nuclear Grading System.</obo:IAO_0000115>
         <rdfs:label>histologic grade according to the Fuhrman Nuclear Grading System</rdfs:label>
     </owl:Class>
     
@@ -2811,7 +2812,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002215">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a histologic grade assigned to a ovarian tumor.</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical value specification that is a histologic grade assigned to a ovarian tumor.</obo:IAO_0000115>
         <rdfs:label>histologic grade for ovarian tumor</rdfs:label>
     </owl:Class>
     
@@ -2821,7 +2822,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002216">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002215"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A histologic grade for ovarian tumor that is from a two-tier histological classification of tumors. </obo:IAO_0000115>
+        <obo:IAO_0000115>A histologic grade for ovarian tumor that is from a two-tier histological classification of tumors. </obo:IAO_0000115>
         <rdfs:label>histologic grade for ovarian tumor according to a two-tier grading system</rdfs:label>
     </owl:Class>
     
@@ -2831,7 +2832,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002219">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002215"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A histologic grade for ovarian tumor that is from a histological classification by the World Health Organization (WHO).</obo:IAO_0000115>
+        <obo:IAO_0000115>A histologic grade for ovarian tumor that is from a histological classification by the World Health Organization (WHO).</obo:IAO_0000115>
         <rdfs:label>histologic grade for ovarian tumor according to the World Health Organization</rdfs:label>
     </owl:Class>
     
@@ -2841,7 +2842,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002224">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of colorectal cancer following the rules of the TNM American Joint Committee on Cancer (AJCC) version 7 classification system as they pertain to staging of the primary tumor. TNM pathologic primary tumor findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical value specification that is a pathologic finding about one or more characteristics of colorectal cancer following the rules of the TNM American Joint Committee on Cancer (AJCC) version 7 classification system as they pertain to staging of the primary tumor. TNM pathologic primary tumor findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
         <rdfs:label>pathologic primary tumor stage for colon and rectum according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
@@ -2851,7 +2852,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002232">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of lung cancer following the rules of the TNM American Joint Committee on Cancer (AJCC) version 7 classification system as they pertain to staging of the primary tumor. TNM pathologic primary tumor findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical value specification that is a pathologic finding about one or more characteristics of lung cancer following the rules of the TNM American Joint Committee on Cancer (AJCC) version 7 classification system as they pertain to staging of the primary tumor. TNM pathologic primary tumor findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
         <rdfs:label>pathologic primary tumor stage for lung according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
@@ -2861,7 +2862,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002243">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of renal cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of the primary tumor. TNM pathologic primary tumor findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical value specification that is a pathologic finding about one or more characteristics of renal cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of the primary tumor. TNM pathologic primary tumor findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
         <rdfs:label>pathologic primary tumor stage for kidney according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
@@ -2871,7 +2872,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002256">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of ovarian cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of the primary tumor. TNM pathologic primary tumor findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical value specification that is a pathologic finding about one or more characteristics of ovarian cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of the primary tumor. TNM pathologic primary tumor findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
         <rdfs:label>pathologic primary tumor stage for ovary according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
@@ -2881,7 +2882,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002270">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of colorectal cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of regional lymph nodes.</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical value specification that is a pathologic finding about one or more characteristics of colorectal cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of regional lymph nodes.</obo:IAO_0000115>
         <rdfs:label>pathologic lymph node stage for colon and rectum according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
@@ -2891,7 +2892,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002279">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of lung cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of regional lymph nodes.</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical value specification that is a pathologic finding about one or more characteristics of lung cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of regional lymph nodes.</obo:IAO_0000115>
         <rdfs:label>pathologic lymph node stage for lung according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
@@ -2901,7 +2902,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002284">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of renal cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of regional lymph nodes.</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical value specification that is a pathologic finding about one or more characteristics of renal cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of regional lymph nodes.</obo:IAO_0000115>
         <rdfs:label>pathologic lymph node stage for kidney according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
@@ -2911,7 +2912,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002287">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of ovarian cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of regional lymph nodes.</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical value specification that is a pathologic finding about one or more characteristics of ovarian cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of regional lymph nodes.</obo:IAO_0000115>
         <rdfs:label>pathologic lymph node stage for ovary according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
@@ -2921,7 +2922,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002290">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of colon cancer following the rules of the TNM AJCC v7 classification system as they pertain to distant metastases. TNM pathologic distant metastasis findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical value specification that is a pathologic finding about one or more characteristics of colon cancer following the rules of the TNM AJCC v7 classification system as they pertain to distant metastases. TNM pathologic distant metastasis findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
         <rdfs:label>pathologic distant metastases stage for colon according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
@@ -2931,7 +2932,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002298">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of lung cancer following the rules of the TNM AJCC v7 classification system as they pertain to distant metastases. TNM pathologic distant metastasis findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical value specification that is a pathologic finding about one or more characteristics of lung cancer following the rules of the TNM AJCC v7 classification system as they pertain to distant metastases. TNM pathologic distant metastasis findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
         <rdfs:label>pathologic distant metastases stage for lung according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
@@ -2941,7 +2942,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002306">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of renal cancer following the rules of the TNM AJCC v7 classification system as they pertain to distant metastases. TNM pathologic distant metastasis findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical value specification that is a pathologic finding about one or more characteristics of renal cancer following the rules of the TNM AJCC v7 classification system as they pertain to distant metastases. TNM pathologic distant metastasis findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
         <rdfs:label>pathologic distant metastases stage for kidney according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
@@ -2951,7 +2952,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002310">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a  pathologic finding about one or more characteristics of ovarian cancer following the rules of the TNM AJCC v7 classification system as they pertain to distant metastases. TNM pathologic distant metastasis findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical value specification that is a  pathologic finding about one or more characteristics of ovarian cancer following the rules of the TNM AJCC v7 classification system as they pertain to distant metastases. TNM pathologic distant metastasis findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery.</obo:IAO_0000115>
         <rdfs:label>pathologic distant metastases stage for ovary according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
@@ -2961,7 +2962,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002314">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is an assessment of the stage of a cancer according to the American Joint Committee on Cancer (AJCC) v7 staging systems.</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical value specification that is an assessment of the stage of a cancer according to the American Joint Committee on Cancer (AJCC) v7 staging systems.</obo:IAO_0000115>
         <rdfs:label>clinical tumor stage group according to AJCC 7th edition</rdfs:label>
     </owl:Class>
     
@@ -2971,7 +2972,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002326">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is an assessment of the stage of a gynecologic cancer according to the International Federation of Gynecology and Obstetrics (FIGO) staging systems.</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical value specification that is an assessment of the stage of a gynecologic cancer according to the International Federation of Gynecology and Obstetrics (FIGO) staging systems.</obo:IAO_0000115>
         <rdfs:label>International Federation of Gynecology and Obstetrics cervical cancer stage value specification</rdfs:label>
     </owl:Class>
     
@@ -2981,7 +2982,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002341">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is a pathologic finding about one or more characteristics of ovarian cancer following the rules of the FIGO classification system.</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical value specification that is a pathologic finding about one or more characteristics of ovarian cancer following the rules of the FIGO classification system.</obo:IAO_0000115>
         <rdfs:label>International Federation of Gynecology and Obstetrics ovarian cancer stage value specification</rdfs:label>
     </owl:Class>
     
@@ -2991,7 +2992,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002356">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is an assessment of a participant&apos;s performance status (general well-being and activities of daily life).</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical value specification that is an assessment of a participant&apos;s performance status (general well-being and activities of daily life).</obo:IAO_0000115>
         <rdfs:label>performance status value specification</rdfs:label>
     </owl:Class>
     
@@ -3001,7 +3002,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002357">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002356"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A performance status value specification designed by the Eastern Cooperative Oncology Group to assess disease progression and its affect on the daily living abilities of the patient.</obo:IAO_0000115>
+        <obo:IAO_0000115>A performance status value specification designed by the Eastern Cooperative Oncology Group to assess disease progression and its affect on the daily living abilities of the patient.</obo:IAO_0000115>
         <rdfs:label>Eastern Cooperative Oncology Group score value specification</rdfs:label>
     </owl:Class>
     
@@ -3011,7 +3012,7 @@ clustering algorithm.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002363">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002356"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A performance status value specification designed for classifying patients 16 years of age or older by their functional impairment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A performance status value specification designed for classifying patients 16 years of age or older by their functional impairment.</obo:IAO_0000115>
         <rdfs:label>Karnofsky score vaue specification</rdfs:label>
     </owl:Class>
     
@@ -3137,7 +3138,7 @@ clustering algorithm.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0200188"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is a data transformation :  leave-one-out cross-validation (LOOCV) involves using a single observation from the original sample as the validation data, and the remaining observations as the training data. This is repeated such that each observation in the sample is used once as the validation data</obo:IAO_0000115>
+        <obo:IAO_0000115>is a data transformation :  leave-one-out cross-validation (LOOCV) involves using a single observation from the original sample as the validation data, and the remaining observations as the training data. This is repeated such that each observation in the sample is used once as the validation data</obo:IAO_0000115>
         <rdfs:label xml:lang="en">leave one out cross validation method</rdfs:label>
     </owl:Class>
     
@@ -3458,8 +3459,8 @@ class labels for these objects. The resulting predictor can be used to attach cl
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000648"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data visualization which has input of a clustered data set and produces an output of a report graph which is capable of rendering data of this type.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clustered data visualization</rdfs:label>
+        <obo:IAO_0000115>A data visualization which has input of a clustered data set and produces an output of a report graph which is capable of rendering data of this type.</obo:IAO_0000115>
+        <rdfs:label>clustered data visualization</rdfs:label>
     </owl:Class>
     
 
@@ -3505,7 +3506,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution.</obo:IAO_0000115>
+        <obo:IAO_0000115>A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">study design</rdfs:label>
     </owl:Class>
     
@@ -3515,8 +3516,8 @@ class labels for these objects. The resulting predictor can be used to attach cl
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000115"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A randomized complete block design is_a study design which assigns randomly treatments to block. The number of units per block equals the number of treatment so each block receives each treatment exactly once (hence the qualifier &apos;complete&apos;). The design was originally devised from field trials used in agronomy and agriculture. The analysis assumes that there is no interaction between block and treatment. The method was then used in other settings So The randomised complete block design is a design in which the subjects are matched according to a variable which the experimenter wishes to control. The subjects are put into groups (blocks) of the same size as the number of treatments. The members of each block are then randomly assigned to different treatment groups.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">randomized complete block design</rdfs:label>
+        <obo:IAO_0000115>A randomized complete block design is_a study design which assigns randomly treatments to block. The number of units per block equals the number of treatment so each block receives each treatment exactly once (hence the qualifier &apos;complete&apos;). The design was originally devised from field trials used in agronomy and agriculture. The analysis assumes that there is no interaction between block and treatment. The method was then used in other settings So The randomised complete block design is a design in which the subjects are matched according to a variable which the experimenter wishes to control. The subjects are put into groups (blocks) of the same size as the number of treatments. The members of each block are then randomly assigned to different treatment groups.</obo:IAO_0000115>
+        <rdfs:label>randomized complete block design</rdfs:label>
     </owl:Class>
     
 
@@ -3525,8 +3526,8 @@ class labels for these objects. The resulting predictor can be used to attach cl
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500007"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latin square design is_a study design which allows in its simpler form controlling 2 levels of nuisance variables (also known as blocking variables).he 2 nuisance factors are divided into a tabular grid with the property that each row and each column receive each treatment exactly once.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">latin square design</rdfs:label>
+        <obo:IAO_0000115>Latin square design is_a study design which allows in its simpler form controlling 2 levels of nuisance variables (also known as blocking variables).he 2 nuisance factors are divided into a tabular grid with the property that each row and each column receive each treatment exactly once.</obo:IAO_0000115>
+        <rdfs:label>latin square design</rdfs:label>
     </owl:Class>
     
 
@@ -3590,7 +3591,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A process by which a substance is intentionally given to an organism resulting in exposure of the organism to that substance.</obo:IAO_0000115>
+        <obo:IAO_0000115>A process by which a substance is intentionally given to an organism resulting in exposure of the organism to that substance.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">administering substance in vivo</rdfs:label>
     </owl:Class>
     
@@ -3606,8 +3607,8 @@ class labels for these objects. The resulting predictor can be used to attach cl
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a material that is added to another one in a material combination process</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material to be added</rdfs:label>
+        <obo:IAO_0000115>a material that is added to another one in a material combination process</obo:IAO_0000115>
+        <rdfs:label>material to be added</rdfs:label>
     </owl:Class>
     
 
@@ -3622,8 +3623,8 @@ class labels for these objects. The resulting predictor can be used to attach cl
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity into which another is being added in a material combinatino process</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">target of material addition</rdfs:label>
+        <obo:IAO_0000115>A material entity into which another is being added in a material combinatino process</obo:IAO_0000115>
+        <rdfs:label>target of material addition</rdfs:label>
     </owl:Class>
     
 
@@ -3658,8 +3659,8 @@ class labels for these objects. The resulting predictor can be used to attach cl
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000165"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time quality inhering in a bearer by virtue of how long the bearer has existed.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age</rdfs:label>
+        <obo:IAO_0000115>A time quality inhering in a bearer by virtue of how long the bearer has existed.</obo:IAO_0000115>
+        <rdfs:label>age</rdfs:label>
     </owl:Class>
     
 
@@ -3668,8 +3669,8 @@ class labels for these objects. The resulting predictor can be used to attach cl
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000165">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality in which events occur in sequence.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time</rdfs:label>
+        <obo:IAO_0000115>A quality in which events occur in sequence.</obo:IAO_0000115>
+        <rdfs:label>time</rdfs:label>
     </owl:Class>
     
 
@@ -3678,8 +3679,8 @@ class labels for these objects. The resulting predictor can be used to attach cl
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical quality</rdfs:label>
+        <obo:IAO_0000115>A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities.</obo:IAO_0000115>
+        <rdfs:label>physical quality</rdfs:label>
     </owl:Class>
     
 
@@ -3688,8 +3689,8 @@ class labels for these objects. The resulting predictor can be used to attach cl
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001241">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality which inheres in a continuant.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical object quality</rdfs:label>
+        <obo:IAO_0000115>A quality which inheres in a continuant.</obo:IAO_0000115>
+        <rdfs:label>physical object quality</rdfs:label>
     </owl:Class>
     
 
@@ -3698,8 +3699,8 @@ class labels for these objects. The resulting predictor can be used to attach cl
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000465">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical entity that has mass.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material anatomical entity</rdfs:label>
+        <obo:IAO_0000115>Anatomical entity that has mass.</obo:IAO_0000115>
+        <rdfs:label>material anatomical entity</rdfs:label>
     </owl:Class>
     
 
@@ -3708,8 +3709,8 @@ class labels for these objects. The resulting predictor can be used to attach cl
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of the distance between two points.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">length unit</rdfs:label>
+        <obo:IAO_0000115>A unit which is a standard measure of the distance between two points.</obo:IAO_0000115>
+        <rdfs:label>length unit</rdfs:label>
     </owl:Class>
     
 
@@ -3718,8 +3719,8 @@ class labels for these objects. The resulting predictor can be used to attach cl
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of the amount of matter/energy of a physical object.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass unit</rdfs:label>
+        <obo:IAO_0000115>A unit which is a standard measure of the amount of matter/energy of a physical object.</obo:IAO_0000115>
+        <rdfs:label>mass unit</rdfs:label>
     </owl:Class>
     
 
@@ -3728,8 +3729,8 @@ class labels for these objects. The resulting predictor can be used to attach cl
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of the dimension in which events occur in sequence.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time unit</rdfs:label>
+        <obo:IAO_0000115>A unit which is a standard measure of the dimension in which events occur in sequence.</obo:IAO_0000115>
+        <rdfs:label>time unit</rdfs:label>
     </owl:Class>
     
 
@@ -3738,7 +3739,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temperature unit</rdfs:label>
+        <rdfs:label>temperature unit</rdfs:label>
     </owl:Class>
     
 
@@ -3747,7 +3748,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">substance unit</rdfs:label>
+        <rdfs:label>substance unit</rdfs:label>
     </owl:Class>
     
 
@@ -3756,7 +3757,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000051">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration unit</rdfs:label>
+        <rdfs:label>concentration unit</rdfs:label>
     </owl:Class>
     
 
@@ -3765,7 +3766,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000095">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume unit</rdfs:label>
+        <rdfs:label>volume unit</rdfs:label>
     </owl:Class>
     
 
@@ -3774,7 +3775,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000105">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frequency unit</rdfs:label>
+        <rdfs:label>frequency unit</rdfs:label>
     </owl:Class>
     
 
@@ -3783,7 +3784,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000270">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volumetric flow rate unit</rdfs:label>
+        <rdfs:label>volumetric flow rate unit</rdfs:label>
     </owl:Class>
     
 
@@ -3792,7 +3793,7 @@ class labels for these objects. The resulting predictor can be used to attach cl
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000280">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rate unit</rdfs:label>
+        <rdfs:label>rate unit</rdfs:label>
     </owl:Class>
     
 

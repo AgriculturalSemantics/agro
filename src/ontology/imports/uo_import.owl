@@ -5939,6 +5939,36 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010064">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010064"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000129"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010065">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010065"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000129"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
@@ -9060,6 +9090,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010064 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010064"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010065 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010065"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -9877,6 +9919,12 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010063">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligray per day</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010064">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligray per hour</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010065">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligray per second</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 
