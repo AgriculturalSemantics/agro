@@ -58,14 +58,6 @@ http://purl.obolibrary.org/obo/ENVO_00000083 ## hill
 http://purl.obolibrary.org/obo/ENVO_00002011 ## fresh water
 http://purl.obolibrary.org/obo/ENVO_01000544
 http://purl.obolibrary.org/obo/ENVO_01000549 ## mass of biological material
-http://purl.obolibrary.org/obo/ENVO_09200010 ## acidity of soil
-http://purl.obolibrary.org/obo/ENVO_09200009 ## structure of soil
-http://purl.obolibrary.org/obo/ENVO_09200008 ## composition of soil
-http://purl.obolibrary.org/obo/ENVO_09200007 ## concentration of nitrate in soil
-http://purl.obolibrary.org/obo/ENVO_09200006 ## concentration of ammonium in soil
-http://purl.obolibrary.org/obo/ENVO_09200005 ## mass density of soil
-http://purl.obolibrary.org/obo/ENVO_09200004 ## porosity of soil
-http://purl.obolibrary.org/obo/ENVO_09200003 ## atmospheric wind intensity
 http://purl.obolibrary.org/obo/ENVO_01000853 ## marl
 http://purl.obolibrary.org/obo/ENVO_00000527 ## plain
 http://purl.obolibrary.org/obo/ENVO_00000311 ## basin
@@ -137,7 +129,6 @@ http://purl.obolibrary.org/obo/ENVO_00000519 ## agricultural terrace
 http://purl.obolibrary.org/obo/ENVO_01000649 ## trench
 http://purl.obolibrary.org/obo/ENVO_01001361 ## atmospheric wind direction
 http://purl.obolibrary.org/obo/ENVO_01001864 ## photosynthetically active radiation
-http://purl.obolibrary.org/obo/ENVO_09200016 ## conductivity of soil
 http://purl.obolibrary.org/obo/ENVO_09000027 ## soil salt concentration
 http://purl.obolibrary.org/obo/ENVO_03600018 ## organic horizon
 http://purl.obolibrary.org/obo/ENVO_03000129 ## mooson season
@@ -145,9 +136,7 @@ http://purl.obolibrary.org/obo/ENVO_06105300 ## wastewater treatment process
 http://purl.obolibrary.org/obo/ENVO_06105301 ## desalination process
 http://purl.obolibrary.org/obo/ENVO_01000896 ## freezing rainfall
 http://purl.obolibrary.org/obo/ENVO_01001363 ## volume of hydrological precipitation
-http://purl.obolibrary.org/obo/ENVO_09200022 ## sunshine hours
 http://purl.obolibrary.org/obo/ENVO_01001361 ## amospheric wind direction
-http://purl.obolibrary.org/obo/ENVO_09200010 ## acidity of soil
 http://purl.obolibrary.org/obo/ENVO_00010005 ## soil bulk density
 http://purl.obolibrary.org/obo/ENVO_06105201 ## water table
 http://purl.obolibrary.org/obo/ENVO_06105202 ## soil compaction
@@ -192,10 +181,10 @@ http://purl.obolibrary.org/obo/ENVO_06105301 ## desalination process
 http://purl.obolibrary.org/obo/ENVO_06105302 ## field capacity
 http://purl.obolibrary.org/obo/ENVO_06105303 ## permanent wilting point
 http://purl.obolibrary.org/obo/ENVO_06105304 ## water-holding capacity of soil
-http://purl.obolibrary.org/obo/ENVO_09000028 ## evaporation of liquid water in soil
-http://purl.obolibrary.org/obo/ENVO_09000026 ## concentration of liquid water in soil
-http://purl.obolibrary.org/obo/ENVO_09000029 ## rate of hydrological evaporation in soil
-http://purl.obolibrary.org/obo/ENVO_09200020 ## concentration of nitrate in groundwater
+http://purl.obolibrary.org/obo/ENVO_06105240 ## cation exchange capacity
+http://purl.obolibrary.org/obo/ENVO_06105204 ## photosynthetic photon flux density
+
+http://purl.obolibrary.org/obo/ENVO_3200068 ## concentration of phosphorus molecular entity in soil
 http://purl.obolibrary.org/obo/ENVO_1000745 ## drought
 http://purl.obolibrary.org/obo/ENVO_2000003 ## agricultural wastewater treatment plant
 http://purl.obolibrary.org/obo/ENVO_2000007 ## biochar
@@ -206,7 +195,99 @@ http://purl.obolibrary.org/obo/ENVO_04000008 ## soil organic matter
 http://purl.obolibrary.org/obo/ENVO_03000123 ## concentration of nitrate and nitrite in liquid water
 http://purl.obolibrary.org/obo/ENVO_04000003 ## concentration of carbon dioxide in soil
 http://purl.obolibrary.org/obo/ENVO_04000004 ## concentration of carbon dioxide in air
+
+http://purl.obolibrary.org/obo/ENVO_09000006 ## amount of carbon atom in water
+http://purl.obolibrary.org/obo/ENVO_09000005 ## amount of carbon atom in soil
+http://purl.obolibrary.org/obo/ENVO_09000008 ## concentration of carbon atom in soil
+http://purl.obolibrary.org/obo/ENVO_09000009 ## concentration of carbon atom in water
+http://purl.obolibrary.org/obo/ENVO_09000014 ## amount of nitrogen atom in soil
+http://purl.obolibrary.org/obo/ENVO_09000015 ## amount of nitrogen atom in water
+http://purl.obolibrary.org/obo/ENVO_09000017 ## concentration of nitrogen atom in soil
+http://purl.obolibrary.org/obo/ENVO_09000018 ## concentration of nitrogen atom in water
+http://purl.obolibrary.org/obo/ENVO_09000019 ## concentration of chloride in water
+http://purl.obolibrary.org/obo/ENVO_09000022 ## concentration of clay in soil
+http://purl.obolibrary.org/obo/ENVO_09000023 ## concentration of silt in soil
+http://purl.obolibrary.org/obo/ENVO_09000024 ## concentration of sand in soil
+http://purl.obolibrary.org/obo/ENVO_09000025 ## concentration of gravel in soil
 http://purl.obolibrary.org/obo/ENVO_09000026 ## concentration of liquid water in soil
+http://purl.obolibrary.org/obo/ENVO_09000027 ## concentration of salt in soil
 http://purl.obolibrary.org/obo/ENVO_09000028 ## evaporation of liquid water in soil
 http://purl.obolibrary.org/obo/ENVO_09000029 ## rate of hydrological evaporation in soil
+http://purl.obolibrary.org/obo/ENVO_09000030 ## concentration of soil organic matter in soil
+http://purl.obolibrary.org/obo/ENVO_09000031 ## concentration of pesticide in surface water
+
+http://purl.obolibrary.org/obo/ENVO_09200001 ## temperature of air
+http://purl.obolibrary.org/obo/ENVO_09200003 ## atmospheric wind intensity
+http://purl.obolibrary.org/obo/ENVO_09200004 ## porosity of soil
+http://purl.obolibrary.org/obo/ENVO_09200005 ## mass density of soil
+http://purl.obolibrary.org/obo/ENVO_09200006 ## concentration of ammonium in soil
+http://purl.obolibrary.org/obo/ENVO_09200007 ## concentration of nitrate in soil
+http://purl.obolibrary.org/obo/ENVO_09200008 ## composition of soil
+http://purl.obolibrary.org/obo/ENVO_09200009 ## structure of soil
+http://purl.obolibrary.org/obo/ENVO_09200010 ## acidity of soil
+http://purl.obolibrary.org/obo/ENVO_09200011 ## pressure of air
+http://purl.obolibrary.org/obo/ENVO_09200012 ## temperature of soil
+http://purl.obolibrary.org/obo/ENVO_09200013 ## wetness of soil
+http://purl.obolibrary.org/obo/ENVO_09200014 ## temperature of water
+http://purl.obolibrary.org/obo/ENVO_09200015 ## humidity of soil
+http://purl.obolibrary.org/obo/ENVO_09200016 ## conductivity of soil
+http://purl.obolibrary.org/obo/ENVO_09200017 ## composition of water
+http://purl.obolibrary.org/obo/ENVO_09200018 ## conductivity of water
 http://purl.obolibrary.org/obo/ENVO_09200020 ## concentration of nitrate in groundwater
+http://purl.obolibrary.org/obo/ENVO_09200021 ## color of soil
+http://purl.obolibrary.org/obo/ENVO_09200022 ## sunshine hours
+http://purl.obolibrary.org/obo/ENVO_09200024 ## volume of runoff
+http://purl.obolibrary.org/obo/ENVO_09200025 ## volume of evaporation
+http://purl.obolibrary.org/obo/ENVO_09200026 ## volume of evapotranspiration
+http://purl.obolibrary.org/obo/ENVO_09200027 ## volume of rain
+http://purl.obolibrary.org/obo/ENVO_09200028 ## speed of soil water infiltration
+http://purl.obolibrary.org/obo/ENVO_09200029 ## thickness of topsoil
+http://purl.obolibrary.org/obo/ENVO_09200030 ## speed of soil drainage
+http://purl.obolibrary.org/obo/ENVO_09200031 ## ampliture of air temperature
+http://purl.obolibrary.org/obo/ENVO_09200032 ## duration of stellar radiation
+http://purl.obolibrary.org/obo/ENVO_09200033 ## pressure of atmospheric water vapour
+http://purl.obolibrary.org/obo/ENVO_09200037 ## hour of sunshine
+
+http://purl.obolibrary.org/obo/ENVO_3200069 ## concentration of potassium molecular entity in soil
+http://purl.obolibrary.org/obo/ENVO_3200074 ## concentration of exchangeable potassium in soil
+http://purl.obolibrary.org/obo/ENVO_3200076 ## concentration of exchangeable calcium in soil
+http://purl.obolibrary.org/obo/ENVO_3200062 ## concentration of iron molecular entity in soil
+http://purl.obolibrary.org/obo/ENVO_3200064 ## concentration of magnesium molecular entity in soil
+http://purl.obolibrary.org/obo/ENVO_3200061 ## concentration of manganese molecular entity in soil
+http://purl.obolibrary.org/obo/ENVO_3200060 ## concentration of oxygen in soil
+http://purl.obolibrary.org/obo/ENVO_3100026 ## concentration of phosphate in liquid water
+http://purl.obolibrary.org/obo/ENVO_3200069 ## concentration of potassium molecular entity in soil
+http://purl.obolibrary.org/obo/ENVO_3200065 ## concentration of sodium molecular entity in soil
+http://purl.obolibrary.org/obo/ENVO_3200073 ## concentration of sulfate in soil
+http://purl.obolibrary.org/obo/ENVO_06105225 ## soil layer top depth
+http://purl.obolibrary.org/obo/ENVO_06105226 ## soil layer bottom depth
+http://purl.obolibrary.org/obo/ENVO_06105241 ## soil drainage
+http://purl.obolibrary.org/obo/ENVO_06105231 ## water infiltration into soil
+http://purl.obolibrary.org/obo/ENVO_06105304 ## water-holding capacity of soil
+http://purl.obolibrary.org/obo/ENVO_09200028 ## speed of soil water infiltration
+http://purl.obolibrary.org/obo/ENVO_01003007 ## percolation of water through soil
+http://purl.obolibrary.org/obo/ENVO_06105230 ## water infiltration
+http://purl.obolibrary.org/obo/ENVO_06105231 ## water infiltration into soil
+http://purl.obolibrary.org/obo/ENVO_06105232 ## soil albedo
+http://purl.obolibrary.org/obo/ENVO_06105233 ## dry soil albedo
+http://purl.obolibrary.org/obo/ENVO_06105234 ## moist soil albedo
+http://purl.obolibrary.org/obo/ENVO_06105237 ## exchangeable potassium
+http://purl.obolibrary.org/obo/ENVO_06105238 ## residual water in soil
+http://purl.obolibrary.org/obo/ENVO_06105240 ## cation exchange capacity
+http://purl.obolibrary.org/obo/ENVO_06105242 ## basic cation exchange capacity
+http://purl.obolibrary.org/obo/ENVO_06105271 ## soil texture
+http://purl.obolibrary.org/obo/ENVO_06105267 ## soil profile characterization
+http://purl.obolibrary.org/obo/ENVO_06105266 ## soil layer
+http://purl.obolibrary.org/obo/ENVO_06105265 ## net shortwave radiation
+http://purl.obolibrary.org/obo/ENVO_06105272 ## loamy sand
+http://purl.obolibrary.org/obo/ENVO_06105273 ## fine sand
+http://purl.obolibrary.org/obo/ENVO_06105274 ## sandy loam
+http://purl.obolibrary.org/obo/ENVO_06105275 ## silty loam
+http://purl.obolibrary.org/obo/ENVO_06105276 ## sandy clay loam
+http://purl.obolibrary.org/obo/ENVO_06105277 ## clay loam
+http://purl.obolibrary.org/obo/ENVO_06105278 ## silty clay loam
+http://purl.obolibrary.org/obo/ENVO_06105279 ## sandy clay
+http://purl.obolibrary.org/obo/ENVO_06105280 ## silty clay
+
+
+
