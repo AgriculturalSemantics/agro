@@ -688,6 +688,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002022>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002023>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002025>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002027>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AGRO_00002028>))
@@ -5931,8 +5932,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002015> ObjectSomeValuesFrom(<
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002016> (inbred line)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002016> <Nearly identical and homozygous genotypes, resulting from repeated selfing over several generations>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> <http://purl.obolibrary.org/obo/AGRO_00002016> <0000-0001-9436-3109>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002016> <http://purl.obolibrary.org/obo/agro-edit.owl#Nearly identical and homozygous genotypes, resulting from repeated selfing over several generations>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> <http://purl.obolibrary.org/obo/AGRO_00002016> <http://purl.obolibrary.org/obo/agro-edit.owl#0000-0001-9436-3109>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002016> "inbred line"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002016> <http://purl.obolibrary.org/obo/AGRO_00000325>)
 
@@ -5956,8 +5957,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002018> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002019> (plant work helper)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002019> <A person that helps at various steps of the plant growth cycle e.g. sowing seeds, separating plants at the correct age or collecting seeds>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> <http://purl.obolibrary.org/obo/AGRO_00002019> <0000-0001-9436-3109>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002019> <http://purl.obolibrary.org/obo/agro-edit.owl#A person that helps at various steps of the plant growth cycle e.g. sowing seeds, separating plants at the correct age or collecting seeds>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> <http://purl.obolibrary.org/obo/AGRO_00002019> <http://purl.obolibrary.org/obo/agro-edit.owl#0000-0001-9436-3109>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002019> "plant work helper"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002019> <http://purl.obolibrary.org/obo/AGRO_00000378>)
 
@@ -5992,6 +5993,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002024> "hill bed")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002024> "hill seedbed"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002024> <http://purl.obolibrary.org/obo/AGRO_00002021>)
+
+# Class: <http://purl.obolibrary.org/obo/AGRO_00002025> (growth chamber)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AGRO_00002025> <A climatic chamber used for growing plants under controlled environmental conditions>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> <http://purl.obolibrary.org/obo/AGRO_00002025> <http://purl.obolibrary.org/obo/agro-edit.owl#0000-0001-9436-3109>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AGRO_00002025> <climate chamber>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AGRO_00002025> "growth chamber"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/AGRO_00002025> <http://purl.obolibrary.org/obo/AGRO_00000360>)
 
 # Class: <http://purl.obolibrary.org/obo/AGRO_00002026> (binder)
 
@@ -7204,7 +7213,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/PO_0009010> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/uo#is_unit_of> <http://purl.obolibrary.org/obo/PATO_0000040>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/uo#is_unit_of> <http://purl.obolibrary.org/obo/PATO_0001687>))
 
-# Class: <http://purl.obolibrary.org/obo/UO_0000190> (ratio)
+# Class: <http://purl.obolibrary.org/obo/UO_0000190> (ratio unit)
 
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0000190> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/uo#is_unit_of> <http://purl.obolibrary.org/obo/PATO_0001470>))
 
